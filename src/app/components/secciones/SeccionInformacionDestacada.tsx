@@ -13,7 +13,7 @@ const CARDS = [
 		title: "PUBLICACIONES",
 		description: "Documentos oficiales, diseños curriculares y material publicado",
 		icon: FaFileAlt,
-		href: "#",
+		href: "/ejemplos/ejemplo1",
 		bg: "bg-[#00a99d]",
 	},
 	{
@@ -38,11 +38,7 @@ export default function SeccionInformacionDestacada() {
 			<div className="container">
 				<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
 					{CARDS.map((card) => (
-						<Link
-							key={card.title}
-							href={card.href}
-							className={`${card.bg} text-white p-6 flex items-start gap-4 transition-transform duration-300 hover:-translate-y-2`}
-						>
+						<Link key={card.title} href={card.href} className={`${card.bg} text-white p-6 flex items-start gap-4 transition-transform duration-300 hover:-translate-y-2`}>
 							<div className="flex-1">
 								<h3 className="font-heading font-extrabold text-lg">{card.title}</h3>
 								<p className="text-sm mt-2 text-white/85 leading-relaxed">{card.description}</p>

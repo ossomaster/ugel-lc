@@ -82,7 +82,16 @@ body {
 }
 
 .btn--sm {
-	@apply h-10 px-6 text-sm;
+	@apply h-7 px-3 text-xs rounded-lg;
+	box-shadow: 0 1px 2px rgb(0 0 0 / 0.08);
+}
+
+.btn--success {
+	@apply bg-emerald-500 text-white hover:bg-emerald-600 border-emerald-500;
+}
+
+.btn--info {
+	@apply bg-blue-500 text-white hover:bg-blue-600 border-blue-500;
 }
 
 /* secciones */
@@ -98,34 +107,6 @@ body {
 	@apply text-gray-500 mt-2;
 }
 
-/* splash screen */
-.logo-path {
-	fill: theme("colors.primary");
-	clip-path: inset(100% 0 0 0);
-	animation: fillFromBottom 1s ease-out forwards;
-}
-
-@keyframes fillFromBottom {
-	to {
-		clip-path: inset(0 0 0 0);
-	}
-}
-
-.splash-logo {
-	animation: fadeIn 0.5s ease-in;
-}
-
-@keyframes fadeIn {
-	from {
-		opacity: 0;
-		transform: scale(0.95);
-	}
-	to {
-		opacity: 1;
-		transform: scale(1);
-	}
-}
-
 /* React Tooltip Customization */
 .react-tooltip {
 	border-radius: 8px !important;
@@ -133,19 +114,6 @@ body {
 	padding: 4px 8px !important;
 	background-color: theme("colors.primary-dark") !important;
 	z-index: 600 !important;
-}
-
-@keyframes fadeIn {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
-}
-
-.animate-fade-in {
-	animation: fadeIn 0.5s ease-in-out;
 }
 
 .html-content {
@@ -466,3 +434,4 @@ body {
 	@apply float-left text-6xl font-bold leading-none mr-2;
 	@apply text-primary-dark;
 }
+

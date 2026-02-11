@@ -1,17 +1,26 @@
-import React from "react"
+import { asset } from "../helpers"
+
+const DEFAULT_IMAGE = asset("/assets/images/page-hero-default.jpg")
+const DEFAULT_COLOR = "var(--color-primary)"
 
 interface PageHeroProps {
 	title: string
 	subtitle?: string
+	image?: string
+	color?: string
 }
 
-export default function PageHero({ title, subtitle }: PageHeroProps) {
+export default function PageHero({ title, subtitle, image = DEFAULT_IMAGE, color = DEFAULT_COLOR }: PageHeroProps) {
 	return (
-		<section className="relative py-20 bg-primary-dark text-white overflow-hidden">
-			<div className="absolute inset-0 opacity-10 bg-[url('/assets/patterns/bg-pattern.png')] bg-repeat bg-[length:400px]"></div>
+		<section
+			className="relative py-12 text-white overflow-hidden bg-cover bg-center"
+			style={{
+				backgroundImage: `linear-gradient(to right, color-mix(in srgb, ${color} 70%, transparent), color-mix(in srgb, ${color} 70%, transparent)), url(${image})`,
+			}}
+		>
 			<div className="container relative z-10 text-center">
-				<h1 className="text-3xl md:text-5xl font-heading font-extrabold mb-4">{title}</h1>
-				{subtitle && <p className="text-lg max-w-2xl mx-auto text-white/90">{subtitle}</p>}
+				<h1 className="text-3xl md:text-4xl font-heading font-extrabold mb-4 text-shadow-lg">{title}</h1>
+				{subtitle && <p className="text-lg max-w-2xl mx-auto text-white/90 text-shadow-lg">{subtitle}</p>}
 			</div>
 		</section>
 	)
