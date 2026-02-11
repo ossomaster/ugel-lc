@@ -1,5 +1,5 @@
-import Image from "next/image"
 import Link from "next/link"
+import { asset } from "../../../helpers"
 
 type Curso = {
 	imagen: string
@@ -39,11 +39,10 @@ function CursoCard({ curso }: { curso: Curso }) {
 	return (
 		<div className="group bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col">
 			<div className="relative h-52 overflow-hidden">
-				<Image
-					src={curso.imagen}
+				<img
+					src={asset(curso.imagen)}
 					alt={curso.nombre}
-					fill
-					className="object-cover group-hover:scale-105 transition-transform duration-500"
+					className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
 				/>
 				<span className="absolute top-3 left-3 text-xs font-bold uppercase bg-secondary text-white px-3 py-1 rounded-sm">
 					{curso.estado}

@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { FaHome, FaEnvelope } from "react-icons/fa"
+import { asset } from "../helpers"
 
 const ENLACES_SUPERIORES = [
 	{ label: "INICIO", href: "/", icon: FaHome },
@@ -12,11 +13,11 @@ const BarraSuperior = () => {
 			<div className="container py-3 flex items-center justify-between">
 				<div className="flex flex-col items-start gap-y-2">
 					<div className="flex items-center gap-8">
-						<img src="/logo-ministerio.png" alt="Ministerio de Educación" className="h-12 object-contain" />
-						<img src="/gore-logo.png" alt="Gobierno Regional de Cusco" className="h-12 object-contain" />
-						<img src="/logo-ugel.png" alt="UGEL La Convención" className="h-12 object-contain" />
+						<img src={asset("logo-ministerio.png")} alt="Ministerio de Educación" className="h-12 object-contain" />
+						<img src={asset("gore-logo.png")} alt="Gobierno Regional de Cusco" className="h-12 object-contain" />
+						<img src={asset("logo-ugel.png")} alt="UGEL La Convención" className="h-12 object-contain" />
 					</div>
-					<img src="/letra-ugel-lc.png" alt="UGEL La Convención" className="h-3 object-contain mt-1" />
+					<img src={asset("letra-ugel-lc.png")} alt="UGEL La Convención" className="h-3 object-contain mt-1" />
 				</div>
 				<div className="hidden md:flex items-center gap-6">
 					{ENLACES_SUPERIORES.map((enlace) => (
@@ -30,7 +31,7 @@ const BarraSuperior = () => {
 						</Link>
 					))}
 					<Link href="https://www.transparencia.gob.pe" target="_blank" rel="noopener noreferrer">
-						<img src="/transparencia.png" alt="Portal de Transparencia" className="h-10 object-contain" />
+						<img src={asset("transparencia.png")} alt="Portal de Transparencia" className="h-10 object-contain" />
 					</Link>
 				</div>
 			</div>

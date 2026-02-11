@@ -1,5 +1,5 @@
-import Image from "next/image"
 import Link from "next/link"
+import { asset } from "../../../helpers"
 import dayjs from "dayjs"
 import "dayjs/locale/es"
 
@@ -71,11 +71,10 @@ function DocumentoCard({ documento }: { documento: DocumentoLegal }) {
 	return (
 		<div className="group bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col">
 			<div className="relative h-48 overflow-hidden">
-				<Image
-					src={documento.imagen}
+				<img
+					src={asset(documento.imagen)}
 					alt={documento.nombre}
-					fill
-					className="object-cover group-hover:scale-105 transition-transform duration-500"
+					className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
 				/>
 				<span className="absolute top-3 left-3 text-xs font-bold uppercase bg-secondary text-white px-3 py-1 rounded-sm">
 					{documento.tipo}

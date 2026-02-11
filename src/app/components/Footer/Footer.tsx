@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { FaEnvelope, FaFacebook, FaLocationDot, FaYoutube } from "react-icons/fa6"
 import { EMPRESA, ERutas, NAV_MENU } from "../../constants/constants"
-import { getRoute } from "../../helpers"
+import { asset, getRoute } from "../../helpers"
 
 export default function Footer() {
 	return (
@@ -16,7 +16,7 @@ export default function Footer() {
 				<hr className="my-8 lg:my-12 border-secondary/30" />
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-6">
 					<div>
-						<img className="h-16 mb-8" src="/logo-ministerio.png" alt="Ministerio de Educación" />
+						<img className="h-16 mb-8" src={asset("logo-ministerio.png")} alt="Ministerio de Educación" />
 						<ul className="space-y-2">
 							<li>{EMPRESA.nombre}</li>
 							<li className="flex">

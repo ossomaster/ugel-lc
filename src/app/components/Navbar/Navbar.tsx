@@ -5,6 +5,7 @@ import Link from "next/link"
 import { useEffect, useRef, useState } from "react"
 import { FaBars, FaChevronDown, FaChevronRight, FaTimes } from "react-icons/fa"
 import { NAV_MENU, TNavMenuItem, TOP_DROPDOWNS, TTopDropdown } from "../../constants/constants"
+import { asset } from "../../helpers"
 
 const TOP_DROPDOWN_COLORS = {
 	red: {
@@ -90,7 +91,7 @@ export default function Navbar() {
 								<FaBars />
 							</button>
 							<Link href="/">
-								<img src="/logo-ugel.png" alt="UGEL La Convención" className="h-12 lg:h-16 object-contain" />
+							<img src={asset("logo-ugel.png")} alt="UGEL La Convención" className="h-12 lg:h-16 object-contain" />
 							</Link>
 						</div>
 
@@ -131,7 +132,7 @@ export default function Navbar() {
 			>
 				<div className="p-6 flex flex-col min-h-full">
 					<div className="flex justify-between items-center mb-6">
-						<img src="/logo-ugel.png" alt="UGEL La Convención" className="h-10" />
+						<img src={asset("logo-ugel.png")} alt="UGEL La Convención" className="h-10" />
 						<button onClick={() => setIsMobileMenuOpen(false)} className="text-white/80 hover:text-white">
 							<FaTimes className="text-lg" />
 						</button>

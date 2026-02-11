@@ -1,5 +1,5 @@
-import Image from "next/image"
 import Link from "next/link"
+import { asset } from "../../../helpers"
 import { FaPlayCircle } from "react-icons/fa"
 
 type Transmision = {
@@ -40,11 +40,10 @@ function TransmisionCard({ transmision }: { transmision: Transmision }) {
 	return (
 		<div className="group bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col">
 			<div className="relative aspect-3/4 overflow-hidden">
-				<Image
-					src={transmision.imagen}
+				<img
+					src={asset(transmision.imagen)}
 					alt={transmision.nombre}
-					fill
-					className="object-cover group-hover:scale-105 transition-transform duration-500"
+					className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
 				/>
 				<span className="absolute top-3 left-3 text-xs font-bold uppercase bg-green-600 text-white px-3 py-1 rounded-sm z-10">
 					{transmision.estado}

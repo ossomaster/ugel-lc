@@ -1,8 +1,8 @@
-import Image from "next/image"
 import Link from "next/link"
 import dayjs from "dayjs"
 import "dayjs/locale/es"
 import { FaChevronRight } from "react-icons/fa6"
+import { asset } from "../../../helpers"
 
 dayjs.locale("es")
 
@@ -106,11 +106,10 @@ function NoticiaCard({ noticia }: { noticia: Noticia }) {
 	return (
 		<Link href={noticia.href} className="group block bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
 			<div className="relative h-48 overflow-hidden">
-				<Image
-					src={noticia.imagen}
+				<img
+					src={asset(noticia.imagen)}
 					alt={noticia.titulo}
-					fill
-					className="object-cover group-hover:scale-105 transition-transform duration-500"
+					className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
 				/>
 			</div>
 			<div className="p-5">
@@ -170,11 +169,9 @@ export default function SeccionNoticias() {
 									href={enlace.href}
 									className="block rounded-xl overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
 								>
-									<Image
-										src={enlace.imagen}
+									<img
+										src={asset(enlace.imagen)}
 										alt={enlace.alt}
-										width={400}
-										height={100}
 										className="w-full h-auto"
 									/>
 								</Link>

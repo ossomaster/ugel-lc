@@ -5,6 +5,7 @@ import Link from "next/link"
 import { useCallback, useEffect, useState } from "react"
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa"
 import { SLIDES } from "../../../constants/constants"
+import { asset } from "../../../helpers"
 
 export default function MainHero() {
 	const [activeSlide, setActiveSlide] = useState(0)
@@ -30,7 +31,7 @@ export default function MainHero() {
 					key={index}
 					className={clsx("absolute inset-0 bg-cover bg-center transition-opacity duration-700 ease-in-out", index === activeSlide ? "opacity-100" : "opacity-0")}
 					style={{
-						backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("${slide.image}")`,
+						backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("${asset(slide.image)}")`,
 					}}
 				/>
 			))}

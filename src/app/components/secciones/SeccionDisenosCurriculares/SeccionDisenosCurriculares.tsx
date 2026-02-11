@@ -1,5 +1,5 @@
-import Image from "next/image"
 import Link from "next/link"
+import { asset } from "../../../helpers"
 
 type DisenoCurricular = {
 	imagen: string
@@ -37,11 +37,10 @@ function DisenoCurricularCard({ diseno }: { diseno: DisenoCurricular }) {
 			className="group block rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300"
 		>
 			<div className="relative aspect-3/4 overflow-hidden">
-				<Image
-					src={diseno.imagen}
+				<img
+					src={asset(diseno.imagen)}
 					alt={diseno.nombre}
-					fill
-					className="object-cover group-hover:scale-105 transition-transform duration-500"
+					className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
 				/>
 			</div>
 		</Link>
