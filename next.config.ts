@@ -7,7 +7,6 @@ const nextConfig: NextConfig = {
 	trailingSlash: true,
 	// Optional: Prevent automatic `/me` -> `/me/`, instead preserve `href`
 	skipTrailingSlashRedirect: true,
-	cacheComponents: true,
 	images: {
 		unoptimized: true,
 		remotePatterns: [

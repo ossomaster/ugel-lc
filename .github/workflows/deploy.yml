@@ -1,0 +1,36 @@
+name: Deploy to cPanel
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  Deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v4
+        with:
+          version: latest
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 22
+          cache: "pnpm"
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm run build
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@4.3.1
+        with:
+          server: ftp.ugellaconvencion.gob.pe
+          username: github@ugellaconvencion.gob.pe
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./out/
+          server-dir: ./public_html/webv2/
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            **/.github/**
+            **/.vscode/**
+            /vendor/**
+            .env
