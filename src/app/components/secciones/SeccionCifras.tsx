@@ -1,5 +1,6 @@
 "use client"
 
+import { asset } from "@/app/helpers"
 import Link from "next/link"
 import CountUp from "react-countup"
 import { FaChartBar, FaAward, FaUsers, FaChalkboardTeacher, FaPlusCircle } from "react-icons/fa"
@@ -8,7 +9,9 @@ export default function SeccionCifras() {
 	return (
 		<section
 			className="relative bg-cover bg-center bg-no-repeat py-20"
-			style={{ backgroundImage: "url('/assets/images/fondo-cifras.png')" }}
+			// style={{ backgroundImage: "url('/assets/images/fondo-cifras.png')" }}
+			style={{ backgroundImage: `url("${asset("assets/images/fondo-cifras.png")}")` }}
+
 		>
 			<div className="absolute inset-0 bg-black/60" />
 
