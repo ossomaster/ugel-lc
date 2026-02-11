@@ -3,13 +3,13 @@
 import { asset } from "@/app/helpers"
 import Link from "next/link"
 import CountUp from "react-countup"
-import { FaChartBar, FaAward, FaUsers, FaChalkboardTeacher, FaPlusCircle } from "react-icons/fa"
+import { FaAward, FaUsers, FaChalkboardTeacher, FaPlusCircle } from "react-icons/fa"
+import { FaPersonArrowDownToLine } from "react-icons/fa6"
 
 export default function SeccionCifras() {
 	return (
 		<section
 			className="relative bg-cover bg-center bg-no-repeat py-20"
-			// style={{ backgroundImage: "url('/assets/images/fondo-cifras.png')" }}
 			style={{ backgroundImage: `url("${asset("assets/images/fondo-cifras.png")}")` }}
 
 		>
@@ -29,8 +29,8 @@ export default function SeccionCifras() {
 				<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center text-white">
 					{/* Columna 1 */}
 					<div className="flex flex-col items-center gap-3">
-						<FaChartBar className="text-5xl text-amber-400" />
-						<CountUp end={191} duration={2.5} separator="," enableScrollSpy scrollSpyOnce className="text-5xl font-heading font-extrabold text-amber-400" />
+						<FaPersonArrowDownToLine className="text-5xl text-amber-400" />
+						<CountUp end={555} duration={2.5} separator="," enableScrollSpy scrollSpyOnce className="text-5xl font-heading font-extrabold text-amber-400" />
 						<h3 className="font-heading font-extrabold text-sm uppercase leading-tight">
 							Instituciones de Formación Inicial Docente
 						</h3>

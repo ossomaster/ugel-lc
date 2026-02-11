@@ -16,7 +16,7 @@ export default function Footer() {
 				<hr className="my-8 lg:my-12 border-secondary/30" />
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-6">
 					<div>
-						<img className="h-16 mb-8" src={asset("logo-ministerio.png")} alt="Ministerio de Educación" />
+						<img src={asset("logo-ugel.png")} alt="UGEL La Convención" className="h-16 object-contain mb-4" />
 						<ul className="space-y-2">
 							<li>{EMPRESA.nombre}</li>
 							<li className="flex">
