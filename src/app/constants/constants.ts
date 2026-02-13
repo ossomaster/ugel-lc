@@ -16,87 +16,87 @@ export type TNavMenuItem = {
 	children?: TNavMenuItem[]
 }
 
-export const NAV_MENU: TNavMenuItem[] = [
-	{
-		label: "Normativa Lineamientos",
-		href: ERutas.NORMATIVA_LINEAMIENTOS,
-		children: [
-			{
-				label: "Documentos Normativos",
-				children: [
-					{ label: "Ley", href: "#" },
-					{ label: "Decreto Legislativo", href: "#" },
-					{ label: "Decreto de Urgencia", href: "#" },
-					{ label: "Decreto Supremo", href: "#" },
-					{ label: "Resolución Viceministerial", href: "#" },
-					{ label: "Resolución de Secretaría General", href: "#" },
-					{ label: "Resolución Ministerial", href: "#" },
-					{ label: "Resolución Jefatural", href: "#" },
-					{ label: "Resolución Directoral", href: "#" },
-					{ label: "Directiva", href: "#" },
-					{ label: "Oficio", href: "#" },
-				],
-			},
-			{
-				label: "Lineamientos",
-				children: [
-					{ label: "Lineamientos Generales", href: "#" },
-					{ label: "Lineamientos Específicos", href: "#" },
-				],
-			},
-		],
-	},
-	{
-		label: "Procesos de Registro",
-		href: ERutas.PROCESOS_REGISTRO,
-		children: [
-			{ label: "Registro de Instituciones", href: "#" },
-			{ label: "Registro de Docentes", href: "#" },
-			{ label: "Registro de Programas", href: "#" },
-		],
-	},
-	{
-		label: "Gestión Curricular",
-		href: ERutas.GESTION_CURRICULAR,
-		children: [
-			{ label: "Diseño Curricular", href: "#" },
-			{ label: "Programas de Estudio", href: "#" },
-			{ label: "Evaluación Curricular", href: "#" },
-		],
-	},
-	{
-		label: "Fortalecimiento Docente",
-		href: ERutas.FORTALECIMIENTO_DOCENTE,
-		children: [
-			{ label: "Capacitaciones", href: "#" },
-			{ label: "Programas de Formación", href: "#" },
-			{ label: "Acompañamiento Pedagógico", href: "#" },
-		],
-	},
-	{
-		label: "Licenciamiento de EESP",
-		href: ERutas.LICENCIAMIENTO_EESP,
-		children: [
-			{ label: "Requisitos", href: "#" },
-			{ label: "Proceso de Licenciamiento", href: "#" },
-			{ label: "Instituciones Licenciadas", href: "#" },
-		],
-	},
-	{
-		label: "Gestión y Aseguramiento de la Calidad",
-		href: ERutas.GESTION_ASEGURAMIENTO,
-		children: [
-			{ label: "Estándares de Calidad", href: "#" },
-			{ label: "Acreditación", href: "#" },
-			{ label: "Monitoreo y Evaluación", href: "#" },
-		],
-	},
-]
+export const NAV_MENU: TNavMenuItem[] = [];
+// 	{
+// 		label: "Normativa Lineamientos",
+// 		href: ERutas.NORMATIVA_LINEAMIENTOS,
+// 		children: [
+// 			{
+// 				label: "Documentos Normativos",
+// 				children: [
+// 					{ label: "Ley", href: "#" },
+// 					{ label: "Decreto Legislativo", href: "#" },
+// 					{ label: "Decreto de Urgencia", href: "#" },
+// 					{ label: "Decreto Supremo", href: "#" },
+// 					{ label: "Resolución Viceministerial", href: "#" },
+// 					{ label: "Resolución de Secretaría General", href: "#" },
+// 					{ label: "Resolución Ministerial", href: "#" },
+// 					{ label: "Resolución Jefatural", href: "#" },
+// 					{ label: "Resolución Directoral", href: "#" },
+// 					{ label: "Directiva", href: "#" },
+// 					{ label: "Oficio", href: "#" },
+// 				],
+// 			},
+// 			{
+// 				label: "Lineamientos",
+// 				children: [
+// 					{ label: "Lineamientos Generales", href: "#" },
+// 					{ label: "Lineamientos Específicos", href: "#" },
+// 				],
+// 			},
+// 		],
+// 	},
+// 	{
+// 		label: "Procesos de Registro",
+// 		href: ERutas.PROCESOS_REGISTRO,
+// 		children: [
+// 			{ label: "Registro de Instituciones", href: "#" },
+// 			{ label: "Registro de Docentes", href: "#" },
+// 			{ label: "Registro de Programas", href: "#" },
+// 		],
+// 	},
+// 	{
+// 		label: "Gestión Curricular",
+// 		href: ERutas.GESTION_CURRICULAR,
+// 		children: [
+// 			{ label: "Diseño Curricular", href: "#" },
+// 			{ label: "Programas de Estudio", href: "#" },
+// 			{ label: "Evaluación Curricular", href: "#" },
+// 		],
+// 	},
+// 	{
+// 		label: "Fortalecimiento Docente",
+// 		href: ERutas.FORTALECIMIENTO_DOCENTE,
+// 		children: [
+// 			{ label: "Capacitaciones", href: "#" },
+// 			{ label: "Programas de Formación", href: "#" },
+// 			{ label: "Acompañamiento Pedagógico", href: "#" },
+// 		],
+// 	},
+// 	{
+// 		label: "Licenciamiento de EESP",
+// 		href: ERutas.LICENCIAMIENTO_EESP,
+// 		children: [
+// 			{ label: "Requisitos", href: "#" },
+// 			{ label: "Proceso de Licenciamiento", href: "#" },
+// 			{ label: "Instituciones Licenciadas", href: "#" },
+// 		],
+// 	},
+// 	{
+// 		label: "Gestión y Aseguramiento de la Calidad",
+// 		href: ERutas.GESTION_ASEGURAMIENTO,
+// 		children: [
+// 			{ label: "Estándares de Calidad", href: "#" },
+// 			{ label: "Acreditación", href: "#" },
+// 			{ label: "Monitoreo y Evaluación", href: "#" },
+// 		],
+// 	},
+// ]
 
 export const SLIDES = [
 	{
 		image: "/assets/slider/slide-1.jpg",
-		title: "Reporte de información académica",
+		title: "Participamos en Buenas Practicas de Gestión Educativa",
 		description: "Programas de Profesionalización Docente y Programas de Segunda Especialidad desarrolladas por las EESP públicos y privados",
 		buttonText: "Ver más",
 		buttonUrl: "#",
@@ -110,7 +110,7 @@ export const SLIDES = [
 	},
 	{
 		image: "/assets/slider/slide-3.jpg",
-		title: "Formación Inicial Docente",
+		title: "Unidad de Gestión Educativa Local La Convención",
 		description: "Fortalecimiento de competencias pedagógicas para la mejora de la calidad educativa",
 		buttonText: "Conocer más",
 		buttonUrl: "#",
