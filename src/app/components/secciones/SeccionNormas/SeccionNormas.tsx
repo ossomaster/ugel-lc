@@ -39,7 +39,7 @@ const DOCUMENTOS: DocumentoLegal[] = [
 		descripcion: "Aprobar la Norma Técnica denominada \"Disposiciones que regulan el proceso de contratación y renovación de docentes regulares en Institutos y Escuelas de Educación Superior Pedagógica públicas\".",
 		href: "#",
 	},
-	{
+	/* {
 		tipo: "Decreto Supremo",
 		imagen: "/assets/images/noticias/noticia-4.jpg",
 		nombre: "Decreto Supremo N.° 015-2025-MINEDU",
@@ -62,7 +62,7 @@ const DOCUMENTOS: DocumentoLegal[] = [
 		fecha: "2025-07-10",
 		descripcion: "Aprobación de los lineamientos para la gestión de la calidad del servicio educativo en Instituciones de Educación Superior Pedagógica.",
 		href: "#",
-	},
+	}, */
 ]
 
 function DocumentoCard({ documento }: { documento: DocumentoLegal }) {

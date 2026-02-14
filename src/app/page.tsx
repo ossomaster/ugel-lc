@@ -21,7 +21,7 @@ export default function Home() {
 			<SeccionCursos />
 			<SeccionTransmisiones />
 			<SeccionDisenosCurriculares />
-			<SeccionDominiosPerfil />
+			{/* <SeccionDominiosPerfil /> */}
 			<SeccionBuenasPracticas />
 		</MainLayout>
 	)

@@ -11,8 +11,8 @@ type Transmision = {
 
 const TRANSMISIONES: Transmision[] = [
 	{
-		imagen: "/assets/images/transmisiones/webinar-ponente.png",
-		nombre: "Asistencia Técnica sobre el reporte de información por parte de los IESP/EESP",
+		imagen: "//repositorio.minedu.gob.pe/bitstream/handle/20.500.12799/11356/recomendacionesbiae2025.png?sequence=3&isAllowed=y",
+		nombre: "Asistencia Técnica sobre el Buen Inicio del Año Escolar",
 		estado: "Disponible",
 		href: "#",
 	},
@@ -23,7 +23,7 @@ const TRANSMISIONES: Transmision[] = [
 		href: "#",
 	},
 	{
-		imagen: "/assets/images/transmisiones/webinar-ponente.png",
+		imagen: "//repositorio.minedu.gob.pe/bitstream/handle/20.500.12799/11356/recomendacionesbiae2025.png?sequence=3&isAllowed=y",
 		nombre: "Disposiciones que regulan el proceso de contratación y renovación de docentes regulares en IESP/EESP públicas",
 		estado: "Disponible",
 		href: "#",
@@ -76,7 +76,7 @@ export default function SeccionTransmisiones() {
 						Streaming <FaPlayCircle className="text-white" />
 					</p>
 					<p className="seccion__subtitle italic mt-2">
-						Videoconferencias, Webinars, videos realizados por los especialistas de la DIFOID, sobre temas relacionados a la Formación Inicial Docente.
+						Videoconferencias, Webinars, videos realizados por los especialistas de la UGEL-LC, sobre temas relacionados a la Formación Docente.
 					</p>
 					<div className="w-10 h-1 bg-white mt-4 rounded-full" />
 				</div>

@@ -10,10 +10,10 @@ type Curso = {
 
 const CURSOS: Curso[] = [
 	{
-		imagen: "/assets/images/noticias/noticia-1.jpg",
-		nombre: "Experiencia virtual autoformativa Investigación en la Formación Inicial Docente",
-		estado: "Cerrado",
-		href: "#",
+		imagen: "/assets/images/capacitaciones/capacitacion-1.jpg",
+		nombre: "ATA - Orientaciones para el cierre de la estrategia Refuerzo Escolar 2025",
+		estado: "Realizado",
+		href: "https://www.facebook.com/photo.php?fbid=849380154480090&type=3",
 	},
 	{
 		imagen: "/assets/images/noticias/noticia-2.jpg",
@@ -54,7 +54,7 @@ function CursoCard({ curso }: { curso: Curso }) {
 				</h3>
 				<div className="mt-4">
 					<Link
-						href={curso.href}
+						href={curso.href}target="_blank"
 						className="inline-flex items-center justify-center px-6 py-2 bg-primary text-white text-sm font-semibold rounded hover:bg-primary-dark transition-colors duration-300 uppercase tracking-wide"
 					>
 						Ver más
@@ -72,7 +72,7 @@ export default function SeccionCursos() {
 				<div className="mb-10">
 					<h2 className="seccion__title">FORTALECIMIENTO DOCENTE</h2>
 					<p className="seccion__subtitle italic">
-						Programas de fortalecimiento docente, cursos virtuales y módulos de asesoramiento para docentes formadores.
+						Capacitaciones, Asistencias tecnicas para directivos y docentes.
 					</p>
 					<div className="w-10 h-1 bg-primary mt-4 rounded-full" />
 				</div>

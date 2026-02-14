@@ -42,9 +42,9 @@ export default function MainHero() {
 						<h1 className="text-3xl lg:text-5xl font-heading font-black leading-tight">{SLIDES[activeSlide].title}</h1>
 						<p className="text-base lg:text-lg mt-4 leading-relaxed opacity-90">{SLIDES[activeSlide].description}</p>
 						<div className="mt-6">
-							<Link href={SLIDES[activeSlide].buttonUrl} className="btn btn--primary">
+							{/* <Link href={SLIDES[activeSlide].buttonUrl} className="btn btn--primary">
 								{SLIDES[activeSlide].buttonText}
-							</Link>
+							</Link> */}
 						</div>
 					</div>
 				</div>

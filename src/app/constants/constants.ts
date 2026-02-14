@@ -95,26 +95,34 @@ export const NAV_MENU: TNavMenuItem[] = [];
 
 export const SLIDES = [
 	{
+		image: "/assets/slider/slide-4.jpg",
+		title: "Educación Intercultural Bilingüe",
+		description: "En el corazón de La Convención Voces diversas, una sola educación: Identidad que trasciende",
+		//buttonText: "Acceder",
+		//buttonUrl: "#",
+	},
+	{
+		image: "/assets/slider/slide-5.jpg",
+		title: "UGEL La Convención",
+		description: "Comprometidos con la Innovación para la Mejora de los Aprendizajes",
+		//buttonText: "Conocer más",
+		//buttonUrl: "#",
+	},
+	{
+		image: "/assets/slider/slide-6.jpg",
+		title: "Modernización",
+		description: "Ñaupa yachaywan, musoq yachaywan: Identidad e innovación para el futuro",
+		//buttonText: "Conocer más",
+		//buttonUrl: "#",
+	},
+	{
 		image: "/assets/slider/slide-1.jpg",
 		title: "Participamos en Buenas Practicas de Gestión Educativa",
-		description: "Programas de Profesionalización Docente y Programas de Segunda Especialidad desarrolladas por las EESP públicos y privados",
-		buttonText: "Ver más",
-		buttonUrl: "#",
-	},
-	{
-		image: "/assets/slider/slide-2.jpg",
-		title: "Sistema de Registro y Control",
-		description: "Plataforma de gestión educativa para instituciones de educación superior pedagógica",
-		buttonText: "Acceder",
-		buttonUrl: "#",
-	},
-	{
-		image: "/assets/slider/slide-3.jpg",
-		title: "Unidad de Gestión Educativa Local La Convención",
-		description: "Fortalecimiento de competencias pedagógicas para la mejora de la calidad educativa",
-		buttonText: "Conocer más",
-		buttonUrl: "#",
-	},
+		description: "Desarrollamos 3 estrategias de gestión innovadoras para transformar y resolver desafíos educativos en nuestra provincia",
+		//buttonText: "Ver más",
+		//buttonUrl: "#",
+	},	
+	
 ]
 
 export type TTopDropdown = {
@@ -178,9 +186,9 @@ export const TOP_DROPDOWNS: TTopDropdown[] = [
 			{
 				title: "Línea",
 				items: [
-					{ label: "AGEBRE", href: "/agebre" },
-					{ label: "AGEBATP", href: "/agebatp" },
-					{ label: "ASGESE", href: "/asgese" },
+					{ label: "AGP", href: "/agp" },
+					{ label: "AGA", href: "/aga" },
+					{ label: "AGI", href: "/agi" },
 				],
 			},
 		],
@@ -210,6 +218,6 @@ export const EMPRESA = {
 	vision: "La Unidad de Gestión Educativa Local de la Convención al 2016, es líder de la Región Cusco en la gestión educativa en el marco de la implementación de gestión por resultados con enfoque de calidad, ético de desarrollo humano sostenible, científico, tecnológico, eco productivo, pluricultural; forjadora de ciudadanos críticos, participativos e innovadores, que construyen una sociedad inclusiva, democrática y con una cultura de paz.",
 	redesSociales: {
 		facebook: "https://www.facebook.com/OficialUGELLC",
-		youtube: "https://www.youtube.com/@ugelparuro8902",
+		youtube: "https://www.youtube.com/@ugellaconvencion_oficial",
 	},
 }

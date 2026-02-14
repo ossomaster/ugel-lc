@@ -85,7 +85,7 @@ export default function Navbar() {
 			<div className="bg-primary h-1.5" />
 			<header className="bg-white text-foreground relative shadow-sm" ref={navRef}>
 				<div className="container">
-					<nav className="flex items-center justify-between h-16 lg:h-auto">
+					{/* <nav className="flex items-center justify-between h-16 lg:h-auto">
 						<div className="flex items-center gap-4 py-2">
 							<button className="lg:hidden text-xl" onClick={() => setIsMobileMenuOpen(true)}>
 								<FaBars />
@@ -112,7 +112,7 @@ export default function Navbar() {
 								</li>
 							))}
 						</ul>
-					</nav>
+					</nav> */}
 				</div>
 			</header>
 

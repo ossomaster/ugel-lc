@@ -10,11 +10,11 @@ type Dominio = {
 const DOMINIOS: Dominio[] = [
 	{
 		nombre: "DOMINIO 1",
-		youtubeId: "JwrdSFBEXZA",
+		youtubeId: "SC9lGb4bsts",
 	},
 	{
 		nombre: "DOMINIO 2",
-		youtubeId: "6m88EGkMpe4",
+		youtubeId: "SC9lGb4bsts",
 	},
 	{
 		nombre: "DOMINIO 3",
@@ -34,7 +34,7 @@ export default function SeccionDominiosPerfil() {
 			<div className="container">
 				<div className="mb-10">
 					<h2 className="seccion__title text-foreground">
-						Dominios del Perfil de egreso de la FID
+						Perfil de Egreso del estudiante
 					</h2>
 					<div className="w-10 h-1 bg-amber-400 mt-4 rounded-full" />
 				</div>

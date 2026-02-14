@@ -87,6 +87,7 @@ export default function Footer() {
 			<section className="bg-black text-white mt-12 py-6 border-t border-white/20">
 				<div className="container text-center">
 					<p>&copy; 2026 {EMPRESA.nombre}. Todos los derechos reservados.</p>
+					<p className="text font-bold text-secondary">Oficina de Informática</p>
 				</div>
 			</section>
 		</footer>

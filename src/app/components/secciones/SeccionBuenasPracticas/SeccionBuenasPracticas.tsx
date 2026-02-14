@@ -10,24 +10,19 @@ type BuenaPractica = {
 
 const BUENAS_PRACTICAS: BuenaPractica[] = [
 	{
-		institucion: "I.E. N° 50234 Virgen del Carmen",
-		ubicacion: "Quillabamba",
-		youtubeId: "JwrdSFBEXZA",
+		institucion: "SIAMEP",
+		ubicacion: "Provincia de la Convención",
+		youtubeId: "SC9lGb4bsts",
 	},
 	{
-		institucion: "I.E. N° 50468 San Martín de Porres",
-		ubicacion: "Echarati",
+		institucion: "Escudos contra la Violencia",
+		ubicacion: "Provincia de la Convención",
 		youtubeId: "6m88EGkMpe4",
 	},
 	{
-		institucion: "I.E. N° 50952 Santa Rosa de Lima",
-		ubicacion: "Santa Ana",
+		institucion: "Rutas Inclusivas para un Aprendizaje sin Barreras",
+		ubicacion: "Provincia de la Convención",
 		youtubeId: "sjq-RuHK150",
-	},
-	{
-		institucion: "I.E. N° 51082 Jorge Chávez",
-		ubicacion: "Maranura",
-		youtubeId: "bh9iK4iABJc",
 	},
 ]
 
@@ -39,7 +34,7 @@ export default function SeccionBuenasPracticas() {
 			<div className="container">
 				<div className="mb-10">
 					<h2 className="seccion__title text-foreground">
-						Buenas Prácticas en Instituciones
+						Buenas Prácticas en Gestión Educativa
 					</h2>
 					<div className="w-10 h-1 bg-amber-400 mt-4 rounded-full" />
 				</div>
