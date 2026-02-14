@@ -1,34 +1,62 @@
 import Link from "next/link"
-import { FaBullhorn, FaFileAlt, FaChalkboardTeacher, FaChartBar } from "react-icons/fa"
+import { FaBullhorn, FaFileAlt, FaChalkboardTeacher, FaChartBar, FaUsers } from "react-icons/fa"
 
 const CARDS = [
 	{
 		title: "NOTICIAS",
-		description: "Noticias de interés relacionado a las IESP-EESP",
+		description: "Noticias de interés",
 		icon: FaBullhorn,
 		href: "#",
 		bg: "bg-[#c8102e]",
 	},
 	{
 		title: "PUBLICACIONES",
-		description: "Documentos oficiales, diseños curriculares y material publicado",
+		description: "Documentos Oficiales",
 		icon: FaFileAlt,
 		href: "/ejemplos/ejemplo1",
 		bg: "bg-[#00a99d]",
 	},
 	{
-		title: "CURSOS",
-		description: "Diseñados en función a las necesidades de los docentes",
-		icon: FaChalkboardTeacher,
+		title: "CONVOCATORIAS",
+		description: "Publicaciones de RR.HH",
+		icon: FaUsers,
 		href: "#",
 		bg: "bg-[#1a3a6b]",
 	},
 	{
-		title: "DIFOID al día",
-		description: "Estado de entregables de cada IESP/EESP",
+		title: "ATENCIÓN AL CIUDADANO",
+		//description: "",
 		icon: FaChartBar,
 		href: "#",
 		bg: "bg-[#e8912d]",
+	},
+	{
+		title: "ABASTECIMIENTOS",
+		description: "Noticias de interés",
+		icon: FaBullhorn,
+		href: "#",
+		bg: "bg-[#1a3a6b]",
+	},
+	{
+		title: "CONTRATACIÓN DOCENTE 2026",
+		description: "Publicaciones",
+		icon: FaBullhorn,
+		href: "#",
+		bg: "bg-[#FF8C00]",
+	},
+	{
+		title: "CONTRATACIÓN DE AUXILIARES 2026",
+		description: "Publicaciones",
+		icon: FaFileAlt,
+		href: "/ejemplos/ejemplo1",
+		bg: "bg-[#556B2F]",
+	},
+	{
+		title: "CONVOCATORIAS CAS",
+		description: "Publicaciones",
+		icon: FaFileAlt,
+		href: "/ejemplos/ejemplo1",
+		bg: "bg-[#5f9ea0]",
 	},
 ]
 

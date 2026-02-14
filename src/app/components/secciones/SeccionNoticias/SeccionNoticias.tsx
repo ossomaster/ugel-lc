@@ -74,22 +74,22 @@ const NOTICIAS: Noticia[] = [
 
 const ENLACES_INTERES: EnlaceInteres[] = [
 	{
-		imagen: "/assets/images/enlaces/enlace-1.png",
+		imagen: "/assets/images/enlaces/enlace-siamep.png",
 		href: "#",
 		alt: "191 Instituciones de Formación Inicial Docente",
 	},
 	{
-		imagen: "/assets/images/enlaces/enlace-2.png",
+		imagen: "/assets/images/enlaces/enlace-convocatorias.png",
 		href: "#",
 		alt: "53 EESP - Escuelas de Educación Superior",
 	},
 	{
-		imagen: "/assets/images/enlaces/enlace-3.png",
+		imagen: "/assets/images/enlaces/enlace-ayni.png",
 		href: "#",
 		alt: "Acciones de personal",
 	},
 	{
-		imagen: "/assets/images/enlaces/enlace-4.png",
+		imagen: "/assets/images/enlaces/enlace-mimantenimiento.png",
 		href: "#",
 		alt: "Registro de Títulos Pedagógicos",
 	},
