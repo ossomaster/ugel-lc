@@ -16,27 +16,28 @@ type DocumentoLegal = {
 
 const DOCUMENTOS: DocumentoLegal[] = [
 	{
-		tipo: "Oficio Múltiple",
-		imagen: "/assets/images/noticias/noticia-1.jpg",
-		nombre: "Oficio Multiple N.° 00016-2026-MINEDU/VMGP-DIGEDD",
+		tipo: "Resolución",
+		imagen: "//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEio1qA9riAVh_4-x2xFDqu5I9BQWTNKtDtRLz8F-6MSTZQb7uX7e-KgIK11cFfCN8SS05QQVIjucrcEkHndUBOVCsZVG8wEKT4Dtab4N0KRF8QaDijQJcFmg6ZNfC4MHJscJSU307l82T-6sazfqpXmfkrlxR2H6aIdjydIDbNKq5YduzXPdG2cTj98Vqw/w851-h444-c/336315-rm-037-2026-minedu-aprueban-padrones-instituciones-educativas-publicas-docentes.jpg",
+		nombre: "Resolución Ministerial N.° 037-2026-MINEDU",
 		fecha: "2026-01-12",
-		descripcion: "Levantamiento de medidas de contingencia 2025-II y registro en el Sistema de Información Académica del proceso de admisión de IESP y EESP en el periodo académico 2026-I.",
-		href: "#",
+		descripcion: "Aprueban Padrones de Instituciones Educativas Públicas y de Docentes Bilingües, para la percepción de las asignaciones temporales y bonificaciones correspondientes a los profesores y auxiliares de educación nombrados y contratados",
+		href: "https://cdn.www.gob.pe/uploads/document/file/9340497/7658605-rm-n037-2026-minedu.pdf?v=1769433329",
+		
 	},
 	{
 		tipo: "Resolución",
-		imagen: "/assets/images/noticias/noticia-2.jpg",
-		nombre: "Resolución Viceministerial N.° 168-2025-MINEDU",
-		fecha: "2025-12-31",
-		descripcion: "Otorgar el LICENCIAMIENTO como Escuela de Educación Superior Pedagógica privada \"San José\", de la región Lima, de un (1) programa de estudios y un (1) local en calidad de sede principal por un periodo de seis (6) años renovables.",
-		href: "#",
+		imagen: "//portal.andina.pe/EDPfotografia3/Thumbnail/2025/09/22/001208488M.webp",
+		nombre: "Decreto Supremo N.º 022-2025-MINEDU",
+		fecha: "2026-02-01",
+		descripcion: "Decreto Supremo que aprueba la Norma que regula el procedimiento, requisitos y condiciones para la contratación y la renovación de profesores en el servicio docente en educación básica y técnico-productiva, en el marco de la Ley N° 30328, Ley que establece medidas en materia educativa y dicta otras disposiciones.",
+		href: "https://www.minedu.gob.pe/reforma-magisterial/pdf/contrato/2026/ds_022_2025_minedu_contratacion_docente_2026.pdf",
 	},
 	{
-		tipo: "Resolución",
+		tipo: "Oficio Múltiple",
 		imagen: "/assets/images/noticias/noticia-3.jpg",
-		nombre: "Resolución Viceministerial N.° 100-2025-MINEDU",
+		nombre: "Oficio Múltiple N.º 00105-2025-MINEDU/VMGP-DIGEDD",
 		fecha: "2025-10-07",
-		descripcion: "Aprobar la Norma Técnica denominada \"Disposiciones que regulan el proceso de contratación y renovación de docentes regulares en Institutos y Escuelas de Educación Superior Pedagógica públicas\".",
+		descripcion: "Precisiones para la implementación del proceso de encargatura 2026\.",
 		href: "#",
 	},
 	/* {
@@ -110,7 +111,7 @@ export default function SeccionNormas() {
 				<div className="mb-10">
 					<h2 className="seccion__title">NORMAS Y DOCUMENTOS LEGALES</h2>
 					<p className="seccion__subtitle italic">
-						Revisa la normativa que emitimos y relacionada a IESP-EESP.
+						Revisa la normativa emitidas por el MINEDU.
 					</p>
 					<div className="w-10 h-1 bg-primary mt-4 rounded-full" />
 				</div>

@@ -76,27 +76,27 @@ const ENLACES_INTERES: EnlaceInteres[] = [
 	{
 		imagen: "/assets/images/enlaces/enlace-siamep.png",
 		href: "#",
-		alt: "191 Instituciones de Formación Inicial Docente",
+		alt: "SIAMEP",
 	},
 	{
 		imagen: "/assets/images/enlaces/enlace-convocatorias.png",
 		href: "#",
-		alt: "53 EESP - Escuelas de Educación Superior",
+		alt: "convocatorias",
 	},
 	{
 		imagen: "/assets/images/enlaces/enlace-ayni.png",
 		href: "#",
-		alt: "Acciones de personal",
+		alt: "ayni",
 	},
 	{
 		imagen: "/assets/images/enlaces/enlace-mimantenimiento.png",
 		href: "#",
-		alt: "Registro de Títulos Pedagógicos",
+		alt: "mi-mantenimiento",
 	},
 	{
-		imagen: "/assets/images/enlaces/enlace-5.png",
+		imagen: "/assets/images/enlaces/enlace-reclamaciones-digital.png",
 		href: "#",
-		alt: "Plantillas estandarizadas",
+		alt: "reclamaciones-digital",
 	},
 ]
 
