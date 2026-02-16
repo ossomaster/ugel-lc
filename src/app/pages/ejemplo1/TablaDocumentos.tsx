@@ -55,7 +55,7 @@ const columns: TableColumn<TDocumentoNormativo>[] = [
 	{
 		id: "archivo",
 		name: "Descargar",
-		width: "110px",
+		width: "130px",
 		style: { justifyContent: "center" },
 		cell: (row) => (
 			<a

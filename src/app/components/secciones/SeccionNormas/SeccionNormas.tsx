@@ -26,7 +26,7 @@ const DOCUMENTOS: DocumentoLegal[] = [
 	},
 	{
 		tipo: "Resolución",
-		imagen: "//portal.andina.pe/EDPfotografia3/Thumbnail/2025/09/22/001208488M.webp",
+		imagen: "/assets/images/noticias/noticia-5.jpg",
 		nombre: "Decreto Supremo N.º 022-2025-MINEDU",
 		fecha: "2026-02-01",
 		descripcion: "Decreto Supremo que aprueba la Norma que regula el procedimiento, requisitos y condiciones para la contratación y la renovación de profesores en el servicio docente en educación básica y técnico-productiva, en el marco de la Ley N° 30328, Ley que establece medidas en materia educativa y dicta otras disposiciones.",
@@ -34,7 +34,7 @@ const DOCUMENTOS: DocumentoLegal[] = [
 	},
 	{
 		tipo: "Oficio Múltiple",
-		imagen: "/assets/images/noticias/noticia-3.jpg",
+		imagen: "/assets/images/noticias/noticia-6.jpg",
 		nombre: "Oficio Múltiple N.º 00105-2025-MINEDU/VMGP-DIGEDD",
 		fecha: "2025-10-07",
 		descripcion: "Precisiones para la implementación del proceso de encargatura 2026\.",

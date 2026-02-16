@@ -26,7 +26,7 @@ export default function SeccionCifras() {
 					<div className="w-10 h-1 bg-amber-400 mt-4 rounded-full" />
 				</div>
 
-				<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center text-white">
+				<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-center text-white">
 					{/* Columna 1 */}
 					<div className="flex flex-col items-center gap-3">
 						<FaChalkboardTeacher className="text-5xl text-amber-400" />
@@ -37,7 +37,7 @@ export default function SeccionCifras() {
 						<p className="text-sm text-white/75 leading-relaxed">
 							2507 públicas<br />311 privadas
 						</p>
-						<Link href="#" className="inline-flex items-center gap-2 mt-2 bg-amber-500 hover:bg-amber-600 text-white text-xs font-bold uppercase px-5 py-2 rounded-full transition-colors">
+						<Link href="https://escale.minedu.gob.pe/magnitudes" className="inline-flex items-center gap-2 mt-2 bg-amber-500 hover:bg-amber-600 text-white text-xs font-bold uppercase px-5 py-2 rounded-full transition-colors">
 							<FaPlusCircle />
 							Más información
 						</Link>
@@ -46,14 +46,14 @@ export default function SeccionCifras() {
 					{/* Columna 2 */}
 					<div className="flex flex-col items-center gap-3">
 						<FaSchoolFlag className="text-5xl text-amber-400" />
-						<CountUp end={53} duration={2.5} separator="," enableScrollSpy scrollSpyOnce className="text-5xl font-heading font-extrabold text-amber-400" />
+						<CountUp end={749} duration={2.5} separator="," enableScrollSpy scrollSpyOnce className="text-5xl font-heading font-extrabold text-amber-400" />
 						<h3 className="font-heading font-extrabold text-sm uppercase leading-tight">
 							NÚMERO DE SERVICIOS EDUCATIVOS Y PROGRAMAS DEL SISTEMA EDUCATIVO
 						</h3>
 						<p className="text-sm text-white/75 leading-relaxed">
 							687 públicas<br />62 privadas
 						</p>
-						<Link href="#" className="inline-flex items-center gap-2 mt-2 bg-amber-500 hover:bg-amber-600 text-white text-xs font-bold uppercase px-5 py-2 rounded-full transition-colors">
+						<Link href="https://escale.minedu.gob.pe/magnitudes" className="inline-flex items-center gap-2 mt-2 bg-amber-500 hover:bg-amber-600 text-white text-xs font-bold uppercase px-5 py-2 rounded-full transition-colors">
 							<FaPlusCircle />
 							Más información
 						</Link>
@@ -69,14 +69,14 @@ export default function SeccionCifras() {
 						<p className="text-sm text-white/75 leading-relaxed">
 							30018 en públicos<br />3762 en privados
 						</p>
-						<Link href="#" className="inline-flex items-center gap-2 mt-2 bg-amber-500 hover:bg-amber-600 text-white text-xs font-bold uppercase px-5 py-2 rounded-full transition-colors">
+						<Link href="https://escale.minedu.gob.pe/magnitudes" className="inline-flex items-center gap-2 mt-2 bg-amber-500 hover:bg-amber-600 text-white text-xs font-bold uppercase px-5 py-2 rounded-full transition-colors">
 							<FaPlusCircle />
 							Más información
 						</Link>
 					</div>
 
 					{/* Columna 4 */}
-					<div className="flex flex-col items-center gap-3">
+					{/* <div className="flex flex-col items-center gap-3">
 						<FaChalkboardTeacher className="text-5xl text-amber-400" />
 						<CountUp end={3425} duration={2.5} separator="," enableScrollSpy scrollSpyOnce className="text-5xl font-heading font-extrabold text-amber-400" />
 						<h3 className="font-heading font-extrabold text-sm uppercase leading-tight">
@@ -85,7 +85,7 @@ export default function SeccionCifras() {
 						<p className="text-sm text-white/75 leading-relaxed">
 							2 284 en públicos<br />1 141 en privados
 						</p>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</section>

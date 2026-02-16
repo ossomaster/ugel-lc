@@ -19,7 +19,7 @@ type DataTableProps<T> = {
 const customStyles = {
 	headRow: {
 		style: {
-			backgroundColor: "#f1f5f9",
+			backgroundColor: "#c7194a",
 			borderBottomWidth: "2px",
 			borderBottomColor: "#e2e8f0",
 			minHeight: "48px",
@@ -27,7 +27,7 @@ const customStyles = {
 	},
 	headCells: {
 		style: {
-			color: "#64748b",
+			color: "#ffffff",
 			fontWeight: "600",
 			fontSize: "0.75rem",
 			textTransform: "uppercase" as const,
@@ -44,11 +44,11 @@ const customStyles = {
 			"&:not(:last-of-type)": {
 				borderBottomStyle: "solid" as const,
 				borderBottomWidth: "1px",
-				borderBottomColor: "#f1f5f9",
+				borderBottomColor: "#e46b8b",
 			},
 		},
 		highlightOnHoverStyle: {
-			backgroundColor: "#f8fafc",
+			backgroundColor: "#afb3b9",
 			outline: "none",
 		},
 	},
@@ -65,7 +65,7 @@ const customStyles = {
 			borderTopWidth: "1px",
 			borderTopColor: "#e2e8f0",
 			minHeight: "52px",
-			color: "#64748b",
+			color: "#c7194a",
 		},
 	},
 }
