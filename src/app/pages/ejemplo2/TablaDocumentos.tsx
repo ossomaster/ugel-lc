@@ -146,7 +146,7 @@ const columns: TableColumn<TDocumentoNormativo>[] = [
         href={row.archivoUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-left gap-1.5 px-3 py-1 rounded-full bg-red-50 text-red-600 hover:bg-red-100 transition-colors text-sm font-medium"
+        className="inline-flex items-left gap-1.5 px-3 py-1 rounded-full bg-green-50 text-green-600 hover:bg-green-100 transition-colors text-sm font-medium"
         title="ESTADO"
       >
         <FaSquareCheck className="text-sm" />
