@@ -2,8 +2,8 @@
 "use client"
 
 import { useState } from "react"
-import MainLayout from "../../components/MainLayout"
-import PageHero from "../../components/PageHero"
+import MainLayout from "../../../components/MainLayout"
+import PageHero from "../../../components/PageHero"
 import TablaDocumentos from "./TablaDocumentos"
 import { DOCUMENTOS_NORMATIVOS, type TDocumentoNormativo } from "./constants"
 
@@ -27,8 +27,8 @@ export default function DocumentosNormativosPage() {
   return (
     <MainLayout>
       <PageHero
-        title="Documentos Normativos"
-        subtitle="Listado de documentos normativos con opciones de búsqueda, exportación y descarga"
+        title="Convocatorias / Abastecimientos"
+        subtitle="Listado de publicaciones"
       />
 
       <section className="container py-12">

@@ -55,7 +55,7 @@ const CARDS = [
 		title: "CONVOCATORIAS CAS",
 		description: "Publicaciones",
 		icon: FaFileAlt,
-		href: "/pages/ejemplo1",
+		href: "/pages/2026/cas/",
 		bg: "bg-[#5f9ea0]",
 	},
 ]

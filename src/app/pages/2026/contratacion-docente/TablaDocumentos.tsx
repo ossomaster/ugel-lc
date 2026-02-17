@@ -4,10 +4,10 @@ import dynamic from "next/dynamic"
 import { type ComponentType } from "react"
 import { type TableColumn } from "react-data-table-component"
 import { FaFilePdf } from "react-icons/fa6"
-import type { default as DataTableComponent } from "../../commons/components/DataTable"
+import type { default as DataTableComponent } from "../../../commons/components/DataTable"
 import { DOCUMENTOS_NORMATIVOS, type TDocumentoNormativo } from "./constants"
 
-const DataTable = dynamic(() => import("../../commons/components/DataTable"), { ssr: false }) as ComponentType<Parameters<typeof DataTableComponent<TDocumentoNormativo>>[0]>
+const DataTable = dynamic(() => import("../../../commons/components/DataTable"), { ssr: false }) as ComponentType<Parameters<typeof DataTableComponent<TDocumentoNormativo>>[0]>
 
 const columns: TableColumn<TDocumentoNormativo>[] = [
 	{
