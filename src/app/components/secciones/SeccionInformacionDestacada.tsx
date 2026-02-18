@@ -6,14 +6,14 @@ const CARDS = [
 		title: "NOTICIAS",
 		description: "Noticias de interés",
 		icon: FaBullhorn,
-		href: "#",
+		href: "/pages/2026/noticias",
 		bg: "bg-[#c8102e]",
 	},
 	{
 		title: "PUBLICACIONES",
 		description: "Documentos Oficiales",
 		icon: FaFileAlt,
-		href: "/pages/ejemplo1",
+		href: "/pages/2026/publicaciones",
 		bg: "bg-[#00a99d]",
 	},
 	{
@@ -48,7 +48,7 @@ const CARDS = [
 		title: "CONTRATACIÓN DE AUXILIARES 2026",
 		description: "Publicaciones",
 		icon: FaFileAlt,
-		href: "/pages/ejemplo1",
+		href: "#",
 		bg: "bg-[#556B2F]",
 	},
 	{

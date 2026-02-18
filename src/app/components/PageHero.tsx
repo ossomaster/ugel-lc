@@ -25,3 +25,4 @@ export default function PageHero({ title, subtitle, image = DEFAULT_IMAGE, color
 		</section>
 	)
 }
+
