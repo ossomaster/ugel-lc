@@ -13,7 +13,6 @@ export default function BienvenidaPage() {
           <ul className="space-y-1">
             <li className="text-sm font-medium text-white-900 px-3 py-2 rounded-md bg-cyan-500">Bienvenida</li>
             <li className="text-sm font-medium text-gray-600 px-3 py-2 rounded-md hover:bg-gray-50">Organigrama</li>
-            <li className="text-sm font-medium text-gray-600 px-3 py-2 rounded-md hover:bg-gray-50">Directorio</li>
             <li className="text-sm font-medium text-gray-600 px-3 py-2 rounded-md hover:bg-gray-50">Jurisdicción</li>
             <li className="text-sm font-medium text-gray-600 px-3 py-2 rounded-md hover:bg-gray-50">Instituciones Educativas</li>
             <li className="text-sm font-medium text-gray-600 px-3 py-2 rounded-md hover:bg-gray-50">Visión Misión</li>
@@ -27,7 +26,7 @@ export default function BienvenidaPage() {
             <div className="relative mb-8 border border-gray-200 rounded-lg overflow-hidden aspect-video bg-gray-50">
               {/* Placeholder for photo + flag; in production, replace with actual image src */}
               <img 
-                src="/assets/images/fondo-cifras-ugellc.jpg" 
+                src="../assets/images/fondo-cifras-ugellc.jpg" 
                 alt="Director" 
                 className="w-full h-full object-cover"
               />
@@ -38,13 +37,13 @@ export default function BienvenidaPage() {
 
             {/* Content */}
             <p className="text-gray-700 leading-relaxed mb-4">
-              Es para mi un honor dirigirme a ustedes al inicio de este nuevo periodo como Director de nuestra institución. Asumo este reto con el firme compromiso de trabajar con transparencia, responsabilidad y vocación de servicio, siempre pensando en el bienestar de nuestros estudiantes y en el fortalecimiento de la educación en nuestra jurisdicción.
+              Es para mí un honor saludarlos al iniciar este camino como Director de nuestra UGEL. Asumo este compromiso con la convicción de que el servicio público solo tiene sentido si nace de la transparencia y el respeto profundo a nuestra identidad.
             </p>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Confío plenamente en la capacidad, experiencia y entrega de cada uno de ustedes. Juntos, conformamos un gran equipo humano que tiene en sus manos la tarea más noble: garantizar una educación de calidad, inclusiva y con equidad. Estoy convencida de que, con unidad y colaboración, lograremos superar los desafíos que se nos presenten y alcanzar los objetivos que nos trazamos.
+              Se reconoce y valora la capacidad y entrega del equipo humano que conforma esta entidad. El objetivo común es garantizar una educación de calidad, inclusiva y con equidad, que respete los saberes ancestrales y promueva el desarrollo integral en cada comunidad. A través del diálogo intercultural y la participación conjunta de todos los actores educativos, se asume el desafío de alcanzar las metas trazadas en beneficio de nuestra jurisdicción.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              Mi gestión estará orientada al diálogo, a la escucha activa y a la participación conjunta de todos los actores involucrados en el proceso educativo.
+              Rimaykullayki (Los saludo con respeto). Trabajemos en unidad para que la educación sea el motor de cambio en cada rincón de nuestra provincia.
             </p>
           </div>
         </main>

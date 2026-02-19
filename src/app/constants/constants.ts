@@ -216,3 +216,39 @@ export const EMPRESA = {
 		youtube: "https://www.youtube.com/@ugellaconvencion_oficial",
 	},
 }
+
+
+export interface IMenuItem {
+  id: string;
+  label: string;
+  href: string;
+  icon?: string; // Opcional, por si decides añadir iconos después
+}
+
+export const SIDEBAR_MENU: IMenuItem[] = [
+  {
+    id: "bienvenida",
+    label: "Bienvenida",
+    href: "/bienvenida",
+  },
+  {
+    id: "organigrama",
+    label: "Organigrama",
+    href: "/organigrama",
+  },
+  {
+    id: "jurisdiccion",
+    label: "Jurisdicción",
+    href: "/jurisdiccion",
+  },
+  {
+    id: "instituciones",
+    label: "Instituciones Educativas",
+    href: "/instituciones-educativas",
+  },
+  {
+    id: "vision-mision",
+    label: "Visión Misión",
+    href: "/vision-mision",
+  },
+];
