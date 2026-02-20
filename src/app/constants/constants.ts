@@ -218,37 +218,16 @@ export const EMPRESA = {
 }
 
 
-export interface IMenuItem {
-  id: string;
-  label: string;
-  href: string;
-  icon?: string; // Opcional, por si decides añadir iconos después
+export interface ISidebarItem {
+	id: string
+	label: string
+	href: string
 }
 
-export const SIDEBAR_MENU: IMenuItem[] = [
-  {
-    id: "bienvenida",
-    label: "Bienvenida",
-    href: "/bienvenida",
-  },
-  {
-    id: "organigrama",
-    label: "Organigrama",
-    href: "/organigrama",
-  },
-  {
-    id: "jurisdiccion",
-    label: "Jurisdicción",
-    href: "/jurisdiccion",
-  },
-  {
-    id: "instituciones",
-    label: "Instituciones Educativas",
-    href: "/instituciones-educativas",
-  },
-  {
-    id: "vision-mision",
-    label: "Visión Misión",
-    href: "/vision-mision",
-  },
-];
+export const SIDEBAR_INSTITUCIONAL: ISidebarItem[] = [
+	{ id: "bienvenida", label: "Bienvenida", href: "/pages/bienvenida" },
+	{ id: "organigrama", label: "Organigrama", href: "/pages/organigrama" },
+	{ id: "jurisdiccion", label: "Jurisdicción", href: "/pages/jurisdiccion" },
+	{ id: "instituciones-educativas", label: "Instituciones Educativas", href: "/pages/instituciones-educativas" },
+	{ id: "vision-mision", label: "Visión y Misión", href: "/pages/vision-mision" },
+]

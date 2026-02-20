@@ -4,7 +4,7 @@ import { useState, useMemo } from "react"
 import { FaFilePdf, FaCalendarAlt, FaTag, FaSearch, FaFilter, FaFire, FaChevronLeft, FaChevronRight } from "react-icons/fa"
 import { DOCUMENTOS_NORMATIVOS, type TDocumentoNormativo } from "./constants"
 
-const ITEMS_PER_PAGE = 5;
+const ITEMS_PER_PAGE = 5
 
 // Componente para la lista principal (Estilo MINEDU)
 const CardDocumento = ({ doc }: { doc: TDocumentoNormativo }) => (
@@ -23,14 +23,17 @@ const CardDocumento = ({ doc }: { doc: TDocumentoNormativo }) => (
 					<FaTag className="text-gray-300" /> {doc.tipo}
 				</span>
 			</div>
-			<h3 className="text-md font-bold text-blue-900 leading-snug group-hover:text-blue-700 transition-colors line-clamp-2">
-				{doc.nombre}
-			</h3>
+			<h3 className="text-md font-bold text-blue-900 leading-snug group-hover:text-blue-700 transition-colors line-clamp-2">{doc.nombre}</h3>
 			<p className="text-xs text-gray-500 flex items-center gap-1">
 				<FaCalendarAlt /> Publicado el: {doc.fecha}
 			</p>
 			<div className="pt-2">
-				<a href={doc.archivoUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-3 py-1.5 bg-red-600 text-white rounded text-xs font-bold hover:bg-red-700 transition-all">
+				<a
+					href={doc.archivoUrl}
+					target="_blank"
+					rel="noopener noreferrer"
+					className="inline-flex items-center gap-2 px-3 py-1.5 bg-red-600 text-white rounded text-xs font-bold hover:bg-red-700 transition-all"
+				>
 					<FaFilePdf /> DESCARGAR PDF
 				</a>
 			</div>
@@ -44,9 +47,7 @@ const SidebarCard = ({ doc }: { doc: TDocumentoNormativo }) => (
 			<FaFilePdf className="text-red-400 text-xl" />
 		</div>
 		<div className="space-y-1">
-			<h4 className="text-[13px] font-semibold text-gray-800 leading-tight group-hover:text-blue-600 transition-colors line-clamp-2">
-				{doc.nombre}
-			</h4>
+			<h4 className="text-[13px] font-semibold text-gray-800 leading-tight group-hover:text-blue-600 transition-colors line-clamp-2">{doc.nombre}</h4>
 			<span className="text-[10px] text-gray-400 block">{doc.fecha}</span>
 		</div>
 	</a>
@@ -76,7 +77,7 @@ const TablaDocumentos = () => {
 
 	const handlePageChange = (page: number) => {
 		setCurrentPage(page)
-		window.scrollTo({ top: 0, behavior: 'smooth' })
+		window.scrollTo({ top: 0, behavior: "smooth" })
 	}
 
 	return (
@@ -91,7 +92,10 @@ const TablaDocumentos = () => {
 							placeholder="Palabra clave o número..."
 							className="w-full pl-10 pr-4 py-2 rounded-lg border border-gray-200 focus:ring-2 focus:ring-blue-500 outline-none text-sm"
 							value={busqueda}
-							onChange={(e) => { setBusqueda(e.target.value); setCurrentPage(1); }}
+							onChange={(e) => {
+								setBusqueda(e.target.value)
+								setCurrentPage(1)
+							}}
 						/>
 					</div>
 					<div className="relative">
@@ -99,10 +103,17 @@ const TablaDocumentos = () => {
 						<select
 							className="w-full pl-9 pr-4 py-2 rounded-lg border border-gray-200 focus:ring-2 focus:ring-blue-500 outline-none bg-white text-sm appearance-none"
 							value={categoria}
-							onChange={(e) => { setCategoria(e.target.value); setCurrentPage(1); }}
+							onChange={(e) => {
+								setCategoria(e.target.value)
+								setCurrentPage(1)
+							}}
 						>
 							<option value="">Todas las categorías</option>
-							{categorias.map((cat) => (<option key={cat} value={cat}>{cat}</option>))}
+							{categorias.map((cat) => (
+								<option key={cat} value={cat}>
+									{cat}
+								</option>
+							))}
 						</select>
 					</div>
 				</div>
@@ -116,33 +127,31 @@ const TablaDocumentos = () => {
 							<div className="p-10 text-center text-gray-400 italic">No se encontraron resultados.</div>
 						)}
 					</div>
-					
+
 					{/* Controles de Paginación */}
 					{totalPages > 1 && (
 						<div className="p-4 bg-slate-50 border-t border-gray-100 flex items-center justify-center gap-2">
-							<button 
+							<button
 								onClick={() => handlePageChange(currentPage - 1)}
 								disabled={currentPage === 1}
 								className="p-2 rounded hover:bg-white border border-transparent hover:border-gray-200 disabled:opacity-30 transition-all"
 							>
 								<FaChevronLeft className="text-xs" />
 							</button>
-							
+
 							{Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
 								<button
 									key={page}
 									onClick={() => handlePageChange(page)}
 									className={`px-3 py-1 rounded text-sm font-bold transition-all ${
-										currentPage === page 
-										? "bg-blue-900 text-white" 
-										: "hover:bg-white border border-transparent hover:border-gray-200 text-gray-600"
+										currentPage === page ? "bg-blue-900 text-white" : "hover:bg-white border border-transparent hover:border-gray-200 text-gray-600"
 									}`}
 								>
 									{page}
 								</button>
 							))}
 
-							<button 
+							<button
 								onClick={() => handlePageChange(currentPage + 1)}
 								disabled={currentPage === totalPages}
 								className="p-2 rounded hover:bg-white border border-transparent hover:border-gray-200 disabled:opacity-30 transition-all"
