@@ -75,7 +75,7 @@ const NOTICIAS: Noticia[] = [
 const ENLACES_INTERES: EnlaceInteres[] = [
 	{
 		imagen: "/assets/images/enlaces/enlace-siamep.png",
-		href: "#",
+		href: "https://siamep.ugellaconvencion.gob.pe/",
 		alt: "SIAMEP",
 	},
 	{
@@ -85,17 +85,17 @@ const ENLACES_INTERES: EnlaceInteres[] = [
 	},
 	{
 		imagen: "/assets/images/enlaces/enlace-ayni.png",
-		href: "#",
+		href: "https://servicios-ayni.minedu.gob.pe/",
 		alt: "ayni",
 	},
 	{
 		imagen: "/assets/images/enlaces/enlace-mimantenimiento.png",
-		href: "#",
+		href: "https://mimantenimiento.pronied.gob.pe/sismantex/#/login",
 		alt: "mi-mantenimiento",
 	},
 	{
 		imagen: "/assets/images/enlaces/enlace-reclamaciones-digital.png",
-		href: "#",
+		href: "https://ugellaconvencion.gob.pe/reclamaciones/",
 		alt: "reclamaciones-digital",
 	},
 ]

@@ -41,7 +41,7 @@ const CARDS = [
 		title: "CONTRATACIÓN DOCENTE 2026",
 		description: "Publicaciones",
 		icon: FaBullhorn,
-		href: "#",
+		href: "/pages/2026/contratacion-docente",
 		bg: "bg-[#FF8C00]",
 	},
 	{

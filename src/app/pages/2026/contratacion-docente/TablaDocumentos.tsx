@@ -15,7 +15,7 @@ const columns: TableColumn<TDocumentoNormativo>[] = [
 		name: "N.°",
 		selector: (row) => row.numero,
 		sortable: true,
-		width: "130px",
+		width: "85px", // Ajustado para ahorrar espacio
 	},
 	{
 		id: "nombre",
@@ -25,11 +25,11 @@ const columns: TableColumn<TDocumentoNormativo>[] = [
 		grow: 3,
 		wrap: true,
 		cell: (row) => (
-			<div className="flex items-center gap-2 py-1">
-				<span>{row.nombre}</span>
+			<div className="flex items-center gap-2 py-2">
+				<span className="text-sm leading-tight text-slate-700">{row.nombre}</span>
 				{row.badge && (
 					<span
-						className="inline-flex items-center shrink-0 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide rounded-full"
+						className="inline-flex items-center shrink-0 px-2 py-0.5 text-[10px] font-normal uppercase tracking-wider rounded-md"
 						style={{ backgroundColor: `${row.badge.color}15`, color: row.badge.color }}
 					>
 						{row.badge.label}
@@ -43,33 +43,49 @@ const columns: TableColumn<TDocumentoNormativo>[] = [
 		name: "Tipo",
 		selector: (row) => row.tipo,
 		sortable: true,
-		grow: 1,
+		width: "140px",
 	},
 	{
 		id: "fecha",
 		name: "Fecha",
 		selector: (row) => row.fecha,
 		sortable: true,
-		width: "130px",
+		width: "110px",
 	},
 	{
-		id: "archivo",
-		name: "Descargar",
-		width: "130px",
-		style: { justifyContent: "center" },
-		cell: (row) => (
-			<a
-				href={row.archivoUrl}
-				target="_blank"
-				rel="noopener noreferrer"
-				className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-red-50 text-red-600 hover:bg-red-100 transition-colors text-sm font-medium"
-				title="Descargar PDF"
-			>
-				<FaFilePdf className="text-sm" />
-				PDF
-			</a>
-		),
-	},
+    id: "archivo",
+    name: "Documentos",
+    width: "220px", 
+    cell: (row) => {
+        const renderButton = (url: string, label: string = "VER PDF") => (
+            <a
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                key={url}
+                className="group inline-flex items-center gap-1.5 px-2 py-1 rounded border border-slate-200 bg-white hover:bg-slate-50 hover:border-slate-300 transition-all duration-200 shadow-sm"
+                title={`Descargar ${label}`}
+            >
+                {/* Ícono en rojo para mantener la identidad del formato PDF */}
+                <FaFilePdf className="text-red-600 text-[12px] group-hover:scale-110 transition-transform" />
+                
+                {/* Texto en color negro (slate-900) */}
+                <span className="text-[10px] font-normal uppercase whitespace-nowrap text-slate-700">
+                    {label}
+                </span>
+            </a>
+        )
+
+        return (
+            <div className="flex flex-wrap gap-2 py-3 justify-left">
+                {Array.isArray(row.archivoUrl) 
+                    ? row.archivoUrl.map((doc) => renderButton(doc.url, doc.label))
+                    : renderButton(row.archivoUrl as string)
+                }
+            </div>
+        )
+    },
+},
 ]
 
 const TablaDocumentos = () => {

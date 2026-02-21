@@ -20,7 +20,7 @@ export default function Home() {
 			<SeccionCifras />
 			<SeccionCursos />
 			<SeccionTransmisiones />
-			<SeccionDisenosCurriculares />
+			{/* <SeccionDisenosCurriculares /> */}
 			{/* <SeccionDominiosPerfil /> */}
 			<SeccionBuenasPracticas />
 		</MainLayout>
