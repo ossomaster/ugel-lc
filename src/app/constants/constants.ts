@@ -141,7 +141,6 @@ export const TOP_DROPDOWNS: TTopDropdown[] = [
 		items: [
 			{ label: "Bienvenida", href: "pages/bienvenida" },
 			{ label: "Organigrama", href: "pages/organigrama" },
-			{ label: "Directorio", href: "pages/directorio" },
 			{ label: "Jurisdicción", href: "pages/jurisdiccion" },
 			{ label: "Instituciones Educativas", href: "pages/instituciones-educativas" },
 			{ label: "Visión Misión", href: "pages/mision/visión" },

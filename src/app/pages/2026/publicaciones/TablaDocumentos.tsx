@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useMemo } from "react"
-import { FaFilePdf, FaCalendarAlt, FaTag, FaSearch, FaFilter, FaFire, FaChevronLeft, FaChevronRight } from "react-icons/fa"
+import { FaFilePdf, FaCalendarAlt, FaTag, FaSearch, FaFilter, FaFire, FaChevronLeft, FaChevronRight, FaHourglassEnd } from "react-icons/fa"
 import { DOCUMENTOS_NORMATIVOS, type TDocumentoNormativo } from "./constants"
 
 const ITEMS_PER_PAGE = 5;
@@ -158,7 +158,7 @@ const TablaDocumentos = () => {
 			<aside className="space-y-6">
 				<div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
 					<div className="bg-blue-900 px-4 py-3 flex items-center gap-2">
-						<FaFire className="text-orange-400" />
+						<FaHourglassEnd className="text-orange-400" />
 						<h2 className="text-white font-bold text-sm uppercase tracking-wider">Recientes</h2>
 					</div>
 					<div className="p-4 flex flex-col gap-4">

@@ -2,11 +2,12 @@ import { EMPRESA } from "../../constants/constants"
 import InstitucionalLayout from "../InstitucionalLayout"
 
 const NIVELES = [
-	{ nivel: "Inicial", iiee: 487, docentes: 620, estudiantes: 12450 },
-	{ nivel: "Primaria", iiee: 612, docentes: 1540, estudiantes: 28300 },
-	{ nivel: "Secundaria", iiee: 198, docentes: 1280, estudiantes: 19800 },
-	{ nivel: "CEBA", iiee: 12, docentes: 85, estudiantes: 1200 },
-	{ nivel: "CETPRO", iiee: 8, docentes: 45, estudiantes: 680 },
+	{ nivel: "Inicial", iiee: 313, docentes: 399, estudiantes: 6092 },
+	{ nivel: "Primaria", iiee: 311, docentes: 1155, estudiantes: 14750 },
+	{ nivel: "Secundaria", iiee: 91, docentes: 1149, estudiantes: 11282 },
+	{ nivel: "CEBA", iiee: 13, docentes: 64, estudiantes: 1025 },
+	{ nivel: "EBE", iiee: 3, docentes: 14, estudiantes: 104 },
+	{ nivel: "CETPRO", iiee: 18, docentes: 37, estudiantes: 527 },
 ]
 
 export default function InstitucionesEducativasPage() {
@@ -15,7 +16,7 @@ export default function InstitucionesEducativasPage() {
 			<div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 md:p-8">
 				<h2 className="text-xl font-heading font-semibold text-gray-900 mb-4">Instituciones Educativas</h2>
 				<p className="text-gray-600 mb-6">
-					Relación de instituciones educativas por nivel y modalidad en la jurisdicción de La Convención.
+					Relación de instituciones educativas por nivel y modalidad en la jurisdicción de La UGEL La Convención.
 				</p>
 
 				<div className="overflow-x-auto">

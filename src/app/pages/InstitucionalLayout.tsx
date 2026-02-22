@@ -1,5 +1,5 @@
 import MainLayout from "../components/MainLayout"
-import PageHero from "../components/PageHero"
+import PageHero from "../components/PageHeroOrganigrama"
 import SidebarInstitucional from "../components/SidebarInstitucional"
 
 interface Props {

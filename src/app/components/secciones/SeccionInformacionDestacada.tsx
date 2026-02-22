@@ -3,8 +3,8 @@ import { FaBullhorn, FaFileAlt, FaChalkboardTeacher, FaChartBar, FaUsers } from 
 
 const CARDS = [
 	{
-		title: "NOTICIAS",
-		description: "Noticias de interés",
+		title: "ENCARGATURAS 2026",
+		description: "Publicaciones de Encargaturas",
 		icon: FaBullhorn,
 		href: "/pages/2026/noticias",
 		bg: "bg-[#c8102e]",
@@ -20,7 +20,7 @@ const CARDS = [
 		title: "CONVOCATORIAS",
 		description: "Publicaciones de RR.HH",
 		icon: FaUsers,
-		href: "#",
+		href: "/pages/en-construccion/",
 		bg: "bg-[#1a3a6b]",
 	},
 	{
