@@ -3,17 +3,21 @@ export type TDocumentoNormativo = {
 	nombre: string
 	tipo: string
 	fecha: string
+	descripcion?: string
 	archivoUrl: string
+	thumbnailUrl?: string
 	badge?: { label: string; color: string }
 }
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
 		numero: "001-2026",
-		nombre: "Resolución Viceministerial N.° 001-2026-MINEDU",
-		tipo: "Resolución Viceministerial",
-		fecha: "2026-01-05",
-		archivoUrl: "/assets/documentos/rv-001-2026.pdf",
+		nombre: "Memorandum Múltiple N.° 008-2026-GORE-C-DRE-C-DUGE-LC-SEC",
+		tipo: "Oficio Múltiple",
+		fecha: "2026-02-11",
+		descripcion: "Se convoca a los directivos de los niveles Inicial, Primaria y Secundaria a participar en la Jornada de Reflexión y Asistencia Tecnica Presencial organizado por la UGEL La Convención, evento a realizarse los días 23,24 y 25 de febrero según cronograma adjunto al presente documento.",
+		archivoUrl: "/assets/files/2026/rv-001-2026.pdf",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
 		badge: { label: "Nuevo", color: "#10b981" },
 	},
 	{
@@ -21,6 +25,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		nombre: "Oficio Múltiple N.° 002-2026-MINEDU/VMGP-DIGEDD",
 		tipo: "Oficio Múltiple",
 		fecha: "2026-01-12",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
 		archivoUrl: "/assets/documentos/om-002-2026.pdf",
 		badge: { label: "Nuevo", color: "#10b981" },
 	},
@@ -29,6 +34,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		nombre: "Decreto Supremo N.° 003-2026-MINEDU",
 		tipo: "Decreto Supremo",
 		fecha: "2026-01-18",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
 		archivoUrl: "/assets/documentos/ds-003-2026.pdf",
 	},
 	{
@@ -36,6 +42,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		nombre: "Resolución Ministerial N.° 004-2026-MINEDU",
 		tipo: "Resolución Ministerial",
 		fecha: "2026-01-25",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
 		archivoUrl: "/assets/documentos/rm-004-2026.pdf",
 	},
 	{
@@ -43,6 +50,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		nombre: "Directiva N.° 005-2026-MINEDU/VMGP",
 		tipo: "Directiva",
 		fecha: "2026-02-01",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
 		archivoUrl: "/assets/documentos/dir-005-2026.pdf",
 		badge: { label: "Nuevo", color: "#10b981" },
 	},
@@ -51,6 +59,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		nombre: "Resolución Viceministerial N.° 168-2025-MINEDU",
 		tipo: "Resolución Viceministerial",
 		fecha: "2025-12-31",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
 		archivoUrl: "/assets/documentos/rv-168-2025.pdf",
 		badge: { label: "Actualizado", color: "#3b82f6" },
 	},
@@ -59,6 +68,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		nombre: "Resolución Viceministerial N.° 100-2025-MINEDU",
 		tipo: "Resolución Viceministerial",
 		fecha: "2025-10-07",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
 		archivoUrl: "/assets/documentos/rv-100-2025.pdf",
 		badge: { label: "Reciente", color: "#f59e0b" },
 	},
@@ -67,6 +77,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		nombre: "Decreto Supremo N.° 015-2025-MINEDU",
 		tipo: "Decreto Supremo",
 		fecha: "2025-09-15",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
 		archivoUrl: "/assets/documentos/ds-015-2025.pdf",
 	},
 	{
@@ -74,6 +85,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		nombre: "Resolución Ministerial N.° 245-2025-MINEDU",
 		tipo: "Resolución Ministerial",
 		fecha: "2025-08-20",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
 		archivoUrl: "/assets/documentos/rm-245-2025.pdf",
 	},
 	{
@@ -81,6 +93,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		nombre: "Oficio Múltiple N.° 045-2025-MINEDU/VMGP-DIGEDD",
 		tipo: "Oficio Múltiple",
 		fecha: "2025-07-14",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
 		archivoUrl: "/assets/documentos/om-045-2025.pdf",
 	},
 	{
@@ -88,6 +101,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		nombre: "Resolución Jefatural N.° 032-2025-MINEDU",
 		tipo: "Resolución Jefatural",
 		fecha: "2025-06-10",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
 		archivoUrl: "/assets/documentos/rj-032-2025.pdf",
 	},
 	{
@@ -95,6 +109,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		nombre: "Resolución Directoral N.° 078-2025-MINEDU",
 		tipo: "Resolución Directoral",
 		fecha: "2025-05-22",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
 		archivoUrl: "/assets/documentos/rd-078-2025.pdf",
 	},
 	{
@@ -102,6 +117,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		nombre: "Directiva N.° 012-2025-MINEDU/VMGP",
 		tipo: "Directiva",
 		fecha: "2025-04-30",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
 		archivoUrl: "/assets/documentos/dir-012-2025.pdf",
 	},
 	{
@@ -109,6 +125,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		nombre: "Ley N.° 31935 - Ley de Fortalecimiento de la Formación Docente",
 		tipo: "Ley",
 		fecha: "2025-03-15",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
 		archivoUrl: "/assets/documentos/ley-31935-2025.pdf",
 	},
 	{
@@ -116,6 +133,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		nombre: "Resolución Viceministerial N.° 055-2025-MINEDU",
 		tipo: "Resolución Viceministerial",
 		fecha: "2025-02-28",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
 		archivoUrl: "/assets/documentos/rv-055-2025.pdf",
 	},
 ]

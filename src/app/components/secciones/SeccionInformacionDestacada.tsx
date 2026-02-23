@@ -6,7 +6,7 @@ const CARDS = [
 		title: "ENCARGATURAS 2026",
 		description: "Publicaciones de Encargaturas",
 		icon: FaBullhorn,
-		href: "/pages/2026/noticias",
+		href: "/pages/en-construccion",
 		bg: "bg-[#c8102e]",
 	},
 	{
@@ -27,7 +27,7 @@ const CARDS = [
 		title: "ATENCIÓN AL CIUDADANO",
 		//description: "",
 		icon: FaChartBar,
-		href: "#",
+		href: "/pages/atencion-ciudadano/",
 		bg: "bg-[#e8912d]",
 	},
 	{

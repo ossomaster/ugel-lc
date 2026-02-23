@@ -8,34 +8,73 @@ const ITEMS_PER_PAGE = 5;
 
 // Componente para la lista principal (Estilo MINEDU)
 const CardDocumento = ({ doc }: { doc: TDocumentoNormativo }) => (
-	<div className="flex flex-col sm:flex-row gap-4 p-5 bg-white border-b border-gray-100 hover:bg-slate-50 transition-colors group">
-		<div className="shrink-0 flex items-center justify-center w-full sm:w-28 h-36 bg-red-50 border border-red-100 rounded shadow-sm group-hover:shadow-md transition-shadow">
-			<FaFilePdf className="text-4xl text-red-500" />
-		</div>
-		<div className="flex-grow space-y-2">
-			<div className="flex flex-wrap gap-2 items-center">
-				{doc.badge && (
-					<span className="px-2 py-0.5 text-[10px] font-bold uppercase rounded-md" style={{ backgroundColor: `${doc.badge.color}15`, color: doc.badge.color }}>
-						{doc.badge.label}
-					</span>
-				)}
-				<span className="text-[11px] font-medium text-gray-500 flex items-center gap-1">
-					<FaTag className="text-gray-300" /> {doc.tipo}
-				</span>
-			</div>
-			<h3 className="text-md font-bold text-blue-900 leading-snug group-hover:text-blue-700 transition-colors line-clamp-2">
-				{doc.nombre}
-			</h3>
-			<p className="text-xs text-gray-500 flex items-center gap-1">
-				<FaCalendarAlt /> Publicado el: {doc.fecha}
-			</p>
-			<div className="pt-2">
-				<a href={doc.archivoUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-3 py-1.5 bg-red-600 text-white rounded text-xs font-bold hover:bg-red-700 transition-all">
-					<FaFilePdf /> DESCARGAR PDF
-				</a>
-			</div>
-		</div>
-	</div>
+  <div
+    className="
+      flex flex-col sm:flex-row gap-4 p-5
+      border-b border-gray-200
+      hover:bg-black/5 transition-all duration-200 group
+      bg-cover bg-center bg-no-repeat relative overflow-hidden
+      shadow-sm hover:shadow-md
+    "
+  >
+    {/* Capa de overlay para mejorar legibilidad */}
+    <div className="absolute inset-0 bg-gradient-to-br from-white/92 via-white/88 to-white/80 pointer-events-none" />
+
+    <div className="shrink-0 flex items-center justify-center w-full sm:w-28 h-36 bg-white/90 backdrop-blur-[1px] border border-gray-300 rounded shadow group-hover:shadow-md transition-all z-10">
+      {doc.thumbnailUrl ? (
+        <img
+          src={doc.thumbnailUrl}
+          alt={`Portada ${doc.numero}`}
+          className="w-full h-full object-cover rounded"
+          loading="lazy"
+        />
+      ) : (
+        <FaFilePdf className="text-5xl text-red-600 opacity-90" />
+      )}
+    </div>
+
+    <div className="flex-grow space-y-2.5 z-10">
+      <div className="flex flex-wrap gap-2 items-center">
+        {doc.badge && (
+          <span
+            className="px-2.5 py-1 text-[10px] font-bold uppercase rounded-full shadow-sm"
+            style={{ backgroundColor: `${doc.badge.color}20`, color: doc.badge.color }}
+          >
+            {doc.badge.label}
+          </span>
+        )}
+        <span className="text-xs font-medium text-gray-600 flex items-center gap-1.5">
+          <FaTag className="text-gray-400" /> {doc.tipo}
+        </span>
+      </div>
+
+      <h3 className="text-base font-semibold text-blue-950 leading-tight group-hover:text-blue-800 transition-colors line-clamp-2">
+        {doc.nombre}
+      </h3>
+	
+	  <p className="text-xs text-gray-600 flex items-center gap-1.5 tex-align left">
+        <FaCalendarAlt className="text-gray-500" /> Publicado el: {doc.fecha}
+      </p>
+
+	  {doc.descripcion && (
+      <p className="text-sm text-gray-700 text-justify leading-relaxed line-clamp-3 before:content-['•'] before:mr-1.5 before:text-gray-400">
+        {doc.descripcion}
+      </p>
+      )}
+    
+
+      <div className="pt-3">
+        <a
+          href={doc.archivoUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded-md text-sm font-semibold transition-all shadow-sm hover:shadow"
+        >
+          <FaFilePdf /> DESCARGAR PDF
+        </a>
+      </div>
+    </div>
+  </div>
 )
 
 const SidebarCard = ({ doc }: { doc: TDocumentoNormativo }) => (
@@ -157,7 +196,7 @@ const TablaDocumentos = () => {
 			{/* Sidebar */}
 			<aside className="space-y-6">
 				<div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
-					<div className="bg-blue-900 px-4 py-3 flex items-center gap-2">
+					<div className="bg-red-600 opacity-90 px-4 py-3 flex items-center gap-2">
 						<FaHourglassEnd className="text-orange-400" />
 						<h2 className="text-white font-bold text-sm uppercase tracking-wider">Recientes</h2>
 					</div>
