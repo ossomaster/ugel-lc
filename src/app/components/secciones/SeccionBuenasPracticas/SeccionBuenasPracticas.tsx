@@ -17,12 +17,12 @@ const BUENAS_PRACTICAS: BuenaPractica[] = [
 	{
 		institucion: "Escudos contra la Violencia",
 		ubicacion: "Provincia de la Convención",
-		youtubeId: "6m88EGkMpe4",
+		youtubeId: "ZAIt4E1yEMk",
 	},
 	{
 		institucion: "Rutas Inclusivas para un Aprendizaje sin Barreras",
 		ubicacion: "Provincia de la Convención",
-		youtubeId: "sjq-RuHK150",
+		youtubeId: "Av26RmD-RQo",
 	},
 ]
 

@@ -11,28 +11,23 @@ type Curso = {
 const CURSOS: Curso[] = [
 	{
 		imagen: "/assets/images/capacitaciones/capacitacion-1.jpg",
-		nombre: "ATA - Orientaciones para el cierre de la estrategia Refuerzo Escolar 2025",
+		nombre: "Precisiones para el correcto registro de la ficha de acciones en el Sistema MI MANTENIMIENTO 2026",
 		estado: "Realizado",
 		href: "https://www.facebook.com/photo.php?fbid=849380154480090&type=3",
 	},
 	{
-		imagen: "/assets/images/noticias/noticia-2.jpg",
-		nombre: "Curso Lengua de Señas peruana (Nivel básico)",
-		estado: "Cerrado",
-		href: "#",
+		imagen: "/assets/images/capacitaciones/capacitacion-3.jpg",
+		nombre: "Jornada de Reflexión y Asistencia Tecnica a Directivos 2026",
+		estado: "Realizado",
+		href: "https://www.ugellaconvencion.gob.pe/lc/doc_2026/MM-N008-2026-GORE-C-DRE-C-DUGE-LC-SEC-F-11022026.pdf",
 	},
 	{
-		imagen: "/assets/images/noticias/noticia-3.jpg",
-		nombre: "Curso Academia de profesores Microsoft 365",
-		estado: "Cerrado",
-		href: "#",
+		imagen: "/assets/images/capacitaciones/capacitacion-2.jpg",
+		nombre: "Talleres Virtuales sobre Investigación e Innovación 2026",
+		estado: "Realizado",
+		href: "https://www.ugellaconvencion.gob.pe/lc/doc_2026/MM-N007-2026-GORE-C-DRE-C-DUGE-LC-SEC-F-11022026.pdf",
 	},
-	{
-		imagen: "/assets/images/noticias/noticia-4.jpg",
-		nombre: "Curso de Entornos de aprendizaje para la semipresencialidad en la FID",
-		estado: "Cerrado",
-		href: "#",
-	},
+	
 ]
 
 function CursoCard({ curso }: { curso: Curso }) {

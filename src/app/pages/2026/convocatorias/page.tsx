@@ -1,34 +1,41 @@
-import { EMPRESA } from "../../constants/constants"
-import InstitucionalLayout from "../InstitucionalLayout"
+import { EMPRESA } from "../../../constants/constants"
+import InstitucionalLayout from "../../InstitucionalLayout"
 
 // Puedes mover estos datos a constants.ts si prefieres centralizarlos
 const accesosDirectos = [
   {
-    title: "Mesa de partes virtual",
-    icon: "📄",
-    description: "Presenta documentos de forma virtual",
-    href: "/assets/images/tramite-documentario.png",
+    title: "D.L 276",
+    icon: "💼",
+    description: "Contratación de Personal N°276 - 2026",
+    href: "pages/2026/contratacion-276",
     color: "text-emerald-600",
   },
   {
-    title: "Seguimiento de Trámite Documentario",
-    icon: "🔍",
-    description: "",
+    title: "D.L 1057",
+    icon: "🤝",
+    description: "Contratación de Personal CAS - 2026",
     href: "https://seguimiento.ugellaconvencion.gob.pe/",
     color: "text-amber-600",
   },
   {
-    title: "Libro de reclamaciones DIGITAL",
-    icon: "📘",
-    description: "Registra tu reclamo de forma digital",
-    href: "https://ugellaconvencion.gob.pe/reclamaciones/",
+    title: "Contratación Docente",
+    icon: "👨🏻‍🏫",
+    description: "Contratación del Servicio Docente 2026",
+    href: "pages/2026/contratacion-docente",
     color: "text-purple-600",
   },
   {
-    title: "FUT",
-    icon: "📋",
-    description: "Descarga de FUT (PDF)",
-    href: "/assets/files/atencion-ciudadano/FUT-UGEL-LA-CONVENCION.pdf",
+    title: "Contratación de Auxiliares",
+    icon: "👩🏻‍🏫",
+    description: "Contratación de Auxiliares de Educación 2026",
+    href: "../../pages/en-construccion",
+    color: "text-rose-600",
+  },
+  {
+    title: "Encargatura 2026",
+    icon: "👨🏻‍💼",
+    description: "Proceso de Encargaturas 2026",
+    href: "../../pages/en-construccion",
     color: "text-rose-600",
   },
   /* {
@@ -43,18 +50,18 @@ const accesosDirectos = [
 export default function ServiciosDigitalesPage() {
   return (
     <InstitucionalLayout
-      title="Servicios Digitales"
-      subtitle={`Atención al ciudadano - ${EMPRESA.nombre}`}
+      title="Convocatorias"
+      subtitle={`Listado de Convocatorias de Personal - ${EMPRESA.nombre}`}
     >
       <div className="bg-gray-50/50 py-12 md:py-16">
         <div className="container mx-auto px-5 md:px-8 max-w-6xl">
           {/* Introducción breve */}
           <div className="text-center mb-12 max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-4">
-              Accesos Directos a Servicios Digitales
+              Accesos Directos a Convocatorias RR.HH
             </h2>
             <p className="text-lg text-gray-600">
-              Realiza tus trámites de manera rápida, segura y sin filas desde cualquier lugar.
+              Listado de Procesos, Convocatorias de Personal UGEL La Convención
             </p>
           </div>
 

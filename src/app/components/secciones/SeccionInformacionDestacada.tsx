@@ -20,7 +20,7 @@ const CARDS = [
 		title: "CONVOCATORIAS",
 		description: "Publicaciones de RR.HH",
 		icon: FaUsers,
-		href: "/pages/en-construccion/",
+		href: "/pages/2026/convocatorias",
 		bg: "bg-[#1a3a6b]",
 	},
 	{
@@ -34,7 +34,7 @@ const CARDS = [
 		title: "ABASTECIMIENTOS",
 		description: "Noticias de interés",
 		icon: FaBullhorn,
-		href: "#",
+		href: "/pages/2026/abastecimientos",
 		bg: "bg-[#1a3a6b]",
 	},
 	{

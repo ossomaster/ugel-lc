@@ -13,21 +13,35 @@ const DataTable = dynamic(() => import("../../../commons/components/DataTable"),
 const columns: TableColumn<TDocumentoNormativo>[] = [
 	{
 		id: "numero",
-		name: "N.°",
+		name: "#",
 		selector: (row) => row.numero,
 		sortable: true,
 		width: "130px",
 	},
 	{
-		id: "convocatoria",
+		id: "numcotizacion",
+		name: "N° Cotización",
+		selector: (row) => row.numcotizacion,
+		sortable: true,
+		width: "150px",
+	},
+	{
+		id: "tipo",
+		name: "tipo",
+		selector: (row) => row.tipo,
+		sortable: true,
+		width: "130px",
+	},
+	{
+		id: "descripcion",
 		name: "convocatoria",
-		selector: (row) => row.convocatoria,
+		selector: (row) => row.descripcion,
 		sortable: true,
 		grow: 3,
 		wrap: true,
 		cell: (row) => (
 			<div className="flex items-center gap-2 py-1">
-				<span>{row.convocatoria}</span>
+				<span>{row.descripcion}</span>
 				{row.badge && (
 					<span
 						className="inline-flex items-center shrink-0 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide rounded-full"
@@ -44,9 +58,9 @@ const columns: TableColumn<TDocumentoNormativo>[] = [
 	},
 
 	{
-		id: "bases",
-		name: "bases",
-		width: "110px",
+		id: "archivo",
+		name: "COTIZACIÓN",
+		width: "140px",
 		style: { justifyContent: "center" },
 		cell: (row) => (
 			<a
@@ -54,85 +68,14 @@ const columns: TableColumn<TDocumentoNormativo>[] = [
 				target="_blank"
 				rel="noopener noreferrer"
 				className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-red-50 text-red-600 hover:bg-red-100 transition-colors text-sm font-medium"
-				title="PRELIMINAR"
+				title="COTIZACION"
 			>
 				<FaFilePdf className="text-sm" />
 				PDF
 			</a>
 		),
 	},
-	{
-		id: "preliminar",
-		name: "preliminar",
-		width: "110px",
-		style: { justifyContent: "center" },
-		cell: (row) => (
-			<a
-				href={row.archivoUrl}
-				target="_blank"
-				rel="noopener noreferrer"
-				className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-red-50 text-red-600 hover:bg-red-100 transition-colors text-sm font-medium"
-				title="PRELIMINAR"
-			>
-				<FaFilePdf className="text-sm" />
-				PDF
-			</a>
-		),
-	},
-	{
-		id: "aptos-entrevista",
-		name: "aptos-entrevista",
-		width: "110px",
-		style: { justifyContent: "center" },
-		cell: (row) => (
-			<a
-				href={row.archivoUrl}
-				target="_blank"
-				rel="noopener noreferrer"
-				className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-red-50 text-red-600 hover:bg-red-100 transition-colors text-sm font-medium"
-				title="APTOS ENTREVISTA"
-			>
-				<FaFilePdf className="text-sm" />
-				PDF
-			</a>
-		),
-	},
-	{
-		id: "resultado-final",
-		name: "resultado-final",
-		width: "150px",
-		style: { justifyContent: "center" },
-		cell: (row) => (
-			<a
-				href={row.archivoUrl}
-				target="_blank"
-				rel="noopener noreferrer"
-				className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-red-50 text-red-600 hover:bg-red-100 transition-colors text-sm font-medium"
-				title="RESULTADO FINAL"
-			>
-				<FaFilePdf className="text-sm" />
-				PDF
-			</a>
-		),
-	},
-	{
-		id: "comunicados",
-		name: "comunicados",
-		width: "150px",
-		style: { justifyContent: "left" },
-		cell: (row) => (
-			<a
-				href={row.archivoUrl}
-				target="_blank"
-				rel="noopener noreferrer"
-				className="inline-flex items-left gap-1.5 px-3 py-1 rounded-full bg-red-50 text-red-600 hover:bg-red-100 transition-colors text-sm font-medium"
-				title="COMUNICADO"
-			>
-				<FaFilePdf className="text-sm" />
-				PDF
-			</a>
-		),
-	},
+	
 	{
 		id: "estado",
 		name: "estado",
@@ -140,11 +83,11 @@ const columns: TableColumn<TDocumentoNormativo>[] = [
 		style: { justifyContent: "left" },
 		cell: (row) => (
 			<a
-				href={row.archivoUrl}
+				href={row.estado}
 				target="_blank"
 				rel="noopener noreferrer"
-				className="inline-flex items-left gap-1.5 px-3 py-1 rounded-full bg-green-50 text-green-600 hover:bg-green-100 transition-colors text-sm font-medium"
-				title="ESTADO"
+				className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-green-50 text-green-600 hover:bg-green-100 transition-colors text-sm font-medium"
+				title={row.estado}
 			>
 				<FaSquareCheck className="text-sm" />
 				PUBLICADO

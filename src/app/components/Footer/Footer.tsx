@@ -51,7 +51,7 @@ export default function Footer() {
 						</ul>
 					</div>
 					<div>
-						<h3 className="font-heading font-bold text-xl mb-4">Secciones</h3>
+						<h3 className="font-heading font-bold text-xl mb-4">Enlaces de Interes</h3>
 						<ul className="space-y-4">
 							{NAV_MENU.map((item, index) => (
 								<li key={index}>

@@ -76,7 +76,7 @@ export default function SeccionTransmisiones() {
 						Streaming <FaPlayCircle className="text-white" />
 					</p>
 					<p className="seccion__subtitle italic mt-2">
-						Videoconferencias, Webinars, videos realizados por los especialistas de la UGEL-LC, sobre temas relacionados a la Formación Docente.
+						Videoconferencias, Webinars, videos realizados, sobre temas relacionados a la Formación Docente.
 					</p>
 					<div className="w-10 h-1 bg-white mt-4 rounded-full" />
 				</div>
