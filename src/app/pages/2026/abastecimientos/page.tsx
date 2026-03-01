@@ -26,22 +26,18 @@ export default function DocumentosNormativosPage() {
 
   return (
     <MainLayout>
-      <PageHero
-        title="Convocatorias / Abastecimientos"
-        subtitle="Listado de publicaciones"
-      />
+      <PageHero title="Convocatorias / Abastecimientos" subtitle="Listado de publicaciones" />
 
       <section className="container py-12">
-        {/* Pestañas */}
         <div className="mb-8 border-b border-gray-200">
           <nav className="-mb-px flex flex-wrap gap-2 sm:gap-6" aria-label="Tabs">
             {estados.map(({ value, label }) => {
-              const count = 
+              const count =
                 value === "todas"
                   ? DOCUMENTOS_NORMATIVOS.length
-                  : DOCUMENTOS_NORMATIVOS.filter(d => d.estado === value).length
+                  : DOCUMENTOS_NORMATIVOS.filter((d) => d.estado === value).length;
 
-              const isActive = activeEstado === value
+              const isActive = activeEstado === value;
 
               return (
                 <button
@@ -58,14 +54,13 @@ export default function DocumentosNormativosPage() {
                 >
                   {label} <span className="ml-1.5 text-xs opacity-75">({count})</span>
                 </button>
-              )
+              );
             })}
           </nav>
         </div>
 
-        {/* Tabla */}
         <TablaDocumentos datos={datosFiltrados} />
       </section>
     </MainLayout>
-  )
+  );
 }

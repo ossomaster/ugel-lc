@@ -9,11 +9,41 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
+		numero: "20",
+		nombre: "Plazas Vacantes Contratación Docente 2026 Tercera Etapa Evaluación por Expedientes",
+		tipo: "Plazas",
+		fecha: "2026-02-24",
+		badge: { label: "Nuevo", color: "#10b981" },
+		archivoUrl: [
+			
+			{ label: "EBR INICIAL", url: "/assets/files/2026/contrata-docente/20.PLAZAS-TERCERA-ETAPA-EBR.INICIAL-F-24022026.pdf" },
+			{ label: "EBR PRIMARIA", url: "/assets/files/2026/contrata-docente/20.PLAZAS-TERCERA-ETAPA-EBR.PRIMARIA-F-24022026.pdf" },
+			{ label: "EBR SECUNDARIA", url: "/assets/files/2026/contrata-docente/20.PLAZAS-TERCERA-ETAPA-EBR.SECUNDARIA-F-24022026.pdf" },
+			{ label: "CEBA", url: "/assets/files/2026/contrata-docente/20.PLAZAS-TERCERA-ETAPA-CEBA-F-24022026.pdf" },
+			{ label: "ER. SEC BOLSA HORAS", url: "/assets/files/2026/20.PLAZAS-TERCERA-ETAPA-BOLSA.HORAS-F-24022026.pdf" },
+			{ label: "EBE.PRIMARIA", url: "/assets/files/2026/contrata-docente/20.PLAZAS-TERCERA-ETAPA-EBE.PRIMARIA-F-24022026.pdf" },
+			{ label: "EBR.IP", url: "/assets/files/2026/contrata-docente/20.PLAZAS-TERCERA-ETAPA-EBR.IP-F-24022026.pdf" },
+			{ label: "PRITE", url: "/assets/files/2026/contrata-docente/20.PLAZAS-TERCERA-ETAPA-PRITE-F-24022026.pdf" },
+			{ label: "TEC.PRODUCTIVO", url: "/assets/files/2026/contrata-docente/20.PLAZAS-TERCERA-ETAPA-TEC.PRODUCTIVO-F-24022026.pdf" },
+		],
+	},
+	
+	{
+		numero: "19",
+		nombre: "PRECISIONES: Tercera Etapa Contratación Docente 2026 Evaluación por Expediente",
+		tipo: "Resultados",
+		fecha: "2026-02-24",
+		badge: { label: "Nuevo", color: "#10b981" },
+		archivoUrl: [
+			{ label: "Instructivo", url: "/assets/files/2026/contrata-docente/19.INSTRUCTIVO-PARA-POSTULAR-TERCERA-ETAPA-F-24022026.pdf" },
+			{ label: "Formulario de Preinscripción", url: "/inscripcion/contrata-docente/" },
+		],
+	},
+	{
 		numero: "18",
 		nombre: "Resultados Finales Segunda Etapa Contratación Docente 2026 PN",
 		tipo: "Resultados",
 		fecha: "2026-02-20",
-		badge: { label: "Nuevo", color: "#10b981" },
 		archivoUrl: [
 			{ label: "EBA", url: "/assets/files/2026/contrata-docente/18.RESULTADO-FINAL-EBA-F-19022026.pdf" },
 			{ label: "EBR INICIAL", url: "/assets/files/2026/contrata-docente/18.RESULTADO-FINAL-ER.INICIAL-F-20022026.pdf" },
@@ -37,7 +67,6 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		nombre: "Resultados Preliminares Segunda Etapa Contratación Docente 2026 PN",
 		tipo: "Resultados",
 		fecha: "2026-02-19",
-		badge: { label: "Nuevo", color: "#10b981" },
 		archivoUrl: [
 			{ label: "EBA", url: "/assets/files/2026/contrata-docente/17.RESULTADO-PRELIMINAR-EBA-F-19022026.pdf" },
 			{ label: "INICIAL", url: "/assets/files/2026/contrata-docente/17.RESULTADO-PRELIMINAR-EBR.INICIAL-F-19022026.pdf" },
@@ -59,7 +88,6 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		nombre: "Comunicado Adjudicacion Segunda Etapa PN Contratación Docente 2026",
 		tipo: "Comunicado",
 		fecha: "2026-02-18",
-		badge: { label: "Nuevo", color: "#10b981" },
 		archivoUrl: "/assets/files/2026/contrata-docente/16.COMUNICADO-ADJUDICACION-2DA-ETAPA-F-18022026.pdf",
 	},
 	{
@@ -67,7 +95,6 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		nombre: "Comunicado sobre la publicación del cuadro de meritos segunda etapa PN Contratación Docente 2026",
 		tipo: "Comunicado",
 		fecha: "2026-02-18",
-		badge: { label: "Nuevo", color: "#10b981" },
 		archivoUrl: "/assets/files/2026/contrata-docente/15.COMUNICADO-PUBLICACION-CUADRO-MERITOS-F-18022026.pdf",
 	},
 	{
@@ -75,7 +102,6 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		nombre: "Plazas Vacantes Contratación Docente 2026 PN",
 		tipo: "Plazas",
 		fecha: "2026-02-17",
-		badge: { label: "Nuevo", color: "#10b981" },
 		archivoUrl: [
 			{ label: "INICIAL", url: "/assets/files/2026/contrata-docente/14.PLAZAS-VACANTES-EBR.INICIAL-F-17022026.pdf" },
 			{ label: "PRIMARIA", url: "/assets/files/2026/contrata-docente/14.PLAZAS-VACANTES-EBR.PRIMARIA--F-17022026.pdf" },

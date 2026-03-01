@@ -1,5 +1,6 @@
 import { asset } from "../helpers"
 
+
 const DEFAULT_IMAGE = asset("/assets/images/fondo-iconografia-03.png")
 const DEFAULT_COLOR = "var(--color-primary)"
 
@@ -16,6 +17,7 @@ export default function PageHeroOrganigrama({ title, subtitle, image = DEFAULT_I
 			className="relative py-12 text-white overflow-hidden bg-cover bg-center"
 			style={{
 				backgroundImage: `linear-gradient(to right, color-mix(in srgb, ${color} 70%, transparent), color-mix(in srgb, ${color} 70%, transparent)), url(${image})`,
+				
 			}}
 		>
 			<div className="container relative z-10 text-center">

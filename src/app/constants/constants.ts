@@ -155,34 +155,33 @@ export const TOP_DROPDOWNS: TTopDropdown[] = [
 			{
 				title: "Dirección",
 				items: [
-					{ label: "Órgano de Dirección", href: "/organo-de-direccion" },
+					{ label: "Dirección", href: "/pages/en-construccion" },
 					{ label: "Comisión Permanente de Procesos Administrativos Disciplinarios para Docentes", href: "/comision-permanente" },
 				],
 			},
 			{
 				title: "Control",
-				items: [{ label: "Órgano de Control Institucional", href: "/organo-de-control" }],
+				items: [{ label: "Órgano de Control Institucional", href: "/pages/en-construccion" }],
 			},
 			{
 				title: "Asesoramiento",
 				items: [
-					{ label: "Área de Asesoría Jurídica", href: "/asesoria-juridica" },
-					{ label: "Área de Planificación y Presupuesto", href: "/planificacion-presupuesto" },
+					{ label: "Área de Asesoría Jurídica", href: "/pages/en-construccion" },
+					{ label: "Área de Planificación y Presupuesto", href: "/pages/en-construccion" },
 				],
 			},
 			{
-				title: "Apoyo",
+				title: "Administración",
 				items: [
-					{ label: "Área de Recursos Humanos", href: "/recursos-humanos" },
-					{ label: "Área de Administración", href: "/administracion" },
+					{ label: "Recursos Humanos", href: "/pages/en-construccion" },
 				],
 			},
 			{
 				title: "Línea",
 				items: [
-					{ label: "AGP", href: "/agp" },
-					{ label: "AGA", href: "/aga" },
-					{ label: "AGI", href: "/agi" },
+					{ label: "AGP", href: "/pages/en-construccion" },
+					{ label: "AGA", href: "/pages/en-construccion" },
+					{ label: "AGI", href: "/pages/en-construccion" },
 				],
 			},
 		],
@@ -192,11 +191,10 @@ export const TOP_DROPDOWNS: TTopDropdown[] = [
 		color: "blue",
 		type: "vertical",
 		items: [
-			{ label: "Mesa de Partes", href: "/mesa-de-partes" },
 			{ label: "Trámite Documentario", href: "/tramite-documentario" },
-			{ label: "Boletas de Pago", href: "/boletas-de-pago" },
-			{ label: "Constancias", href: "/constancias" },
-			{ label: "Escalafón", href: "/escalafon" },
+			{ label: "Boletas de Pago", href: "https://servicios-ayni.minedu.gob.pe/" },
+			{ label: "SIAMEP", href: "https://siamep.ugellaconvencion.gob.pe/autenticacion/iniciar-sesion" },
+			{ label: "Escalafón", href: "/pages/en-construccion" },
 		],
 	},
 ]

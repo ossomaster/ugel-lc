@@ -18,26 +18,44 @@ const columns: TableColumn<TDocumentoNormativo>[] = [
 		width: "85px",
 	},
 	{
-		id: "nombre",
-		name: "Documento",
-		selector: (row) => row.nombre,
-		sortable: true,
-		grow: 3,
-		wrap: true,
-		cell: (row) => (
-			<div className="flex items-center gap-2 py-2">
-				<span className="text-sm leading-tight text-slate-700">{row.nombre}</span>
-				{row.badge && (
-					<span
-						className="inline-flex items-center shrink-0 px-2 py-0.5 text-[10px] font-normal uppercase tracking-wider rounded-md"
-						style={{ backgroundColor: `${row.badge.color}15`, color: row.badge.color }}
-					>
-						{row.badge.label}
-					</span>
-				)}
-			</div>
-		),
-	},
+    id: "nombre",
+    name: "Documento",
+    selector: (row) => row.nombre,
+    sortable: true,
+    grow: 3,
+    wrap: true,
+    cell: (row) => (
+        <div className="flex items-center gap-2 py-2">
+            <span className="text-sm leading-tight text-slate-700">{row.nombre}</span>
+            {row.badge && (
+                <div className="relative flex items-center">
+                    {/* Contenedor del Badge */}
+                    <span
+                        className="inline-flex items-center shrink-0 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider rounded-md border"
+                        style={{ 
+                            backgroundColor: `${row.badge.color}15`, 
+                            color: row.badge.color,
+                            borderColor: `${row.badge.color}30` 
+                        }}
+                    >
+                        {/* Punto con efecto Ping */}
+                        <span className="relative flex h-2 w-2 mr-1.5">
+                            <span 
+                                className="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75"
+                                style={{ backgroundColor: row.badge.color }}
+                            ></span>
+                            <span 
+                                className="relative inline-flex rounded-full h-2 w-2"
+                                style={{ backgroundColor: row.badge.color }}
+                            ></span>
+                        </span>
+                        {row.badge.label}
+                    </span>
+                </div>
+            )}
+        </div>
+    ),
+},
 	{
 		id: "tipo",
 		name: "Tipo",

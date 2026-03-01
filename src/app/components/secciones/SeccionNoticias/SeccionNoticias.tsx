@@ -32,7 +32,7 @@ const NOTICIAS: Noticia[] = [
 	},
 	{
 		imagen: "/assets/images/noticias/noticia-8.jpg",
-		fecha: "2026-02-20",
+		fecha: "2026-02-27",
 		tipo: "Noticia",
 		titulo: "",
 		descripcion: "UGEL La Convención ganadores de 11 proyectos de Innovación Educativa FONDEP 2026",
@@ -80,7 +80,7 @@ const ENLACES_INTERES: EnlaceInteres[] = [
 	},
 	{
 		imagen: "/assets/images/enlaces/enlace-convocatorias.png",
-		href: "#",
+		href: "pages/2026/convocatorias",
 		alt: "convocatorias",
 	},
 	{
