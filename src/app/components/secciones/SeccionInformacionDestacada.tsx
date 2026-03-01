@@ -1,5 +1,6 @@
 import Link from "next/link"
-import { FaBullhorn, FaFileAlt, FaChalkboardTeacher, FaChartBar, FaUsers } from "react-icons/fa"
+import { FaBullhorn, FaFileAlt, FaChalkboardTeacher, FaChartBar, FaUsers, FaDolly, FaHandshake } from "react-icons/fa"
+import { FaChalkboardUser, FaPersonChalkboard } from "react-icons/fa6"
 
 const CARDS = [
 	{
@@ -32,29 +33,29 @@ const CARDS = [
 	},
 	{
 		title: "ABASTECIMIENTOS",
-		description: "Noticias de interés",
-		icon: FaBullhorn,
+		description: "Publicaciones",
+		icon: FaDolly,
 		href: "/pages/2026/abastecimientos",
-		bg: "bg-[#1a3a6b]",
+		bg: "bg-[#6E7B91]",
 	},
 	{
 		title: "CONTRATACIÓN DOCENTE 2026",
 		description: "Publicaciones",
-		icon: FaBullhorn,
+		icon: FaPersonChalkboard,
 		href: "/pages/2026/contratacion-docente",
 		bg: "bg-[#FF8C00]",
 	},
 	{
 		title: "CONTRATACIÓN DE AUXILIARES 2026",
 		description: "Publicaciones",
-		icon: FaFileAlt,
-		href: "#",
+		icon: FaChalkboardUser,
+		href: "/pages/2026/contratacion-auxiliares",
 		bg: "bg-[#556B2F]",
 	},
 	{
 		title: "CONVOCATORIAS CAS",
 		description: "Publicaciones",
-		icon: FaFileAlt,
+		icon: FaHandshake,
 		href: "/pages/2026/cas/",
 		bg: "bg-[#5f9ea0]",
 	},

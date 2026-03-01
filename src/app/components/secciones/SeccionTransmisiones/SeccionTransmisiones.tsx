@@ -11,13 +11,13 @@ type Transmision = {
 
 const TRANSMISIONES: Transmision[] = [
 	{
-		imagen: "//repositorio.minedu.gob.pe/bitstream/handle/20.500.12799/11356/recomendacionesbiae2025.png?sequence=3&isAllowed=y",
+		imagen: "/assets/images/transmisiones/biae-2026.png",
 		nombre: "Asistencia Técnica sobre el Buen Inicio del Año Escolar",
 		estado: "Disponible",
-		href: "#",
+		href: "https://www.youtube.com/watch?v=Um0oo9ZvY3o",
 	},
 	{
-		imagen: "//perueduca.net.pe/wp-content/uploads/Per%C3%BAEduca-en-vivo.jpg",
+		imagen: "/assets/images/transmisiones/webinar-perueduca.jpg",
 		nombre: "Resultados de la Evaluación diagnostica y toma de decisiones",
 		estado: "Disponible",
 		href: "https://www.facebook.com/perueduca/videos/910450454842099",
@@ -26,13 +26,13 @@ const TRANSMISIONES: Transmision[] = [
 		imagen: "/assets/images/transmisiones/webinar-directivos.jpg",
 		nombre: "Acciones clave para fortalecer la gestión en las II.EE en el año escolar 2026",
 		estado: "Disponible",
-		href: "#",
+		href: "https://www.youtube.com/watch?v=Um0oo9ZvY3o&t=7s",
 	},
 	{
 		imagen: "/assets/images/transmisiones/webinar-ia-docentes.jpg",
 		nombre: "La IA en la práctica docente para el desarrollo de competencias",
 		estado: "Disponible",
-		href: "#",
+		href: "https://www.youtube.com/watch?v=3DqUP7l32as",
 	},
 ]
 

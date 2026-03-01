@@ -17,7 +17,7 @@ type DocumentoLegal = {
 const DOCUMENTOS: DocumentoLegal[] = [
 	{
 		tipo: "Resolución",
-		imagen: "//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEio1qA9riAVh_4-x2xFDqu5I9BQWTNKtDtRLz8F-6MSTZQb7uX7e-KgIK11cFfCN8SS05QQVIjucrcEkHndUBOVCsZVG8wEKT4Dtab4N0KRF8QaDijQJcFmg6ZNfC4MHJscJSU307l82T-6sazfqpXmfkrlxR2H6aIdjydIDbNKq5YduzXPdG2cTj98Vqw/w851-h444-c/336315-rm-037-2026-minedu-aprueban-padrones-instituciones-educativas-publicas-docentes.jpg",
+		imagen: "/assets/images/noticias/noticia-7.jpg",
 		nombre: "Resolución Ministerial N.° 037-2026-MINEDU",
 		fecha: "2026-01-12",
 		descripcion: "Aprueban Padrones de Instituciones Educativas Públicas y de Docentes Bilingües, para la percepción de las asignaciones temporales y bonificaciones correspondientes a los profesores y auxiliares de educación nombrados y contratados",

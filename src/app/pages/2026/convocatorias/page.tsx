@@ -7,7 +7,7 @@ const accesosDirectos = [
     title: "D.L 276",
     icon: "💼",
     description: "Contratación de Personal N°276 - 2026",
-    href: "pages/2026/contratacion-276",
+    href: "contratacion-276",
     color: "text-emerald-600",
   },
   {
@@ -21,14 +21,14 @@ const accesosDirectos = [
     title: "Contratación Docente",
     icon: "👨🏻‍🏫",
     description: "Contratación del Servicio Docente 2026",
-    href: "pages/2026/contratacion-docente",
+    href: "contratacion-docente",
     color: "text-purple-600",
   },
   {
     title: "Contratación de Auxiliares",
     icon: "👩🏻‍🏫",
     description: "Contratación de Auxiliares de Educación 2026",
-    href: "../../pages/en-construccion",
+    href: "contratacion-auxiliares",
     color: "text-rose-600",
   },
   {
