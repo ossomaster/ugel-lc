@@ -222,9 +222,9 @@ export interface ISidebarItem {
 }
 
 export const SIDEBAR_INSTITUCIONAL: ISidebarItem[] = [
-	{ id: "bienvenida", label: "Bienvenida", href: "/pages/bienvenida" },
-	{ id: "organigrama", label: "Organigrama", href: "/pages/organigrama" },
-	{ id: "jurisdiccion", label: "Jurisdicción", href: "/pages/jurisdiccion" },
-	{ id: "instituciones-educativas", label: "Instituciones Educativas", href: "/pages/instituciones-educativas" },
-	{ id: "vision-mision", label: "Visión y Misión", href: "/pages/vision-mision" },
+	{ id: "bienvenida", label: "Bienvenida", href: "../pages/bienvenida" },
+	{ id: "organigrama", label: "Organigrama", href: "../pages/organigrama" },
+	{ id: "jurisdiccion", label: "Jurisdicción", href: "../pages/jurisdiccion" },
+	{ id: "instituciones-educativas", label: "Instituciones Educativas", href: "../pages/instituciones-educativas" },
+	{ id: "vision-mision", label: "Visión y Misión", href: "../pages/vision-mision" },
 ]
