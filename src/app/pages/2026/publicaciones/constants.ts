@@ -11,6 +11,16 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
+		numero: "16",
+		nombre: "COMUNICADO: La UGEL La Convención convoca a la inscripción para la Evaluación Excepcional de Dominio de Lengua Originaria (EDLO) 2026. 🇵🇪✨",
+		tipo: "Comunicado",
+		fecha: "2026-03-02",
+		descripcion: "📢 Si eres docente y aún no estás en el RND-Bilingües, ¡esta es tu oportunidad para la etapa excepcional de contrato!, ¡Solo tienes dos días! 👉 02 y 03 de marzo de 2026",
+		thumbnailUrl: "/assets/images/publicaciones/comunicado.png",
+		archivoUrl: "/assets/files/2026/publicaciones/16.comunicado-eib-f-02032026.jpg",		
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	{
 		numero: "15",
 		nombre: "MEMORANDUM MULTIPLE N°014-2026-GORE-C/GEREDU-C/DUGEL-LC/SEC.",
 		tipo: "Memorandum Múltiple",
