@@ -58,8 +58,8 @@ export default function SidebarInstitucional() {
 			{/* Horario de Atención */}
 			<div className="mt-4 bg-red-50/60 rounded-2xl border border-red-100 px-5 py-4">
 				<h4 className="text-sm font-bold text-primary mb-1">Horario de Atención</h4>
-				<p className="text-sm text-gray-600">Lun - Vie: 9:00am - 5:30pm</p>
-				<p className="text-sm text-gray-600">Mesa de Partes Virtual: 24h</p>
+				<p className="text-sm text-gray-600">Lun - Vie: 9:00 am - 5:30pm</p>
+				<p className="text-sm text-gray-600">Mesa de Partes Virtual: 9:00am - 5:30pm</p>
 			</div>
 		</aside>
 	)
