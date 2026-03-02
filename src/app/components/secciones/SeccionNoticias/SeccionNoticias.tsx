@@ -95,7 +95,7 @@ const ENLACES_INTERES: EnlaceInteres[] = [
 	},
 	{
 		imagen: "/assets/images/enlaces/enlace-reclamaciones-digital.png",
-		href: "https://ugellaconvencion.gob.pe/reclamaciones/",
+		href: "/reclamaciones/",
 		alt: "reclamaciones-digital",
 	},
 ]
