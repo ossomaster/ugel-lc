@@ -9,6 +9,7 @@ export type TDocumentoNormativo = {
   fechafin: string
   bases: string
   linkinscripcion:string
+  perfiles?:string
   preliminar: string
   entrevista: string
   final?:string
@@ -29,6 +30,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     fechafin: "20/03/2026",
     bases: "/assets/files/2026/contratacion-cas/03.BASES-PERFILES-CONVOCATORIA-INTERVENCIONES-PEDAGOGICAS-CAS-N03-2026-SEDE-F-02032026.pdf",
     linkinscripcion:"https://www.ugellaconvencion.gob.pe/inscripcion/cas03-2026/",
+    perfiles:"https://drive.google.com/drive/folders/1wHcSPRhEfkvXtxRNtzQG4ZFnVQ-t9GnI?usp=sharing",
     preliminar: "",
     entrevista: "",
     final: "",

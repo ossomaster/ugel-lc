@@ -90,6 +90,7 @@ function CardDocumento({ doc }: { doc: TDocumentoNormativo }) {
             {/* Solo se muestran si existe el enlace */}
             {doc.bases && <BotonDescarga href={doc.bases} label="Bases"/>}
             {doc.linkinscripcion && <BotonLinkInscripcion href={doc.linkinscripcion} label="Pre-Inscripción"/>}
+            {doc.perfiles && <BotonDescarga href={doc.perfiles} label="Perfiles"/>}
             {doc.preliminar && <BotonDescarga href={doc.preliminar} label="Resultado Preliminar" />}
             {doc.entrevista && <BotonDescarga href={doc.entrevista} label="Aptos Entrevista" />}
             {doc.final && <BotonDescarga href={doc.final} label="Resultado Final" />}
