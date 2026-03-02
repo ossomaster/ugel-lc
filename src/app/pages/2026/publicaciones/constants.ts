@@ -25,7 +25,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		nombre: "OFICIO MULTIPLE N°06-2026-GORE-C/DRE-C/DUGE-LC/D.",
 		tipo: "Oficio Múltiple",
 		fecha: "2026-02-26",
-		descripcion: "📢 Convoca a Directores(as) de las Instituciones educativas públicas y privadas de los niveles inicial, primaria, secundaria, ceba, cebe, cetpro del ámbito de la Ugel La Convención, a la asistencia técnica para reforzar las orientaciones respecto al Plan de Gestión de riesgos, Brigadas de GRD, Soporte Socioemocional para el año 2026, evento que se realizara el día viernes 27/02/2026 en el horario de 3:00 p.m a 4:30 p.m via virtual.",
+		descripcion: "📢 Convoca a Directores(as) de las Instituciones educativas públicas y privadas de los niveles inicial, primaria, secundaria, ceba, cebe, cetpro del ámbito de la Ugel La Convención, a la asistencia técnica para reforzar las orientaciones respecto al Plan de Gestión de riesgos, Brigadas de GRD, Soporte Socioemocional para el año 2026, evento que se realizara el día viernes 27/02/2026 en el  3:00 p.m a 4:30 p.m via virtual.",
 		thumbnailUrl: "/assets/images/publicaciones/oficio-multiple.png",
 		archivoUrl: "/assets/files/2026/publicaciones/OFICIO%20MULTIPLE%20N°07-2026-GORE-CDRE-CDUGE-LC-D-F-26022026.pdf",		
 		badge: { label: "Nuevo", color: "#10b981" },
