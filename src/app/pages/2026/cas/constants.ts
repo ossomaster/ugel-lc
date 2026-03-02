@@ -21,10 +21,10 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
   {
-    numero: "003-2026",
+    numero: "002-2026",
     descripcion: "Sede Administrativa UGEL La Convención",
     convocatoria: "CAS N°02 - 2026",
-    fechapublicacion:"26/02/2026",
+    fechapublicacion:"25/02/2026",
     fechainicio: "14/01/2026",
     fechafin: "09/03/2026",
     bases: "/assets/files/2026/contratacion-cas/02.BASES-PERFILES-CONVOCATORIA-ANEXOS-CAS-N°02-2026-SEDE-F-25022026.pdf",
