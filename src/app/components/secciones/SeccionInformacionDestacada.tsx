@@ -4,10 +4,10 @@ import { FaChalkboardUser, FaPersonChalkboard } from "react-icons/fa6"
 
 const CARDS = [
 	{
-		title: "ENCARGATURAS 2026",
-		description: "Publicaciones de Encargaturas",
+		title: "CONTRATACIÓN DOCENTE CRFA 2026",
+		description: "Publicaciones",
 		icon: FaBullhorn,
-		href: "/pages/en-construccion",
+		href: "/pages/2026/contratacion-docente-crfa",
 		bg: "bg-[#c8102e]",
 	},
 	{

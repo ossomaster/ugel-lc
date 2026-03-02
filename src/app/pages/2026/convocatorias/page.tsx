@@ -7,7 +7,7 @@ const accesosDirectos = [
     title: "D.L 276",
     icon: "💼",
     description: "Contratación de Personal N°276 - 2026",
-    href: "../../pages/2026/contratacion-276",
+    href: "../../../pages/2026/contratacion-276",
     color: "text-emerald-600",
   },
   {
