@@ -12,6 +12,17 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
+		numero: "17",
+		nombre: "Memorandum Multiple N°122-2026-GR-CUSCO-GEREDU",
+		tipo: "Memorandum Múltiple",
+		fecha: "2026-03-02",
+		descripcion: "📢 Traslada comunicación de publicación del FED 2025-2026 en la Pagina Web del FED , Categoria Educación",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/17.MM-N122-2026-GR-CUSCO-GEREDU-F-02032026.pdf",
+		enlace:"https://www.gob.pe/73526-ministerio-de-educacion-fondo-de-estimulo-al-desempeno-y-logro-de-resultados-sociales-fed-categoria-educacion",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	{
 		numero: "16",
 		nombre: "COMUNICADO: La UGEL La Convención convoca a la inscripción para la Evaluación Excepcional de Dominio de Lengua Originaria (EDLO) 2026. 🇵🇪✨",
 		tipo: "Comunicado",
