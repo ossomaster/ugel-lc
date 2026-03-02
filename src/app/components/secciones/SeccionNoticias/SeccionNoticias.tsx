@@ -85,7 +85,7 @@ const ENLACES_INTERES: EnlaceInteres[] = [
 	},
 	{
 		imagen: "/assets/images/enlaces/enlace-ayni.png",
-		href: "https://servicios-ayni.minedu.gob.pe/",
+		href: "https://forms.gle/NTXpA5zA6n26Aur96",
 		alt: "ayni",
 	},
 	{
