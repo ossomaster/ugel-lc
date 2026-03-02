@@ -1,7 +1,7 @@
 // GridDocumentos.tsx
 "use client"
 
-import { FaFilePdf, FaCalendarAlt, FaCheckCircle, FaTimesCircle, FaClock, FaDownload, FaWpforms } from "react-icons/fa"
+import { FaFilePdf, FaCalendarAlt, FaCheckCircle, FaTimesCircle, FaClock, FaDownload, FaWpforms, FaLink } from "react-icons/fa"
 import { type TDocumentoNormativo } from "./constants"
 import { FaFaceSmileWink } from "react-icons/fa6"
 
@@ -154,7 +154,7 @@ function BotonLinkInscripcion({ href, label, fullWidth = false }: { href: string
         ${fullWidth ? 'col-span-0' : ''}
       `}
     >
-      <FaWpforms className="text-sm text-red-600 opacity-90 group-hover/btn:scale-110 transition-transform" />
+      <FaLink className="text-sm text-red-600 opacity-90 group-hover/btn:scale-110 transition-transform" />
       <span className="truncate">{label}</span>
     </a>
   )

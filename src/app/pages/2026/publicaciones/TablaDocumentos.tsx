@@ -1,8 +1,9 @@
 "use client"
 
 import { useState, useMemo } from "react"
-import { FaFilePdf, FaCalendarAlt, FaTag, FaSearch, FaFilter, FaFire, FaChevronLeft, FaChevronRight, FaHourglassEnd } from "react-icons/fa"
+import { FaFilePdf, FaCalendarAlt, FaTag, FaSearch, FaFilter, FaFire, FaChevronLeft, FaChevronRight, FaHourglassEnd, FaWpforms, FaLink } from "react-icons/fa"
 import { DOCUMENTOS_NORMATIVOS, type TDocumentoNormativo } from "./constants"
+import { FaLinkSlash } from "react-icons/fa6";
 
 const ITEMS_PER_PAGE = 5;
 
@@ -81,7 +82,7 @@ const CardDocumento = ({ doc }: { doc: TDocumentoNormativo }) => (
 			rel="noopener noreferrer"
 			className="inline-flex items-center gap-2 px-4 py-2 bg-blue-700 hover:bg-blue-800 text-white rounded-md text-sm font-semibold transition-all shadow-sm hover:shadow"
 			>
-			<FaFilePdf /> CLIC INGRESAR
+			<FaLink /> CLIC INGRESAR
 			</a>
 		)}	    
       </div>

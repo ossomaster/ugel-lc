@@ -4,6 +4,7 @@ export type TDocumentoNormativo = {
 	tipo: string
 	fecha: string
 	archivoUrl: string | { label: string; url: string }[]
+	enlace?: string
 	badge?: { label: string; color: string }
 }
 
@@ -25,7 +26,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 			{ label: "EBR.IP", url: "/assets/files/2026/contrata-docente/20.PLAZAS-TERCERA-ETAPA-EBR.IP-F-24022026.pdf" },
 			{ label: "PRITE", url: "/assets/files/2026/contrata-docente/20.PLAZAS-TERCERA-ETAPA-PRITE-F-24022026.pdf" },
 			{ label: "TEC.PRODUCTIVO", url: "/assets/files/2026/contrata-docente/20.PLAZAS-TERCERA-ETAPA-TEC.PRODUCTIVO-F-24022026.pdf" },
-		],
+		],		
 	},
 	
 	{
@@ -36,8 +37,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		badge: { label: "Nuevo", color: "#10b981" },
 		archivoUrl: [
 			{ label: "Instructivo", url: "/assets/files/2026/contrata-docente/19.INSTRUCTIVO-PARA-POSTULAR-TERCERA-ETAPA-F-24022026.pdf" },
-			{ label: "Formulario de Preinscripción", url: "/inscripcion/contrata-docente/" },
 		],
+		enlace: "https://www.ugellaconvencion.gob.pe/inscripcion/contrata-docente/",
 	},
 	{
 		numero: "18",
