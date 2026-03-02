@@ -63,7 +63,7 @@ const CardDocumento = ({ doc }: { doc: TDocumentoNormativo }) => (
       )}
     
 
-      <div className="pt-3">
+      <div className="pt-2 flex flex-wrap gap-3">
         <a
           href={doc.archivoUrl}
           target="_blank"
@@ -72,6 +72,18 @@ const CardDocumento = ({ doc }: { doc: TDocumentoNormativo }) => (
         >
           <FaFilePdf /> DESCARGAR PDF
         </a>
+
+		{/* Botón de Enlace: SOLO se muestra si doc.enlace existe */}
+			{doc.enlace && (
+			<a
+			href={doc.enlace}
+			target="_blank"
+			rel="noopener noreferrer"
+			className="inline-flex items-center gap-2 px-4 py-2 bg-blue-700 hover:bg-blue-800 text-white rounded-md text-sm font-semibold transition-all shadow-sm hover:shadow"
+			>
+			<FaFilePdf /> CLIC INGRESAR
+			</a>
+		)}	    
       </div>
     </div>
   </div>

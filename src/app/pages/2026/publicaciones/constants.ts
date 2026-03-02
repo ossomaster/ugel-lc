@@ -6,6 +6,7 @@ export type TDocumentoNormativo = {
 	descripcion?: string
 	archivoUrl: string
 	thumbnailUrl?: string
+	enlace?: string
 	badge?: { label: string; color: string }
 }
 
@@ -15,9 +16,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		nombre: "COMUNICADO: La UGEL La Convención convoca a la inscripción para la Evaluación Excepcional de Dominio de Lengua Originaria (EDLO) 2026. 🇵🇪✨",
 		tipo: "Comunicado",
 		fecha: "2026-03-02",
-		descripcion: "📢 Si eres docente y aún no estás en el RND-Bilingües, ¡esta es tu oportunidad para la etapa excepcional de contrato!, ¡Solo tienes dos días! 👉 02 y 03 de marzo de 2026. Link: https://forms.gle/Gy1Dwx4p7yCeuJu88",
+		descripcion: "📢 Si eres docente y aún no estás en el RND-Bilingües, ¡esta es tu oportunidad para la etapa excepcional de contrato!, ¡Solo tienes dos días! 👉 02 y 03 de marzo de 2026.",
 		thumbnailUrl: "/assets/images/publicaciones/comunicado.png",
-		archivoUrl: "/assets/files/2026/publicaciones/16.comunicado-eib-f-02032026.jpg",		
+		archivoUrl: "/assets/files/2026/publicaciones/16.comunicado-eib-f-02032026.jpg",
+		enlace:"https://forms.gle/Gy1Dwx4p7yCeuJu88",
 		badge: { label: "Nuevo", color: "#10b981" },
 	},
 	{
