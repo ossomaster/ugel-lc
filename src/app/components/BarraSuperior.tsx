@@ -13,9 +13,15 @@ const BarraSuperior = () => {
 			<div className="container py-3 flex items-center justify-between">
 				<div className="flex flex-col items-start gap-y-2">
 					<div className="flex items-center gap-8">
-						<img src={asset("logo-ministerio.png")} alt="Ministerio de Educación" className="h-12 object-contain" />
-						<img src={asset("gore-logo.png")} alt="Gobierno Regional de Cusco" className="h-12 object-contain" />
-						<img src={asset("logo-ugel.png")} alt="UGEL La Convención" className="h-12 object-contain" />
+						<a href="https://www.gob.pe/minedu" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+							<img src={asset("logo-ministerio.png")} alt="Ministerio de Educación" className="h-12 object-contain" />
+						</a>
+						<a href="https://www.gereducusco.gob.pe/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+							<img src={asset("gore-logo.png")} alt="Gobierno Regional de Cusco" className="h-12 object-contain" />
+						</a>
+						<a href="https://www.ugellaconvencion.gob.pe/" className="hover:opacity-80 transition-opacity">
+							<img src={asset("logo-ugel.png")} alt="UGEL La Convención" className="h-12 object-contain" />
+						</a>
 					</div>
 					<img src={asset("letra-ugel-lc.png")} alt="UGEL La Convención" className="h-3 object-contain mt-1" />
 				</div>

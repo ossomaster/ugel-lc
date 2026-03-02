@@ -16,6 +16,18 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
   {
+    numero: "124",
+    tipo: "Servicio",
+    numcotizacion: "099",
+    descripcion: "SERVICIO DE IMPRESIÓN DE GIGANTOGRAFIA INSITUCIONAL PARA LA OFICINA DE ADMINISTRACIÓN DE LA UGEL LA CONVENCIÓN",
+    archivoUrl: "/assets/files/2026/abastecimiento/124.COTI.N099-F-02032026.pdf",
+    fechapublicacion: "02.03.2026",
+    inicio: "03.03.2026",
+    fin: "04.03.2026",
+    badge: { label: "Nuevo", color: "#10b981" },
+    estado: "vigente",
+  },
+  {
     numero: "123",
     tipo: "Servicio",
     numcotizacion: "096",
