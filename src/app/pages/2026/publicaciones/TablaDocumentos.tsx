@@ -57,7 +57,7 @@ const CardDocumento = ({ doc }: { doc: TDocumentoNormativo }) => (
       </p>
 
 	  {doc.descripcion && (
-      <p className="text-sm text-gray-700 text-justify leading-relaxed line-clamp-3 before:content-['•'] before:mr-1.5 before:text-gray-400">
+      <p className="text-sm text-gray-700 text-justify leading-relaxed line-clamp-5 before:content-['•'] before:mr-1.5 before:text-gray-400">
         {doc.descripcion}
       </p>
       )}

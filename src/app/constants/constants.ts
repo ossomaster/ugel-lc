@@ -139,11 +139,11 @@ export const TOP_DROPDOWNS: TTopDropdown[] = [
 		color: "red",
 		type: "vertical",
 		items: [
-			{ label: "Bienvenida", href: "pages/bienvenida" },
-			{ label: "Organigrama", href: "pages/organigrama" },
-			{ label: "Jurisdicción", href: "pages/jurisdiccion" },
-			{ label: "Instituciones Educativas", href: "pages/instituciones-educativas" },
-			{ label: "Visión Misión", href: "pages/mision/visión" },
+			{ label: "Bienvenida", href: "../pages/bienvenida" },
+			{ label: "Organigrama", href: "../pages/organigrama" },
+			{ label: "Jurisdicción", href: "../pages/jurisdiccion" },
+			{ label: "Instituciones Educativas", href: "../pages/instituciones-educativas" },
+			{ label: "Visión Misión", href: "../pages/mision-vision" },
 		],
 	},
 	{
@@ -191,7 +191,7 @@ export const TOP_DROPDOWNS: TTopDropdown[] = [
 		color: "blue",
 		type: "vertical",
 		items: [
-			{ label: "Trámite Documentario", href: "/tramite-documentario" },
+			{ label: "Trámite Documentario", href: "../pages/atencion-ciudadano" },
 			{ label: "Boletas de Pago", href: "https://servicios-ayni.minedu.gob.pe/" },
 			{ label: "SIAMEP", href: "https://siamep.ugellaconvencion.gob.pe/autenticacion/iniciar-sesion" },
 			{ label: "Escalafón", href: "/pages/en-construccion" },

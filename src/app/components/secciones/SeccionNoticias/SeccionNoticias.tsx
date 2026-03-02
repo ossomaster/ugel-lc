@@ -64,7 +64,7 @@ const NOTICIAS: Noticia[] = [
 	},
 	{
 		imagen: "/assets/images/noticias/noticia-12.jpg",
-		fecha: "2025-12-15",
+		fecha: "202-02-23",
 		tipo: "Noticia",
 		titulo: "Evaluación de dominio de la lengua indígena u originaria",
 		descripcion: "El Ministerio de Educación, a través de la Dirección de Educación Intercultural Bilingüe, abre las inscripciones para la Evaluación de Dominio de la Lengua Indígena u Originaria de Docentes (EDLO) 2026.",

@@ -1,5 +1,5 @@
 import MainLayout from "../../../components/MainLayout"
-import PageHero from "../../../components/PageHeroContratacionDocente"
+import PageHero from "../../../components/PageHeroContratacionAuxiliar"
 import TablaDocumentos from "./TablaDocumentos"
 
 export default function ContratacionDocenePage() {

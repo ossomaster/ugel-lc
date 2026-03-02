@@ -43,7 +43,7 @@ const CARDS = [
 		description: "Publicaciones",
 		icon: FaPersonChalkboard,
 		href: "/pages/2026/contratacion-docente",
-		bg: "bg-[#FF8C00]",
+		bg: "bg-[#77458C]",
 	},
 	{
 		title: "CONTRATACIÓN DE AUXILIARES 2026",
