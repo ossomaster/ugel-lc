@@ -1,8 +1,9 @@
 // GridDocumentos.tsx
 "use client"
 
-import { FaFilePdf, FaCalendarAlt, FaCheckCircle, FaTimesCircle, FaClock, FaDownload } from "react-icons/fa"
+import { FaFilePdf, FaCalendarAlt, FaCheckCircle, FaTimesCircle, FaClock, FaDownload, FaWpforms } from "react-icons/fa"
 import { type TDocumentoNormativo } from "./constants"
+import { FaFaceSmileWink } from "react-icons/fa6"
 
 interface GridProps {
   datos: TDocumentoNormativo[]
@@ -50,6 +51,11 @@ function CardDocumento({ doc }: { doc: TDocumentoNormativo }) {
               PROCESO {doc.numero}
             </span>
             <div className="flex flex-col gap-1.5 text-gray-400 text-[11px] mt-2">
+              {/* Fecha de Publicación */}
+              <div className="flex items-center gap-1.5">
+                <FaCalendarAlt className="text-blue-500/70" />
+                <span><strong className="text-gray-500">Publicación:</strong> {doc.fechapublicacion}</span>
+              </div>
               {/* Fecha de Inicio */}
               <div className="flex items-center gap-1.5">
                 <FaCalendarAlt className="text-emerald-500/70" />
@@ -79,14 +85,26 @@ function CardDocumento({ doc }: { doc: TDocumentoNormativo }) {
         </div>
 
         {/* Botones de Acción */}
-        <div className="mt-auto grid grid-cols-1 gap-2">
+        <div className="mt-6">
           <div className="grid grid-cols-2 gap-2">
-            <BotonDescarga href={doc.bases} label="Bases"/>
-            <BotonDescarga href={doc.preliminar} label="Resultado Preliminar" />
-            <BotonDescarga href={doc.entrevista} label="Aptos Entrevista" />
-            <BotonDescarga href={doc.final} label="Resultado Final" />
+            {/* Solo se muestran si existe el enlace */}
+            {doc.bases && <BotonDescarga href={doc.bases} label="Bases"/>}
+            {doc.linkinscripcion && <BotonLinkInscripcion href={doc.linkinscripcion} label="Pre-Inscripción"/>}
+            {doc.preliminar && <BotonDescarga href={doc.preliminar} label="Resultado Preliminar" />}
+            {doc.entrevista && <BotonDescarga href={doc.entrevista} label="Aptos Entrevista" />}
+            {doc.final && <BotonDescarga href={doc.final} label="Resultado Final" />}
+            {doc.comunicado1 && (
+            <BotonDescarga href={doc.comunicado1} label="Comunicado N°01" fullWidth />
+            )}
+            {doc.comunicado2 && (
+              <BotonDescarga href={doc.comunicado2} label="Comunicado N°02" fullWidth />
+            )}
           </div>
-          <BotonDescarga href={doc.comunicados} label="Comunicados" fullWidth />
+          
+          
+          {doc.comunicado3 && (
+            <BotonDescarga href={doc.comunicado3} label="Comunicado N°03" fullWidth />
+          )}
         </div>
       </div>
 
@@ -117,6 +135,25 @@ function BotonDescarga({ href, label, fullWidth = false }: { href: string; label
       `}
     >
       <FaFilePdf className="text-sm text-red-600 opacity-90 group-hover/btn:scale-110 transition-transform" />
+      <span className="truncate">{label}</span>
+    </a>
+  )
+}
+
+function BotonLinkInscripcion({ href, label, fullWidth = false }: { href: string; label: string; fullWidth?: boolean }) {
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`
+        flex items-center justify-left gap-1 px-2 py-2.5 rounded-lg border border-red-200 
+        bg-gray-50/50 text-gray-600 text-[9.6px] font-bold uppercase tracking-tight
+        hover:bg-red-50 hover:border-red-100 hover:text-red-600 transition-all
+        ${fullWidth ? 'col-span-0' : ''}
+      `}
+    >
+      <FaWpforms className="text-sm text-red-600 opacity-90 group-hover/btn:scale-110 transition-transform" />
       <span className="truncate">{label}</span>
     </a>
   )
