@@ -16,6 +16,18 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
   {
+    numero: "125",
+    tipo: "Bien",
+    numcotizacion: "101",
+    descripcion: "ADQUISICIÓN DE GORROS Y CAMISETAS PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+    archivoUrl: "/assets/files/2026/abastecimiento/125.COTI.N101-F-03032026.pdf",
+    fechapublicacion: "03.03.2026",
+    inicio: "04.03.2026",
+    fin: "05.03.2026",
+    badge: { label: "Nuevo", color: "#10b981" },
+    estado: "vigente",
+  },
+  {
     numero: "124",
     tipo: "Servicio",
     numcotizacion: "099",
