@@ -15,10 +15,10 @@ export default function Home() {
 	return (
 		<MainLayout>
 			<InicioModal
-				src="/assets/files/2026/modal/modal1.jpg"
+				src="/assets/files/2026/modal/modal-2.jpeg"
 				alt="Comunicado EIB"
                 // Definir href para redirigir a otra dirección, sino dejar sin href para mostrar solo la imagen sin enlace
-				href="https://forms.gle/Gy1Dwx4p7yCeuJu88"
+				href=""
 			/>
 			<MainHero />
 			<SeccionInformacionDestacada />
