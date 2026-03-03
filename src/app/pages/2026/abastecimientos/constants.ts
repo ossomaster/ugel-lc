@@ -30,7 +30,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
   {
     numero: "123",
     tipo: "Servicio",
-    numcotizacion: "096",
+    numcotizacion: "098",
     descripcion: "SERVICIO DE ASISTENCIA TECNICA ADMINISTRATIVA PARA EL EQUIPO DE ATENCIÓN AL USUARIO DE LA UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/123.COTI.N098-F-01032026.pdf",
     fechapublicacion: "01.03.2026",
@@ -42,7 +42,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
   {
     numero: "122",
     tipo: "Bien",
-    numcotizacion: "096",
+    numcotizacion: "097",
     descripcion: "ADQUISICIÓN DE MATERIALES DE ESCRITORIO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/122.COTI.N097-F-01032026.pdf",
     fechapublicacion: "01.03.2026",
