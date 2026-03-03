@@ -15,10 +15,10 @@ export default function Home() {
 	return (
 		<MainLayout>
 			<InicioModal
-				src="/assets/images/contracion-auxiliares-2026.jpg"
-				alt="Contratación de Auxiliares 2026"
+				src="/assets/files/2026/modal/modal1.jpg"
+				alt="Comunicado EIB"
                 // Definir href para redirigir a otra dirección, sino dejar sin href para mostrar solo la imagen sin enlace
-				// href="/2026/contratacion-auxiliares"
+				href="https://forms.gle/Gy1Dwx4p7yCeuJu88"
 			/>
 			<MainHero />
 			<SeccionInformacionDestacada />

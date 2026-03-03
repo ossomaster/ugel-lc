@@ -17,7 +17,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		badge: { label: "Nuevo", color: "#10b981" },
 		archivoUrl: [
 			
-			// { label: "EBR INICIAL", url: "/assets/files/2026/contrata-docente/20.PLAZAS-TERCERA-ETAPA-EBR.INICIAL-F-24022026.pdf" },
+		    { label: "EBR INICIAL", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.INICIAL-F-03032026.pdf" },
 			{ label: "EBR PRIMARIA", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.PRIMARIA-F-02032026.pdf" },
 			/* { label: "EBR SECUNDARIA", url: "/assets/files/2026/contrata-docente/20.PLAZAS-TERCERA-ETAPA-EBR.SECUNDARIA-F-24022026.pdf" },
 			{ label: "CEBA", url: "/assets/files/2026/contrata-docente/20.PLAZAS-TERCERA-ETAPA-CEBA-F-24022026.pdf" },
@@ -41,7 +41,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 			{ label: "EBR PRIMARIA", url: "/assets/files/2026/contrata-docente/20.PLAZAS-TERCERA-ETAPA-EBR.PRIMARIA-F-24022026.pdf" },
 			{ label: "EBR SECUNDARIA", url: "/assets/files/2026/contrata-docente/20.PLAZAS-TERCERA-ETAPA-EBR.SECUNDARIA-F-24022026.pdf" },
 			{ label: "CEBA", url: "/assets/files/2026/contrata-docente/20.PLAZAS-TERCERA-ETAPA-CEBA-F-24022026.pdf" },
-			{ label: "ER. SEC BOLSA HORAS", url: "/assets/files/2026/20.PLAZAS-TERCERA-ETAPA-BOLSA.HORAS-F-24022026.pdf" },
+			{ label: "ER. SEC BOLSA HORAS", url: "/assets/files/2026/contrata-docente/20.PLAZAS-TERCERA-ETAPA-BOLSA.HORAS-F-24022026.pdf" },
 			{ label: "EBE.PRIMARIA", url: "/assets/files/2026/contrata-docente/20.PLAZAS-TERCERA-ETAPA-EBE.PRIMARIA-F-24022026.pdf" },
 			{ label: "EBR.IP", url: "/assets/files/2026/contrata-docente/20.PLAZAS-TERCERA-ETAPA-EBR.IP-F-24022026.pdf" },
 			{ label: "PRITE", url: "/assets/files/2026/contrata-docente/20.PLAZAS-TERCERA-ETAPA-PRITE-F-24022026.pdf" },
