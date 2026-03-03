@@ -1,4 +1,5 @@
 import MainLayout from "./components/MainLayout"
+import InicioModal from "./components/InicioModal"
 import MainHero from "./components/secciones/MainHero/MainHero"
 import SeccionCifras from "./components/secciones/SeccionCifras"
 import SeccionCursos from "./components/secciones/SeccionCursos/SeccionCursos"
@@ -13,6 +14,12 @@ import SeccionBuenasPracticas from "./components/secciones/SeccionBuenasPractica
 export default function Home() {
 	return (
 		<MainLayout>
+			<InicioModal
+				src="/assets/images/contracion-auxiliares-2026.jpg"
+				alt="Contratación de Auxiliares 2026"
+                // Definir href para redirigir a otra dirección, sino dejar sin href para mostrar solo la imagen sin enlace
+				// href="/2026/contratacion-auxiliares"
+			/>
 			<MainHero />
 			<SeccionInformacionDestacada />
 			<SeccionNoticias />

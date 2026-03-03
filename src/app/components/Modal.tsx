@@ -34,10 +34,10 @@ export default function Modal({ isOpen, onClose, children }: ModalProps) {
 
 	return (
 		<div className="fixed inset-0 z-[1000] flex items-center justify-center p-4 animate-fade-in" onClick={onClose}>
-			<div className="absolute inset-0 bg-black/90 transition-opacity" />
+			<div className="absolute inset-0 bg-black/70 transition-opacity" />
 			<button 
 				onClick={onClose} 
-				className="fixed top-6 right-6 z-[1010] text-white/60 hover:text-white transition-colors cursor-pointer" 
+				className="fixed top-6 right-6 z-[1010] text-white/90 hover:text-white transition-colors cursor-pointer" 
 				aria-label="Cerrar modal"
 			>
 				<FaXmark className="size-6" />
