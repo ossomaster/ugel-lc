@@ -10,6 +10,26 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
+		numero: "21",
+		nombre: "Resultados Preliminares Contratación Docente 2026 Tercera Etapa Evaluación por Expedientes",
+		tipo: "Plazas",
+		fecha: "2026-03-02",
+		badge: { label: "Nuevo", color: "#10b981" },
+		archivoUrl: [
+			
+			// { label: "EBR INICIAL", url: "/assets/files/2026/contrata-docente/20.PLAZAS-TERCERA-ETAPA-EBR.INICIAL-F-24022026.pdf" },
+			{ label: "EBR PRIMARIA", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.PRIMARIA-F-02032026.pdf" },
+			/* { label: "EBR SECUNDARIA", url: "/assets/files/2026/contrata-docente/20.PLAZAS-TERCERA-ETAPA-EBR.SECUNDARIA-F-24022026.pdf" },
+			{ label: "CEBA", url: "/assets/files/2026/contrata-docente/20.PLAZAS-TERCERA-ETAPA-CEBA-F-24022026.pdf" },
+			{ label: "ER. SEC BOLSA HORAS", url: "/assets/files/2026/20.PLAZAS-TERCERA-ETAPA-BOLSA.HORAS-F-24022026.pdf" },
+			{ label: "EBE.PRIMARIA", url: "/assets/files/2026/contrata-docente/20.PLAZAS-TERCERA-ETAPA-EBE.PRIMARIA-F-24022026.pdf" },
+			{ label: "EBR.IP", url: "/assets/files/2026/contrata-docente/20.PLAZAS-TERCERA-ETAPA-EBR.IP-F-24022026.pdf" },
+			{ label: "PRITE", url: "/assets/files/2026/contrata-docente/20.PLAZAS-TERCERA-ETAPA-PRITE-F-24022026.pdf" },
+			{ label: "TEC.PRODUCTIVO", url: "/assets/files/2026/contrata-docente/20.PLAZAS-TERCERA-ETAPA-TEC.PRODUCTIVO-F-24022026.pdf" }, */
+		],		
+	},
+	
+	{
 		numero: "20",
 		nombre: "Plazas Vacantes Contratación Docente 2026 Tercera Etapa Evaluación por Expedientes",
 		tipo: "Plazas",
