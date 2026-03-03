@@ -21,7 +21,7 @@ const accesosDirectos = [
     title: "Libro de reclamaciones DIGITAL",
     icon: "📘",
     description: "Registra tu reclamo de forma digital",
-    href: "https://ugellaconvencion.gob.pe/reclamaciones/",
+    href: "https://www.ugellaconvencion.gob.pe/reclamaciones/",
     color: "text-purple-600",
   },
   {
