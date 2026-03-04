@@ -38,6 +38,13 @@ const accesosDirectos = [
     href: "../../../pages/2026/contratacion-docente-crfa",
     color: "text-rose-600",
   },
+  {
+    title: "Encargaturas 2026",
+    icon: "👨‍💻",
+    description: "Proceso de Encargaturas 2026",
+    href: "../../../pages/2026/encargaturas",
+    color: "text-purple-600",
+  },
   /* {
     title: "Plataforma de Denuncia del Ciudadano",
     icon: "⚠️",
