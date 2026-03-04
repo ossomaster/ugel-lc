@@ -10,6 +10,7 @@ export type TDocumentoNormativo = {
   bases: string
   linkinscripcion:string
   preliminar: string
+  preliminar2?: string
   entrevista: string
   final?:string
   comunicado1: string
@@ -48,6 +49,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     bases: "/assets/files/2026/contratacion-276/10.CONVOCATORIA.N2.PERSONAL.D.L.276-F-29012026.pdf",
     linkinscripcion:"https://www.ugellaconvencion.gob.pe/inscripcion/276-02-2026/",
     preliminar: "/assets/files/2026/contratacion-276/18.RESULTADOS.FINALES.CONVO.N2.D.L.276-F-27022026.pdf",
+    preliminar2: "/assets/files/2026/contratacion-276/02.RESULTADOS..ESP.PERSONAL.DL.276-F-03032026.pdf",
     entrevista: "/assets/files/2026/contratacion-276/15.APTOS-ENTREVISTA-CONVOCATORIA.N2.D.L.276-F-25022026.pdf",
     final: "/assets/files/2026/contratacion-276/18.RESULTADOS.FINALES.CONVO.N2.D.L.276-F-27022026.pdf",
     comunicado1: "/assets/files/2026/contratacion-276/12.COMUNICADO-N1-F-19022026.PDF",
