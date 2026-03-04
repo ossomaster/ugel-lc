@@ -69,17 +69,17 @@ const columns: TableColumn<TDocumentoNormativo>[] = [
         width: "110px",
     },
     {
-        id: "archivo",
-        name: "Documentos",
-        width: "240px", 
-        cell: (row) => {
-            // Renderizador de botones PDF
-            const renderPdfButton = (url: string, label: string = "VER PDF") => (
+    id: "archivo",
+    name: "Documentos",
+    width: "280px", 
+    cell: (row) => {
+        // 1. Renderizador de botones PDF (con fecha manual o general)
+        const renderPdfButton = (url: string, label: string = "VER PDF", fecha?: string) => (
+            <div key={url} className="flex flex-col gap-1 mb-1">
                 <a
                     href={url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    key={url}
                     className="group inline-flex items-center gap-1.5 px-2 py-1 rounded border border-slate-200 bg-white hover:bg-slate-50 hover:border-slate-300 transition-all duration-200 shadow-sm"
                     title={`Descargar ${label}`}
                 >
@@ -88,43 +88,49 @@ const columns: TableColumn<TDocumentoNormativo>[] = [
                         {label}
                     </span>
                 </a>
-            );
-
-            // Renderizador de botón de Enlace/Inscripción
-            const renderLinkButton = (url: string) => (
-                <a
-                    href={url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="group relative inline-flex items-center gap-1.5 px-2 py-1 rounded border border-purple-200 bg-purple-50 text-purple-700 hover:bg-purple-100 transition-all duration-200 shadow-sm"
-                >
-                    {/* Efecto Ping para resaltar el enlace activo */}
-                    <span className="absolute -top-1 -right-1 flex h-2 w-2">
-                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-purple-400 opacity-75"></span>
-                        <span className="relative inline-flex rounded-full h-2 w-2 bg-purple-500"></span>
+                {fecha && (
+                    <span className="text-[9px] text-slate-400 font-medium ml-1">
+                        Publicado: {fecha}
                     </span>
-                    
-                    <FaLink className="text-[10px] group-hover:rotate-12 transition-transform" />
-                    <span className="text-[10px] font-bold uppercase whitespace-nowrap">
-                        Inscribirse
-                    </span>
-                </a>
-            );
+                )}
+            </div>
+        );
 
-            return (
-                <div className="flex flex-wrap gap-2 py-3 justify-left">
-                    {/* Renderizar PDFs */}
-                    {Array.isArray(row.archivoUrl) 
-                        ? row.archivoUrl.map((doc) => renderPdfButton(doc.url, doc.label))
-                        : row.archivoUrl && renderPdfButton(row.archivoUrl as string)
-                    }
+        // 2. Renderizador de botón de Enlace (definido dentro de cell)
+        const renderLinkButton = (url: string) => (
+            <a
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                key={url}
+                className="group relative inline-flex items-center gap-1.5 px-2 py-1 rounded border border-purple-200 bg-purple-50 text-purple-700 hover:bg-purple-100 transition-all duration-200 shadow-sm self-start"
+            >
+                <span className="absolute -top-1 -right-1 flex h-2 w-2">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-purple-400 opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-2 w-2 bg-purple-500"></span>
+                </span>
+                <FaLink className="text-[10px] group-hover:rotate-12 transition-transform" />
+                <span className="text-[10px] font-bold uppercase whitespace-nowrap">
+                    Inscribirse
+                </span>
+            </a>
+        );
 
-                    {/* Renderizar Enlace si existe */}
-                    {row.enlace && renderLinkButton(row.enlace)}
-                </div>
-            )
-        },
+        return (
+            <div className="flex flex-wrap gap-x-4 gap-y-2 py-3 justify-left">
+                {/* Renderizar PDFs: Prioriza la fecha del objeto individual si existe */}
+                {Array.isArray(row.archivoUrl) 
+                    ? row.archivoUrl.map((doc) => renderPdfButton(doc.url, doc.label, doc.fecha || row.fecha))
+                    : row.archivoUrl && renderPdfButton(row.archivoUrl as string, "VER PDF", row.fecha)
+                }
+
+                {/* Renderizar Enlace si existe */}
+                {row.enlace && renderLinkButton(row.enlace)}
+            </div>
+        );
     },
+},
+
 ]
 
 const TablaDocumentos = () => {

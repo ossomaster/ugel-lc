@@ -3,7 +3,7 @@ export type TDocumentoNormativo = {
 	nombre: string
 	tipo: string
 	fecha: string
-	archivoUrl: string | { label: string; url: string }[]
+	archivoUrl: string | { label: string; url: string, fecha?: string}[]
 	enlace?: string
 	badge?: { label: string; color: string }
 }
@@ -17,22 +17,22 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		badge: { label: "Nuevo", color: "#10b981" },
 		archivoUrl: [
 			
-		    { label: "EBR INICIAL", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.INICIAL-F-03032026.pdf" },
-			{ label: "EBR PRIMARIA", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.PRIMARIA-F-02032026.pdf" },
-			{ label: "EBR SEC.MATEMÁTICA ", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.MATEMATICA-F-03032026.pdf" },
-			{ label: "EBR SEC.IP", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.IP-F-03032026.pdf" },
+		    { label: "EBR INICIAL", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.INICIAL-F-03032026.pdf", fecha:"2026-03-02"},
+			{ label: "EBR PRIMARIA", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.PRIMARIA-F-02032026.pdf", fecha:"2026-03-02" },
+			{ label: "EBR SEC.MATEMÁTICA ", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.MATEMATICA-F-03032026.pdf", fecha:"2026-03-03" },
+			{ label: "EBR SEC.IP", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.IP-F-03032026.pdf", fecha:"2026-03-03" },
 			{ label: "ER. SEC. INGLES", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.INGLES-F-03032026.pdf" },
-			{ label: "EBA AVANZADO", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.EVA.AVANZADO-F-03032026.pdf" },
-			{ label: "ETP", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.ETP-F-03032026.pdf" },
-			{ label: "EBR.SEC.RELIGIÓN", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.ED.RELIGIOSA-F-03032026.pdf" },
-			{ label: "EBR.SEC.ED.FISICA", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.ED.FISICA-F-03032026.pdf" },
-			{ label: "EBR.SEC.ED.DPCC", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.DPCC-F-03032026.pdf" },
-			{ label: "EBR.SEC.CYT", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.CYT-F-03032026.pdf" },
-			{ label: "EBR.SEC.COMUNICACION", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.COMUNICACION-F-03032026.pdf" },
-			{ label: "EBR.SEC.CIENCIAS SOCIALES", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.CC.SS-F-03032026.pdf" },			
-			{ label: "EBR.SEC.ARTE", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.ARTE-F-03032026.pdf" },
-			{ label: "EBR.SEC.EPT", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.EPT-F-03032026.pdf" },
-			{ label: "EBE PRIMARIA", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBE.PRIMARIA-F-03032026.pdf" },
+			{ label: "EBA AVANZADO", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.EVA.AVANZADO-F-03032026.pdf", fecha:"2026-03-03" },
+			{ label: "ETP", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.ETP-F-03032026.pdf", fecha:"2026-03-03" },
+			{ label: "EBR.SEC.RELIGIÓN", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.ED.RELIGIOSA-F-03032026.pdf", fecha:"2026-03-03" },
+			{ label: "EBR.SEC.ED.FISICA", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.ED.FISICA-F-03032026.pdf", fecha:"2026-03-03" },
+			{ label: "EBR.SEC.ED.DPCC", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.DPCC-F-03032026.pdf", fecha:"2026-03-03" },
+			{ label: "EBR.SEC.CYT", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.CYT-F-03032026.pdf", fecha:"2026-03-03" },
+			{ label: "EBR.SEC.COMUNICACION", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.COMUNICACION-F-03032026.pdf", fecha:"2026-03-03" },
+			{ label: "EBR.SEC.CIENCIAS SOCIALES", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.CC.SS-F-03032026.pdf", fecha:"2026-03-03" },			
+			{ label: "EBR.SEC.ARTE", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.ARTE-F-03032026.pdf", fecha:"2026-03-03" },
+			{ label: "EBR.SEC.EPT", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.EPT-F-03032026.pdf", fecha:"2026-03-03"},
+			{ label: "EBE PRIMARIA", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBE.PRIMARIA-F-03032026.pdf", fecha:"2026-03-03"},
 		],		
 	},
 	
