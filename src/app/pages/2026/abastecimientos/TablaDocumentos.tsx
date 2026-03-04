@@ -68,14 +68,14 @@ const columns: TableColumn<TDocumentoNormativo>[] = [
 		name: "N° Cotiz",
 		selector: (row) => row.numcotizacion,
 		sortable: true,
-		width: "130px",
+		width: "110px",
 	},
 	{
 		id: "tipo",
 		name: "Tipo",
 		selector: (row) => row.tipo,
 		sortable: true,
-		width: "120px",
+		width: "110px",
 	},
 	{
 		id: "descripcion",
@@ -114,7 +114,7 @@ const columns: TableColumn<TDocumentoNormativo>[] = [
 		name: "Inicio Presentación",
 		selector: (row) => row.inicio,
 		sortable: true,
-		width: "135px",
+		width: "150px",
 		wrap: true,
 	},
 	{
@@ -127,10 +127,10 @@ const columns: TableColumn<TDocumentoNormativo>[] = [
 	},
 	{
 		id: "estado",
-		name: "Estado Actual",
+		name: "Estado",
 		selector: (row) => row.estado,
 		sortable: true,
-		width: "100px",
+		width: "120px",
 		wrap: true,
 		cell: (row) => {
 			const estado = row.estado.toLowerCase();
