@@ -32,6 +32,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 			{ label: "EBR.SEC.CIENCIAS SOCIALES", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.CC.SS-F-03032026.pdf" },			
 			{ label: "EBR.SEC.ARTE", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.ARTE-F-03032026.pdf" },
 			{ label: "EBR.SEC.EPT", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.EPT-F-03032026.pdf" },
+			{ label: "EBE PRIMARIA", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBE.PRIMARIA-F-03032026.pdf" },
 		],		
 	},
 	
