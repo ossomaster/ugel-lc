@@ -12,6 +12,17 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
+		numero: "18",
+		nombre: "Memorandum Multiple N°105-2026-GORE-C-GEREDU-C-DUGEL-LC-SEC",
+		tipo: "Memorandum Múltiple",
+		fecha: "2026-03-04",
+		descripcion: "📢 Comunica a Directores de las Intituciones Educativas del ámbito de la UGEL La Convención, brindar facilidades para la participación en reunión de reflexión y asamblea provincial convocada para el día viernes 06 de marzo de 2026 a las 08:00 a.m.",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/18.MM-N015–2026-GORE-CGEREDU-CDUGEL-LC-SEC-04032026.PDF",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	{
 		numero: "17",
 		nombre: "Memorandum Multiple N°122-2026-GR-CUSCO-GEREDU",
 		tipo: "Memorandum Múltiple",
