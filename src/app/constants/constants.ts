@@ -95,6 +95,13 @@ export const NAV_MENU: TNavMenuItem[] = [];
 
 export const SLIDES = [
 	{
+		image: "/assets/slider/slide-7.png",
+		title: "UGEL LA CONVENCIÓN",
+		description: "",
+		//buttonText: "Acceder",
+		//buttonUrl: "#",
+	},
+	{
 		image: "/assets/slider/slide-4.jpg",
 		title: "Educación Intercultural Bilingüe",
 		description: "En el corazón de La Convención Voces diversas, una sola educación: Identidad que trasciende",

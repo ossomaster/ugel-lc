@@ -28,8 +28,9 @@ export default function DocumentosNormativosPage() {
     <MainLayout>
       <PageHero title="Convocatorias / Abastecimientos" subtitle="Listado de publicaciones" />
 
-      <section className="container py-12">
-        <div className="mb-8 border-b border-gray-200">
+      {/* ==================== CONTAINER MÁS ANCHO ==================== */}
+      <section className="max-w-screen-2xl mx-auto px-4 lg:px-8 py-12">
+        <div className="mb-8 border-b border-gray-300">
           <nav className="-mb-px flex flex-wrap gap-2 sm:gap-6" aria-label="Tabs">
             {estados.map(({ value, label }) => {
               const count =

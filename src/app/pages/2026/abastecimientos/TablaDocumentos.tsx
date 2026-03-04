@@ -75,7 +75,7 @@ const columns: TableColumn<TDocumentoNormativo>[] = [
 		name: "Tipo",
 		selector: (row) => row.tipo,
 		sortable: true,
-		width: "80px",
+		width: "120px",
 	},
 	{
 		id: "descripcion",

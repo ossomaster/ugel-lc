@@ -15,6 +15,30 @@ export type TDocumentoNormativo = {
 
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
+   {
+    numero: "127",
+    tipo: "Servicio",
+    numcotizacion: "102",
+    descripcion: "SERVICIO DE DESARROLLO DE SISTEMA WEB DE CONTROL DE ASISTENCIA DE LA UGEL LA CONVENCIÓN",
+    archivoUrl: "/assets/files/2026/abastecimiento/127.COTI.N102-F-04032026.pdf",
+    fechapublicacion: "04.03.2026",
+    inicio: "04.03.2026",
+    fin: "06.03.2026",
+    badge: { label: "Nuevo", color: "#10b981" },
+    estado: "vigente",
+  },
+  {
+    numero: "126",
+    tipo: "Servicio",
+    numcotizacion: "099",
+    descripcion: "SERVICIO DE IMPRESIÓN DE GIGANTOFRAFÍA INSTITUCIONAL PARA LA OFICINA DE ADMINISTRACIÓN DE LA UGEL LA CONVENCIÓN",
+    archivoUrl: "/assets/files/2026/abastecimiento/126.COTI.N099.2-F-04032026.pdf",
+    fechapublicacion: "04.03.2026",
+    inicio: "04.03.2026",
+    fin: "06.03.2026",
+    badge: { label: "Nuevo", color: "#10b981" },
+    estado: "vigente",
+  },
   {
     numero: "125",
     tipo: "Bien",
@@ -49,7 +73,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     inicio: "02.03.2026",
     fin: "03.03.2026",
     badge: { label: "Nuevo", color: "#10b981" },
-    estado: "vigente",
+    estado: "concluida",
   },
   {
     numero: "122",
@@ -61,7 +85,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     inicio: "02.03.2026",
     fin: "03.03.2026",
     badge: { label: "Nuevo", color: "#10b981" },
-    estado: "vigente",
+    estado: "concluida",
   },
   {
     numero: "121",
@@ -73,7 +97,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     inicio: "02.03.2026",
     fin: "03.03.2026",
     badge: { label: "Nuevo", color: "#10b981" },
-    estado: "vigente",
+    estado: "concluida",
   },
   {
     numero: "120",
@@ -85,7 +109,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     inicio: "02.03.2026",
     fin: "03.03.2026",
     badge: { label: "Nuevo", color: "#10b981" },
-    estado: "vigente",
+    estado: "concluida",
   },
   {
     numero: "119",
@@ -97,7 +121,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     inicio: "02.03.2026",
     fin: "03.03.2026",
     badge: { label: "Nuevo", color: "#10b981" },
-    estado: "vigente",
+    estado: "concluida",
   },
   {
     numero: "118",
@@ -109,7 +133,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     inicio: "02.03.2026",
     fin: "03.03.2026",
     badge: { label: "Nuevo", color: "#10b981" },
-    estado: "vigente",
+    estado: "concluida",
   },
   {
     numero: "117",
@@ -121,7 +145,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     inicio: "02.03.2026",
     fin: "03.03.2026",
     badge: { label: "Nuevo", color: "#10b981" },
-    estado: "vigente",
+    estado: "concluida",
   },
   {
     numero: "116",
@@ -133,7 +157,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     inicio: "02.03.2026",
     fin: "03.03.2026",
     badge: { label: "Nuevo", color: "#10b981" },
-    estado: "vigente",
+    estado: "concluida",
   },
   {
     numero: "115",
@@ -145,7 +169,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     inicio: "02.03.2026",
     fin: "03.03.2026",
     badge: { label: "Nuevo", color: "#10b981" },
-    estado: "vigente",
+    estado: "concluida",
   },
   {
     numero: "114",
@@ -157,7 +181,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     inicio: "27.02.2026",
     fin: "02.03.2026",
     badge: { label: "Nuevo", color: "#10b981" },
-    estado: "vigente",
+    estado: "concluida",
   },
   {
     numero: "113",
@@ -169,7 +193,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     inicio: "27.02.2026",
     fin: "02.03.2026",
     badge: { label: "Nuevo", color: "#10b981" },
-    estado: "vigente",
+    estado: "concluida",
   },
   {
     numero: "112",
