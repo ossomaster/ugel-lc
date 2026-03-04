@@ -1,42 +1,50 @@
 // page.tsx  (o DocumentosNormativosPage.tsx)
-"use client"
+"use client";
 
-import { useState } from "react"
-import MainLayout from "../../../components/MainLayout"
-import PageHero from "../../../components/PageHero"
-import TablaDocumentos from "./TablaDocumentos"
-import { DOCUMENTOS_NORMATIVOS, type TDocumentoNormativo } from "./constants"
+import { useState } from "react";
+import MainLayout from "../../../components/MainLayout";
+import PageHero from "../../../components/PageHero";
+import TablaDocumentos from "./TablaDocumentos";
+import { DOCUMENTOS_NORMATIVOS, type TDocumentoNormativo } from "./constants";
 
-type EstadoConvocatoria = "vigente" | "concluida" | "cancelada" | "todas"
+type EstadoConvocatoria = "vigente" | "concluida" | "cancelada" | "todas";
 
 const estados: { value: EstadoConvocatoria; label: string }[] = [
-  { value: "todas",    label: "TODAS" },
-  { value: "vigente",   label: "CONVOCATORIAS VIGENTES" },
+  { value: "todas", label: "TODAS" },
+  { value: "vigente", label: "CONVOCATORIAS VIGENTES" },
   { value: "concluida", label: "CONVOCATORIAS CONCLUIDAS" },
   { value: "cancelada", label: "CONVOCATORIAS CANCELADAS" },
-]
+];
 
 export default function DocumentosNormativosPage() {
-  const [activeEstado, setActiveEstado] = useState<EstadoConvocatoria>("vigente")
+  const [activeEstado, setActiveEstado] =
+    useState<EstadoConvocatoria>("vigente");
 
-  const datosFiltrados = 
+  const datosFiltrados =
     activeEstado === "todas"
       ? DOCUMENTOS_NORMATIVOS
-      : DOCUMENTOS_NORMATIVOS.filter(doc => doc.estado === activeEstado)
+      : DOCUMENTOS_NORMATIVOS.filter((doc) => doc.estado === activeEstado);
 
   return (
     <MainLayout>
-      <PageHero title="Convocatorias / Abastecimientos" subtitle="Listado de publicaciones" />
+      <PageHero
+        title="Convocatorias / Abastecimientos"
+        subtitle="Listado de publicaciones"
+      />
 
       {/* ==================== CONTAINER MÁS ANCHO ==================== */}
       <section className="max-w-[1440px] mx-auto px-4 lg:px-8 py-12">
         <div className="mb-8 border-b border-gray-300">
-          <nav className="-mb-px flex flex-wrap gap-2 sm:gap-6" aria-label="Tabs">
+          <nav
+            className="-mb-px flex flex-wrap gap-2 sm:gap-6"
+            aria-label="Tabs"
+          >
             {estados.map(({ value, label }) => {
               const count =
                 value === "todas"
                   ? DOCUMENTOS_NORMATIVOS.length
-                  : DOCUMENTOS_NORMATIVOS.filter((d) => d.estado === value).length;
+                  : DOCUMENTOS_NORMATIVOS.filter((d) => d.estado === value)
+                      .length;
 
               const isActive = activeEstado === value;
 
@@ -53,7 +61,8 @@ export default function DocumentosNormativosPage() {
                     }
                   `}
                 >
-                  {label} <span className="ml-1.5 text-xs opacity-75">({count})</span>
+                  {label}{" "}
+                  <span className="ml-1.5 text-xs opacity-75">({count})</span>
                 </button>
               );
             })}

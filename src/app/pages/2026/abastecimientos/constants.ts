@@ -13,14 +13,45 @@ export type TDocumentoNormativo = {
   estado: "vigente" | "concluida" | "cancelada";
 };
 
-
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
   {
-    numero: "128",
+    numero: "131",
+    tipo: "Bien",
+    numcotizacion: "088",
+    descripcion:
+      "ADQUISICIÓN DE AGUA MINERAL PARA LA OFICINA DE ADMINISTRACIÓN DE LA UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/131.COTI.N088.2-F-04032026.pdf",
+    fechapublicacion: "04.03.2026",
+    inicio: "04.03.2026",
+    fin: "05.03.2026",
+    badge: { label: "Nuevo", color: "#10b981" },
+    estado: "vigente",
+  },
+  
+  {
+    numero: "130",
     tipo: "Servicio",
-    numcotizacion: "103",
-    descripcion: "SERVICIO DE ASISTENCIA TÉCNICA ADMINISTRATIVA PARA EL EQUIPO DE RACIONALIZACIÓN DE LA UGEL LA CONVENCIÓN",
-    archivoUrl: "/assets/files/2026/abastecimiento/128.COTI.N103-F-04032026.pdf",
+    numcotizacion: "086",
+    descripcion:
+      "SERVICIO DE SHOW ARTISTICO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/130.COTI.N086.2-F-04032026.pdf",
+    fechapublicacion: "04.03.2026",
+    inicio: "04.03.2026",
+    fin: "05.03.2026",
+    badge: { label: "Nuevo", color: "#10b981" },
+    estado: "vigente",
+  },
+  
+  {
+    numero: "129",
+    tipo: "Bien",
+    numcotizacion: "080",
+    descripcion:
+      "ADQUISICIÒN DE KIT MEDICO Y DE ASEO PARA EL ÀREA DE GESTIÒN PEDAGÒGICA DE LA UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/129.COTI.N080.2-F-04032026.pdf",
     fechapublicacion: "04.03.2026",
     inicio: "04.03.2026",
     fin: "06.03.2026",
@@ -29,11 +60,43 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
   },
   
   {
+    numero: "128",
+    tipo: "Servicio",
+    numcotizacion: "103",
+    descripcion:
+      "SERVICIO DE ASISTENCIA TÉCNICA ADMINISTRATIVA PARA EL EQUIPO DE RACIONALIZACIÓN DE LA UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/128.COTI.N103-F-04032026.pdf",
+    fechapublicacion: "04.03.2026",
+    inicio: "04.03.2026",
+    fin: "06.03.2026",
+    badge: { label: "Nuevo", color: "#10b981" },
+    estado: "vigente",
+  },
+
+  {
+    numero: "128",
+    tipo: "Servicio",
+    numcotizacion: "103",
+    descripcion:
+      "SERVICIO DE ASISTENCIA TÉCNICA ADMINISTRATIVA PARA EL EQUIPO DE RACIONALIZACIÓN DE LA UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/128.COTI.N103-F-04032026.pdf",
+    fechapublicacion: "04.03.2026",
+    inicio: "04.03.2026",
+    fin: "06.03.2026",
+    badge: { label: "Nuevo", color: "#10b981" },
+    estado: "vigente",
+  },
+
+  {
     numero: "127",
     tipo: "Servicio",
     numcotizacion: "102",
-    descripcion: "SERVICIO DE DESARROLLO DE SISTEMA WEB DE CONTROL DE ASISTENCIA DE LA UGEL LA CONVENCIÓN",
-    archivoUrl: "/assets/files/2026/abastecimiento/127.COTI.N102-F-04032026.pdf",
+    descripcion:
+      "SERVICIO DE DESARROLLO DE SISTEMA WEB DE CONTROL DE ASISTENCIA DE LA UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/127.COTI.N102-F-04032026.pdf",
     fechapublicacion: "04.03.2026",
     inicio: "04.03.2026",
     fin: "06.03.2026",
@@ -44,8 +107,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "126",
     tipo: "Servicio",
     numcotizacion: "099",
-    descripcion: "SERVICIO DE IMPRESIÓN DE GIGANTOFRAFÍA INSTITUCIONAL PARA LA OFICINA DE ADMINISTRACIÓN DE LA UGEL LA CONVENCIÓN",
-    archivoUrl: "/assets/files/2026/abastecimiento/126.COTI.N099.2-F-04032026.pdf",
+    descripcion:
+      "SERVICIO DE IMPRESIÓN DE GIGANTOFRAFÍA INSTITUCIONAL PARA LA OFICINA DE ADMINISTRACIÓN DE LA UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/126.COTI.N099.2-F-04032026.pdf",
     fechapublicacion: "04.03.2026",
     inicio: "04.03.2026",
     fin: "06.03.2026",
@@ -56,8 +121,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "125",
     tipo: "Bien",
     numcotizacion: "101",
-    descripcion: "ADQUISICIÓN DE GORROS Y CAMISETAS PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
-    archivoUrl: "/assets/files/2026/abastecimiento/125.COTI.N101-F-03032026.pdf",
+    descripcion:
+      "ADQUISICIÓN DE GORROS Y CAMISETAS PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/125.COTI.N101-F-03032026.pdf",
     fechapublicacion: "03.03.2026",
     inicio: "04.03.2026",
     fin: "05.03.2026",
@@ -68,8 +135,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "124",
     tipo: "Servicio",
     numcotizacion: "099",
-    descripcion: "SERVICIO DE IMPRESIÓN DE GIGANTOGRAFIA INSITUCIONAL PARA LA OFICINA DE ADMINISTRACIÓN DE LA UGEL LA CONVENCIÓN",
-    archivoUrl: "/assets/files/2026/abastecimiento/124.COTI.N099-F-02032026.pdf",
+    descripcion:
+      "SERVICIO DE IMPRESIÓN DE GIGANTOGRAFIA INSITUCIONAL PARA LA OFICINA DE ADMINISTRACIÓN DE LA UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/124.COTI.N099-F-02032026.pdf",
     fechapublicacion: "02.03.2026",
     inicio: "03.03.2026",
     fin: "04.03.2026",
@@ -80,8 +149,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "123",
     tipo: "Servicio",
     numcotizacion: "098",
-    descripcion: "SERVICIO DE ASISTENCIA TECNICA ADMINISTRATIVA PARA EL EQUIPO DE ATENCIÓN AL USUARIO DE LA UGEL LA CONVENCIÓN",
-    archivoUrl: "/assets/files/2026/abastecimiento/123.COTI.N098-F-01032026.pdf",
+    descripcion:
+      "SERVICIO DE ASISTENCIA TECNICA ADMINISTRATIVA PARA EL EQUIPO DE ATENCIÓN AL USUARIO DE LA UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/123.COTI.N098-F-01032026.pdf",
     fechapublicacion: "01.03.2026",
     inicio: "02.03.2026",
     fin: "03.03.2026",
@@ -92,8 +163,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "122",
     tipo: "Bien",
     numcotizacion: "097",
-    descripcion: "ADQUISICIÓN DE MATERIALES DE ESCRITORIO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
-    archivoUrl: "/assets/files/2026/abastecimiento/122.COTI.N097-F-01032026.pdf",
+    descripcion:
+      "ADQUISICIÓN DE MATERIALES DE ESCRITORIO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/122.COTI.N097-F-01032026.pdf",
     fechapublicacion: "01.03.2026",
     inicio: "02.03.2026",
     fin: "03.03.2026",
@@ -104,8 +177,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "121",
     tipo: "Servicio",
     numcotizacion: "096",
-    descripcion: "SERVICIO DE ASISTENCIA TECNICA ADMINISTRATIVA PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
-    archivoUrl: "/assets/files/2026/abastecimiento/121.COTI.N096-F-01032026.pdf",
+    descripcion:
+      "SERVICIO DE ASISTENCIA TECNICA ADMINISTRATIVA PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/121.COTI.N096-F-01032026.pdf",
     fechapublicacion: "01.03.2026",
     inicio: "02.03.2026",
     fin: "03.03.2026",
@@ -116,8 +191,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "120",
     tipo: "Servicio",
     numcotizacion: "095",
-    descripcion: "SERVICIO DE ASISTENCIA TECNICA ADMINISTRATIVA PARA LA UNIDAD DE ADMINISTRACIÓN DE LA UGEL LA CONVENCIÓN",
-    archivoUrl: "/assets/files/2026/abastecimiento/120.COTI.N095-F-01032026.pdf",
+    descripcion:
+      "SERVICIO DE ASISTENCIA TECNICA ADMINISTRATIVA PARA LA UNIDAD DE ADMINISTRACIÓN DE LA UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/120.COTI.N095-F-01032026.pdf",
     fechapublicacion: "01.03.2026",
     inicio: "02.03.2026",
     fin: "03.03.2026",
@@ -128,8 +205,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "119",
     tipo: "Servicio",
     numcotizacion: "094",
-    descripcion: "SERVICIO DE ASISTENCIA TECNICA ADMINISTRATIVA PARA EL EQUIPO DE TESORERIA DE LA UGEL LA CONVENCIÓN",
-    archivoUrl: "/assets/files/2026/abastecimiento/119.COTI.N094-F-01032026.pdf",
+    descripcion:
+      "SERVICIO DE ASISTENCIA TECNICA ADMINISTRATIVA PARA EL EQUIPO DE TESORERIA DE LA UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/119.COTI.N094-F-01032026.pdf",
     fechapublicacion: "01.03.2026",
     inicio: "02.03.2026",
     fin: "03.03.2026",
@@ -140,8 +219,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "118",
     tipo: "Servicio",
     numcotizacion: "093",
-    descripcion: "SERVICIO DE ASISTENCIA TECNICA ADMINISTRATIVA PARA EL EQUIPO DE PATRIMONIO DE LA UGEL LA CONVENCIÓN",
-    archivoUrl: "/assets/files/2026/abastecimiento/118.COTI.N093-F-01032026.pdf",
+    descripcion:
+      "SERVICIO DE ASISTENCIA TECNICA ADMINISTRATIVA PARA EL EQUIPO DE PATRIMONIO DE LA UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/118.COTI.N093-F-01032026.pdf",
     fechapublicacion: "01.03.2026",
     inicio: "02.03.2026",
     fin: "03.03.2026",
@@ -152,8 +233,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "117",
     tipo: "Bien",
     numcotizacion: "092",
-    descripcion: "PRIMERA CONVOCATORIA ADQUISICIÓN DE BOLIGRAFOS Y CUADERNOS PERSONALIZADOS PARA EL AREA DE GESTIÓN PEFAGÓGICA DE LA UGEL LA CONVENCION",
-    archivoUrl: "/assets/files/2026/abastecimiento/117.COTI.N092-F-27022026.pdf",
+    descripcion:
+      "PRIMERA CONVOCATORIA ADQUISICIÓN DE BOLIGRAFOS Y CUADERNOS PERSONALIZADOS PARA EL AREA DE GESTIÓN PEFAGÓGICA DE LA UGEL LA CONVENCION",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/117.COTI.N092-F-27022026.pdf",
     fechapublicacion: "27.02.2026",
     inicio: "02.03.2026",
     fin: "03.03.2026",
@@ -164,8 +247,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "116",
     tipo: "Servicio",
     numcotizacion: "091",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ATENCIÓN DE REFRIGERIOS PARA EL AREA DE GEATIÓN PEDAGOGICA DE LA UGEL LA CONVENCION",
-    archivoUrl: "/assets/files/2026/abastecimiento/116.COTI.N091-F-27022026.pdf",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ATENCIÓN DE REFRIGERIOS PARA EL AREA DE GEATIÓN PEDAGOGICA DE LA UGEL LA CONVENCION",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/116.COTI.N091-F-27022026.pdf",
     fechapublicacion: "27.02.2026",
     inicio: "02.03.2026",
     fin: "03.03.2026",
@@ -176,8 +261,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "115",
     tipo: "Servicio",
     numcotizacion: "090",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA TÉCNICA ADMINISTRATICA PARA LA OFICINA DE ADMINISTRACIÓN DE LA UGEL LA CONVENCION",
-    archivoUrl: "/assets/files/2026/abastecimiento/115.COTI.N090-F-27022026.pdf",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA TÉCNICA ADMINISTRATICA PARA LA OFICINA DE ADMINISTRACIÓN DE LA UGEL LA CONVENCION",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/115.COTI.N090-F-27022026.pdf",
     fechapublicacion: "27.02.2026",
     inicio: "02.03.2026",
     fin: "03.03.2026",
@@ -188,8 +275,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "114",
     tipo: "Servicio",
     numcotizacion: "089",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ATENCIÓN DE REFRIGERIO, ALMUERZO Y CENA PARA LA OFICINA DE ADMINISTRACIÓN DE LA UGEL LA CONVENCION",
-    archivoUrl: "/assets/files/2026/abastecimiento/114.COTI.N089-F-26022026.pdf",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ATENCIÓN DE REFRIGERIO, ALMUERZO Y CENA PARA LA OFICINA DE ADMINISTRACIÓN DE LA UGEL LA CONVENCION",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/114.COTI.N089-F-26022026.pdf",
     fechapublicacion: "26.02.2026",
     inicio: "27.02.2026",
     fin: "02.03.2026",
@@ -200,8 +289,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "113",
     tipo: "Bien",
     numcotizacion: "088",
-    descripcion: "PRIMERA CONVOCATORIA ADQUISICIÓN DE AGUA MINERAL PARA LA OFICINA DE ADMINISTRACIÓN DE LA UGEL LA CONVENCION",
-    archivoUrl: "/assets/files/2026/abastecimiento/113.COTI.N088-F-26022026.pdf",
+    descripcion:
+      "PRIMERA CONVOCATORIA ADQUISICIÓN DE AGUA MINERAL PARA LA OFICINA DE ADMINISTRACIÓN DE LA UGEL LA CONVENCION",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/113.COTI.N088-F-26022026.pdf",
     fechapublicacion: "26.02.2026",
     inicio: "27.02.2026",
     fin: "02.03.2026",
@@ -212,8 +303,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "112",
     tipo: "Servicio",
     numcotizacion: "087",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA TECNICA PARA EL EQUIPO DE ALMACEN DE LA UGEL LA CONVENCION",
-    archivoUrl: "/assets/files/2026/abastecimiento/112.COTI.N087(1)-F-25022026.pdf",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA TECNICA PARA EL EQUIPO DE ALMACEN DE LA UGEL LA CONVENCION",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/112.COTI.N087(1)-F-25022026.pdf",
     fechapublicacion: "25.02.2026",
     inicio: "26.02.2026",
     fin: "27.02.2026",
@@ -224,8 +317,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "111",
     tipo: "Servicio",
     numcotizacion: "086",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE SHOW ARTISTICO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCION",
-    archivoUrl: "/assets/files/2026/abastecimiento/111.COTI.N086(1)-F-25022026.pdf",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE SHOW ARTISTICO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCION",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/111.COTI.N086(1)-F-25022026.pdf",
     fechapublicacion: "25.02.2026",
     inicio: "26.02.2026",
     fin: "27.02.2026",
@@ -236,8 +331,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "110",
     tipo: "Servicio",
     numcotizacion: "085",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ATENCIÓN DE REFRIGERIO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCION",
-    archivoUrl: "/assets/files/2026/abastecimiento/110.COTI.N085(1)-F-25022026.pdf",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ATENCIÓN DE REFRIGERIO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCION",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/110.COTI.N085(1)-F-25022026.pdf",
     fechapublicacion: "25.02.2026",
     inicio: "26.02.2026",
     fin: "27.02.2026",
@@ -248,8 +345,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "109",
     tipo: "Servicio",
     numcotizacion: "084",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE IMPRESION DE BANNER PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCION",
-    archivoUrl: "/assets/files/2026/abastecimiento/109COTI.N084(1)-F-25022026.pdf",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE IMPRESION DE BANNER PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCION",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/109COTI.N084(1)-F-25022026.pdf",
     fechapublicacion: "25.02.2026",
     inicio: "26.02.2026",
     fin: "27.02.2026",
@@ -260,8 +359,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "108",
     tipo: "Bien",
     numcotizacion: "083",
-    descripcion: "PRIMERA CONVOCATORIA ADQUISICIÓN DE AGUA MINERAL PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCION",
-    archivoUrl: "/assets/files/2026/abastecimiento/108.COTI.N083 (1)-F-25022026.pdf",
+    descripcion:
+      "PRIMERA CONVOCATORIA ADQUISICIÓN DE AGUA MINERAL PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCION",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/108.COTI.N083 (1)-F-25022026.pdf",
     fechapublicacion: "25.02.2026",
     inicio: "26.02.2026",
     fin: "27.02.2026",
@@ -272,8 +373,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "107",
     tipo: "Servicio",
     numcotizacion: "082",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE FOTOCOPIADO DEL PLAN DE ASISTENCIA TECNIA DE INDUCCIÓN PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCION",
-    archivoUrl: "/assets/files/2026/abastecimiento/107.COTI.N082 (1)-F-25022026.pdf",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE FOTOCOPIADO DEL PLAN DE ASISTENCIA TECNIA DE INDUCCIÓN PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCION",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/107.COTI.N082 (1)-F-25022026.pdf",
     fechapublicacion: "25.02.2026",
     inicio: "26.02.2026",
     fin: "27.02.2026",
@@ -284,8 +387,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "106",
     tipo: "Servicio",
     numcotizacion: "081",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE IMPRESIÓN DE BANNER PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCION",
-    archivoUrl: "/assets/files/2026/abastecimiento/106.COTI 081(1)-F-25022026.pdf",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE IMPRESIÓN DE BANNER PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCION",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/106.COTI 081(1)-F-25022026.pdf",
     fechapublicacion: "25.02.2026",
     inicio: "26.02.2026",
     fin: "27.02.2026",
@@ -296,8 +401,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "105",
     tipo: "Bien",
     numcotizacion: "080",
-    descripcion: "PRIMERA CONVOCATORIA ADQUISICIÓN DE KIT MEDICO Y DE ASEO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCION",
-    archivoUrl: "/assets/files/2026/abastecimiento/105.COTI.N080-F-25022026.pdf",
+    descripcion:
+      "PRIMERA CONVOCATORIA ADQUISICIÓN DE KIT MEDICO Y DE ASEO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCION",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/105.COTI.N080-F-25022026.pdf",
     fechapublicacion: "25.02.2026",
     inicio: "25.02.2026",
     fin: "26.02.2026",
@@ -308,8 +415,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "104",
     tipo: "Servicio",
     numcotizacion: "079",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ATENCIÓN DE DESAYUNO, ALMUERZO Y CENA Y REFRIGERIO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCION",
-    archivoUrl: "/assets/files/2026/abastecimiento/104.COTI.N079-F-25022026.pdf",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ATENCIÓN DE DESAYUNO, ALMUERZO Y CENA Y REFRIGERIO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCION",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/104.COTI.N079-F-25022026.pdf",
     fechapublicacion: "25.02.2026",
     inicio: "25.02.2026",
     fin: "26.02.2026",
@@ -320,8 +429,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "103",
     tipo: "Servicio",
     numcotizacion: "078",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ATENCIÓN DE REFRIGERIOS PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCION",
-    archivoUrl: "/assets/files/2026/abastecimiento/103.COTI.N078-F-25022026.pdf",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ATENCIÓN DE REFRIGERIOS PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCION",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/103.COTI.N078-F-25022026.pdf",
     fechapublicacion: "25.02.2026",
     inicio: "25.02.2026",
     fin: "26.02.2026",
@@ -332,8 +443,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "102",
     tipo: "Bien",
     numcotizacion: "076",
-    descripcion: "PRIMERA CONVOCATORIA ADQUISICIÓN DE MATERIALES DE ESCRITORIO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCION",
-    archivoUrl: "/assets/files/2026/abastecimiento/102.COTI.N076-F-25022026.pdf",
+    descripcion:
+      "PRIMERA CONVOCATORIA ADQUISICIÓN DE MATERIALES DE ESCRITORIO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCION",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/102.COTI.N076-F-25022026.pdf",
     fechapublicacion: "25.02.2026",
     inicio: "25.02.2026",
     fin: "26.02.2026",
@@ -344,8 +457,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "101",
     tipo: "Servicio",
     numcotizacion: "077",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE IMPRESIÓN PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCION",
-    archivoUrl: "/assets/files/2026/abastecimiento/101.COTI.N077-F-25022026.pdf",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE IMPRESIÓN PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCION",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/101.COTI.N077-F-25022026.pdf",
     fechapublicacion: "25.02.2026",
     inicio: "25.02.2026",
     fin: "26.02.2026",
@@ -356,8 +471,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "100",
     tipo: "Servicio",
     numcotizacion: "051",
-    descripcion: "TERCERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°04)",
-    archivoUrl: "/assets/files/2026/abastecimiento/100.COTI.N051.3-F-25022026.pdf",
+    descripcion:
+      "TERCERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°04)",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/100.COTI.N051.3-F-25022026.pdf",
     fechapublicacion: "25.02.2026",
     inicio: "25.02.2026",
     fin: "26.02.2026",
@@ -368,8 +485,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "099",
     tipo: "Servicio",
     numcotizacion: "054",
-    descripcion: "TERCERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°03)",
-    archivoUrl: "/assets/files/2026/abastecimiento/99.COTI.N054.3-F-25022026.pdf",
+    descripcion:
+      "TERCERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°03)",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/99.COTI.N054.3-F-25022026.pdf",
     fechapublicacion: "25.02.2026",
     inicio: "25.02.2026",
     fin: "26.02.2026",
@@ -380,8 +499,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "098",
     tipo: "Servicio",
     numcotizacion: "052",
-    descripcion: "TERCERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°02)",
-    archivoUrl: "/assets/files/2026/abastecimiento/98.COTI.N052.3-F-25022026.pdf",
+    descripcion:
+      "TERCERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°02)",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/98.COTI.N052.3-F-25022026.pdf",
     fechapublicacion: "25.02.2026",
     inicio: "25.02.2026",
     fin: "26.02.2026",
@@ -392,8 +513,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "097",
     tipo: "Servicio",
     numcotizacion: "055",
-    descripcion: "TERCERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°08)",
-    archivoUrl: "/assets/files/2026/abastecimiento/97.COTI.N055.3-F-25022026.pdf",
+    descripcion:
+      "TERCERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°08)",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/97.COTI.N055.3-F-25022026.pdf",
     fechapublicacion: "25.02.2026",
     inicio: "25.02.2026",
     fin: "26.02.2026",
@@ -404,8 +527,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "096",
     tipo: "Servicio",
     numcotizacion: "061",
-    descripcion: "TERCERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°07)",
-    archivoUrl: "/assets/files/2026/abastecimiento/96.COTI.N061.3-F-25022026.pdf",
+    descripcion:
+      "TERCERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°07)",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/96.COTI.N061.3-F-25022026.pdf",
     fechapublicacion: "25.02.2026",
     inicio: "25.02.2026",
     fin: "26.02.2026",
@@ -416,7 +541,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "095",
     tipo: "Servicio",
     numcotizacion: "075",
-    descripcion: "PRIMERIA CONVOCATORIA SERVICIO DE ASISTENCIA TECNICA ADMINISTRATIVA EN PDT AFPNET PARA LA DIRECCIÓN DE ADMINISTRACIÓN Y PERSONAL DE LA UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERIA CONVOCATORIA SERVICIO DE ASISTENCIA TECNICA ADMINISTRATIVA EN PDT AFPNET PARA LA DIRECCIÓN DE ADMINISTRACIÓN Y PERSONAL DE LA UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/95.COTI.N075-F-23022026.pdf",
     fechapublicacion: "23.02.2026",
     inicio: "24.02.2026",
@@ -428,7 +554,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "094",
     tipo: "Bien",
     numcotizacion: "074",
-    descripcion: "PRIMERIA CONVOCATORIA ADQUISICIÓN DE ASEO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERIA CONVOCATORIA ADQUISICIÓN DE ASEO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/94.COTI.N074-F-23022026.pdf",
     fechapublicacion: "23.02.2026",
     inicio: "23.02.2026",
@@ -439,7 +566,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "093",
     tipo: "Bien",
     numcotizacion: "073",
-    descripcion: "PRIMERIA CONVOCATORIA SERVICIO DE ASISTENCIA TECNICA PARA EL EQUIPO DE CONTABILIDAD DE LA UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERIA CONVOCATORIA SERVICIO DE ASISTENCIA TECNICA PARA EL EQUIPO DE CONTABILIDAD DE LA UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/93.COTI.N073-F-19022026.pdf",
     fechapublicacion: "19.02.2026",
     inicio: "20.02.2026",
@@ -450,7 +578,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "092",
     tipo: "Bien",
     numcotizacion: "072",
-    descripcion: "PRIMERIA CONVOCATORIA ADQUISICIÓN DE BOLIGRAFO Y CUADERNILLO PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERIA CONVOCATORIA ADQUISICIÓN DE BOLIGRAFO Y CUADERNILLO PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/92.COTI.N072-F-19022026.pdf",
     fechapublicacion: "19.02.2026",
     inicio: "20.02.2026",
@@ -461,8 +590,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "091",
     tipo: "Servicio",
     numcotizacion: "061",
-    descripcion: "SEGUNDA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°07)",
-    archivoUrl: "/assets/files/2026/abastecimiento/91.COTI.N061.2-F-19022026.pdf",
+    descripcion:
+      "SEGUNDA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°07)",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/91.COTI.N061.2-F-19022026.pdf",
     fechapublicacion: "19.02.2026",
     inicio: "20.02.2026",
     fin: "23.02.2026",
@@ -472,8 +603,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "090",
     tipo: "Servicio",
     numcotizacion: "060",
-    descripcion: "SEGUNDA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°06)",
-    archivoUrl: "/assets/files/2026/abastecimiento/90.COTI.N060.2-F-19022026.pdf",
+    descripcion:
+      "SEGUNDA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°06)",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/90.COTI.N060.2-F-19022026.pdf",
     fechapublicacion: "19.02.2026",
     inicio: "20.02.2026",
     fin: "23.02.2026",
@@ -483,8 +616,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "089",
     tipo: "Servicio",
     numcotizacion: "055",
-    descripcion: "SEGUNDA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°08)",
-    archivoUrl: "/assets/files/2026/abastecimiento/89.COTI.N055.2-F-19022026.pdf",
+    descripcion:
+      "SEGUNDA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°08)",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/89.COTI.N055.2-F-19022026.pdf",
     fechapublicacion: "19.02.2026",
     inicio: "20.02.2026",
     fin: "23.02.2026",
@@ -494,8 +629,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "088",
     tipo: "Servicio",
     numcotizacion: "054",
-    descripcion: "SEGUNDA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°03)",
-    archivoUrl: "/assets/files/2026/abastecimiento/88.COTI.N054.2-F-19022026.pdf",
+    descripcion:
+      "SEGUNDA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°03)",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/88.COTI.N054.2-F-19022026.pdf",
     fechapublicacion: "19.02.2026",
     inicio: "20.02.2026",
     fin: "23.02.2026",
@@ -505,8 +642,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "087",
     tipo: "Servicio",
     numcotizacion: "053",
-    descripcion: "SEGUNDA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°02)",
-    archivoUrl: "/assets/files/2026/abastecimiento/87.COTI.N053.2-F-19022026.pdf",
+    descripcion:
+      "SEGUNDA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°02)",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/87.COTI.N053.2-F-19022026.pdf",
     fechapublicacion: "19.02.2026",
     inicio: "20.02.2026",
     fin: "23.02.2026",
@@ -516,8 +655,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "086",
     tipo: "Servicio",
     numcotizacion: "052",
-    descripcion: "SEGUNDA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°05)",
-    archivoUrl: "/assets/files/2026/abastecimiento/86.COTI.N052.2-F-19022026.pdf",
+    descripcion:
+      "SEGUNDA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°05)",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/86.COTI.N052.2-F-19022026.pdf",
     fechapublicacion: "19.02.2026",
     inicio: "20.02.2026",
     fin: "23.02.2026",
@@ -527,8 +668,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "085",
     tipo: "Servicio",
     numcotizacion: "054",
-    descripcion: "SEGUNDA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°04)",
-    archivoUrl: "/assets/files/2026/abastecimiento/85.COTI.N051.2-F-19022026.pdf",
+    descripcion:
+      "SEGUNDA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°04)",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/85.COTI.N051.2-F-19022026.pdf",
     fechapublicacion: "19.02.2026",
     inicio: "20.02.2026",
     fin: "23.02.2026",
@@ -538,7 +681,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "084",
     tipo: "Bien",
     numcotizacion: "071",
-    descripcion: "PRIMERA CONVOCATORIA ADQUISICIÓN DE CAJA ORGANIZADORA PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA ADQUISICIÓN DE CAJA ORGANIZADORA PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/84.COTI.N071-F-18022026.pdf",
     fechapublicacion: "18.02.2026",
     inicio: "18.02.2026",
@@ -549,7 +693,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "083",
     tipo: "Servicio",
     numcotizacion: "070",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE IMPRESIÓN DE GUIAS PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE IMPRESIÓN DE GUIAS PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/83.COTI.N070-F-18022026.pdf",
     fechapublicacion: "18.02.2026",
     inicio: "18.02.2026",
@@ -560,7 +705,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "082",
     tipo: "Bien",
     numcotizacion: "069",
-    descripcion: "PRIMERA CONVOCATORIA ADQUISICIÓN DE MATERIALES DE ESCRITORIO PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA ADQUISICIÓN DE MATERIALES DE ESCRITORIO PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/82.COTI.N069-F-18022026.pdf",
     fechapublicacion: "18.02.2026",
     inicio: "18.02.2026",
@@ -571,7 +717,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "081",
     tipo: "Servicio",
     numcotizacion: "068",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ATENCIÓN DE ATENCIÓN DE REFRIGERIOS PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ATENCIÓN DE ATENCIÓN DE REFRIGERIOS PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/80.COTI.N068-F-17022026.pdf",
     fechapublicacion: "17.02.2026",
     inicio: "18.02.2026",
@@ -582,7 +729,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "080",
     tipo: "Servicio",
     numcotizacion: "067",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ATENCIÓN DE ATENCIÓN DE REFRIGERIOS PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ATENCIÓN DE ATENCIÓN DE REFRIGERIOS PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/79.COTI.N067-F-17022026.pdf",
     fechapublicacion: "17.02.2026",
     inicio: "18.02.2026",
@@ -593,7 +741,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "079",
     tipo: "Servicio",
     numcotizacion: "067",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ATENCIÓN DE ATENCIÓN DE REFRIGERIOS PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ATENCIÓN DE ATENCIÓN DE REFRIGERIOS PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/78.COTI.N066-F-17022026.pdf",
     fechapublicacion: "17.02.2026",
     inicio: "18.02.2026",
@@ -604,7 +753,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "078",
     tipo: "Servicio",
     numcotizacion: "066",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ATENCIÓN DE ATENCIÓN DE ALMUERZO PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ATENCIÓN DE ATENCIÓN DE ALMUERZO PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/78.COTI.N066-F-17022026.pdf",
     fechapublicacion: "17.02.2026",
     inicio: "18.02.2026",
@@ -615,7 +765,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "077",
     tipo: "Servicio",
     numcotizacion: "065",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ATENCIÓN DE REFRIGERIO PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ATENCIÓN DE REFRIGERIO PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/77.COTI.N065-F-17022026.pdf",
     fechapublicacion: "17.02.2026",
     inicio: "18.02.2026",
@@ -626,7 +777,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "076",
     tipo: "Servicio",
     numcotizacion: "064",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE IMPRESIÓN PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE IMPRESIÓN PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/76.COTI.N064-F-17022026.pdf",
     fechapublicacion: "17.02.2026",
     inicio: "18.02.2026",
@@ -637,7 +789,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "075",
     tipo: "Servicio",
     numcotizacion: "063",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ANALISIS DE EXPEDIENTES DE PROCESOS ADMINISTRATIVOS DISPCIPLINARIOS PARA LA UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ANALISIS DE EXPEDIENTES DE PROCESOS ADMINISTRATIVOS DISPCIPLINARIOS PARA LA UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/75.COTI.N063-F-16022026.pdf",
     fechapublicacion: "16.02.2026",
     inicio: "17.02.2026",
@@ -648,7 +801,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "074",
     tipo: "Servicio",
     numcotizacion: "062",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ATENCIÓN DE DESAYUNOS, ALMUERZOS Y CENAS PARA LA UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ATENCIÓN DE DESAYUNOS, ALMUERZOS Y CENAS PARA LA UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/74.COTI-N062-F-16022026.pdf",
     fechapublicacion: "16.02.2026",
     inicio: "17.02.2026",
@@ -659,8 +813,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "073",
     tipo: "Servicio",
     numcotizacion: "046",
-    descripcion: "SEGUNDA CONVOCATORIA SERVICIO DE ASISTENCIA TECNICA ADMINISTRATIVA PARA EL EQUIPO DE CONTABILIDAD DE LA UGEL LA CONVENCIÓN",
-    archivoUrl: "/assets/files/2026/abastecimiento/073.COTI.N46.2-F-15002226.pdf",
+    descripcion:
+      "SEGUNDA CONVOCATORIA SERVICIO DE ASISTENCIA TECNICA ADMINISTRATIVA PARA EL EQUIPO DE CONTABILIDAD DE LA UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/073.COTI.N46.2-F-15002226.pdf",
     fechapublicacion: "15.02.2026",
     inicio: "16.02.2026",
     fin: "17.02.2026",
@@ -670,7 +826,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "072",
     tipo: "Servicio",
     numcotizacion: "061",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°07)",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°07)",
     archivoUrl: "/assets/files/2026/abastecimiento/72.COTI.N061-F-13022026.pdf",
     fechapublicacion: "13.02.2026",
     inicio: "16.02.2026",
@@ -681,7 +838,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "071",
     tipo: "Servicio",
     numcotizacion: "060",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°06)",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°06)",
     archivoUrl: "/assets/files/2026/abastecimiento/71.COTI.N060-F-13022026.pdf",
     fechapublicacion: "13.02.2026",
     inicio: "16.02.2026",
@@ -692,7 +850,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "070",
     tipo: "Servicio",
     numcotizacion: "059",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°01)",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°01)",
     archivoUrl: "/assets/files/2026/abastecimiento/70.COTI.N059-F-13022026.pdf",
     fechapublicacion: "13.02.2026",
     inicio: "16.02.2026",
@@ -703,7 +862,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "069",
     tipo: "Servicio",
     numcotizacion: "058",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°11)",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°11)",
     archivoUrl: "/assets/files/2026/abastecimiento/69.COTI.N058-F-13022026.pdf",
     fechapublicacion: "13.02.2026",
     inicio: "16.02.2026",
@@ -714,7 +874,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "068",
     tipo: "Servicio",
     numcotizacion: "057",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°10)",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°10)",
     archivoUrl: "/assets/files/2026/abastecimiento/68.COTI.N057-F-13022026.pdf",
     fechapublicacion: "13.02.2026",
     inicio: "16.02.2026",
@@ -725,7 +886,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "067",
     tipo: "Servicio",
     numcotizacion: "056",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°09)",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°09)",
     archivoUrl: "/assets/files/2026/abastecimiento/67.COTI.N056-F-13022026.pdf",
     fechapublicacion: "13.02.2026",
     inicio: "16.02.2026",
@@ -736,7 +898,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "066",
     tipo: "Servicio",
     numcotizacion: "055",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°08)",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°08)",
     archivoUrl: "/assets/files/2026/abastecimiento/66.COTI.N055-F-13022026.pdf",
     fechapublicacion: "13.02.2026",
     inicio: "16.02.2026",
@@ -747,7 +910,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "065",
     tipo: "Servicio",
     numcotizacion: "054",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°03)",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°03)",
     archivoUrl: "/assets/files/2026/abastecimiento/65.COTI.N054-F-13022026.pdf",
     fechapublicacion: "13.02.2026",
     inicio: "16.02.2026",
@@ -758,7 +922,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "064",
     tipo: "Servicio",
     numcotizacion: "053",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°02)",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°02)",
     archivoUrl: "/assets/files/2026/abastecimiento/64.COTI-N053-F-13022026.pdf",
     fechapublicacion: "13.02.2026",
     inicio: "16.02.2026",
@@ -769,7 +934,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "063",
     tipo: "Servicio",
     numcotizacion: "052",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°05)",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°05)",
     archivoUrl: "/assets/files/2026/abastecimiento/63.COTI.N052-F-13022026.pdf",
     fechapublicacion: "13.02.2026",
     inicio: "16.02.2026",
@@ -780,7 +946,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "062",
     tipo: "Servicio",
     numcotizacion: "051",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°04)",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN DE MATERIALES EDUCATIVOS DE LA UGEL LA CONVENCIÓN (RUTA N°04)",
     archivoUrl: "/assets/files/2026/abastecimiento/62.COTI.N051-F-13022026.pdf",
     fechapublicacion: "13.02.2026",
     inicio: "16.02.2026",
@@ -791,7 +958,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "061",
     tipo: "Servicio",
     numcotizacion: "050",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ATENCIÓN DE BOCADITOS PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ATENCIÓN DE BOCADITOS PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/61.COTI.N050-F-11022026.pdf",
     fechapublicacion: "11.02.2026",
     inicio: "11.02.2026",
@@ -802,7 +970,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "060",
     tipo: "Bien",
     numcotizacion: "049",
-    descripcion: "PRIMERA CONVOCATORIA ADQUISICIÓN DE AGUA MINERAL PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA ADQUISICIÓN DE AGUA MINERAL PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/60.COTI.N049-F-11022026.pdf",
     fechapublicacion: "11.02.2026",
     inicio: "11.02.2026",
@@ -813,7 +982,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "059",
     tipo: "Servicio",
     numcotizacion: "048",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE IMPRESIÓN DE BANNER Y GIGANTOGRAFIA PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE IMPRESIÓN DE BANNER Y GIGANTOGRAFIA PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/59.COTI.N048-F-11022026.pdf",
     fechapublicacion: "11.02.2026",
     inicio: "11.02.2026",
@@ -824,7 +994,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "058",
     tipo: "Servicio",
     numcotizacion: "047",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE GRABACIÓN Y EDICIÓN DE VIDEO PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE GRABACIÓN Y EDICIÓN DE VIDEO PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/58.COTI.N047-F-11022026.pdf",
     fechapublicacion: "11.02.2026",
     inicio: "11.02.2026",
@@ -835,8 +1006,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "057",
     tipo: "Servicio",
     numcotizacion: "046",
-    descripcion: "SEGUNDA CONVOCATORIA SERVICIO DE ASISTENCIA TÉCNICA PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
-    archivoUrl: "/assets/files/2026/abastecimiento/57.COTI.N034.2-F-10022026.pdf",
+    descripcion:
+      "SEGUNDA CONVOCATORIA SERVICIO DE ASISTENCIA TÉCNICA PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/57.COTI.N034.2-F-10022026.pdf",
     fechapublicacion: "10.02.2026",
     inicio: "10.02.2026",
     fin: "12.02.2026",
@@ -846,7 +1019,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "056",
     tipo: "Servicio",
     numcotizacion: "046",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA TÉCNICA PARA EL EQUIPO DE CONTABILIDAD DE LA UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA TÉCNICA PARA EL EQUIPO DE CONTABILIDAD DE LA UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/56.COTI.N046-F-10022026.pdf",
     fechapublicacion: "10.02.2026",
     inicio: "10.02.2026",
@@ -857,7 +1031,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "055",
     tipo: "Servicio",
     numcotizacion: "045",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA ADMINISTRATIVA PARA LA DIRECCIÓN DE LA UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA ADMINISTRATIVA PARA LA DIRECCIÓN DE LA UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/55.COTI.N045-F-10022026.pdf",
     fechapublicacion: "10.02.2026",
     inicio: "10.02.2026",
@@ -868,8 +1043,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "054",
     tipo: "Servicio",
     numcotizacion: "030",
-    descripcion: "SEGUNDA CONVOCATORIA SERVICIO DE ASISTENCIA ADMINISTRATIVA PARA LA OFICINA DE TRAMITE DOCUMENTARIO - UGEL LA CONVENCIÓN",
-    archivoUrl: "/assets/files/2026/abastecimiento/54.COTI.N030.2-F-10022026.pdf",
+    descripcion:
+      "SEGUNDA CONVOCATORIA SERVICIO DE ASISTENCIA ADMINISTRATIVA PARA LA OFICINA DE TRAMITE DOCUMENTARIO - UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/54.COTI.N030.2-F-10022026.pdf",
     fechapublicacion: "10.02.2026",
     inicio: "10.02.2026",
     fin: "12.02.2026",
@@ -879,7 +1056,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "053",
     tipo: "Servicio",
     numcotizacion: "044",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA TECNICA ADMINISTRATIVA PARA EL EQUIPO DE TESORERIA DE LA UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA TECNICA ADMINISTRATIVA PARA EL EQUIPO DE TESORERIA DE LA UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/53.COTI.N044-F-09022026.pdf",
     fechapublicacion: "09.02.2026",
     inicio: "09.02.2026",
@@ -890,7 +1068,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "052",
     tipo: "Servicio",
     numcotizacion: "043",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA TECNICA ADMINISTRATIVA PARA EL EQUIPO DE PATRIMONIO DE LA UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA TECNICA ADMINISTRATIVA PARA EL EQUIPO DE PATRIMONIO DE LA UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/52.COTI.N043-F-09022026.pdf",
     fechapublicacion: "09.02.2026",
     inicio: "09.02.2026",
@@ -901,8 +1080,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "051",
     tipo: "Servicio",
     numcotizacion: "035",
-    descripcion: "SEGUNDA CONVOCATORIA SERVICIO DE AUXILIAR ADMINISTRATIVO PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
-    archivoUrl: "/assets/files/2026/abastecimiento/51.COTI-N035.2-F-09022026.pdf",
+    descripcion:
+      "SEGUNDA CONVOCATORIA SERVICIO DE AUXILIAR ADMINISTRATIVO PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/51.COTI-N035.2-F-09022026.pdf",
     fechapublicacion: "09.02.2026",
     inicio: "09.02.2026",
     fin: "11.02.2026",
@@ -912,7 +1093,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "050",
     tipo: "Servicio",
     numcotizacion: "042",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA TECNICA ADMINISTRATIVA PARA LA OFICINA DE ADMINISTRACIÓN Y PERSONAL DE LA UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA TECNICA ADMINISTRATIVA PARA LA OFICINA DE ADMINISTRACIÓN Y PERSONAL DE LA UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/50.COTI.N042-F-05022026.pdf",
     fechapublicacion: "05.02.2026",
     inicio: "05.02.2026",
@@ -923,7 +1105,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "049",
     tipo: "Servicio",
     numcotizacion: "041",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA TECNICA EN SIAGIE - UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA TECNICA EN SIAGIE - UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/49.COTI.N041-F-05022026.pdf",
     fechapublicacion: "05.02.2026",
     inicio: "05.02.2026",
@@ -934,7 +1117,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "048",
     tipo: "Servicio",
     numcotizacion: "040",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE CONDUCCIÓN DE VEHICULO DE LA UGEL LA CONVENCIÓN - UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE CONDUCCIÓN DE VEHICULO DE LA UGEL LA CONVENCIÓN - UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/48.COTI.N040-F-05022026.pdf",
     fechapublicacion: "05.02.2026",
     inicio: "05.02.2026",
@@ -945,7 +1129,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "047",
     tipo: "Servicio",
     numcotizacion: "039",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA TECNICA ADMINSTRATIVA, ACOMPAÑAMIENTO, EVALUACION Y VERIFICACIÓN DE LAS INTERVENCIONES DE LOS PROGRAMAS DE MANTENIMIENTO DE LAS II.EE DE LA UGEL LA CONVENCIÓN - UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA TECNICA ADMINSTRATIVA, ACOMPAÑAMIENTO, EVALUACION Y VERIFICACIÓN DE LAS INTERVENCIONES DE LOS PROGRAMAS DE MANTENIMIENTO DE LAS II.EE DE LA UGEL LA CONVENCIÓN - UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/47.COTI.N039-F-05022026.pdf",
     fechapublicacion: "05.02.2026",
     inicio: "05.02.2026",
@@ -956,7 +1141,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "046",
     tipo: "Servicio",
     numcotizacion: "038",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA TECNICA ADMINSTRATIVA PARA EL EQUIPO DE RECURSOS HUMANOS - UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA TECNICA ADMINSTRATIVA PARA EL EQUIPO DE RECURSOS HUMANOS - UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/46.COTI.N038-F-05022026.pdf",
     fechapublicacion: "05.02.2026",
     inicio: "05.02.2026",
@@ -967,7 +1153,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "045",
     tipo: "Servicio",
     numcotizacion: "037",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO ESPECIALIZADO EN ASESORIA TECNICA LEGAL PARA LA DIRECCIÓN DE LA UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO ESPECIALIZADO EN ASESORIA TECNICA LEGAL PARA LA DIRECCIÓN DE LA UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/45.COTI.N037-F-05022026.pdf",
     fechapublicacion: "05.02.2026",
     inicio: "05.02.2026",
@@ -978,7 +1165,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "044",
     tipo: "Servicio",
     numcotizacion: "036",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA ADMINISTRATIVA PARA LA OFICINA DE TRAMITE DOCUMENTARIO - UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA ADMINISTRATIVA PARA LA OFICINA DE TRAMITE DOCUMENTARIO - UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/44.COTI.N036-F-05022026.pdf",
     fechapublicacion: "05.02.2026",
     inicio: "05.02.2026",
@@ -989,7 +1177,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "043",
     tipo: "Servicio",
     numcotizacion: "035",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE AUXILIAR ADMINISTRATIVO PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE AUXILIAR ADMINISTRATIVO PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/43.COTI.N035-F-04022026.pdf",
     fechapublicacion: "04.02.2026",
     inicio: "04.02.2026",
@@ -1000,7 +1189,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "042",
     tipo: "Servicio",
     numcotizacion: "034",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA TECNICA PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA TECNICA PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/42.COT.N034-F-04022026.pdf",
     fechapublicacion: "04.02.2026",
     inicio: "04.02.2026",
@@ -1011,7 +1201,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "041",
     tipo: "Servicio",
     numcotizacion: "033",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA TECNICA PARA EL EQUIPO DE ALMACEN DE LA UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA TECNICA PARA EL EQUIPO DE ALMACEN DE LA UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/41.COTI.N033-F-04022026.pdf",
     fechapublicacion: "04.02.2026",
     inicio: "04.02.2026",
@@ -1022,8 +1213,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "040",
     tipo: "Servicio",
     numcotizacion: "021",
-    descripcion: "SEGUNDA CONVOCATORIA SERVICIO DE MODULADO Y VERIFICACIÓN DE MATERIAL EDUCATIVO PARA LA DISTRIBUCIÓN A LAS II.EE DEL ÁMBITO DE LA UGEL LA CONVENCIÓN (RUTA N°09)",
-    archivoUrl: "/assets/files/2026/abastecimiento/40.COTI.N021.2-F-04022026.pdf",
+    descripcion:
+      "SEGUNDA CONVOCATORIA SERVICIO DE MODULADO Y VERIFICACIÓN DE MATERIAL EDUCATIVO PARA LA DISTRIBUCIÓN A LAS II.EE DEL ÁMBITO DE LA UGEL LA CONVENCIÓN (RUTA N°09)",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/40.COTI.N021.2-F-04022026.pdf",
     fechapublicacion: "04.02.2026",
     inicio: "04.02.2026",
     fin: "06.02.2026",
@@ -1033,8 +1226,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "039",
     tipo: "Servicio",
     numcotizacion: "019",
-    descripcion: "SEGUNDA CONVOCATORIA SERVICIO DE MODULADO Y VERIFICACIÓN DE MATERIAL EDUCATIVO PARA LA DISTRIBUCIÓN A LAS II.EE DEL ÁMBITO DE LA UGEL LA CONVENCIÓN (RUTA N°08)",
-    archivoUrl: "/assets/files/2026/abastecimiento/39.COTI.N019.2-F-03022026.pdf",
+    descripcion:
+      "SEGUNDA CONVOCATORIA SERVICIO DE MODULADO Y VERIFICACIÓN DE MATERIAL EDUCATIVO PARA LA DISTRIBUCIÓN A LAS II.EE DEL ÁMBITO DE LA UGEL LA CONVENCIÓN (RUTA N°08)",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/39.COTI.N019.2-F-03022026.pdf",
     fechapublicacion: "03.02.2026",
     inicio: "03.02.2026",
     fin: "03.02.2026",
@@ -1044,7 +1239,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "038",
     tipo: "Servicio",
     numcotizacion: "032",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA TÉCNICA LEGAL - UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA TÉCNICA LEGAL - UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/38.COTI.N032-F-03022026.pdf",
     fechapublicacion: "03.02.2026",
     inicio: "03.02.2026",
@@ -1055,7 +1251,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "037",
     tipo: "Servicio",
     numcotizacion: "031",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ESPECIALISTA EN RELACIONES PUBLICAS - UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ESPECIALISTA EN RELACIONES PUBLICAS - UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/37.COTI.N031-F-03022026.pdf",
     fechapublicacion: "03.02.2026",
     inicio: "03.02.2026",
@@ -1066,7 +1263,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "036",
     tipo: "Servicio",
     numcotizacion: "030",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA ADMINISTRATIVA PARA LA OFICINA DE TRAMITE DOCUMENTARIO - UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA ADMINISTRATIVA PARA LA OFICINA DE TRAMITE DOCUMENTARIO - UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/36.COTI.N030-F-03022026.pdf",
     fechapublicacion: "03.02.2026",
     inicio: "03.02.2026",
@@ -1077,8 +1275,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "035",
     tipo: "Servicio",
     numcotizacion: "017",
-    descripcion: "SEGUNDA CONVOCATORIA SERVICIO DE INTERNET PARA LA SEDE - UGEL LA CONVENCIÓN",
-    archivoUrl: "/assets/files/2026/abastecimiento/35.COTI-N017.2-F-03022026.pdf",
+    descripcion:
+      "SEGUNDA CONVOCATORIA SERVICIO DE INTERNET PARA LA SEDE - UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/35.COTI-N017.2-F-03022026.pdf",
     fechapublicacion: "03.02.2026",
     inicio: "03.02.2026",
     fin: "05.02.2026",
@@ -1088,7 +1288,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "034",
     tipo: "Servicio",
     numcotizacion: "029",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE MODULADO Y VERIFICACIÓN DE MATERIAL EDUCATIVO PARA LA DISTRIBUCIÓN A LAS II.EE DEL ÁMBITO DE LA UGEL LA CONVENCIÓN (RUTA N°07)",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE MODULADO Y VERIFICACIÓN DE MATERIAL EDUCATIVO PARA LA DISTRIBUCIÓN A LAS II.EE DEL ÁMBITO DE LA UGEL LA CONVENCIÓN (RUTA N°07)",
     archivoUrl: "/assets/files/2026/abastecimiento/34.COTI-N029-F-29012026.pdf",
     fechapublicacion: "29.01.2026",
     inicio: "29.01.2026",
@@ -1099,7 +1300,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "033",
     tipo: "Servicio",
     numcotizacion: "028",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE MODULADO Y VERIFICACIÓN DE MATERIAL EDUCATIVO PARA LA DISTRIBUCIÓN A LAS II.EE DEL ÁMBITO DE LA UGEL LA CONVENCIÓN (RUTA N°04)",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE MODULADO Y VERIFICACIÓN DE MATERIAL EDUCATIVO PARA LA DISTRIBUCIÓN A LAS II.EE DEL ÁMBITO DE LA UGEL LA CONVENCIÓN (RUTA N°04)",
     archivoUrl: "/assets/files/2026/abastecimiento/33.COTI-N028-F-29012026.pdf",
     fechapublicacion: "29.01.2026",
     inicio: "29.01.2026",
@@ -1110,7 +1312,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "032",
     tipo: "Servicio",
     numcotizacion: "027",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE MODULADO Y VERIFICACIÓN DE MATERIAL EDUCATIVO PARA LA DISTRIBUCIÓN A LAS II.EE DEL ÁMBITO DE LA UGEL LA CONVENCIÓN (RUTA N°03)",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE MODULADO Y VERIFICACIÓN DE MATERIAL EDUCATIVO PARA LA DISTRIBUCIÓN A LAS II.EE DEL ÁMBITO DE LA UGEL LA CONVENCIÓN (RUTA N°03)",
     archivoUrl: "/assets/files/2026/abastecimiento/32.COTI.N027-F-29012026.pdf",
     fechapublicacion: "29.01.2026",
     inicio: "29.01.2026",
@@ -1121,7 +1324,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "031",
     tipo: "Servicio",
     numcotizacion: "026",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE MODULADO Y VERIFICACIÓN DE MATERIAL EDUCATIVO PARA LA DISTRIBUCIÓN A LAS II.EE DEL ÁMBITO DE LA UGEL LA CONVENCIÓN (RUTA N°01)",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE MODULADO Y VERIFICACIÓN DE MATERIAL EDUCATIVO PARA LA DISTRIBUCIÓN A LAS II.EE DEL ÁMBITO DE LA UGEL LA CONVENCIÓN (RUTA N°01)",
     archivoUrl: "/assets/files/2026/abastecimiento/31.COTI-N026-F-29012026.pdf",
     fechapublicacion: "29.01.2026",
     inicio: "29.01.2026",
@@ -1132,7 +1336,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "030",
     tipo: "Servicio",
     numcotizacion: "025",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE MODULADO Y VERIFICACIÓN DE MATERIAL EDUCATIVO PARA LA DISTRIBUCIÓN A LAS II.EE DEL ÁMBITO DE LA UGEL LA CONVENCIÓN (RUTA N°02)",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE MODULADO Y VERIFICACIÓN DE MATERIAL EDUCATIVO PARA LA DISTRIBUCIÓN A LAS II.EE DEL ÁMBITO DE LA UGEL LA CONVENCIÓN (RUTA N°02)",
     archivoUrl: "/assets/files/2026/abastecimiento/30.COTI.N025-F-29012026.pdf",
     fechapublicacion: "29.01.2026",
     inicio: "29.01.2026",
@@ -1143,7 +1348,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "029",
     tipo: "Servicio",
     numcotizacion: "024",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE MODULADO Y VERIFICACIÓN DE MATERIAL EDUCATIVO PARA LA DISTRIBUCIÓN A LAS II.EE DEL ÁMBITO DE LA UGEL LA CONVENCIÓN (RUTA N°11)",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE MODULADO Y VERIFICACIÓN DE MATERIAL EDUCATIVO PARA LA DISTRIBUCIÓN A LAS II.EE DEL ÁMBITO DE LA UGEL LA CONVENCIÓN (RUTA N°11)",
     archivoUrl: "/assets/files/2026/abastecimiento/29.COTI.N024-F-29012026.pdf",
     fechapublicacion: "29.01.2026",
     inicio: "29.01.2026",
@@ -1154,7 +1360,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "028",
     tipo: "Servicio",
     numcotizacion: "023",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE MODULADO Y VERIFICACIÓN DE MATERIAL EDUCATIVO PARA LA DISTRIBUCIÓN A LAS II.EE DEL ÁMBITO DE LA UGEL LA CONVENCIÓN (RUTA N°06)",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE MODULADO Y VERIFICACIÓN DE MATERIAL EDUCATIVO PARA LA DISTRIBUCIÓN A LAS II.EE DEL ÁMBITO DE LA UGEL LA CONVENCIÓN (RUTA N°06)",
     archivoUrl: "/assets/files/2026/abastecimiento/28.COTI.N023-F-29012026.pdf",
     fechapublicacion: "29.01.2026",
     inicio: "29.01.2026",
@@ -1165,7 +1372,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "027",
     tipo: "Servicio",
     numcotizacion: "022",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE MODULADO Y VERIFICACIÓN DE MATERIAL EDUCATIVO PARA LA DISTRIBUCIÓN A LAS II.EE DEL ÁMBITO DE LA UGEL LA CONVENCIÓN (RUTA N°05)",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE MODULADO Y VERIFICACIÓN DE MATERIAL EDUCATIVO PARA LA DISTRIBUCIÓN A LAS II.EE DEL ÁMBITO DE LA UGEL LA CONVENCIÓN (RUTA N°05)",
     archivoUrl: "/assets/files/2026/abastecimiento/27.COTI.N022-F-29012026.pdf",
     fechapublicacion: "29.01.2026",
     inicio: "29.01.2026",
@@ -1176,7 +1384,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "026",
     tipo: "Servicio",
     numcotizacion: "021",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE MODULADO Y VERIFICACIÓN DE MATERIAL EDUCATIVO PARA LA DISTRIBUCIÓN A LAS II.EE DEL ÁMBITO DE LA UGEL LA CONVENCIÓN (RUTA N°09)",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE MODULADO Y VERIFICACIÓN DE MATERIAL EDUCATIVO PARA LA DISTRIBUCIÓN A LAS II.EE DEL ÁMBITO DE LA UGEL LA CONVENCIÓN (RUTA N°09)",
     archivoUrl: "/assets/files/2026/abastecimiento/26.COTI.N021-F-29012026.pdf",
     fechapublicacion: "29.01.2026",
     inicio: "29.01.2026",
@@ -1187,7 +1396,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "025",
     tipo: "Servicio",
     numcotizacion: "020",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE MODULADO Y VERIFICACIÓN DE MATERIAL EDUCATIVO PARA LA DISTRIBUCIÓN A LAS II.EE DEL ÁMBITO DE LA UGEL LA CONVENCIÓN (RUTA N°09)",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE MODULADO Y VERIFICACIÓN DE MATERIAL EDUCATIVO PARA LA DISTRIBUCIÓN A LAS II.EE DEL ÁMBITO DE LA UGEL LA CONVENCIÓN (RUTA N°09)",
     archivoUrl: "/assets/files/2026/abastecimiento/25.COTI.N020-F-29012026.pdf",
     fechapublicacion: "29.01.2026",
     inicio: "29.01.2026",
@@ -1198,7 +1408,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "024",
     tipo: "Servicio",
     numcotizacion: "019",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE MODULADO Y VERIFICACIÓN DE MATERIAL EDUCATIVO PARA LA DISTRIBUCIÓN A LAS II.EE DEL ÁMBITO DE LA UGEL LA CONVENCIÓN (RUTA N°08)",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE MODULADO Y VERIFICACIÓN DE MATERIAL EDUCATIVO PARA LA DISTRIBUCIÓN A LAS II.EE DEL ÁMBITO DE LA UGEL LA CONVENCIÓN (RUTA N°08)",
     archivoUrl: "/assets/files/2026/abastecimiento/24.COTI.N019-F-29012026.pdf",
     fechapublicacion: "29.01.2026",
     inicio: "29.01.2026",
@@ -1209,8 +1420,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "023",
     tipo: "Servicio",
     numcotizacion: "012",
-    descripcion: "SEGUNDA CONVOCATORIA SERVICIO DE ASISTENCIA TECNICA ADMINISTRATIVA - UGEL LA CONVENCIÓN",
-    archivoUrl: "/assets/files/2026/abastecimiento/23.COTI.N012.2-F-29012026.pdf",
+    descripcion:
+      "SEGUNDA CONVOCATORIA SERVICIO DE ASISTENCIA TECNICA ADMINISTRATIVA - UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/23.COTI.N012.2-F-29012026.pdf",
     fechapublicacion: "29.01.2026",
     inicio: "29.01.2026",
     fin: "02.02.2026",
@@ -1220,8 +1433,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "022",
     tipo: "Servicio",
     numcotizacion: "011",
-    descripcion: "SEGUNDA CONVOCATORIA SERVICIO DE REGISTRO Y ACTUALIZACION DE BASE DE DATOS AIRHSP - UGEL LA CONVENCIÓN",
-    archivoUrl: "/assets/files/2026/abastecimiento/22.COTI.N011.2-F-29012026.pdf",
+    descripcion:
+      "SEGUNDA CONVOCATORIA SERVICIO DE REGISTRO Y ACTUALIZACION DE BASE DE DATOS AIRHSP - UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/22.COTI.N011.2-F-29012026.pdf",
     fechapublicacion: "29.01.2026",
     inicio: "29.01.2026",
     fin: "02.02.2026",
@@ -1231,7 +1446,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "021",
     tipo: "Servicio",
     numcotizacion: "018",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ANALISIS DE EXPEDIENTES DE PROCESOS ADMINISTRATIVOS DISCICPLINARIOS - UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ANALISIS DE EXPEDIENTES DE PROCESOS ADMINISTRATIVOS DISCICPLINARIOS - UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/21.COTI.N018-F-29012026.pdf",
     fechapublicacion: "29.01.2026",
     inicio: "29.01.2026",
@@ -1242,7 +1458,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "020",
     tipo: "Servicio",
     numcotizacion: "017",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE INTERNET PARA LA SEDE - UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE INTERNET PARA LA SEDE - UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/20.COTI.N017-F-29012026.pdf",
     fechapublicacion: "29.01.2026",
     inicio: "29.01.2026",
@@ -1253,7 +1470,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "019",
     tipo: "Bien",
     numcotizacion: "016",
-    descripcion: "PRIMERA CONVOCATORIA ADQUISICIÓN DE PLUMON Y FILM - UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA ADQUISICIÓN DE PLUMON Y FILM - UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/19.COTI.N016-F-28012026.pdf",
     fechapublicacion: "28.01.2026",
     inicio: "28.01.2026",
@@ -1264,7 +1482,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "018",
     tipo: "Bien",
     numcotizacion: "015",
-    descripcion: "PRIMERA CONVOCATORIA ADQUISICIÓN DE CAJA ORGANIZADORA - UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA ADQUISICIÓN DE CAJA ORGANIZADORA - UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/18.COTI.N015-F-28012026.pdf",
     fechapublicacion: "28.01.2026",
     inicio: "28.01.2026",
@@ -1275,7 +1494,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "017",
     tipo: "Servicio",
     numcotizacion: "014",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO ESPECIALIZADO EN PRESUPUESTO PÚBLICO - UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO ESPECIALIZADO EN PRESUPUESTO PÚBLICO - UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/17.COTI.N14-F-27012026.pdf",
     fechapublicacion: "27.01.2026",
     inicio: "27.01.2026",
@@ -1286,7 +1506,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "016",
     tipo: "Servicio",
     numcotizacion: "013",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE SUSCRIPCIÓN ANUAL DE LICENCIA DE SOFTWARE (ZOOM) - UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE SUSCRIPCIÓN ANUAL DE LICENCIA DE SOFTWARE (ZOOM) - UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/16.COTI.N13-F-27012026.pdf",
     fechapublicacion: "27.01.2026",
     inicio: "27.01.2026",
@@ -1297,7 +1518,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "015",
     tipo: "Servicio",
     numcotizacion: "012",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA TECNICA ADMINISTRATIVA - UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ASISTENCIA TECNICA ADMINISTRATIVA - UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/15.COTI.N012-F-26012026.pdf",
     fechapublicacion: "26.01.2026",
     inicio: "26.01.2026",
@@ -1308,7 +1530,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "014",
     tipo: "Servicio",
     numcotizacion: "011",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE REGISTRO Y ACTUALIZACION DE BASE DE DATOS AIRHSP - UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE REGISTRO Y ACTUALIZACION DE BASE DE DATOS AIRHSP - UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/14.COTI.N011-F-26012026.pdf",
     fechapublicacion: "26.01.2026",
     inicio: "26.01.2026",
@@ -1319,7 +1542,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "013",
     tipo: "Servicio",
     numcotizacion: "010",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE RECEPCIÓN, ELABORACIÓN Y ARCHIVO DE DOCUMENTOS - UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE RECEPCIÓN, ELABORACIÓN Y ARCHIVO DE DOCUMENTOS - UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/13.COTI-N010-F-23012026.pdf",
     fechapublicacion: "23.01.2026",
     inicio: "23.01.2026",
@@ -1330,7 +1554,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "012",
     tipo: "Servicio",
     numcotizacion: "009",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ALQUILER DE LOCAL PARA USO COMO ALMACÉN PARA MATERIALES DE ESCRITORIO ADQUIRIDOS POR LA SEDE - UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ALQUILER DE LOCAL PARA USO COMO ALMACÉN PARA MATERIALES DE ESCRITORIO ADQUIRIDOS POR LA SEDE - UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/12.COTI.N009-F-22012026.pdf",
     fechapublicacion: "22.01.2026",
     inicio: "22.01.2026",
@@ -1341,7 +1566,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "011",
     tipo: "Servicio",
     numcotizacion: "008",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ALQUILER DE LOCAL PARA USO COMO ALMACÉN PARA MATERIALES EDUCATIVOS ENTREGADOS POR EL MINEDU - UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ALQUILER DE LOCAL PARA USO COMO ALMACÉN PARA MATERIALES EDUCATIVOS ENTREGADOS POR EL MINEDU - UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/11.COTI.N008-F-22012026.pdf",
     fechapublicacion: "22.01.2026",
     inicio: "22.01.2026",
@@ -1352,7 +1578,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "010",
     tipo: "Bien",
     numcotizacion: "007",
-    descripcion: "PRIMERA CONVOCATORIA ADQUISICIÓN DE TÓNER - UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA ADQUISICIÓN DE TÓNER - UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/10.COTI-N007-F-21012026.pdf",
     fechapublicacion: "21.01.2026",
     inicio: "21.01.2026",
@@ -1363,7 +1590,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "009",
     tipo: "Servicio",
     numcotizacion: "006",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ASISTENTE TÉCNICO INFORMATICO PARA EL EQUIPO DE ESTADISTICA - UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ASISTENTE TÉCNICO INFORMATICO PARA EL EQUIPO DE ESTADISTICA - UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/09.COTI-N006-F-14012026.pdf",
     fechapublicacion: "14.01.2026",
     inicio: "14.01.2026",
@@ -1374,7 +1602,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "008",
     tipo: "Servicio",
     numcotizacion: "005",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO DE ASISTENTE ADMINISTRATIVO PARA EL EQUIPO DE CONTABILIDAD - UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO DE ASISTENTE ADMINISTRATIVO PARA EL EQUIPO DE CONTABILIDAD - UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/08.COTI-N005-F-14012026.pdf",
     fechapublicacion: "14.01.2026",
     inicio: "14.01.2026",
@@ -1385,7 +1614,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "007",
     tipo: "Servicio",
     numcotizacion: "003",
-    descripcion: "SEGUNDA CONVOCATORIA SERVICIO DE ASISTENTE ADMINISTRATIVO - UGEL LA CONVENCIÓN",
+    descripcion:
+      "SEGUNDA CONVOCATORIA SERVICIO DE ASISTENTE ADMINISTRATIVO - UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/07.COTI-N004-F-14012026.pdf",
     fechapublicacion: "14.01.2026",
     inicio: "14.01.2026",
@@ -1396,8 +1626,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "006",
     tipo: "Servicio",
     numcotizacion: "003",
-    descripcion: "SEGUNDA CONVOCATORIA SERVICIO ESPECIALIZADO EN PDT-AFPNET - UGEL LA CONVENCIÓN",
-    archivoUrl: "/assets/files/2026/abastecimiento/06.COTI-N003.2-F-12012026.pdf",
+    descripcion:
+      "SEGUNDA CONVOCATORIA SERVICIO ESPECIALIZADO EN PDT-AFPNET - UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/06.COTI-N003.2-F-12012026.pdf",
     fechapublicacion: "12.01.2026",
     inicio: "12.01.2026",
     fin: "12.01.2026",
@@ -1407,8 +1639,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "005",
     tipo: "Servicio",
     numcotizacion: "002",
-    descripcion: "SEGUNDA CONVOCATORIA SERVICIO ESPECIALIZADO EN PLANIFICACIÓN - UGEL LA CONVENCIÓN",
-    archivoUrl: "/assets/files/2026/abastecimiento/05.COTI-N002.2-F-12012026.pdf",
+    descripcion:
+      "SEGUNDA CONVOCATORIA SERVICIO ESPECIALIZADO EN PLANIFICACIÓN - UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/05.COTI-N002.2-F-12012026.pdf",
     fechapublicacion: "12.01.2026",
     inicio: "12.01.2026",
     fin: "12.01.2026",
@@ -1418,8 +1652,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "004",
     tipo: "Servicio",
     numcotizacion: "001",
-    descripcion: "SEGUNDA CONVOCATORIA SERVICIO ESPECIALIZADO EN PRESUPUESTO - UGEL LA CONVENCIÓN",
-    archivoUrl: "/assets/files/2026/abastecimiento/04.COTI-N001.2-F-12012026.pdf",
+    descripcion:
+      "SEGUNDA CONVOCATORIA SERVICIO ESPECIALIZADO EN PRESUPUESTO - UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/04.COTI-N001.2-F-12012026.pdf",
     fechapublicacion: "12.01.2026",
     inicio: "12.01.2026",
     fin: "12.01.2026",
@@ -1429,7 +1665,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "003",
     tipo: "Servicio",
     numcotizacion: "003",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO ESPECIALIZADO EN PDT-AFPNET - UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO ESPECIALIZADO EN PDT-AFPNET - UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/03.COTI-N003-F-09012026.pdf",
     fechapublicacion: "09.01.2026",
     inicio: "09.01.2026",
@@ -1440,7 +1677,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "002",
     tipo: "Servicio",
     numcotizacion: "002",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO ESPECIALIZADO EN PLANIFICACIÓN - UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO ESPECIALIZADO EN PLANIFICACIÓN - UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/02.COTI-002-F-09012026.pdf",
     fechapublicacion: "09.01.2026",
     inicio: "09.01.2026",
@@ -1451,7 +1689,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "001",
     tipo: "Servicio",
     numcotizacion: "001",
-    descripcion: "PRIMERA CONVOCATORIA SERVICIO ESPECIALIZADO EN PRESUPUESTO - UGEL LA CONVENCIÓN",
+    descripcion:
+      "PRIMERA CONVOCATORIA SERVICIO ESPECIALIZADO EN PRESUPUESTO - UGEL LA CONVENCIÓN",
     archivoUrl: "/assets/files/2026/abastecimiento/01.COTI-001-F-09012026.pdf",
     fechapublicacion: "09.01.2026",
     inicio: "09.01.2026",

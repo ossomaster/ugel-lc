@@ -96,7 +96,7 @@ export const NAV_MENU: TNavMenuItem[] = [];
 export const SLIDES = [
 	{
 		image: "/assets/slider/slide-7.png",
-		title: "UGEL LA CONVENCIÓN",
+		title: "INICIO DE CLASES 16 DE MARZO",
 		description: "",
 		//buttonText: "Acceder",
 		//buttonUrl: "#",

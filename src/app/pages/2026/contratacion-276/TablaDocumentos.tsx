@@ -1,9 +1,8 @@
-// GridDocumentos.tsx
+// TablaDocumentos.tsx  (o GridDocumentos.tsx)
 "use client"
 
-import { FaFilePdf, FaCalendarAlt, FaCheckCircle, FaTimesCircle, FaClock, FaDownload, FaWpforms, FaLink } from "react-icons/fa"
-import { type TDocumentoNormativo } from "./constants"
-import { FaFaceSmileWink } from "react-icons/fa6"
+import { FaFilePdf, FaCalendarAlt, FaCheckCircle, FaTimesCircle, FaClock, FaLink } from "react-icons/fa"
+import { type TDocumentoNormativo, type LinkConFecha } from "./constants"
 
 interface GridProps {
   datos: TDocumentoNormativo[]
@@ -38,9 +37,17 @@ function CardDocumento({ doc }: { doc: TDocumentoNormativo }) {
   const estadoActual = doc.estado || "vigente"
   const { color, icon, label } = configEstado[estadoActual]
 
+  // Helper para obtener URL y fecha manual por botón
+  const getLinkData = (link?: LinkConFecha) => {
+    if (!link) return null
+    if (typeof link === "string") {
+      return { url: link, fecha: doc.fechapublicacion }
+    }
+    return { url: link.url, fecha: link.fecha || doc.fechapublicacion }
+  }
+
   return (
     <div className="group relative flex flex-col bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden">
-      {/* Línea de acento superior */}
       <div className={`h-1.5 w-full ${estadoActual === 'vigente' ? 'bg-emerald-500' : 'bg-gray-300'}`} />
       
       <div className="p-6 flex flex-col h-full">
@@ -51,22 +58,9 @@ function CardDocumento({ doc }: { doc: TDocumentoNormativo }) {
               PROCESO {doc.numero}
             </span>
             <div className="flex flex-col gap-1.5 text-gray-400 text-[11px] mt-2">
-              {/* Fecha de Publicación */}
-              <div className="flex items-center gap-1.5">
-                <FaCalendarAlt className="text-blue-500/70" />
-                <span><strong className="text-gray-500">Publicación:</strong> {doc.fechapublicacion}</span>
-              </div>
-              {/* Fecha de Inicio */}
-              <div className="flex items-center gap-1.5">
-                <FaCalendarAlt className="text-emerald-500/70" />
-                <span><strong className="text-gray-500">Inicio:</strong> {doc.fechainicio}</span>
-              </div>
-
-              {/* Fecha de Fin */}
-              <div className="flex items-center gap-1.5">
-                <FaCalendarAlt className="text-rose-500/70" />
-                <span><strong className="text-gray-500">Fin:</strong> {doc.fechafin}</span>
-              </div>
+              <div className="flex items-center gap-1.5"><FaCalendarAlt className="text-blue-500/70" /><span><strong className="text-gray-500">Publicación:</strong> {doc.fechapublicacion}</span></div>
+              <div className="flex items-center gap-1.5"><FaCalendarAlt className="text-emerald-500/70" /><span><strong className="text-gray-500">Inicio:</strong> {doc.fechainicio}</span></div>
+              <div className="flex items-center gap-1.5"><FaCalendarAlt className="text-rose-500/70" /><span><strong className="text-gray-500">Fin:</strong> {doc.fechafin}</span></div>
             </div>
           </div>
           <div className={`flex items-center gap-1.5 px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-wider ${color}`}>
@@ -84,37 +78,22 @@ function CardDocumento({ doc }: { doc: TDocumentoNormativo }) {
           </p>
         </div>
 
-        {/* Botones de Acción */}
-        <div className="mt-6">
-          <div className="grid grid-cols-2 gap-2">
-            {/* Solo se muestran si existe el enlace */}
-            {doc.bases && <BotonDescarga href={doc.bases} label="Bases"/>}
-            {doc.linkinscripcion && <BotonLinkInscripcion href={doc.linkinscripcion} label="Pre-Inscripción"/>}
-            {doc.preliminar && <BotonDescarga href={doc.preliminar} label="Resultado Preliminar" />}
-            {doc.preliminar2 && <BotonDescarga href={doc.preliminar2} label="Result Prelimi 03.03.2026" />}
-            {doc.entrevista && <BotonDescarga href={doc.entrevista} label="Aptos Entrevista" />}
-            {doc.final && <BotonDescarga href={doc.final} label="Resultado Final" />}
-            {doc.comunicado1 && (
-            <BotonDescarga href={doc.comunicado1} label="Comunicado N°01" fullWidth />
-            )}
-            {doc.comunicado2 && (
-              <BotonDescarga href={doc.comunicado2} label="Comunicado N°02" fullWidth />
-            )}
-          </div>
-          
-          
-          {doc.comunicado3 && (
-            <BotonDescarga href={doc.comunicado3} label="Comunicado N°03" fullWidth />
-          )}
+        {/* Botones arriba con fecha MANUAL por botón */}
+        <div className="grid grid-cols-2 gap-2 mb-6">
+          {doc.bases && (() => { const d = getLinkData(doc.bases); return d && <BotonDescarga href={d.url} label="Bases" fecha={d.fecha} /> })()}
+          {doc.linkinscripcion && (() => { const d = getLinkData(doc.linkinscripcion); return d && <BotonLinkInscripcion href={d.url} label="Pre-Inscripción" fecha={d.fecha} /> })()}
+          {doc.preliminar && (() => { const d = getLinkData(doc.preliminar); return d && <BotonDescarga href={d.url} label="Resultado Preliminar" fecha={d.fecha} /> })()}
+          {doc.preliminar2 && (() => { const d = getLinkData(doc.preliminar2); return d && <BotonDescarga href={d.url} label="Result Prelimi 03.03.2026" fecha={d.fecha} /> })()}
+          {doc.entrevista && (() => { const d = getLinkData(doc.entrevista); return d && <BotonDescarga href={d.url} label="Aptos Entrevista" fecha={d.fecha} /> })()}
+          {doc.final && (() => { const d = getLinkData(doc.final); return d && <BotonDescarga href={d.url} label="Resultado Final" fecha={d.fecha} /> })()}
+          {doc.comunicado1 && (() => { const d = getLinkData(doc.comunicado1); return d && <BotonDescarga href={d.url} label="Comunicado N°01" fecha={d.fecha} fullWidth /> })()}
+          {doc.comunicado2 && (() => { const d = getLinkData(doc.comunicado2); return d && <BotonDescarga href={d.url} label="Comunicado N°02" fecha={d.fecha} fullWidth /> })()}
+          {doc.comunicado3 && (() => { const d = getLinkData(doc.comunicado3); return d && <BotonDescarga href={d.url} label="Comunicado N°03" fecha={d.fecha} fullWidth /> })()}
         </div>
       </div>
 
-      {/* Badge Flotante (Opcional) */}
       {doc.badge && (
-        <div 
-          className="absolute top-16 -right-8 rotate-0 w-32 text-center py-1 text-[9px] font-bold text-white shadow-sm"
-          style={{ backgroundColor: doc.badge.color }}
-        >
+        <div className="absolute top-16 -right-8 w-32 text-center py-1 text-[9px] font-bold text-white shadow-sm" style={{ backgroundColor: doc.badge.color }}>
           {doc.badge.label}
         </div>
       )}
@@ -122,40 +101,29 @@ function CardDocumento({ doc }: { doc: TDocumentoNormativo }) {
   )
 }
 
-function BotonDescarga({ href, label, fullWidth = false }: { href: string; label: string; fullWidth?: boolean }) {
+/* ====================== BOTÓN PEQUEÑO + FECHA MANUAL ====================== */
+function BotonDescarga({ href, label, fecha, fullWidth = false }: { href: string; label: string; fecha?: string; fullWidth?: boolean }) {
   return (
-    <a
-      href={href}
-      target="_blank"
-      rel="noopener noreferrer"
-      className={`
-        flex items-center justify-left gap-1 px-2 py-2.5 rounded-lg border border-red-200 
-        bg-gray-50/50 text-gray-600 text-[9.6px] font-bold uppercase tracking-tight
-        hover:bg-red-50 hover:border-red-100 hover:text-red-600 transition-all
-        ${fullWidth ? 'col-span-0' : ''}
-      `}
-    >
-      <FaFilePdf className="text-sm text-red-600 opacity-90 group-hover/btn:scale-110 transition-transform" />
-      <span className="truncate">{label}</span>
-    </a>
+    <div className={fullWidth ? "col-span-2" : ""}>
+      <a href={href} target="_blank" rel="noopener noreferrer"
+        className="flex items-center justify-start gap-1 px-2 py-2.5 rounded-lg border border-red-200 bg-gray-50/50 text-gray-600 text-[9.6px] font-bold uppercase tracking-tight hover:bg-red-50 hover:border-red-100 hover:text-red-600 transition-all">
+        <FaFilePdf className="text-sm text-red-600" />
+        <span className="truncate">{label}</span>
+      </a>
+      {fecha && <p className="text-[9px] text-slate-400 font-medium mt-1 pl-1">Publicado: {fecha}</p>}
+    </div>
   )
 }
 
-function BotonLinkInscripcion({ href, label, fullWidth = false }: { href: string; label: string; fullWidth?: boolean }) {
+function BotonLinkInscripcion({ href, label, fecha, fullWidth = false }: { href: string; label: string; fecha?: string; fullWidth?: boolean }) {
   return (
-    <a
-      href={href}
-      target="_blank"
-      rel="noopener noreferrer"
-      className={`
-        flex items-center justify-left gap-1 px-2 py-2.5 rounded-lg border border-red-200 
-        bg-gray-50/50 text-gray-600 text-[9.6px] font-bold uppercase tracking-tight
-        hover:bg-red-50 hover:border-red-100 hover:text-red-600 transition-all
-        ${fullWidth ? 'col-span-0' : ''}
-      `}
-    >
-      <FaLink className="text-sm text-red-600 opacity-90 group-hover/btn:scale-110 transition-transform" />
-      <span className="truncate">{label}</span>
-    </a>
+    <div className={fullWidth ? "col-span-2" : ""}>
+      <a href={href} target="_blank" rel="noopener noreferrer"
+        className="flex items-center justify-start gap-1 px-2 py-2.5 rounded-lg border border-purple-200 bg-purple-50 text-purple-700 text-[9.6px] font-bold uppercase tracking-tight hover:bg-purple-100 hover:border-purple-300 hover:text-purple-700 transition-all">
+        <FaLink className="text-sm text-purple-600" />
+        <span className="truncate">{label}</span>
+      </a>
+      {fecha && <p className="text-[9px] text-slate-400 font-medium mt-1 pl-1">Publicado: {fecha}</p>}
+    </div>
   )
 }
