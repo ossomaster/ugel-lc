@@ -10,6 +10,23 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
+		numero: "22",
+		nombre: "Comunicado, Plazas - Adjudicación Contratación Docente 2026 Segunda Etapa PN",
+		tipo: "Plazas",
+		fecha: "2026-03-04",
+		badge: { label: "Nuevo", color: "#10b981" },
+		archivoUrl: [
+			
+		    { label: "COMUNICADO", url: "/assets/files/2026/contrata-docente/22.COMUNICADO-ADJUDICACION-04032026.pdf", fecha:"2026-03-04"},
+			{ label: "EBR. SECUNDARIA", url: "/assets/files/2026/contrata-docente/22.PLAZAS.SECUNDARIA-F-04032026.pdf", fecha:"2026-03-04" },
+			{ label: "COORD.PRONOEI", url: "/assets/files/2026/contrata-docente/22.COOR.PRONOEI-F-04032026.pdf", fecha:"2026-03-04" },
+			{ label: "EBA INICIAL.INTERMEDIO", url: "/assets/files/2026/contrata-docente/22.EBA.INICIAL.INTERMEDIO-F-04032026.pdf", fecha:"2026-03-04" },
+			{ label: "EBR. PRIMARIA", url: "/assets/files/2026/contrata-docente/22.PLAZAS.PRIMARIA-F-04032026.pdf", fecha:"2026-03-04" },
+			{ label: "EBR. INICIAL", url: "/assets/files/2026/contrata-docente/22.PLAZAS.INICIAL.04032026.pdf", fecha:"2026-03-04" },
+		],		
+	},
+	
+	{
 		numero: "21",
 		nombre: "Resultados Preliminares Contratación Docente 2026 Tercera Etapa Evaluación por Expedientes",
 		tipo: "Plazas",

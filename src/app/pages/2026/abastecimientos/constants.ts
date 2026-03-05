@@ -15,6 +15,21 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
   {
+    numero: "132",
+    tipo: "Servicio",
+    numcotizacion: "104",
+    descripcion:
+      "SERVICIO DE CONDUCCIÓN DE VEHICULO DE LA UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/132.COTI.N104-F-04032026.pdf",
+    fechapublicacion: "04.03.2026",
+    inicio: "05.03.2026",
+    fin: "06.03.2026",
+    badge: { label: "Nuevo", color: "#10b981" },
+    estado: "vigente",
+  },
+
+  {
     numero: "131",
     tipo: "Bien",
     numcotizacion: "088",
@@ -28,7 +43,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     badge: { label: "Nuevo", color: "#10b981" },
     estado: "vigente",
   },
-  
+
   {
     numero: "130",
     tipo: "Servicio",
@@ -43,7 +58,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     badge: { label: "Nuevo", color: "#10b981" },
     estado: "vigente",
   },
-  
+
   {
     numero: "129",
     tipo: "Bien",
@@ -58,7 +73,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     badge: { label: "Nuevo", color: "#10b981" },
     estado: "vigente",
   },
-  
+
   {
     numero: "128",
     tipo: "Servicio",
