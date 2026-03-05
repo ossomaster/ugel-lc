@@ -50,6 +50,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 			{ label: "EBR.SEC.ARTE", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.ARTE-F-03032026.pdf", fecha:"2026-03-03" },
 			{ label: "EBR.SEC.EPT", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.EPT-F-03032026.pdf", fecha:"2026-03-03"},
 			{ label: "EBE PRIMARIA", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBE.PRIMARIA-F-03032026.pdf", fecha:"2026-03-03"},
+			{ label: "FE ERRATAS EBE PRIMARIA", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBE.PRIMARIA-F-05032026.pdf", fecha:"2026-03-05"},
 		],		
 	},
 	
