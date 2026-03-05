@@ -1,36 +1,42 @@
 // constants.ts  (modificar el bases y los documentos)
+export type LinkConFecha = string | { url: string; fecha?: string };
 
 export type TDocumentoNormativo = {
-  numero: string
-  descripcion: string
-  convocatoria: string
-  fechapublicacion: string
-  fechainicio: string
-  fechafin: string
-  bases: string
-  linkinscripcion:string
-  perfiles?:string
-  preliminar: string
-  entrevista: string
-  final?:string
-  comunicado1: string
-  comunicado2: string
-  comunicado3: string
-  badge?: { label: string; color: string }
-  estado?: 'vigente' | 'concluida' | 'cancelada'
-}
+  numero: string;
+  descripcion: string;
+  convocatoria: string;
+  fechapublicacion: string;
+  fechainicio: string;
+  fechafin: string;
+  bases: LinkConFecha;
+  linkinscripcion: LinkConFecha;
+  perfiles?: LinkConFecha;
+  preliminar: LinkConFecha;
+  entrevista: LinkConFecha;
+  final?: LinkConFecha;
+  comunicado1: LinkConFecha;
+  comunicado2: LinkConFecha;
+  comunicado3: LinkConFecha;
+  badge?: { label: string; color: string };
+  estado?: "vigente" | "concluida" | "cancelada";
+};
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
   {
     numero: "003-2026",
     descripcion: "Intervenciones y Acciones Pedagógicas UGEL La Convención",
     convocatoria: "CAS N°03 - 2026",
-    fechapublicacion:"02/03/2026",
+    fechapublicacion: "02/03/2026",
     fechainicio: "19/02/2026",
     fechafin: "20/03/2026",
-    bases: "/assets/files/2026/contratacion-cas/03.BASES-PERFILES-CONVOCATORIA-INTERVENCIONES-PEDAGOGICAS-CAS-N03-2026-SEDE-F-02032026.pdf",
-    linkinscripcion:"https://www.ugellaconvencion.gob.pe/inscripcion/cas03-2026/",
-    perfiles:"https://drive.google.com/drive/folders/1wHcSPRhEfkvXtxRNtzQG4ZFnVQ-t9GnI?usp=sharing",
+    bases: {
+      url: "/assets/files/2026/contratacion-cas/03.BASES-PERFILES-CONVOCATORIA-INTERVENCIONES-PEDAGOGICAS-CAS-N03-2026-SEDE-F-02032026.pdf",
+      fecha: "02/03/2026",
+    },
+    linkinscripcion:
+      "https://www.ugellaconvencion.gob.pe/inscripcion/cas03-2026/",
+    perfiles:
+      "https://drive.google.com/drive/folders/1wHcSPRhEfkvXtxRNtzQG4ZFnVQ-t9GnI?usp=sharing",
     preliminar: "",
     entrevista: "",
     final: "",
@@ -38,17 +44,19 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     comunicado2: "",
     comunicado3: "",
     badge: { label: "PUBLICADO", color: "#00c758" },
-    estado: "vigente",  
+    estado: "vigente",
   },
   {
     numero: "002-2026",
     descripcion: "Sede Administrativa UGEL La Convención",
     convocatoria: "CAS N°02 - 2026",
-    fechapublicacion:"25/02/2026",
+    fechapublicacion: "25/02/2026",
     fechainicio: "14/01/2026",
     fechafin: "09/03/2026",
-    bases: "/assets/files/2026/contratacion-cas/02.BASES-PERFILES-CONVOCATORIA-ANEXOS-CAS-N°02-2026-SEDE-F-25022026.pdf",
-    linkinscripcion:"https://www.ugellaconvencion.gob.pe/inscripcion/cas02-2026/",
+    bases:
+      "/assets/files/2026/contratacion-cas/02.BASES-PERFILES-CONVOCATORIA-ANEXOS-CAS-N°02-2026-SEDE-F-25022026.pdf",
+    linkinscripcion:
+      "https://www.ugellaconvencion.gob.pe/inscripcion/cas02-2026/",
     preliminar: "",
     entrevista: "",
     final: "",
@@ -56,17 +64,18 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     comunicado2: "",
     comunicado3: "",
     badge: { label: "PUBLICADO", color: "#00c758" },
-    estado: "vigente",  
+    estado: "vigente",
   },
-   {
+  {
     numero: "001-2026",
     descripcion: "Sede Administrativa UGEL La Convención",
     convocatoria: "CAS N°-01 - 2026",
-    fechapublicacion:"/02/2026",
+    fechapublicacion: "/02/2026",
     fechainicio: "09/02/2026",
     fechafin: "30/02/2026",
-    bases: "/assets/files/2026/contratacion-cas/01.BASES-PERFILES-CONVOCATORIA-ANEXOS-CAS-N°01-2026-SEDE-F-09022026.pdf",
-    linkinscripcion:"",
+    bases:
+      "/assets/files/2026/contratacion-cas/01.BASES-PERFILES-CONVOCATORIA-ANEXOS-CAS-N°01-2026-SEDE-F-09022026.pdf",
+    linkinscripcion: "",
     preliminar: "",
     entrevista: "",
     final: "",
@@ -76,5 +85,4 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     badge: { label: "PUBLICADO", color: "#00c758" },
     estado: "cancelada",
   },
- 
-]
+];
