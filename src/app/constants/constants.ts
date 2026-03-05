@@ -202,7 +202,7 @@ export const TOP_DROPDOWNS: TTopDropdown[] = [
 			{ label: "Boletas de Pago", href: "https://servicios-ayni.minedu.gob.pe/" },
 			{ label: "SIAMEP", href: "https://siamep.ugellaconvencion.gob.pe/autenticacion/iniciar-sesion" },
 			{ label: "Escalafón", href: "/pages/en-construccion" },
-			{ label: "Reporte de Asistencia II.EE", href: "https://forms.gle/5ziXQBH1NSJsaKxr5" },
+			{ label: "Reporte de Asistencia II.EE", href: "/pages/reporte-asistencia" },
 		],
 	},
 ]
