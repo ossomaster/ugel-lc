@@ -95,7 +95,7 @@ export const NAV_MENU: TNavMenuItem[] = [];
 
 export const SLIDES = [
 	{
-		image: "/assets/slider/slide-7.png",
+		image: "/assets/slider/slide-7.jpeg",
 		title: "INICIO DE CLASES 16 DE MARZO",
 		description: "",
 		//buttonText: "Acceder",

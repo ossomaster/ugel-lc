@@ -3,11 +3,24 @@ export type TDocumentoNormativo = {
 	nombre: string
 	tipo: string
 	fecha: string
-	archivoUrl: string | { label: string; url: string }[]
+	archivoUrl: string | { label: string; url: string, fecha?: string}[]
+	enlace?: string
 	badge?: { label: string; color: string }
 }
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
+	{
+		numero: "14",
+		nombre: "Comunicado Adjudicación Viernes 06 de Marzo",
+		tipo: "Comunicado",
+		fecha: "2026-03-05",
+		archivoUrl: [
+			
+		    { label: "COMUNICADO", url: "/assets/files/2026/contratacion-auxiliares/14.COMUNICADO-ADJUDICACION-05032026.pdf", fecha:"2026-03-05"},
+			{ label: "Plazas", url: "/assets/files/2026/contratacion-auxiliares/14.PLAZAS-VACANTES-05032026.pdf", fecha:"2026-03-05"},
+		],		
+		badge: { label: "Reciente", color: "#D62911" }
+	},
 	{
 		numero: "13",
 		nombre: "Comunicado Adjudicación Contratación Auxiliares de Educación",
@@ -21,7 +34,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		nombre: "Resultado Final Contratación Auxiliares de Educación",
 		tipo: "Resultados",
 		fecha: "2026-02-12",
-		archivoUrl: "/assets/files/2026/contratacion-auxiliares/12.RESULTADO.FINAL.AUX-FINAL-F-1202202665.pdf",
+		archivoUrl: [
+			
+		    { label: "COMUNICADO", url: "/assets/files/2026/contratacion-auxiliares/12.RESULTADO.FINAL.AUX-FINAL-F-1202202665.pdf", fecha:"2026-02-12"},
+		],		
 		badge: { label: "Actualizado", color: "#D62911" }
 	},
 	{
