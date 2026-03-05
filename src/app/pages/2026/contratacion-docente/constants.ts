@@ -11,7 +11,7 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
 		numero: "22",
-		nombre: "Comunicado, Plazas - Adjudicación Contratación Docente 2026 Segunda Etapa PN",
+		nombre: "Comunicado Adjudicación Viernes 06 de Marzo de 2026, Plazas - Adjudicación Contratación Docente 2026 Segunda Etapa PN",
 		tipo: "Plazas",
 		fecha: "2026-03-04",
 		badge: { label: "Nuevo", color: "#10b981" },
