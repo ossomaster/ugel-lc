@@ -24,7 +24,6 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		tipo: "Convocatoria",
 		fecha: "2026-02-13",
 		archivoUrl: "/assets/files/2026/encargaturas/42.ADJUDICACION-ENCARGATURA-CORREGIDO-F-13022026.pdf",
-		badge: { label: "Nuevo", color: "#10b981" },
 	},
 	{
 		numero: "41",
