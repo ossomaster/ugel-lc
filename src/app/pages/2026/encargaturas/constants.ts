@@ -11,6 +11,14 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
+		numero: "43",
+		nombre: "Convocatoria Adjudicación Encargatura Segunda Etapa, Jueves 05 de Marzo",
+		tipo: "Convocatoria",
+		fecha: "2026-03-05",
+		archivoUrl: "/assets/files/2026/encargaturas/43.COMUNICADO-PLAZAS.ADJUDICACION-ENCARGATURA-F-05032026.pdf",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	{
 		numero: "42",
 		nombre: "Convocatoria Adjudicación Encargatura Segunda Etapa, Tercera Etapa, Cuarta Etapa",
 		tipo: "Convocatoria",
