@@ -16,6 +16,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		tipo: "Convocatoria",
 		fecha: "2026-03-05",
 		archivoUrl: "/assets/files/2026/encargaturas/43.COMUNICADO-PLAZAS.ADJUDICACION-ENCARGATURA-F-05032026.pdf",
+		badge: { label: "Nuevo", color: "#10b981" },
 		
 	},
 	{
