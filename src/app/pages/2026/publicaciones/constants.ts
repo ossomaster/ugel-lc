@@ -13,6 +13,17 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
 		numero: "18",
+		nombre: "Comunicado Evaluación Excepcional de Lenguas originarias 2026",
+		tipo: "Comunicado",
+		fecha: "2026-03-04",
+		descripcion: "📢 La Unidad de Gestión Educativa Local La Convención comunica a los docentes inscritos APTOS para la Evaluación Excepcional de Dominio de Lengua Originaria (EDLO) 2026 que dicha evaluación se desarrollará de acuerdo con el siguiente detalle.",
+		thumbnailUrl: "/assets/images/publicaciones/comunicado.png",
+		archivoUrl: "/assets/files/2026/publicaciones/19.DOCENTES-APTOS-PARA-EVALUACION-EXCEPCIONAL-DE-DOMINIO-DE-LENGUA-ORIGINARIA-F-05032026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	{
+		numero: "18",
 		nombre: "Memorandum Multiple N°105-2026-GORE-C-GEREDU-C-DUGEL-LC-SEC",
 		tipo: "Memorandum Múltiple",
 		fecha: "2026-03-04",
