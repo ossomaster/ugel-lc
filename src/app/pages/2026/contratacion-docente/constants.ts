@@ -38,6 +38,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 			{ label: "EBR PRIMARIA", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.PRIMARIA-F-02032026.pdf", fecha:"2026-03-02" },
 			{ label: "EBR SEC.MATEMÁTICA ", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.MATEMATICA-F-03032026.pdf", fecha:"2026-03-03" },
 			{ label: "EBR SEC.IP", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.IP-F-03032026.pdf", fecha:"2026-03-03" },
+			{ label: "FE ERRATAS EBR SEC.IP", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.IP-F-03032026.pdf", fecha:"2026-03-05" },
 			{ label: "ER. SEC. INGLES", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.INGLES-F-03032026.pdf" },
 			{ label: "EBA AVANZADO", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.EVA.AVANZADO-F-03032026.pdf", fecha:"2026-03-03" },
 			{ label: "ETP", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.ETP-F-03032026.pdf", fecha:"2026-03-03" },
