@@ -15,6 +15,35 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
   {
+    numero: "137",
+    tipo: "Servicio",
+    numcotizacion: "107",
+    descripcion:
+      "SERVICIO DE ASISTENCIA TÉCNICA ADMINISTRATIVA PARA DIRECCIÓN DE LA UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/137.COTI.N107-F-06032026.pdf",
+    fechapublicacion: "06.03.2026",
+    inicio: "09.03.2026",
+    fin: "10.03.2026",
+    badge: { label: "Nuevo", color: "#10b981" },
+    estado: "vigente",
+  },
+  
+  {
+    numero: "136",
+    tipo: "Servicio",
+    numcotizacion: "106",
+    descripcion:
+      "SERVICIO DE AUXILIAR ADMINISTRATIVO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/136.COTI.N106-F-06032026.pdf",
+    fechapublicacion: "06.03.2026",
+    inicio: "09.03.2026",
+    fin: "10.03.2026",
+    badge: { label: "Nuevo", color: "#10b981" },
+    estado: "vigente",
+  },
+  {
     numero: "135",
     tipo: "Servicio",
     numcotizacion: "105",
