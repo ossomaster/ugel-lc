@@ -15,6 +15,51 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
   {
+    numero: "135",
+    tipo: "Servicio",
+    numcotizacion: "105",
+    descripcion:
+      "SERVICIO DE ANÁLISIS DE EXPEDIENTES DE PROCESOS ADMINISTRATIVOS DISCIPLINARIOS DE LA UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/135.COTI.N105-F-06032026.pdf",
+    fechapublicacion: "06.03.2026",
+    inicio: "06.03.2026",
+    fin: "10.03.2026",
+    badge: { label: "Nuevo", color: "#10b981" },
+    estado: "vigente",
+  },
+  
+  {
+    numero: "134",
+    tipo: "Servicio",
+    numcotizacion: "086",
+    descripcion:
+      "SERVICIO DE SHOW ARTÍSTICO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/134.COTI.N086.3-F-06032026.pdf",
+    fechapublicacion: "06.03.2026",
+    inicio: "06.03.2026",
+    fin: "10.03.2026",
+    badge: { label: "Nuevo", color: "#10b981" },
+    estado: "vigente",
+  },
+  
+  {
+    numero: "133",
+    tipo: "Bien",
+    numcotizacion: "104",
+    descripcion:
+      "ADQUISICIÓN DE KIT MEDICO Y DE ASEO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/133.COTI.N080.3-F-06032026.pdf",
+    fechapublicacion: "06.03.2026",
+    inicio: "06.03.2026",
+    fin: "10.03.2026",
+    badge: { label: "Nuevo", color: "#10b981" },
+    estado: "vigente",
+  },
+  
+  {
     numero: "132",
     tipo: "Servicio",
     numcotizacion: "104",
@@ -41,7 +86,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     inicio: "04.03.2026",
     fin: "05.03.2026",
     badge: { label: "Nuevo", color: "#10b981" },
-    estado: "vigente",
+    estado: "concluida",
   },
 
   {
@@ -56,7 +101,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     inicio: "04.03.2026",
     fin: "05.03.2026",
     badge: { label: "Nuevo", color: "#10b981" },
-    estado: "vigente",
+    estado: "concluida",
   },
 
   {
@@ -69,9 +114,9 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
       "/assets/files/2026/abastecimiento/129.COTI.N080.2-F-04032026.pdf",
     fechapublicacion: "04.03.2026",
     inicio: "04.03.2026",
-    fin: "06.03.2026",
+    fin: "05.03.2026",
     badge: { label: "Nuevo", color: "#10b981" },
-    estado: "vigente",
+    estado: "concluida",
   },
 
   {
@@ -144,7 +189,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     inicio: "04.03.2026",
     fin: "05.03.2026",
     badge: { label: "Nuevo", color: "#10b981" },
-    estado: "vigente",
+    estado: "concluida",
   },
   {
     numero: "124",
