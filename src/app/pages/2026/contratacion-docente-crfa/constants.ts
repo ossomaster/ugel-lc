@@ -10,6 +10,14 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "07",
+		nombre: "Resultado de Entrevista Docente Eval. Expedientes II.EE DEL MODELO DE SERVICIO EDUCATIVO DE SECUNDARIA EN ALTERNANCIA (CRFA)",
+		tipo: "Comunicado",
+		fecha: "2026-03-06",
+		archivoUrl: "/assets/files/2026/contratacion-docente-crfa/07.RESULTADOS-ENTREVISTA-II-ETAPA-F-06032026.pdf",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	{
 		numero: "06",
 		nombre: "Comunicado N°05, Aptos para Entrevista - Contratación Docente 2026 II.EE DEL MODELO DE SERVICIO EDUCATIVO DE SECUNDARIA EN ALTERNANCIA (CRFA)",
 		tipo: "Comunicado",
