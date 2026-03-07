@@ -19,7 +19,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     tipo: "Servicio",
     numcotizacion: "107",
     descripcion:
-      "SERVICIO DE ASISTENCIA TÉCNICA ADMINISTRATIVA PARA DIRECCIÓN DE LA UGEL LA CONVENCIÓN",
+      "SERVICIO DE ASISTENCIA TÉCNICA ADMINISTRATIVA PARA LA DIRECCIÓN DE LA UGEL LA CONVENCIÓN",
     archivoUrl:
       "/assets/files/2026/abastecimiento/137.COTI.N107-F-06032026.pdf",
     fechapublicacion: "06.03.2026",
