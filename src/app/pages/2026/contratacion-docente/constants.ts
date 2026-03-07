@@ -10,6 +10,33 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
+		numero: "23",
+		nombre: "ResultadoS Finales Contratación Docente 2026 Tercera Etapa Evaluación por Expedientes",
+		tipo: "Plazas",
+		fecha: "2026-03-07",
+		badge: { label: "Nuevo", color: "#10b981" },
+		archivoUrl: [
+			
+		    { label: "EBR INICIAL", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.INICIAL-F-07032026.pdf", fecha:"2026-03-07"},
+			//{ label: "EBR PRIMARIA", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.PRIMARIA-F-02032026.pdf", fecha:"2026-03-02" },
+			{ label: "EBR SEC.MATEMÁTICA ", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.MATEMATICA-F-07032026.pdf", fecha:"2026-03-07" },
+			{ label: "EBR SEC.IP", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.SEC.IP-F-07032026.pdf", fecha:"2026-03-07" },
+			//{ label: "ER. SEC. INGLES", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.INGLES-F-03032026.pdf" },
+			{ label: "EBA AVANZADO", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.ED.EBA.AVANZADO-F-07032026.pdf", fecha:"2026-03-07" },
+			{ label: "ETP", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.ED.TEC.PRODUCTIVO-F-07032026.pdf", fecha:"2026-03-07" },
+			{ label: "EBR.SEC.RELIGIÓN", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.ED.RELIGIOSA-F-07032026.pdf", fecha:"2026-03-07" },
+			{ label: "EBR.SEC.ED.FISICA", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.ED.FISICA-F-07032026.pdf", fecha:"2026-03-03" },
+			//{ label: "EBR.SEC.ED.DPCC", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.SEC.DPCC-F-03032026.pdf", fecha:"2026-03-03" },
+			{ label: "EBR.SEC.CYT", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.CYT-F-07032026.pdf", fecha:"2026-03-07" },
+			{ label: "EBR.SEC.COMUNICACION", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.COMUNICACION-F-07032026.pdf", fecha:"2026-03-07" },
+			{ label: "EBR.SEC.CIENCIAS SOCIALES", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.CC.SS-F-07032026.pdf", fecha:"2026-03-07" },			
+			{ label: "EBR.SEC.ARTE", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.ARTE-F-07032026.pdf", fecha:"2026-03-07" },
+			{ label: "EBR.SEC.EPT", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.EPT-F-07032026.pdf", fecha:"2026-03-07"},
+			//{ label: "EBE PRIMARIA", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBE.PRIMARIA-F-03032026.pdf", fecha:"2026-03-03"},
+			//{ label: "FE ERRATAS EBE PRIMARIA", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBE.PRIMARIA-F-05032026.pdf", fecha:"2026-03-05"},
+		],		
+	},
+	{
 		numero: "22",
 		nombre: "Comunicado Adjudicación Viernes 06 de Marzo de 2026, Plazas - Adjudicación Contratación Docente 2026 Segunda Etapa PN",
 		tipo: "Plazas",
