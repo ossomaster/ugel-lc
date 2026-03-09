@@ -3,7 +3,7 @@ export type TDocumentoNormativo = {
 	nombre: string
 	tipo: string
 	fecha: string
-	archivoUrl: string | { label: string; url: string, fecha?: string}[]
+	archivoUrl: string | { label: string; url: string, fecha?: string, badge?:string}[]
 	enlace?: string
 	badge?: { label: string; color: string }
 }
@@ -23,7 +23,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 			{ label: "EBR SEC.IP", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.SEC.IP-F-07032026.pdf", fecha:"2026-03-07" },
 			{ label: "FE ERRATAS EBR SEC.IP", url: "/assets/files/2026/contrata-docente/23.FE-ERRATAS-RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.SEC.IP-F-07032026.pdf", fecha:"2026-03-07" },
 			{ label: "ER. SEC. INGLES", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.INGLES-F-07032026.pdf" },
-			{ label: "EBA AVANZADO", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.ED.EBA.AVANZADO-F-07032026.pdf", fecha:"2026-03-07" },
+			{ label: "EBA AVANZADO", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.ED.EBA.AVANZADO-F-09032026.pdf", fecha:"2026-03-09"},
 			{ label: "ETP", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.ED.TEC.PRODUCTIVO-F-07032026.pdf", fecha:"2026-03-07" },
 			{ label: "EBR.SEC.RELIGIÓN", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.ED.RELIGIOSA-F-07032026.pdf", fecha:"2026-03-07" },
 			{ label: "EBR.SEC.ED.FISICA", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.ED.FISICA-F-07032026.pdf", fecha:"2026-03-03" },
