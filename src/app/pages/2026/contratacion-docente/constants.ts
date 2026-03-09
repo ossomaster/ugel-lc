@@ -10,6 +10,18 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
+		numero: "24",
+		nombre: "Comunicado Contratación a propuesta del director de la I.E",
+		tipo: "Plazas",
+		fecha: "2026-03-09",
+		badge: { label: "Nuevo", color: "#10b981" },
+		archivoUrl: [
+			
+		    { label: "COMUNICADO", url: "/assets/files/2026/contrata-docente/24.COMUNICADO-PARA-PROPUESTA-DOCENTE-F-09032026.pdf", fecha:"2026-03-09"},
+			{ label: "PLAZAS", url: "/assets/files/2026/contrata-docente/24.PLAZAS-A-PROPUESTA-DEL-DIRECTOR-F-09032026.pdf", fecha:"2026-03-09" },
+		],		
+	},
+	{
 		numero: "23",
 		nombre: "ResultadoS Finales Contratación Docente 2026 Tercera Etapa Evaluación por Expedientes",
 		tipo: "Plazas",
