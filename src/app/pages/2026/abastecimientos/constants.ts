@@ -15,6 +15,21 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
   {
+    numero: "138",
+    tipo: "Servicio",
+    numcotizacion: "100",
+    descripcion:
+      "SERVICIO DE ASISTENCIA TÉCNICA ADMINISTRATIVA PARA EL ÁREA FE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/138.COTI.N100.2-F-09032026.pdf",
+    fechapublicacion: "09.03.2026",
+    inicio: "09.03.2026",
+    fin: "10.03.2026",
+    badge: { label: "Nuevo", color: "#10b981" },
+    estado: "vigente",
+  },
+  
+  {
     numero: "137",
     tipo: "Servicio",
     numcotizacion: "107",
@@ -100,7 +115,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     inicio: "05.03.2026",
     fin: "06.03.2026",
     badge: { label: "Nuevo", color: "#10b981" },
-    estado: "vigente",
+    estado: "concluida",
   },
 
   {
@@ -160,7 +175,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     inicio: "04.03.2026",
     fin: "06.03.2026",
     badge: { label: "Nuevo", color: "#10b981" },
-    estado: "vigente",
+    estado: "concluida",
   },
 
   {
@@ -175,7 +190,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     inicio: "04.03.2026",
     fin: "06.03.2026",
     badge: { label: "Nuevo", color: "#10b981" },
-    estado: "vigente",
+    estado: "concluida",
   },
   {
     numero: "126",
@@ -189,7 +204,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     inicio: "04.03.2026",
     fin: "06.03.2026",
     badge: { label: "Nuevo", color: "#10b981" },
-    estado: "vigente",
+    estado: "concluida",
   },
   {
     numero: "125",
@@ -217,7 +232,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     inicio: "03.03.2026",
     fin: "04.03.2026",
     badge: { label: "Nuevo", color: "#10b981" },
-    estado: "vigente",
+    estado: "concluida",
   },
   {
     numero: "123",
