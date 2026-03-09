@@ -71,7 +71,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     },
     entrevista: { 
       url: "/assets/files/2026/contratacion-276/02.APTOS-ENTREVISTA-CONVOCATORIA.N2.D.L.276-F-09032026.pdf", 
-      fecha: "25/02/2026" 
+      fecha: "09/03/2026" 
     },
     final: { 
       url: "/assets/files/2026/contratacion-276/18.RESULTADOS.FINALES.CONVO.N2.D.L.276-F-27022026.pdf", 
