@@ -10,9 +10,21 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
+		numero: "25",
+		nombre: "Comunicado Modalidad Básica Alternativa - Ciclo Inicial Intermedio",
+		tipo: "Comunicado",
+		fecha: "2026-03-09",
+		badge: { label: "Nuevo", color: "#10b981" },
+		archivoUrl: [
+			
+		    { label: "COMUNICADO", url: "/assets/files/2026/contrata-docente/25.COMUNICADO-PARA-RETIRO-DE-EXPEDIENTES-F-09032026.pdf", fecha:"2026-03-09"},
+		],		
+	},
+	
+	{
 		numero: "24",
 		nombre: "Comunicado Contratación a propuesta del director de la I.E",
-		tipo: "Plazas",
+		tipo: "Comunicado",
 		fecha: "2026-03-09",
 		badge: { label: "Nuevo", color: "#10b981" },
 		archivoUrl: [
@@ -24,7 +36,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
 		numero: "23",
 		nombre: "ResultadoS Finales Contratación Docente 2026 Tercera Etapa Evaluación por Expedientes",
-		tipo: "Plazas",
+		tipo: "Resultados",
 		fecha: "2026-03-07",
 		badge: { label: "Nuevo", color: "#10b981" },
 		archivoUrl: [
@@ -72,7 +84,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
 		numero: "21",
 		nombre: "Resultados Preliminares Contratación Docente 2026 Tercera Etapa Evaluación por Expedientes",
-		tipo: "Plazas",
+		tipo: "Resultados",
 		fecha: "2026-03-02",
 		badge: { label: "Nuevo", color: "#10b981" },
 		archivoUrl: [
