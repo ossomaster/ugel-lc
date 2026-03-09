@@ -14,12 +14,12 @@ import SeccionBuenasPracticas from "./components/secciones/SeccionBuenasPractica
 export default function Home() {
 	return (
 		<MainLayout>
-			{/* <InicioModal
-				src="/assets/files/2026/modal/modal-2.jpeg"
+			<InicioModal
+				src="/assets/files/2026/contratacion-276/02.COMUNICADO-F-09032026.png"
 				alt="Comunicado EIB"
                 // Definir href para redirigir a otra dirección, sino dejar sin href para mostrar solo la imagen sin enlace
 				href=""
-			/> */}
+			/>
 			<MainHero />
 			<SeccionInformacionDestacada />
 			<SeccionNoticias />
