@@ -17,6 +17,7 @@ export type TDocumentoNormativo = {
   comunicado1?: LinkConFecha
   comunicado2?: LinkConFecha
   comunicado3?: LinkConFecha
+  comunicado4?: LinkConFecha
   badge?: { label: string; color: string }
   estado?: 'vigente' | 'concluida' | 'cancelada'
 }
@@ -89,9 +90,15 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
       url: "/assets/files/2026/contratacion-276/17.COMUNICADO-N°03-DL-276-F-26022026.pdf", 
       fecha: "26/02/2026" 
     },
+    comunicado4: { 
+      url: "/assets/files/2026/contratacion-276/02.COMUNICADO-F-09032026.png", 
+      fecha: "09/03/2026" 
+    },
     badge: { label: "PUBLICADO", color: "#00c758" },
     estado: "vigente",
+    
   },
+  
   {
     numero: "001-2026",
     descripcion: "Contratación de Personal Administrativo",
