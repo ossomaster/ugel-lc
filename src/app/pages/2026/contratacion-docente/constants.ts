@@ -10,6 +10,18 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
+		numero: "26",
+		nombre: "Comunicado Adjudicación Contratación Docente Tercera Etapa",
+		tipo: "Plazas",
+		fecha: "2026-03-09",
+		badge: { label: "Nuevo", color: "#10b981" },
+		archivoUrl: [
+			
+		    { label: "COMUNICADO", url: "/assets/files/2026/contrata-docente/26.PRECISIONES-PARA-ADJUDICACION-DE-LA-TERCERA-ETAPA-F-09032026.pdf", fecha:"2026-03-09"},
+		],		
+	},
+	
+	{
 		numero: "25",
 		nombre: "Comunicado Modalidad Básica Alternativa - Ciclo Inicial Intermedio",
 		tipo: "Comunicado",
