@@ -40,7 +40,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
       fecha: "04/03/2026" 
     },
     entrevista: "",
-    final: "",
+    final: { 
+      url: "/assets/files/2026/contratacion-276/03.RESULTADO.FINAL.DL.03-F-09032026.pdf", 
+      fecha: "09/03/2026"
+    },
     comunicado1: "",
     comunicado2: "",
     comunicado3: "",

@@ -47,7 +47,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	},
 	{
 		numero: "23",
-		nombre: "ResultadoS Finales Contratación Docente 2026 Tercera Etapa Evaluación por Expedientes",
+		nombre: "Resultados Finales Contratación Docente 2026 Tercera Etapa Evaluación por Expedientes",
 		tipo: "Resultados",
 		fecha: "2026-03-07",
 		badge: { label: "Nuevo", color: "#10b981" },
