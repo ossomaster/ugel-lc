@@ -54,7 +54,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		archivoUrl: [
 			
 		    { label: "EBR INICIAL", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.INICIAL-F-07032026.pdf", fecha:"2026-03-07"},
-			//{ label: "EBR PRIMARIA", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBR.PRIMARIA-F-02032026.pdf", fecha:"2026-03-02" },
+			{ label: "EBR PRIMARIA", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.EBR.PRIMARIA-F-10032026.pdf", fecha:"2026-03-10" },
 			{ label: "EBR SEC.MATEMÁTICA ", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.MATEMATICA-F-07032026.pdf", fecha:"2026-03-07" },
 			{ label: "EBR SEC.IP", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.SEC.IP-F-07032026.pdf", fecha:"2026-03-07" },
 			{ label: "FE ERRATAS EBR SEC.IP", url: "/assets/files/2026/contrata-docente/23.FE-ERRATAS-RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.SEC.IP-F-07032026.pdf", fecha:"2026-03-07" },
