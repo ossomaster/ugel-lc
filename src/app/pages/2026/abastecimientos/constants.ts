@@ -15,6 +15,21 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
   {
+    numero: "141",
+    tipo: "Servicio",
+    numcotizacion: "110",
+    descripcion:
+      "SERVICIO ESPECIALIZADO EN ASESORÍA LEGAL PARA LA DIRECCIÓN DE LA UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/141.COTI.N110-F-10032026.pdf",
+    fechapublicacion: "10.03.2026",
+    inicio: "11.03.2026",
+    fin: "12.03.2026",
+    badge: { label: "Nuevo", color: "#10b981" },
+    estado: "vigente",
+  },
+  
+  {
     numero: "140",
     tipo: "Bien",
     numcotizacion: "109",
