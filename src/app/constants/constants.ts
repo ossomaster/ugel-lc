@@ -94,13 +94,7 @@ export const NAV_MENU: TNavMenuItem[] = [];
 // ]
 
 export const SLIDES = [
-	{
-		image: "/assets/slider/slide-8.png",
-		title: "FELIZ DÍA DE LA MUJER",
-		description: "8 DE MARZO",
-		//buttonText: "Acceder",
-		//buttonUrl: "#",
-	},
+	
 	{
 		image: "/assets/slider/slide-7.jpeg",
 		title: "INICIO DE CLASES 16 DE MARZO",

@@ -15,6 +15,36 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
   {
+    numero: "140",
+    tipo: "Bien",
+    numcotizacion: "109",
+    descripcion:
+      "ADQUISICIÓN DE INSUMOS DE LIMPIEZA PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/140.COTI.N109-F-10032026.pdf",
+    fechapublicacion: "10.03.2026",
+    inicio: "10.03.2026",
+    fin: "12.03.2026",
+    badge: { label: "Nuevo", color: "#10b981" },
+    estado: "vigente",
+  },
+  
+  {
+    numero: "139",
+    tipo: "Bien",
+    numcotizacion: "108",
+    descripcion:
+      "ADQUISICIÓN DE ALCOHOL, ALGODÓN, ESPARADRAPO Y GASA PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/139.COTI.N108-F-10032026.pdf",
+    fechapublicacion: "10.03.2026",
+    inicio: "10.03.2026",
+    fin: "12.03.2026",
+    badge: { label: "Nuevo", color: "#10b981" },
+    estado: "vigente",
+  },
+  
+  {
     numero: "138",
     tipo: "Servicio",
     numcotizacion: "100",
