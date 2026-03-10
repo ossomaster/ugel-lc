@@ -50,6 +50,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     badge: { label: "PUBLICADO", color: "#00c758" },
     estado: "vigente",
   },
+
   {
     numero: "002-2026",
     descripcion: "Contratación de Personal Administrativo",
@@ -79,7 +80,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     },
     final: { 
       url: "/assets/files/2026/contratacion-276/18.RESULTADOS.FINALES.CONVO.N2.D.L.276-F-27022026.pdf", 
-      fecha: "27/02/2026" 
+      fecha: "(Reciente) 10/03/2026" 
     },
     comunicado1: { 
       url: "/assets/files/2026/contratacion-276/12.COMUNICADO-N1-F-19022026.PDF", 
