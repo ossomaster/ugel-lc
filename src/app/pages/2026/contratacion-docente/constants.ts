@@ -73,7 +73,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 			{ label: "EBR.SEC.EPT", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.EPT-F-07032026.pdf", fecha:"2026-03-07"},
 			{ label: "FE ERRATAS EBR.SEC.EPT (ACTUALIZADO)", url: "/assets/files/2026/contrata-docente/23.FE-ERRATAS-RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.EPT-F-07032026.pdf", fecha:"2026-03-09"},
 			{ label: "EBR.SEC.ED.DPCC", url: "/assets/files/2026/contrata-docente/23.FE-ERRATAS-RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.DPCC-F-09032026.pdf", fecha:"2026-03-09" },
-			//{ label: "EBE PRIMARIA", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBE.PRIMARIA-F-03032026.pdf", fecha:"2026-03-03"},
+			{ label: "EBE PRIMARIA", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.EBE-PRIMARIA-10032026.pdf", fecha:"2026-03-10"},
 			//{ label: "FE ERRATAS EBE PRIMARIA", url: "/assets/files/2026/contrata-docente/21.RESULTADOS.PRELIMINARES.EVA.EXP.EBE.PRIMARIA-F-05032026.pdf", fecha:"2026-03-05"},
 		],		
 	},
