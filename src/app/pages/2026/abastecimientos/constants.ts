@@ -71,7 +71,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     inicio: "09.03.2026",
     fin: "10.03.2026",
     badge: { label: "Nuevo", color: "#10b981" },
-    estado: "vigente",
+    estado: "concluida",
   },
   
   {
@@ -86,7 +86,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     inicio: "09.03.2026",
     fin: "10.03.2026",
     badge: { label: "Nuevo", color: "#10b981" },
-    estado: "vigente",
+    estado: "concluida",
   },
   
   {
@@ -101,7 +101,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     inicio: "09.03.2026",
     fin: "10.03.2026",
     badge: { label: "Nuevo", color: "#10b981" },
-    estado: "vigente",
+    estado: "concluida",
   },
   {
     numero: "135",
@@ -115,7 +115,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     inicio: "06.03.2026",
     fin: "10.03.2026",
     badge: { label: "Nuevo", color: "#10b981" },
-    estado: "vigente",
+    estado: "concluida",
   },
   
   {
@@ -130,7 +130,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     inicio: "06.03.2026",
     fin: "10.03.2026",
     badge: { label: "Nuevo", color: "#10b981" },
-    estado: "vigente",
+    estado: "concluida",
   },
   
   {
@@ -145,7 +145,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     inicio: "06.03.2026",
     fin: "10.03.2026",
     badge: { label: "Nuevo", color: "#10b981" },
-    estado: "vigente",
+    estado: "concluida",
   },
   
   {
