@@ -65,7 +65,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 			{ label: "ETP", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.ED.TEC.PRODUCTIVO-F-07032026.pdf", fecha:"2026-03-07" },
 			{ label: "EBR.SEC.RELIGIÓN", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.ED.RELIGIOSA-F-07032026.pdf", fecha:"2026-03-07" },
 			{ label: "EBR.SEC.ED.FISICA", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.ED.FISICA-F-07032026.pdf", fecha:"2026-03-07" },
-			{ label: "EBR.SEC.CYT (ACTUALIZADO)", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.CYT-F-07032026.pdf", fecha:"2026-03-09" },
+			{ label: "EBR.SEC.CYT (ACTUALIZADO)", url: "/assets/files/2026/contrata-docente/23.FE-ERRATAS-RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.CYT-F-11032026.pdf", fecha:"2026-03-11" },
 			{ label: "EBR.SEC.COMUNICACION", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.COMUNICACION-F-07032026.pdf", fecha:"2026-03-07" },
 			{ label: "FE.ERRATAS EBR.COMUNICACION(ACTUALIZADO)", url: "/assets/files/2026/contrata-docente/23.FE-ERRATAS-RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.COMUNICACION-F-07032026.pdf", fecha:"2026-03-09" },
 			{ label: "EBR.SEC.CIENCIAS SOCIALES", url: "/assets/files/2026/contrata-docente/23.RESULTADO-FINAL-CONTRATACION-POR-EXP.2026.CC.SS-F-07032026.pdf", fecha:"2026-03-07" },
