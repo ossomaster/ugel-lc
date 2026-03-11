@@ -12,6 +12,18 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
+		numero: "19",
+		nombre: "Memorandum Multiple N°019-2026-GORE-C-GEREDU-C-DUGEL-LC-SEC",
+		tipo: "Memorandum Múltiple",
+		fecha: "2026-03-11",
+		descripcion: "📢 Convoca a Directores de las II.EE publicas y programas no escolarizados de educación inicial (a partir de los 3 años), primaria y secundaria focalizadas del ambito de la UGEL La Convención a participar de la 1ra edición del curso virtual EL CAE Y LA PRESTACIÓN DEL SERVICIO ALIMENTARIO ESCOLAR, diriguido a los docentes integrantes de los comite de alimentación escolar (CAE).",
+		thumbnailUrl: "/assets/images/publicaciones/comunicado.png",
+		archivoUrl: "/assets/files/2026/publicaciones/20.MM-N19-2026-GORE-C-GEREDU-C-DUGEL-LC-SEC-F-11032026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	
+	{
 		numero: "18",
 		nombre: "Comunicado Evaluación Excepcional de Lenguas originarias 2026",
 		tipo: "Comunicado",
