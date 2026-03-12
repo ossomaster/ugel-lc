@@ -12,7 +12,19 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
-		numero: "19",
+		numero: "21",
+		nombre: "Memorandum Multiple N°019-2026-GORE-C-GEREDU-C-DUGEL-LC-SEC",
+		tipo: "Memorandum Múltiple",
+		fecha: "2026-03-12",
+		descripcion: "📢 Comunica a Directores(as) de las instituciones educativas publicas de los niveles inicial, primaria, secundaria, ceba, cebe, CETPRO y coordinadores de PRONOEI del ámbito de la UGEL La Convención, la remisión de informe en caso la IE haya sido afectada por peligros naturales ante declaratoria por peligro inminente.",
+		thumbnailUrl: "/assets/images/publicaciones/comunicado.png",
+		archivoUrl: "/assets/files/2026/publicaciones/21.OM-N08-2026-GORE-C-DRE-C-DUGE-LC-D-F-12032026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	
+	{
+		numero: "20",
 		nombre: "Memorandum Multiple N°019-2026-GORE-C-GEREDU-C-DUGEL-LC-SEC",
 		tipo: "Memorandum Múltiple",
 		fecha: "2026-03-11",
@@ -24,7 +36,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	},
 	
 	{
-		numero: "18",
+		numero: "19",
 		nombre: "Comunicado Evaluación Excepcional de Lenguas originarias 2026",
 		tipo: "Comunicado",
 		fecha: "2026-03-04",
