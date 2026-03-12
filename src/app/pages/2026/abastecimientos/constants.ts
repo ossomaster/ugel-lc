@@ -28,7 +28,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     badge: { label: "Nuevo", color: "#10b981" },
     estado: "vigente",
   },
-  
+
   {
     numero: "140",
     tipo: "Bien",
@@ -43,7 +43,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     badge: { label: "Nuevo", color: "#10b981" },
     estado: "vigente",
   },
-  
+
   {
     numero: "139",
     tipo: "Bien",
@@ -58,7 +58,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     badge: { label: "Nuevo", color: "#10b981" },
     estado: "vigente",
   },
-  
+
   {
     numero: "138",
     tipo: "Servicio",
@@ -73,7 +73,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     badge: { label: "Nuevo", color: "#10b981" },
     estado: "concluida",
   },
-  
+
   {
     numero: "137",
     tipo: "Servicio",
@@ -88,7 +88,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     badge: { label: "Nuevo", color: "#10b981" },
     estado: "concluida",
   },
-  
+
   {
     numero: "136",
     tipo: "Servicio",
@@ -117,7 +117,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     badge: { label: "Nuevo", color: "#10b981" },
     estado: "concluida",
   },
-  
+
   {
     numero: "134",
     tipo: "Servicio",
@@ -132,7 +132,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     badge: { label: "Nuevo", color: "#10b981" },
     estado: "concluida",
   },
-  
+
   {
     numero: "133",
     tipo: "Bien",
@@ -147,7 +147,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     badge: { label: "Nuevo", color: "#10b981" },
     estado: "concluida",
   },
-  
+
   {
     numero: "132",
     tipo: "Servicio",

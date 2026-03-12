@@ -1,12 +1,18 @@
 // TablaDocumentos.tsx
 "use client";
 
+import dayjs from "dayjs";
+import customParseFormat from "dayjs/plugin/customParseFormat";
 import dynamic from "next/dynamic";
 import { type ComponentType } from "react";
 import { type TableColumn } from "react-data-table-component";
 import { FaFilePdf } from "react-icons/fa6";
 import type { default as DataTableComponent } from "../../../commons/components/DataTable";
 import { type TDocumentoNormativo } from "./constants";
+
+dayjs.extend(customParseFormat);
+
+const FECHA_FORMAT = "DD.MM.YYYY";
 
 const DataTable = dynamic(
   () => import("../../../commons/components/DataTable"),
@@ -16,47 +22,48 @@ const DataTable = dynamic(
 >;
 
 // ---------------------------------------------------------------------------
-// Auto-actualización de estado según fecha del sistema
-// Si la fecha de fin ya pasó → estado = "concluida"
+// Auto-actualización de estado según fecha del sistema (usando dayjs)
+// - cancelada  → se mantiene sin comparar fechas
+// - vigente    → hoy está entre inicio y fin (inclusive)
+// - concluida  → la fecha de fin ya pasó
 // ---------------------------------------------------------------------------
-function parseFecha(fecha: string): Date {
-  const [d, m, y] = fecha.split(".");
-  return new Date(parseInt(y), parseInt(m) - 1, parseInt(d));
-}
-
 function actualizarEstados(docs: TDocumentoNormativo[]): TDocumentoNormativo[] {
-  const hoy = new Date();
-  hoy.setHours(0, 0, 0, 0);
+  const hoy = dayjs().startOf("day");
+
   return docs.map((doc) => {
-    const fechaFin = parseFecha(doc.fin);
+    let nuevoEstado: TDocumentoNormativo["estado"] = doc.estado;
+
+    if (doc.estado !== "cancelada") {
+      const fechaInicio = dayjs(doc.inicio, FECHA_FORMAT);
+      const fechaFin = dayjs(doc.fin, FECHA_FORMAT);
+
+      if (fechaFin.isBefore(hoy)) {
+        nuevoEstado = "concluida";
+      } else if (
+        (fechaInicio.isBefore(hoy) || fechaInicio.isSame(hoy)) &&
+        (hoy.isBefore(fechaFin) || hoy.isSame(fechaFin))
+      ) {
+        nuevoEstado = "vigente";
+      }
+    }
+
+    // construye badge según el estado resultante
+    let badge: { label: string; color: string } | undefined;
+    if (nuevoEstado === "cancelada") {
+      badge = { label: "Cancelado", color: "#dc2626" };
+    } else if (nuevoEstado === "vigente") {
+      badge = { label: "Vigente", color: "#10b981" };
+    } else if (nuevoEstado === "concluida") {
+      badge = { label: "Concluida", color: "#3b82f6" };
+    }
+
     return {
       ...doc,
-      estado:
-        fechaFin < hoy && doc.estado !== "cancelada" ? "concluida" : doc.estado,
+      estado: nuevoEstado,
+      badge,
     };
   });
 }
-
-const customStyles = {
-  headCells: {
-    style: {
-      fontSize: "9px",
-      fontWeight: "600",
-      textTransform: "uppercase" as const,
-      paddingLeft: "4px",
-      paddingRight: "4px",
-      lineHeight: "1.1",
-      whiteSpace: "normal",
-    },
-  },
-  cells: {
-    style: {
-      fontSize: "9px",
-      paddingLeft: "8px",
-      paddingRight: "8px",
-    },
-  },
-};
 
 const columns: TableColumn<TDocumentoNormativo>[] = [
   {
