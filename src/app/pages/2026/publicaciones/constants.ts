@@ -224,4 +224,12 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		thumbnailUrl: "/assets/images/publicaciones/comunicado.png",
 		archivoUrl: "/assets/files/2026/publicaciones/COMUNICADO-REGISTRO-DE-DIRECTORES-2026-MI-MANTENIMIENTO-F-09012026.pdf",
 	},
+	{
+		numero: "00",
+		nombre: "CUADRO MULTIANUAL DE NECESIDADES APROBADO UNIDAD DE GESTIÓN EDUCATIVA LOCAL LA CONVENCIÓN",
+		tipo: "Documento",
+		fecha: "2026-01-09",
+		thumbnailUrl: "/assets/images/publicaciones/comunicado.png",
+		archivoUrl: "/assets/files/2026/publicaciones/CUADRO-MULTIANUAL-NCESIDADES-UGEL-LC-APROBADO-2026.pdf",
+	},
 ]
