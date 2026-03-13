@@ -10,6 +10,23 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
+		numero: "27",
+		nombre: "Convocatoria a presentación de expedientes (Perfiles Adicionales)",
+		tipo: "Plazas",
+		fecha: "2026-03-12",
+		badge: { label: "Nuevo", color: "#10b981" },
+		archivoUrl: [
+			
+		    { label: "CONVOCATORIA", url: "/assets/files/2026/contrata-docente/27.CONVOCATORIA-ADICIONAL-F-12032026.pdf", fecha:"2026-03-12"},
+			{ label: "PERFILES ADICIONALES", url: "/assets/files/2026/contrata-docente/27.PERFILES-ADICIONALES-F-12032026.pdf", fecha:"2026-03-12"},
+			{ label: "EBR.INICIAL EIB", url: "/assets/files/2026/contrata-docente/27.PLAZAS-INICIAL-EIB-F-12032026.pdf", fecha:"2026-03-12"},
+			{ label: "EBR.PRIMARIA EIB", url: "/assets/files/2026/contrata-docente/27.PLAZAS.PRIMARIA-EIB-F-12032026.pdf", fecha:"2026-03-12"},
+			{ label: "PRITE ", url: "/assets/files/2026/contrata-docente/27.PLAZAS-PRITE-F-12032026.pdf", fecha:"2026-03-12"},
+			{ label: "EBA INICIAL INTERMEDIO", url: "/assets/files/2026/contrata-docente/27.PLAZAS-EBA-INICIAL-INTERMEDIO-F-12032026.pdf", fecha:"2026-03-12"},
+		],		
+	},
+	
+	{
 		numero: "26",
 		nombre: "Comunicado Adjudicación Contratación Docente Tercera Etapa",
 		tipo: "Plazas",
