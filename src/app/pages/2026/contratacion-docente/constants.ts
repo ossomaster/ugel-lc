@@ -23,6 +23,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 			{ label: "EBR.PRIMARIA EIB", url: "/assets/files/2026/contrata-docente/27.PLAZAS.PRIMARIA-EIB-F-12032026.pdf", fecha:"2026-03-12"},
 			{ label: "PRITE ", url: "/assets/files/2026/contrata-docente/27.PLAZAS-PRITE-F-12032026.pdf", fecha:"2026-03-12"},
 			{ label: "EBA INICIAL INTERMEDIO", url: "/assets/files/2026/contrata-docente/27.PLAZAS-EBA-INICIAL-INTERMEDIO-F-12032026.pdf", fecha:"2026-03-12"},
+			{ label: "EBE INICIAL", url: "/assets/files/2026/contrata-docente/27.PLAZAS.EBE.INICIAL-F-12032026.pdf", fecha:"2026-03-12"},
 		],		
 	},
 	
