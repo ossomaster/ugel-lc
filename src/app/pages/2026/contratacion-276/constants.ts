@@ -99,7 +99,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
       fecha: "09/03/2026" 
     },
     badge: { label: "PUBLICADO", color: "#00c758" },
-    estado: "vigente",
+    estado: "concluida",
     
   },
   
