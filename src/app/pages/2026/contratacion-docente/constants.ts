@@ -12,6 +12,36 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
   {
+    numero: "29",
+    nombre: "Precisiones para Propuesta del Director",
+    tipo: "Precisiones",
+    fecha: "2026-03-13",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Precisiones",
+        url: "/assets/files/2026/contrata-docente/29.PRECISIONES-PARA-PROPUESTA-DEL-DIRECTOR-F-13032026.pdf",
+        fecha: "2026-03-13",
+      },
+      {
+        label: "Plazas EBA.AVANZADO",
+        url: "/assets/files/2026/contrata-docente/29.PLAZAS-EBA-AVANZADO-F13032026.pdf",
+        fecha: "2026-03-13",
+      },
+      {
+        label: "Plazas BOLSA.HORAS",
+        url: "/assets/files/2026/contrata-docente/29.PLAZAS-BOLSA-DE-HORAS-F-13032026.pdf",
+        fecha: "2026-03-13",
+      },
+      {
+        label: "Plazas.EBR.SECUNDARIA",
+        url: "/assets/files/2026/contrata-docente/29.PLAZAS-SECUNDARIA-F-13032026.pdf",
+        fecha: "2026-03-13",
+      },
+    ],
+  },
+  
+  {
     numero: "28",
     nombre: "Precisiones Etapa Adicional",
     tipo: "Precisiones",
