@@ -37,7 +37,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
       "https://www.ugellaconvencion.gob.pe/inscripcion/cas03-2026/",
     perfiles:
       "https://drive.google.com/drive/folders/1wHcSPRhEfkvXtxRNtzQG4ZFnVQ-t9GnI?usp=sharing",
-    preliminar: "",
+    preliminar: {
+      url: "/assets/files/2026/contratacion-cas/03.RESULTADOS-PRELIMINARES-INTERVENCIONES-PEDAGOGICAS-CAS-N03-2026-F-12032026.pdf",
+      fecha: "12/03/2026",
+    },
     entrevista: "",
     final: "",
     comunicado1: "",
