@@ -39,7 +39,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
       "https://drive.google.com/drive/folders/1wHcSPRhEfkvXtxRNtzQG4ZFnVQ-t9GnI?usp=sharing",
     preliminar: {
       url: "/assets/files/2026/contratacion-cas/03.RESULTADOS-PRELIMINARES-INTERVENCIONES-PEDAGOGICAS-CAS-N03-2026-F-12032026.pdf",
-      fecha: "12/03/2026 (ACTUALIZADO)",
+      fecha: "14/03/2026 (ACTUALIZADO)",
     },
     entrevista: "",
     final: "",
