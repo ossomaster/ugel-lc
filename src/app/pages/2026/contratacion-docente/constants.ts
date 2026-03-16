@@ -12,6 +12,26 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
   {
+    numero: "30",
+    nombre: "Comunicado Adjudicación Docente (Martes 17 de Marzo), Especialidad Educación Física",
+    tipo: "Plazas",
+    fecha: "2026-03-13",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Comunicado",
+        url: "/assets/files/2026/contrata-docente/30.COMUNICADO-DE-ADJUDICACION-ED.FISICA-F-16032026.pdf",
+        fecha: "2026-03-16",
+      },
+      {
+        label: "Plazas ED.FISICA",
+        url: "/assets/files/2026/contrata-docente/30.PLAZAS-VACANTES-16032026.pdf",
+        fecha: "2026-03-16",
+      },
+    ],
+  },
+  
+  {
     numero: "29",
     nombre: "Precisiones para Propuesta del Director",
     tipo: "Precisiones",
