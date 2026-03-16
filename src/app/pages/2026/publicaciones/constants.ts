@@ -12,12 +12,24 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
+		numero: "22",
+		nombre: "Memorandum Multiple N°019-2026-GORE-C-GEREDU-C-DUGEL-LC-SEC",
+		tipo: "Memorandum Múltiple",
+		fecha: "2026-03-16",
+		descripcion: "📢 Comunica a Directores(as) de las instituciones educativas publicas de los niveles inicial, primaria, secundaria, ceba, cebe, del ámbito de la UGEL La Convención, cumplir con el registro de AUTO REPORTE plan de Monitoreo - 361 Instrumento 721 (Carácter de Declaración Jurada) del 16 de Marzo al 05 de Abril.",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/22.MM-021-2026-GORE-C-DRE-C-DUGE-LC-SEC-F-16032026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	
+	{
 		numero: "21",
 		nombre: "Memorandum Multiple N°019-2026-GORE-C-GEREDU-C-DUGEL-LC-SEC",
 		tipo: "Memorandum Múltiple",
 		fecha: "2026-03-12",
 		descripcion: "📢 Comunica a Directores(as) de las instituciones educativas publicas de los niveles inicial, primaria, secundaria, ceba, cebe, CETPRO y coordinadores de PRONOEI del ámbito de la UGEL La Convención, la remisión de informe en caso la IE haya sido afectada por peligros naturales ante declaratoria por peligro inminente.",
-		thumbnailUrl: "/assets/images/publicaciones/comunicado.png",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
 		archivoUrl: "/assets/files/2026/publicaciones/21.OM-N08-2026-GORE-C-DRE-C-DUGE-LC-D-F-12032026.pdf",
 		enlace:"",
 		badge: { label: "Nuevo", color: "#10b981" },
@@ -29,7 +41,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		tipo: "Memorandum Múltiple",
 		fecha: "2026-03-11",
 		descripcion: "📢 Convoca a Directores de las II.EE publicas y programas no escolarizados de educación inicial (a partir de los 3 años), primaria y secundaria focalizadas del ambito de la UGEL La Convención a participar de la 1ra edición del curso virtual EL CAE Y LA PRESTACIÓN DEL SERVICIO ALIMENTARIO ESCOLAR, diriguido a los docentes integrantes de los comite de alimentación escolar (CAE).",
-		thumbnailUrl: "/assets/images/publicaciones/comunicado.png",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
 		archivoUrl: "/assets/files/2026/publicaciones/20.MM-N19-2026-GORE-C-GEREDU-C-DUGEL-LC-SEC-F-11032026.pdf",
 		enlace:"",
 		badge: { label: "Nuevo", color: "#10b981" },
