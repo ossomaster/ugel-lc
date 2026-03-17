@@ -12,9 +12,21 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
+		numero: "24",
+		nombre: "Memorandum Multiple N°023-2026-GORE-C-DRE-C-DUGEL-LC-SEC",
+		tipo: "Memorandum Múltiple",
+		fecha: "2026-03-17",
+		descripcion: "📢 Remite a Directores(as) de las instituciones educativas publicas no escolarizadas de Educación Inicial (a partir de los 03 años), primaria y secundaria del ámbito de la UGEL La Convención, la información sobre la programación del menu escolar 2026, pra el servicio alimentario escolar en las II.EE.",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/24.MM-023-2026-GORE-C-DRE-C-DUGE-LC-SEC-F-17032026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	
+	{
 		numero: "23",
 		nombre: "Oficio Multiple N°010-2026-GORE-C-GEREDU-C-DUGEL-LC-SEC",
-		tipo: "Memorandum Múltiple",
+		tipo: "Oficio Múltiple",
 		fecha: "2026-03-17",
 		descripcion: "📢 Comunica a Directores(as) de las instituciones educativas publicas del ámbito de la UGEL La Convención, al taller de capacitación sobre la actividad de Geolocalización 2026 de locales educativos, evento a realizarse el día jueves 19 de marzo del 2026.",
 		thumbnailUrl: "/assets/images/publicaciones/oficio-multiple.png",

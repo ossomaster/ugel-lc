@@ -15,6 +15,21 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
   {
+    numero: "142",
+    tipo: "Servicio",
+    numcotizacion: "110",
+    descripcion:
+      "SERVICIO DE ASISTENCIA TÉCNICA EN SIAGIE PARA EL ÁREA DE GESTIÓN INSTITUCIONAL DIRECCIÓN DE LA UGEL LA CONVENCIÓN",
+    archivoUrl:
+      "/assets/files/2026/abastecimiento/142.COTI.N111-F-17032026.pdf",
+    fechapublicacion: "17.03.2026",
+    inicio: "18.03.2026",
+    fin: "19.03.2026",
+    badge: { label: "Nuevo", color: "#10b981" },
+    estado: "vigente",
+  },
+  
+  {
     numero: "141",
     tipo: "Servicio",
     numcotizacion: "110",
@@ -26,7 +41,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     inicio: "11.03.2026",
     fin: "12.03.2026",
     badge: { label: "Nuevo", color: "#10b981" },
-    estado: "vigente",
+    estado: "concluida",
   },
 
   {
@@ -41,7 +56,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     inicio: "10.03.2026",
     fin: "12.03.2026",
     badge: { label: "Nuevo", color: "#10b981" },
-    estado: "vigente",
+    estado: "concluida",
   },
 
   {
@@ -56,7 +71,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     inicio: "10.03.2026",
     fin: "12.03.2026",
     badge: { label: "Nuevo", color: "#10b981" },
-    estado: "vigente",
+    estado: "concluida",
   },
 
   {
