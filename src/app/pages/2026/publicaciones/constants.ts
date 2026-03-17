@@ -12,6 +12,18 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
+		numero: "23",
+		nombre: "Oficio Multiple N°010-2026-GORE-C-GEREDU-C-DUGEL-LC-SEC",
+		tipo: "Memorandum Múltiple",
+		fecha: "2026-03-17",
+		descripcion: "📢 Comunica a Directores(as) de las instituciones educativas publicas del ámbito de la UGEL La Convención, al taller de capacitación sobre la actividad de Geolocalización 2026 de locales educativos, evento a realizarse el día jueves 19 de marzo del 2026.",
+		thumbnailUrl: "/assets/images/publicaciones/oficio-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/23.OM-N°010-2026-GORE-C-GEREDU-C-DUGEL-LC-SEC-F-17032026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	
+	{
 		numero: "22",
 		nombre: "Memorandum Multiple N°019-2026-GORE-C-GEREDU-C-DUGEL-LC-SEC",
 		tipo: "Memorandum Múltiple",
