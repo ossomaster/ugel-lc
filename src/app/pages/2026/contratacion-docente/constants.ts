@@ -33,6 +33,16 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
         url: "/assets/files/2026/contrata-docente/31.RESULTADO.PRELIMINAR.PRIMARIA.EIB-BAJA-PERFIL-F-17032026.pdf",
         fecha: "2026-03-16",
       },
+      {
+        label: "EBR.INICIAL EIB (BAJA DE PERFIL)",
+        url: "/assets/files/2026/contrata-docente/31.RESULTADO.PRELIMINAR.EBR.INICIAL.BAJA.PERFIL-F-17032026.pdf",
+        fecha: "2026-03-16",
+      },
+      {
+        label: "EBA (BAJA DE PERFIL)",
+        url: "/assets/files/2026/contrata-docente/31.RESULTADO.PRELIMINAR.EBA.BAJA.PERFIL-F-17032026.pdf",
+        fecha: "2026-03-16",
+      },
     ],
   },
   
