@@ -16,6 +16,7 @@ export type TNavMenuItem = {
 	children?: TNavMenuItem[]
 }
 
+
 export const NAV_MENU: TNavMenuItem[] = [];
 // 	{
 // 		label: "Normativa Lineamientos",
@@ -41,7 +42,7 @@ export const NAV_MENU: TNavMenuItem[] = [];
 // 				label: "Lineamientos",
 // 				children: [
 // 					{ label: "Lineamientos Generales", href: "#" },
-// 					{ label: "Lineamientos Específicos", href: "#" },
+// 					{ label: "mientos Específicos", href: "#" },
 // 				],
 // 			},
 // 		],

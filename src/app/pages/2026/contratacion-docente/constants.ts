@@ -12,6 +12,31 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
   {
+    numero: "31",
+    nombre: "Resultado Preliminar con baja de Perfil Evaluación de Expedientes",
+    tipo: "Resultados",
+    fecha: "2026-03-17",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "EBE INICIAL",
+        url: "/assets/files/2026/contrata-docente/31.RESULTADO.PRELIMINAR.EBE.INICIAL-F-17032026.pdf",
+        fecha: "2026-03-17",
+      },
+      {
+        label: "EBE PRITE (BAJA DE PERFIL)",
+        url: "/assets/files/2026/contrata-docente/31.RESULTADO.PRELIMINAR.EBE.PRITE-BAJA.PERFIL-F-17032026.pdf",
+        fecha: "2026-03-16",
+      },
+       {
+        label: "EBR.PRIMARIA EIB (BAJA DE PERFIL)",
+        url: "/assets/files/2026/contrata-docente/31.RESULTADO.PRELIMINAR.PRIMARIA.EIB-BAJA-PERFIL-F-17032026.pdf",
+        fecha: "2026-03-16",
+      },
+    ],
+  },
+  
+  {
     numero: "30",
     nombre: "Comunicado Adjudicación Docente (Martes 17 de Marzo), Especialidad Educación Física",
     tipo: "Plazas",
