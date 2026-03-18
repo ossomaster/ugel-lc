@@ -20,8 +20,18 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     badge: { label: "Nuevo", color: "#10b981" },
     archivoUrl: [
       {
+        label: "FE ERRATAS EBE INICIAL",
+        url: "/assets/files/2026/contrata-docente/33.FE-ERRATAS-RESULTADO-FINAL-EBE.INICIAL-F-18032026.pdf",
+        fecha: "2026-03-18",
+      },
+      {
         label: "EBE INICIAL",
         url: "/assets/files/2026/contrata-docente/33.RESULTADO-FINAL-EBE.INICIAL-F-18032026.pdf",
+        fecha: "2026-03-18",
+      },
+      {
+        label: "FE ERRATAS EBE PRITE (BAJA DE PERFIL)",
+        url: "/assets/files/2026/contrata-docente/33.FE-ERRATAS-RESULTADO-FINAL-EBE.PRITE-F-18032026.pdf",
         fecha: "2026-03-18",
       },
       {
