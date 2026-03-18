@@ -20,7 +20,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     archivoUrl: [
       {
         label: "COMUNICADO",
-        url: "/assets/files/2026/contrata-docente/32.COMUNICADO-F-18032026.jpeg",
+        url: "/assets/files/2026/contrata-docente/32.comunicado-F-18.03.2026.png",
         fecha: "2026-03-18",
       },
     ],
