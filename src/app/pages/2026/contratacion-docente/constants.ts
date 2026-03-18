@@ -12,6 +12,21 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
   {
+    numero: "32",
+    nombre: "Comunicado Adjudicacion con baja de Perfil Evaluación de Expedientes",
+    tipo: "Resultados",
+    fecha: "2026-03-18",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "COMUNICADO",
+        url: "/assets/files/2026/contrata-docente/32.COMUNICADO-F-18032026.jpeg",
+        fecha: "2026-03-18",
+      },
+    ],
+  },
+  
+  {
     numero: "31",
     nombre: "Resultado Preliminar con baja de Perfil Evaluación de Expedientes",
     tipo: "Resultados",
