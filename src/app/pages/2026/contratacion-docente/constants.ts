@@ -40,8 +40,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
         fecha: "2026-03-18",
       },
       {
-        label: "FE ERRATAS EBR.PRIMARIA EIB (BAJA DE PERFIL)",
-        url: "/assets/files/2026/contrata-docente/33.FE.ERRATAS-RESULTADO-FINAL-PRIMARIA.EIB-F-18032026.pdf",
+        label: "FE ERRATAS EBR.PRIMARIA EIB (ACTUALIZADO)",
+        url: "/assets/files/2026/contrata-docente/33.FE.ERRATAS-RESULTADO-FINAL-PRIMARIA.EIB.ACTUALIZADO-F-18032026.pdf",
         fecha: "2026-03-18",
       },
       {
