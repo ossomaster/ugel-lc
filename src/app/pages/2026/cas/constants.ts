@@ -46,7 +46,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
       fecha: "18/03/2026",
     },
     final: "",
-    comunicado1: "",
+    comunicado1: {
+      url: "/assets/files/2026/contratacion-cas/03.COMUNICADO-F-18032026.pdf",
+      fecha: "18/03/2026",
+    },
     comunicado2: "",
     comunicado3: "",
     badge: { label: "PUBLICADO", color: "#00c758" },
