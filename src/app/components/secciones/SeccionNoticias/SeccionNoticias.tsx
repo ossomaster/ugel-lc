@@ -88,9 +88,9 @@ const ENLACES_INTERES: EnlaceInteres[] = [
 		alt: "SIAMEP",
 	},
 	{
-		imagen: "/assets/images/enlaces/enlace-convocatorias.png",
-		href: "pages/2026/convocatorias",
-		alt: "convocatorias",
+		imagen: "/assets/images/enlaces/enlace-prevaed.png",
+		href: "https://sites.google.com/view/prevaed-ugellaconvencion/inicio",
+		alt: "PREVAED",
 	},
 	{
 		imagen: "/assets/images/enlaces/enlace-ayni.png",
