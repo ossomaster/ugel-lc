@@ -11,6 +11,43 @@ export type TDocumentoNormativo = {
 };
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
+  
+  {
+    numero: "33",
+    nombre: "Resultado Final con baja de Perfil Evaluación de Expedientes",
+    tipo: "Resultados",
+    fecha: "2026-03-18",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "EBE INICIAL",
+        url: "/assets/files/2026/contrata-docente/33.RESULTADO-FINAL-EBE.INICIAL-F-18032026.pdf",
+        fecha: "2026-03-18",
+      },
+      {
+        label: "EBE PRITE (BAJA DE PERFIL)",
+        url: "/assets/files/2026/contrata-docente/33.RESULTADO-FINAL-EBE.PRITE-F-18032026.pdf",
+        fecha: "2026-03-18",
+      },
+       {
+        label: "EBR.PRIMARIA EIB (BAJA DE PERFIL)",
+        url: "/assets/files/2026/contrata-docente/33.RESULTADO-FINAL-PRIMARIA.EIB-F-18032026.pdf",
+        fecha: "2026-03-18",
+      },
+      {
+        label: "EBR.INICIAL EIB (BAJA DE PERFIL)",
+        url: "/assets/files/2026/contrata-docente/33.RESULTADO-FINAL-INICIAL.EIB-F-18032026.pdf",
+        fecha: "2026-03-18",
+      },
+      {
+        label: "EBA (BAJA DE PERFIL)",
+        url: "/assets/files/2026/contrata-docente/33.RESULTADO-FINAL-EBA.INICIAL.INTERMEDIO-F-18032026.pdf",
+        fecha: "2026-03-18",
+      },
+    ],
+  },
+  
+  
   {
     numero: "32",
     nombre: "Comunicado Adjudicacion con baja de Perfil Evaluación de Expedientes",
