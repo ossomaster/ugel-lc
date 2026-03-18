@@ -39,7 +39,12 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
         url: "/assets/files/2026/contrata-docente/33.RESULTADO-FINAL-EBE.PRITE-F-18032026.pdf",
         fecha: "2026-03-18",
       },
-       {
+      {
+        label: "FE ERRATAS EBR.PRIMARIA EIB (BAJA DE PERFIL)",
+        url: "/assets/files/2026/contrata-docente/33.FE.ERRATAS-RESULTADO-FINAL-PRIMARIA.EIB-F-18032026.pdf",
+        fecha: "2026-03-18",
+      },
+      {
         label: "EBR.PRIMARIA EIB (BAJA DE PERFIL)",
         url: "/assets/files/2026/contrata-docente/33.RESULTADO-FINAL-PRIMARIA.EIB-F-18032026.pdf",
         fecha: "2026-03-18",
