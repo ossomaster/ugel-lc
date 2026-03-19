@@ -15,10 +15,10 @@ export default function Home() {
 	return (
 		<MainLayout>
 			<InicioModal
-				src="/assets/files/2026/modal/modal-estadistica.png"
-				alt="Comunicado Estadistica"
+				src="/assets/files/2026/modal/modal-4.jpeg"
+				alt="Comunicado GORE"
                 // Definir href para redirigir a otra dirección, sino dejar sin href para mostrar solo la imagen sin enlace
-				href="/assets/files/2026/publicaciones/23.OM-N%C2%B0010-2026-GORE-C-GEREDU-C-DUGEL-LC-SEC-F-17032026.pdf"
+				href="#"
 			/>
 			<MainHero />
 			<SeccionInformacionDestacada />
