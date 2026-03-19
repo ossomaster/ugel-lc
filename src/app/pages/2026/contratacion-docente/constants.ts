@@ -13,6 +13,36 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
   
   {
+    numero: "34",
+    nombre: "Comunicado Adjudicacion Docente, Segunda Etapa PN y Tercera Etapa Eval.Expedientes",
+    tipo: "Resultados",
+    fecha: "2026-03-19",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "COMUNICADO",
+        url: "/assets/files/2026/contrata-docente/34.COMUNICADO-F-19032026.pdf",
+        fecha: "2026-03-19",
+      },
+      {
+        label: "PLAZAS EDUC.FISICA",
+        url: "/assets/files/2026/contrata-docente/34.PLAZAS-EDUCACION-FISICA-F-19032026.pdf",
+        fecha: "2026-03-19",
+      },
+      {
+        label: "PLAZAS EBR.SECUNDARIA",
+        url: "/assets/files/2026/contrata-docente/34.PLAZAS-SECUNDARIA-F-19032026.pdf",
+        fecha: "2026-03-19",
+      },
+      {
+        label: "PLAZAS EBR.PRIMARIA",
+        url: "/assets/files/2026/contrata-docente/34.PLAZAS-PRIMARIA-F-19032026.pdf",
+        fecha: "2026-03-19",
+      },
+    ],
+  },
+
+  {
     numero: "33",
     nombre: "Resultado Final con baja de Perfil Evaluación de Expedientes",
     tipo: "Resultados",
@@ -61,7 +91,6 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
       },
     ],
   },
-  
   
   {
     numero: "32",
