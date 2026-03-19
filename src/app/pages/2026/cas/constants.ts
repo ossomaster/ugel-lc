@@ -55,6 +55,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     badge: { label: "PUBLICADO", color: "#00c758" },
     estado: "vigente",
   },
+
+  
   {
     numero: "002-2026",
     descripcion: "Sede Administrativa UGEL La Convención",
