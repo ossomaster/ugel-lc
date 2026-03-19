@@ -66,7 +66,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
       "/assets/files/2026/contratacion-cas/02.BASES-PERFILES-CONVOCATORIA-ANEXOS-CAS-N°02-2026-SEDE-F-25022026.pdf",
     linkinscripcion:
       "https://www.ugellaconvencion.gob.pe/inscripcion/cas02-2026/",
-    preliminar: "",
+    preliminar: {
+      url: "/assets/files/2026/contratacion-cas/02.RESULTADOS-PRELIMINARES-CAS-N02-SEDE-UGEL-F-19032026.pdf",
+      fecha: "19/03/2026",
+    },
     entrevista: "",
     final: "",
     comunicado1: "",
