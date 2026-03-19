@@ -67,7 +67,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
       fecha: "29/01/2026" 
     },
     preliminar: { 
-      url: "/assets/files/2026/contratacion-276/18.RESULTADOS.FINALES.CONVO.N2.D.L.276-F-27022026.pdf", 
+      url: "/assets/files/2026/contratacion-276/13.RESULTADOS-PRELIMINARES-CONVOCATORIA.N2-D.L.276-F-23022026.pdf", 
       fecha: "27/02/2026" 
     },
     preliminar2: { 
