@@ -23,6 +23,15 @@ type EnlaceInteres = {
 
 const NOTICIAS: Noticia[] = [
 	{
+		imagen: "/assets/images/noticias/noticia-14.jpg",
+		fecha: "2026-03-16",
+		tipo: "Reciente",
+		titulo: "",
+		descripcion: "📚✨ ¡Retorno a clases 2026! ✨📚 La **Unidad de Gestión Educativa Local (UGEL) La Convención** dio inicio al **Año Escolar 2026** con una significativa ceremonia de retorno a clases, que contó con la participación de autoridades de la provincia y de la región, directivos, docentes, estudiantes y padres de familia.",
+		href: "https://www.facebook.com/share/p/17SkRziPST/",
+	},
+	
+	{
 		imagen: "/assets/images/noticias/noticia-13.jpg",
 		fecha: "2026-03-13",
 		tipo: "Reciente",
