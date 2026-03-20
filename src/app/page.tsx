@@ -15,8 +15,8 @@ export default function Home() {
 	return (
 		<MainLayout>
 			<InicioModal
-				src="/assets/files/2026/modal/modal-4.jpeg"
-				alt="Comunicado GORE"
+				src="/assets/files/2026/modal/modal-5.png"
+				alt="Día del Sindrome de Down"
                 // Definir href para redirigir a otra dirección, sino dejar sin href para mostrar solo la imagen sin enlace
 				href="#"
 			/>
