@@ -10,91 +10,10 @@ export enum ERutas {
 	NOSOTROS = "/nosotros",
 }
 
-export type TNavMenuItem = {
-	label: string
-	href?: string
-	children?: TNavMenuItem[]
-}
 
-export const NAV_MENU: TNavMenuItem[] = [];
-// 	{
-// 		label: "Normativa Lineamientos",
-// 		href: ERutas.NORMATIVA_LINEAMIENTOS,
-// 		children: [
-// 			{
-// 				label: "Documentos Normativos",
-// 				children: [
-// 					{ label: "Ley", href: "#" },
-// 					{ label: "Decreto Legislativo", href: "#" },
-// 					{ label: "Decreto de Urgencia", href: "#" },
-// 					{ label: "Decreto Supremo", href: "#" },
-// 					{ label: "Resolución Viceministerial", href: "#" },
-// 					{ label: "Resolución de Secretaría General", href: "#" },
-// 					{ label: "Resolución Ministerial", href: "#" },
-// 					{ label: "Resolución Jefatural", href: "#" },
-// 					{ label: "Resolución Directoral", href: "#" },
-// 					{ label: "Directiva", href: "#" },
-// 					{ label: "Oficio", href: "#" },
-// 				],
-// 			},
-// 			{
-// 				label: "Lineamientos",
-// 				children: [
-// 					{ label: "Lineamientos Generales", href: "#" },
-// 					{ label: "Lineamientos Específicos", href: "#" },
-// 				],
-// 			},
-// 		],
-// 	},
-// 	{
-// 		label: "Procesos de Registro",
-// 		href: ERutas.PROCESOS_REGISTRO,
-// 		children: [
-// 			{ label: "Registro de Instituciones", href: "#" },
-// 			{ label: "Registro de Docentes", href: "#" },
-// 			{ label: "Registro de Programas", href: "#" },
-// 		],
-// 	},
-// 	{
-// 		label: "Gestión Curricular",
-// 		href: ERutas.GESTION_CURRICULAR,
-// 		children: [
-// 			{ label: "Diseño Curricular", href: "#" },
-// 			{ label: "Programas de Estudio", href: "#" },
-// 			{ label: "Evaluación Curricular", href: "#" },
-// 		],
-// 	},
-// 	{
-// 		label: "Fortalecimiento Docente",
-// 		href: ERutas.FORTALECIMIENTO_DOCENTE,
-// 		children: [
-// 			{ label: "Capacitaciones", href: "#" },
-// 			{ label: "Programas de Formación", href: "#" },
-// 			{ label: "Acompañamiento Pedagógico", href: "#" },
-// 		],
-// 	},
-// 	{
-// 		label: "Licenciamiento de EESP",
-// 		href: ERutas.LICENCIAMIENTO_EESP,
-// 		children: [
-// 			{ label: "Requisitos", href: "#" },
-// 			{ label: "Proceso de Licenciamiento", href: "#" },
-// 			{ label: "Instituciones Licenciadas", href: "#" },
-// 		],
-// 	},
-// 	{
-// 		label: "Gestión y Aseguramiento de la Calidad",
-// 		href: ERutas.GESTION_ASEGURAMIENTO,
-// 		children: [
-// 			{ label: "Estándares de Calidad", href: "#" },
-// 			{ label: "Acreditación", href: "#" },
-// 			{ label: "Monitoreo y Evaluación", href: "#" },
-// 		],
-// 	},
-// ]
 
 export const SLIDES = [
-	
+
 	{
 		image: "/assets/slider/slide-7.jpeg",
 		title: "INICIO DE CLASES 16 DE MARZO",
@@ -129,16 +48,27 @@ export const SLIDES = [
 		description: "Desarrollamos 3 estrategias de gestión innovadoras para transformar y resolver desafíos educativos en nuestra provincia",
 		//buttonText: "Ver más",
 		//buttonUrl: "#",
-	},	
-	
+	},
+
 ]
+
+export type TTopDropdownItem = {
+	label: string
+	href: string
+	children?: { label: string; href: string }[]
+}
+
+export type TTopDropdownColumn = {
+	title: string
+	items: TTopDropdownItem[]
+}
 
 export type TTopDropdown = {
 	label: string
 	color: "red" | "green" | "blue"
 	type: "vertical" | "fullwidth"
-	items: { label: string; href: string }[]
-	columns?: { title: string; items: { label: string; href: string }[] }[]
+	items: TTopDropdownItem[]
+	columns?: TTopDropdownColumn[]
 }
 
 export const TOP_DROPDOWNS: TTopDropdown[] = [
@@ -189,7 +119,16 @@ export const TOP_DROPDOWNS: TTopDropdown[] = [
 				items: [
 					{ label: "AGP", href: "/pages/en-construccion" },
 					{ label: "AGA", href: "/pages/en-construccion" },
-					{ label: "AGI", href: "/pages/en-construccion" },
+					{
+						label: "AGI",
+						href: "/pages/en-construccion",
+						children: [
+							{ label: "Racionalización", href: "/pages/en-construccion" },
+							{ label: "Estadística", href: "/pages/en-construccion" },
+							{ label: "Finanzas", href: "/pages/en-construccion" },
+							{ label: "Planificación", href: "/pages/en-construccion" },
+						],
+					},
 				],
 			},
 		],

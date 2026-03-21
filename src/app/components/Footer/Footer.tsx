@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { FaEnvelope, FaFacebook, FaLocationDot, FaYoutube } from "react-icons/fa6"
-import { EMPRESA, ERutas, NAV_MENU } from "../../constants/constants"
+import { EMPRESA, ERutas, TOP_DROPDOWNS } from "../../constants/constants"
 import { asset, getRoute } from "../../helpers"
 
 export default function Footer() {
@@ -51,13 +51,11 @@ export default function Footer() {
 						</ul>
 					</div>
 					<div>
-						<h3 className="font-heading font-bold text-xl mb-4">Enlaces de Interes</h3>
+						<h3 className="font-heading font-bold text-xl mb-4">Enlaces de Interés</h3>
 						<ul className="space-y-4">
-							{NAV_MENU.map((item, index) => (
+							{TOP_DROPDOWNS.map((dropdown, index) => (
 								<li key={index}>
-									<Link href={item.href || "#"} className="hover:underline">
-										{item.label}
-									</Link>
+									<span className="font-semibold text-secondary">{dropdown.label}</span>
 								</li>
 							))}
 						</ul>
