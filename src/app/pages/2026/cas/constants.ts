@@ -75,7 +75,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
       url: "/assets/files/2026/contratacion-cas/02.RESULTADOS-PRELIMINARES-CAS-N02-SEDE-UGEL-F-19032026.pdf",
       fecha: "19/03/2026",
     },
-    entrevista: "",
+    entrevista: {
+      url: "/assets/files/2026/contratacion-cas/02.APTOS-ENTREVISTA-CAS-N02-SEDE-UGEL-F-20032026.pdf",
+      fecha: "20/03/2026",
+    },
     final: "",
     comunicado1: "",
     comunicado2: "",
