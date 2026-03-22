@@ -79,12 +79,12 @@ export default function InstrumentosGestionPage() {
                   <tr className="group transition-all duration-300 hover:bg-gray-50 hover:-translate-y-0.5 hover:scale-[1.015] hover:shadow-md border-l-4 border-transparent hover:border-red-500">
                     <td className="px-6 py-5 font-mono text-gray-400 group-hover:text-gray-500 transition-colors">01</td>
                     <td className="px-6 py-5 text-gray-700 group-hover:text-gray-900 transition-colors">MOP 2023 - MANUAL DE OPERACIONES - GEREDU CUSCO (DECRETO REGIONAL N° 003-2023-GR CUSCO/GR.)</td>
-                    <td className="px-6 py-5 text-right">{pdfButton("../assets/files/2026/planeamiento-organizacion/1.MOP-2023-MANUAL-DE-OPERACIONES-GEREDU-CUSCO-(DECRETO-REGIONAL-N-003-2023-GR-CUSCOGR.pdf")}</td>
+                    <td className="px-6 py-5 text-right">{pdfButton("https://drive.google.com/file/d/13UT3P_KSmBeevQGUNAzN0Xq4_Pvw1hRf/view?usp=sharing")}</td>
                   </tr>
                   <tr className="group transition-all duration-300 hover:bg-gray-50 hover:-translate-y-0.5 hover:scale-[1.015] hover:shadow-md border-l-4 border-transparent hover:border-red-500">
                     <td className="px-6 py-5 font-mono text-gray-400 group-hover:text-gray-500 transition-colors">02</td>
                     <td className="px-6 py-5 text-gray-700 group-hover:text-gray-900 transition-colors">MOP 2023 - MANUAL DE OPERACIONES - UGEL LA CONVENCIÓN (DECRETO REGIONAL N° 003-2023-GR CUSCO/GR.)</td>
-                    <td className="px-6 py-5 text-right">{pdfButton("../assets/files/2026/planeamiento-organizacion/2.MOP-2023-MANUAL-DE-OPERACIONES-UGEL-LA-CONVENCION-(DECRETO-REGIONAL-N°-003-2023-GR-CUSCOGR.pdf")}</td>
+                    <td className="px-6 py-5 text-right">{pdfButton("https://drive.google.com/file/d/1_zSksBajuDyXUVXSiUWxIwSStvXxF84V/view?usp=sharing")}</td>
                   </tr>
                 </tbody>
               </table>
@@ -110,12 +110,12 @@ export default function InstrumentosGestionPage() {
                   <tr className="group transition-all duration-300 hover:bg-gray-50 hover:-translate-y-0.5 hover:scale-[1.015] hover:shadow-md border-l-4 border-transparent hover:border-red-500">
                     <td className="px-6 py-5 font-mono text-gray-400 group-hover:text-gray-500 transition-colors">01</td>
                     <td className="px-6 py-5 text-gray-700 group-hover:text-gray-900 transition-colors">ORGANIGRAMA - UNIDAD DE GESTIÓN EDUCATIVA LOCAL LA CONVENCION 2023</td>
-                    <td className="px-6 py-5 text-right">{pdfButton("../assets/files/2026/planeamiento-organizacion/5.ORGANIGRAMA-UGEL-LA-CONVENCION-2023.pdf")}</td>
+                    <td className="px-6 py-5 text-right">{pdfButton("https://drive.google.com/file/d/1O-z_ZDIVDiWBySqjUsKfEOb8yuX5hUOW/view?usp=sharing")}</td>
                   </tr>
                   <tr className="group transition-all duration-300 hover:bg-gray-50 hover:-translate-y-0.5 hover:scale-[1.015] hover:shadow-md border-l-4 border-transparent hover:border-red-500">
                     <td className="px-6 py-5 font-mono text-gray-400 group-hover:text-gray-500 transition-colors">02</td>
                     <td className="px-6 py-5 text-gray-700 group-hover:text-gray-900 transition-colors">ORGANIGRAMA - UNIDAD DE GESTIÓN EDUCATIVA LOCAL LA CONVENCION 2022</td>
-                    <td className="px-6 py-5 text-right">{pdfButton("../assets/files/2026/planeamiento-organizacion/6.ORGANIGRAMA-UGEL-LA-CONVENCION-2022.pdf")}</td>
+                    <td className="px-6 py-5 text-right">{pdfButton("https://drive.google.com/file/d/172GEW-hc0nbFMerX80NOs35O1rdEW2dj/view?usp=sharing")}</td>
                   </tr>
                 </tbody>
               </table>
@@ -141,17 +141,17 @@ export default function InstrumentosGestionPage() {
                   <tr className="group transition-all duration-300 hover:bg-gray-50 hover:-translate-y-0.5 hover:scale-[1.015] hover:shadow-md border-l-4 border-transparent hover:border-red-500">
                     <td className="px-6 py-5 font-mono text-gray-400 group-hover:text-gray-500 transition-colors">01</td>
                     <td className="px-6 py-5 text-gray-700 group-hover:text-gray-900 transition-colors">CLASIFICADOR DE CARGOS DE LA CARRERA PÚBLICA MAGISTERIAL RV N° 106-2023-MINEDU.</td>
-                    <td className="px-6 py-5 text-right">{pdfButton("../assets/files/2026/planeamiento-organizacion/7.CLASIFICADOR-DE-CARGOS-DE-LA-CARRERA-PUBLICA-MAGISTERIAL-RV-N°-106-2023-MINEDU.pdf")}</td>
+                    <td className="px-6 py-5 text-right">{pdfButton("https://drive.google.com/file/d/1bN1bNtbWCiAoaH7cpsVmWGvaWDyyPCBB/view?usp=sharing")}</td>
                   </tr>
                   <tr className="group transition-all duration-300 hover:bg-gray-50 hover:-translate-y-0.5 hover:scale-[1.015] hover:shadow-md border-l-4 border-transparent hover:border-red-500">
                     <td className="px-6 py-5 font-mono text-gray-400 group-hover:text-gray-500 transition-colors">02</td>
                     <td className="px-6 py-5 text-gray-700 group-hover:text-gray-900 transition-colors">MANUAL DE CLASIFICADOR DE CARGOS - RSG N° 197-2022-MINEDU.</td>
-                    <td className="px-6 py-5 text-right">{pdfButton("../assets/files/2026/planeamiento-organizacion/8.MANUAL-DE-CLASIFICADOR-DE-CARGOS-RSG-N°-197-2022-MINEDU.pdf")}</td>
+                    <td className="px-6 py-5 text-right">{pdfButton("https://drive.google.com/file/d/1oXVGYM7i4-JCO0GQXwhlPcJ7yKQttuO4/view?usp=sharing")}</td>
                   </tr>
                   <tr className="group transition-all duration-300 hover:bg-gray-50 hover:-translate-y-0.5 hover:scale-[1.015] hover:shadow-md border-l-4 border-transparent hover:border-red-500">
                     <td className="px-6 py-5 font-mono text-gray-400 group-hover:text-gray-500 transition-colors">03</td>
                     <td className="px-6 py-5 text-gray-700 group-hover:text-gray-900 transition-colors">CLASIFICADOR DE CARGOS DE LA CARRERA PÚBLICA MAGISTERIAL R.V. N° 093-2021-MINEDU.</td>
-                    <td className="px-6 py-5 text-right">{pdfButton("../assets/files/2026/planeamiento-organizacion/9.CLASIFICADOR-DE-CARGOS-DE-LA-CARRERA-PUBLICA-MAGISTERIAL-R.V-N°-093-2021-MINEDU.pdf")}</td>
+                    <td className="px-6 py-5 text-right">{pdfButton("https://drive.google.com/file/d/1uU6sNEApGxPD2lW3pvApwi7HUJQrZ0U6/view?usp=sharing")}</td>
                   </tr>
                 </tbody>
               </table>
@@ -177,7 +177,7 @@ export default function InstrumentosGestionPage() {
                   <tr className="group transition-all duration-300 hover:bg-gray-50 hover:-translate-y-0.5 hover:scale-[1.015] hover:shadow-md border-l-4 border-transparent hover:border-red-500">
                     <td className="px-6 py-5 font-mono text-gray-400 group-hover:text-gray-500 transition-colors">01</td>
                     <td className="px-6 py-5 text-gray-700 group-hover:text-gray-900 transition-colors">CAP - P. CUADRO DE ASIGNACIÓN DE PERSONAL PROVISIONAL 2017 - DIRECCIÓN REGIONAL DE EDUCACIÓN CUSCO. ORDENANZA REGIONAL N° 123-2017-CG/GRC.CUSCO.</td>
-                    <td className="px-6 py-5 text-right">{pdfButton("../assets/files/2026/planeamiento-organizacion/10.CAP-P.CUADRO-DE-ASIGNACION-DE-PERSONAL-PROVISIONAL-2017-DIRECCION-REGIONAL-DE-EDUCACION-CUSCO-ORDENANZA-REGIONAL-N°-123-2017-CGGRC.CUSCO.pdf")}</td>
+                    <td className="px-6 py-5 text-right">{pdfButton("https://drive.google.com/file/d/19f4Ga3VNWQXw_JrTNTI_lBu7yvEDCSq3/view?usp=sharing")}</td>
                   </tr>
                 </tbody>
               </table>
@@ -203,7 +203,7 @@ export default function InstrumentosGestionPage() {
                   <tr className="group transition-all duration-300 hover:bg-gray-50 hover:-translate-y-0.5 hover:scale-[1.015] hover:shadow-md border-l-4 border-transparent hover:border-red-500">
                     <td className="px-6 py-5 font-mono text-gray-400 group-hover:text-gray-500 transition-colors">01</td>
                     <td className="px-6 py-5 text-gray-700 group-hover:text-gray-900 transition-colors">MAPRO UGEL LC 2017 - MANUAL DE PROCEDIMIENTOS ADMINISTRATIVOS. RESOLUCIÓN DIRECTORAL N° 001766-2017-UGEL-LC.</td>
-                    <td className="px-6 py-5 text-right">{pdfButton("../assets/files/2026/planeamiento-organizacion/11. MAPRO-UGEL-LC-2017-MANUAL-DE-PROCEDIMIENTOS-ADMINISTRATIVOS-RESOLUCION-DIRECTORAL-N°-001766-2017-UGEL-LC.pdf")}</td>
+                    <td className="px-6 py-5 text-right">{pdfButton("https://drive.google.com/file/d/15524w-XOi_8BI7kSBVkp2hq_-NND1MTZ/view?usp=sharing")}</td>
                   </tr>
                 </tbody>
               </table>
@@ -229,7 +229,7 @@ export default function InstrumentosGestionPage() {
                   <tr className="group transition-all duration-300 hover:bg-gray-50 hover:-translate-y-0.5 hover:scale-[1.015] hover:shadow-md border-l-4 border-transparent hover:border-red-500">
                     <td className="px-6 py-5 font-mono text-gray-400 group-hover:text-gray-500 transition-colors">01</td>
                     <td className="px-6 py-5 text-gray-700 group-hover:text-gray-900 transition-colors">TUPA - DIRECCIÓN REGIONAL DE EDUCACIÓN CUSCO 2016 - TEXTO ÚNICO DE PROCEDIMIENTOS ADMINISTRATIVOS. ORDENANZA REGIONAL N° 117-2016-CR/GRC.CUSCO.</td>
-                    <td className="px-6 py-5 text-right">{pdfButton("../assets/files/2026/planeamiento-organizacion/12.TUPA-DIRECCION-REGION-DE-EDUCACON-CUSCO-2016-TEXTO-ÚNICO-DE-PROCEDIMIENTOS-ADMINISTRATIVOS-ORDENANZA-REGIONAL-N°-117-2016-CRGRC.CUSCO.pdf")}</td>
+                    <td className="px-6 py-5 text-right">{pdfButton("https://drive.google.com/file/d/1LoxWv-dlmINHgIP0HCcBFiOTr4B00T1e/view?usp=drive_link")}</td>
                   </tr>
                 </tbody>
               </table>
@@ -255,12 +255,12 @@ export default function InstrumentosGestionPage() {
                   <tr className="group transition-all duration-300 hover:bg-gray-50 hover:-translate-y-0.5 hover:scale-[1.015] hover:shadow-md border-l-4 border-transparent hover:border-red-500">
                     <td className="px-6 py-5 font-mono text-gray-400 group-hover:text-gray-500 transition-colors">01</td>
                     <td className="px-6 py-5 text-gray-700 group-hover:text-gray-900 transition-colors">RIT UGEL LC 2023 - REGLAMENTO INTERNO DE TRABAJO DE LA UNIDAD DE GESTIÓN EDUCATIVA LOCAL LA CONVENCION 2023.</td>
-                    <td className="px-6 py-5 text-right">{pdfButton("../assets/files/2026/planeamiento-organizacion/13.RIT-UGEL-LC-2023-REGLAMENTO-INTERNO-DE-TRABAJO.pdf")}</td>
+                    <td className="px-6 py-5 text-right">{pdfButton("https://drive.google.com/file/d/1DkVdkeDAKgwpBZnpCgKJVSMuyG3Wp5Zx/view?usp=drive_link")}</td>
                   </tr>
                   <tr className="group transition-all duration-300 hover:bg-gray-50 hover:-translate-y-0.5 hover:scale-[1.015] hover:shadow-md border-l-4 border-transparent hover:border-red-500">
                     <td className="px-6 py-5 font-mono text-gray-400 group-hover:text-gray-500 transition-colors">02</td>
                     <td className="px-6 py-5 text-gray-700 group-hover:text-gray-900 transition-colors">RIT UGEL LC 2022 - REGLAMENTO INTERNO DE TRABAJO DE LA UNIDAD DE GESTIÓN EDUCATIVA LOCAL LA CONVENCION 2022.</td>
-                    <td className="px-6 py-5 text-right">{pdfButton("../assets/files/2026/planeamiento-organizacion/14.RIT-UGEL-LC-2022-REGLAMENTO-INTERNO-DE-TRABAJO-DE-LA-UNIDAD-DE-GESTION-EDUCATIVA-LOCAL-LA-CONVENCION-2022.pdf")}</td>
+                    <td className="px-6 py-5 text-right">{pdfButton("https://drive.google.com/file/d/1sSdiixsJ8NcH3xMnq3a52tJr5reEl21J/view?usp=sharing")}</td>
                   </tr>
                 </tbody>
               </table>
@@ -300,7 +300,7 @@ export default function InstrumentosGestionPage() {
                   <tr className="group transition-all duration-300 hover:bg-gray-50 hover:-translate-y-0.5 hover:scale-[1.015] hover:shadow-md border-l-4 border-transparent hover:border-red-500">
                     <td className="px-6 py-5 font-mono text-gray-400 group-hover:text-gray-500 transition-colors">02</td>
                     <td className="px-6 py-5 text-gray-700 group-hover:text-gray-900 transition-colors">PEN - PROYECTO EDUCATIVO NACIONAL AL 2036.</td>
-                    <td className="px-6 py-5 text-right">{pdfButton("../assets/files/2026/planeamiento-organizacion/16.PEN-PROYECTO-EDUCATIVO-NACIONAL-AL-2036.pdf")}</td>
+                    <td className="px-6 py-5 text-right">{pdfButton("https://drive.google.com/file/d/1JbSYl9CKVy6lj7BpwDR9aUO2F4HL00xj/view?usp=drive_link")}</td>
                   </tr>
                 </tbody>
               </table>
@@ -326,7 +326,7 @@ export default function InstrumentosGestionPage() {
                   <tr className="group transition-all duration-300 hover:bg-gray-50 hover:-translate-y-0.5 hover:scale-[1.015] hover:shadow-md border-l-4 border-transparent hover:border-red-500">
                     <td className="px-6 py-5 font-mono text-gray-400 group-hover:text-gray-500 transition-colors">01</td>
                     <td className="px-6 py-5 text-gray-700 group-hover:text-gray-900 transition-colors">PLAN ESTRATEGICO SECTORIAL MULTIANUAL DE EDUCACION 2016 - 2021.</td>
-                    <td className="px-6 py-5 text-right">{pdfButton("../assets/files/2026/planeamiento-organizacion/17.PLAN-ESTRATEGICO-SECTORIAL-MULTIANUAL-DE-EDUCACION-2016-2021.pdf")}</td>
+                    <td className="px-6 py-5 text-right">{pdfButton("https://drive.google.com/file/d/1tADzPqPMGP4r5tMzUp6-us_Jixe9b-U0/view?usp=drive_link")}</td>
                   </tr>
                 </tbody>
               </table>
@@ -352,22 +352,22 @@ export default function InstrumentosGestionPage() {
                   <tr className="group transition-all duration-300 hover:bg-gray-50 hover:-translate-y-0.5 hover:scale-[1.015] hover:shadow-md border-l-4 border-transparent hover:border-red-500">
                     <td className="px-6 py-5 font-mono text-gray-400 group-hover:text-gray-500 transition-colors">01</td>
                     <td className="px-6 py-5 text-gray-700 group-hover:text-gray-900 transition-colors">PEI 2024 - 2027. PLAN ESTRATEGICO INSTITUCIONAL DEL GOBIERNO REGIONAL CUSCO 2024 - 2027. RESOLUCION EJECUTIVA REGIONAL N° 438-2023-GR CUSCO / GR.</td>
-                    <td className="px-6 py-5 text-right">{pdfButton("../assets/files/2026/planeamiento-organizacion/18.PEI 2024-2027-PLAN-ESTRATEGICO-INSTITUCIONAL-DEL-GOBIERNO-REGIONAL-CUSCO-2024-2027-RESOLUCION-EJECUTIVA-REGIONAL-N°438-2023-GR-CUSCO-GR.pdf")}</td>
+                    <td className="px-6 py-5 text-right">{pdfButton("https://drive.google.com/file/d/1a10i-AWiDWAmwigIOKC3SLV-Dol28y_j/view?usp=drive_link")}</td>
                   </tr>
                   <tr className="group transition-all duration-300 hover:bg-gray-50 hover:-translate-y-0.5 hover:scale-[1.015] hover:shadow-md border-l-4 border-transparent hover:border-red-500">
                     <td className="px-6 py-5 font-mono text-gray-400 group-hover:text-gray-500 transition-colors">02</td>
                     <td className="px-6 py-5 text-gray-700 group-hover:text-gray-900 transition-colors">PEI 2021 - 2024. PLAN ESTRATEGICO INSTITUCIONAL DEL GOBIERNO REGIONAL CUSCO 2021 - 2024. RESOLUCION EJECUTIVA REGIONAL N° 438-2023-GR CUSCO / GR.</td>
-                    <td className="px-6 py-5 text-right">{pdfButton("../assets/files/2026/planeamiento-organizacion/19.PEI-2021-2024-PLAN-ESTRATEGICO-INSTITUCIONAL-DEL-GOBIERNO-REGIONAL-CUSCO-2021-2024-RESOLUCION-EJECUTIVA-REGIONAL-N°-438-2023-GR-CUSCO-GR.pdf")}</td>
+                    <td className="px-6 py-5 text-right">{pdfButton("https://drive.google.com/file/d/1IYxutboejLMT5oErFc3zv7MhEvbHMsi5/view?usp=drive_link")}</td>
                   </tr>
                   <tr className="group transition-all duration-300 hover:bg-gray-50 hover:-translate-y-0.5 hover:scale-[1.015] hover:shadow-md border-l-4 border-transparent hover:border-red-500">
                     <td className="px-6 py-5 font-mono text-gray-400 group-hover:text-gray-500 transition-colors">03</td>
                     <td className="px-6 py-5 text-gray-700 group-hover:text-gray-900 transition-colors">EVALUACION DEL PEI DEL GORE CUSCO 2021 - 2024.</td>
-                    <td className="px-6 py-5 text-right">{pdfButton("../assets/files/2026/planeamiento-organizacion/20.EVALUACION-DEL-PEI-DEL-GORE-CUSCO-2021-2024.pdf")}</td>
+                    <td className="px-6 py-5 text-right">{pdfButton("https://drive.google.com/file/d/18Y-qdN1zxGOmDDlUCXH2SlEa5vzDrd1N/view?usp=drive_link")}</td>
                   </tr>
                   <tr className="group transition-all duration-300 hover:bg-gray-50 hover:-translate-y-0.5 hover:scale-[1.015] hover:shadow-md border-l-4 border-transparent hover:border-red-500">
                     <td className="px-6 py-5 font-mono text-gray-400 group-hover:text-gray-500 transition-colors">04</td>
                     <td className="px-6 py-5 text-gray-700 group-hover:text-gray-900 transition-colors">PEI 2020 - 2023. PLAN ESTRATEGICO INSTITUCIONAL DEL GOBIERNO REGIONAL CUSCO 2020 - 2023.</td>
-                    <td className="px-6 py-5 text-right">{pdfButton("../assets/files/2026/planeamiento-organizacion/21.PEI-2020-2023-PLAN-ESTRATEGICO-INSTITUCIONAL-DEL-GOBIERNO-REGIONAL-CUSCO-2020-2023.pdf")}</td>
+                    <td className="px-6 py-5 text-right">{pdfButton("https://drive.google.com/file/d/1opmYivhhd819TpD-EM3n7z73RVTPokB_/view?usp=drive_link")}</td>
                   </tr>
                 </tbody>
               </table>
@@ -393,12 +393,12 @@ export default function InstrumentosGestionPage() {
                   <tr className="group transition-all duration-300 hover:bg-gray-50 hover:-translate-y-0.5 hover:scale-[1.015] hover:shadow-md border-l-4 border-transparent hover:border-red-500">
                     <td className="px-6 py-5 font-mono text-gray-400 group-hover:text-gray-500 transition-colors">01</td>
                     <td className="px-6 py-5 text-gray-700 group-hover:text-gray-900 transition-colors">REPORTE DE SEGUIMIENTO SEMESTRAL DEL PLAN OPERATIVO INSTITUCIONAL DE LA UGEL LA CONVENCION - POI 2023.</td>
-                    <td className="px-6 py-5 text-right">{pdfButton("../assets/files/2026/planeamiento-organizacion/22.REPORTE-DE-SEGUIMIENTO-SEMESTRAL-DEL-PLAN-OPERATIVO-INSTITUCIONAL-DE-LA-UGEL-LA-CONVENCION-POI-2023.pdf")}</td>
+                    <td className="px-6 py-5 text-right">{pdfButton("https://drive.google.com/file/d/1V1jm0wrcbFWEvTc7pXsDq8R4f5JRaJLH/view?usp=drive_link")}</td>
                   </tr>
                   <tr className="group transition-all duration-300 hover:bg-gray-50 hover:-translate-y-0.5 hover:scale-[1.015] hover:shadow-md border-l-4 border-transparent hover:border-red-500">
                     <td className="px-6 py-5 font-mono text-gray-400 group-hover:text-gray-500 transition-colors">02</td>
                     <td className="px-6 py-5 text-gray-700 group-hover:text-gray-900 transition-colors">REPORTE DE SEGUIMIENTO ANUAL DEL PLAN OPERATIVO INSTITUCIONAL DE LA UGEL LA CONVENCION - POI 2022.</td>
-                    <td className="px-6 py-5 text-right">{pdfButton("../assets/files/2026/planeamiento-organizacion/23.REPORTE-DE-SEGUIMIENTO-ANUAL-DEL-PLAN-OPERATIVO-INSTITUCIONAL-DE-LA-UGEL-LA-CONVENCION-POI-2022.pdf")}</td>
+                    <td className="px-6 py-5 text-right">{pdfButton("https://drive.google.com/file/d/1RXUfmShQHHG7Ll74vKtejk3HWjCb6T2o/view?usp=drive_link")}</td>
                   </tr>
                 </tbody>
               </table>

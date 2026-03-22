@@ -23,6 +23,7 @@ type EnlaceInteres = {
 
 const NOTICIAS: Noticia[] = [
 	{
+
 		imagen: "/assets/images/noticias/noticia-14.jpg",
 		fecha: "2026-03-16",
 		tipo: "Reciente",
@@ -32,6 +33,7 @@ const NOTICIAS: Noticia[] = [
 	},
 	
 	{
+
 		imagen: "/assets/images/noticias/noticia-13.jpg",
 		fecha: "2026-03-13",
 		tipo: "Reciente",
@@ -39,7 +41,7 @@ const NOTICIAS: Noticia[] = [
 		descripcion: "Con pancartas coloridas, bandas de música y muchísima alegría, se realizó el gran pasacalle por las principales arterias de la ciudad, marcando el inicio de esta nueva aventura educativa, para el Buen Inicio del año escolar 2026",
 		href: "https://www.facebook.com/share/p/1GY4MvKrFR/",
 	},
-	
+
 	{
 		imagen: "/assets/images/noticias/noticia-7.jpeg",
 		fecha: "2026-02-23",

@@ -11,7 +11,6 @@ export enum ERutas {
 }
 
 
-
 export const SLIDES = [
 
 	{
@@ -105,7 +104,6 @@ export const TOP_DROPDOWNS: TTopDropdown[] = [
 				title: "Asesoramiento",
 				items: [
 					{ label: "Área de Asesoría Jurídica", href: "/pages/en-construccion" },
-					{ label: "Área de Planificación y Presupuesto", href: "/pages/en-construccion" },
 				],
 			},
 			{
@@ -117,16 +115,45 @@ export const TOP_DROPDOWNS: TTopDropdown[] = [
 			{
 				title: "Línea",
 				items: [
-					{ label: "AGP", href: "/pages/en-construccion" },
-					{ label: "AGA", href: "/pages/en-construccion" },
+					{
+						label: "AGP",
+						href: "/pages/en-construccion",
+						children: [
+							{ label: "EBR. Inicial", href: "/pages/en-construccion" },
+							{ label: "EBR. Primaria", href: "/pages/en-construccion" },
+							{ label: "EBR. Secundaria", href: "/pages/en-construccion" },						
+							
+						],
+					},
+					{
+						label: "AGA",
+						href: "/pages/en-construccion",
+						children: [
+							/* { label: "Recursos Humanos", href: "/pages/en-construccion" },
+							{ label: "Airhsp", href: "/pages/en-construccion" },
+							{ label: "Nexus", href: "/pages/en-construccion" },
+							{ label: "Nexus", href: "/pages/en-construccion" },
+							{ label: "Contabilidad", href: "/pages/en-construccion" },
+							{ label: "Tesoreria", href: "/pages/en-construccion" },
+							{ label: "Remuneraciones", href: "/pages/en-construccion" },
+							{ label: "Control Patrimonial", href: "/pages/en-construccion" },
+							{ label: "Escalafón", href: "/pages/en-construccion" },
+							{ label: "Abastecimientos", href: "/pages/en-construccion" },
+							{ label: "Almacén", href: "/pages/en-construccion" }, */
+							
+						],
+					},
 					{
 						label: "AGI",
 						href: "/pages/en-construccion",
 						children: [
 							{ label: "Racionalización", href: "/pages/en-construccion" },
 							{ label: "Estadística", href: "/pages/en-construccion" },
-							{ label: "Finanzas", href: "/pages/en-construccion" },
-							{ label: "Planificación", href: "/pages/en-construccion" },
+							{ label: "Presupuesto y Finanzas", href: "/pages/en-construccion" },
+							{ label: "Planificación", href: "/pages/planeamiento-organizacion" },
+							{ label: "Siagie", href: "/pages/en-construccion" },
+							{ label: "Mantenimiento", href: "/pages/en-construccion" },
+							{ label: "Infraestructura", href: "/pages/en-construccion" },
 						],
 					},
 				],
@@ -176,3 +203,4 @@ export const SIDEBAR_INSTITUCIONAL: ISidebarItem[] = [
 	{ id: "instituciones-educativas", label: "Instituciones Educativas", href: "../pages/instituciones-educativas" },
 	{ id: "vision-mision", label: "Visión y Misión", href: "../pages/vision-mision" },
 ]
+
