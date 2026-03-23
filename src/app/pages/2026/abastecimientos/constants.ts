@@ -12,6 +12,16 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
+		numero: "147",
+		tipo: "Bien",
+		numcotizacion: "116",
+		descripcion: "ADQUISICIÓN DE KIT DE BIENESTAR PARA LOS ESTUDIANTES DE CRFA PARA EL ÁREA DE GESTION PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/147.COTI.N116-F-23032026.pdf",
+		fechapublicacion: "23.03.2026",
+		inicio: "24.03.2026",
+		fin: "26.03.2026",
+	},
+	{
 		numero: "146",
 		tipo: "Servicio",
 		numcotizacion: "114",
