@@ -17,7 +17,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		numcotizacion: "114",
 		descripcion: "SERVICIO DE COORDINACIÓN EN RELACIONES PUBLICAS PARA EL ÁREA DE GESTION PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
 		archivoUrl: "/assets/files/2026/abastecimiento/146.COTI.N115-F-20032026.pdf",
-		fechapublicacion: "18.03.2026",
+		fechapublicacion: "23.03.2026",
 		inicio: "23.03.2026",
 		fin: "25.03.2026",
 	},
