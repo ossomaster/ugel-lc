@@ -12,6 +12,36 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
+		numero: "150",
+		tipo: "Bien",
+		numcotizacion: "120",
+		descripcion: "ADQUISICIÓN DE BARRA DE CEREAL, FRUGOS Y GALLETA PARA EL ÁREA DE GESTION PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/150.COTI.N120-F-24032026.pdf",
+		fechapublicacion: "24.03.2026",
+		inicio: "25.03.2026",
+		fin: "26.03.2026",
+	},
+	{
+		numero: "149",
+		tipo: "Servicio",
+		numcotizacion: "119",
+		descripcion: "SERVICIO DE IMPRESIÓN DE INSTRUMENTO DE EVALUACIÓN PARA EL ÁREA DE GESTION PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/149.COTI.N119-F-24032026.pdf",
+		fechapublicacion: "24.03.2026",
+		inicio: "25.03.2026",
+		fin: "26.03.2026",
+	},
+	{
+		numero: "148",
+		tipo: "Servicio",
+		numcotizacion: "117",
+		descripcion: "SERVICIO DE IMPRESIÓN DE CUADERNILLOS DE EVALUACIÓN PARA EL ÁREA DE GESTION PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/148.COTI.N117-F-24032026.pdf",
+		fechapublicacion: "24.03.2026",
+		inicio: "25.03.2026",
+		fin: "26.03.2026",
+	},
+	{
 		numero: "147",
 		tipo: "Bien",
 		numcotizacion: "116",
