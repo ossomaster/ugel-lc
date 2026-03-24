@@ -13,6 +13,31 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
   
   {
+    numero: "35",
+    nombre: "Comunicado Adjudicacion Docente, Segunda Etapa PN, Miercoles 25 de Marzo de 2026",
+    tipo: "Comunicado",
+    fecha: "2026-03-24",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "COMUNICADO",
+        url: "/assets/files/2026/contrata-docente/35.COMUNICADO-F-24032026.pdf",
+        fecha: "2026-03-24",
+      },
+      {
+        label: "PLAZAS EBR.PRIMARIA",
+        url: "/assets/files/2026/contrata-docente/35.PLAZAS-PRIMARIA-F-24032026.pdf",
+        fecha: "2026-03-24",
+      },
+      {
+        label: "PLAZAS EBR.SECUNDARIA",
+        url: "/assets/files/2026/contrata-docente/35.PLAZAS-SECUNDARIA-F-24032026.pdf",
+        fecha: "2026-03-24",
+      },
+    ],
+  },
+
+  {
     numero: "34",
     nombre: "Comunicado Adjudicacion Docente, Segunda Etapa PN y Tercera Etapa Eval.Expedientes",
     tipo: "Resultados",
