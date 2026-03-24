@@ -12,6 +12,18 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
+		numero: "25",
+		nombre: "OFICIO MÚLTIPLE N.º 00047-2026-MINEDU/VMGP-DIGEIBIRA",
+		tipo: "Oficio Múltiple",
+		fecha: "2026-03-24",
+		descripcion: "📢 Modificación de cronograma del proceso de Evaluación de Dominio de la Lengua Indígena u Originaria de Docentes (EDLO) 2026.",
+		thumbnailUrl: "/assets/images/publicaciones/oficio-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/25.OFICIO-MULTIPLE-00047-2026-MINEDU-VMGP-DIGEIBIRA-F-24032026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	
+	{
 		numero: "24",
 		nombre: "Memorandum Multiple N°023-2026-GORE-C-DRE-C-DUGEL-LC-SEC",
 		tipo: "Memorandum Múltiple",
