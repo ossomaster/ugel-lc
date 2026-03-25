@@ -87,11 +87,16 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
       url: "/assets/files/2026/contratacion-cas/02.COMUNICADO-CAS-N02-SEDE-UGEL-F-24032026.pdf",
       fecha: "24/03/2026",
     },
-    comunicado2: "",
+    comunicado2: {
+      url: "/assets/files/2026/contratacion-cas/02.COMUNICADO-CAS-N02-SEDE-UGEL-F-25032026.pdf",
+      fecha: "25/03/2026",
+    },
     comunicado3: "",
     badge: { label: "PUBLICADO", color: "#00c758" },
     estado: "vigente",
   },
+
+  
   {
     numero: "001-2026",
     descripcion: "Sede Administrativa UGEL La Convención",
