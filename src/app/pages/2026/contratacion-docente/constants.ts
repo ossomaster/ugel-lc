@@ -27,7 +27,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
       {
         label: "PLAZAS",
         url: "/assets/files/2026/contrata-docente/37.PLAZAS-VACANTES-26032026.pdf",
-        fecha: "2026-03-26",
+        fecha: "2026-03-2",
       },
     ],
   },
