@@ -12,6 +12,28 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
+		numero: "154",
+		tipo: "Bien",
+		numcotizacion: "124",
+		descripcion: "ADQUISICIÓN DE GALLETA SODA Y NÉCTAR DE FRUTA PARA EL ÁREA DE GESTION PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/154.COTI.N124-F-26032026.pdf",
+		fechapublicacion: "26.03.2026",
+		inicio: "27.03.2026",
+		fin: "27.03.2026",
+	},
+	
+	{
+		numero: "153",
+		tipo: "Servicio",
+		numcotizacion: "123",
+		descripcion: "SERVICIO DE FOTOCOPIADO DE SEPARATAS PARA EL ÁREA DE GESTION PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/153.COTI.N123-F-26032026.pdf",
+		fechapublicacion: "26.03.2026",
+		inicio: "27.03.2026",
+		fin: "27.03.2026",
+	},
+	
+	{
 		numero: "152",
 		tipo: "Bien",
 		numcotizacion: "122",
