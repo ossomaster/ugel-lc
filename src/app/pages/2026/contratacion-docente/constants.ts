@@ -11,7 +11,27 @@ export type TDocumentoNormativo = {
 };
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
-  
+
+{
+    numero: "37",
+    nombre: "Comunicado a propuesta del Director de II.EE",
+    tipo: "Comunicado",
+    fecha: "2026-03-26",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "COMUNICADO",
+        url: "/assets/files/2026/contrata-docente/37.COMUNICADO-A-PROPUESTA-DEL-DIRECTOR-DE-IE-F-26032026.pdf",
+        fecha: "2026-03-26",
+      },
+      {
+        label: "PLAZAS",
+        url: "/assets/files/2026/contrata-docente/37.PLAZAS-VACANTES-26032026.pdf",
+        fecha: "2026-03-26",
+      },
+    ],
+  },
+
 {
     numero: "36",
     nombre: "Convocatoria Presentación de Expedientes, EBA (Matemática)",
