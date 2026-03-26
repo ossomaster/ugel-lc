@@ -33,10 +33,13 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
       url: "/assets/files/2026/contratacion-cas/04.BASES-PERFILES-CONVOCATORIA-INTERVENCIONES-PEDAGOGICAS-CAS-N04-2026-SEDE-F-25032026.pdf",
       fecha: "25/03/2026",
     },
-    linkinscripcion:
-      "",
+    linkinscripcion: {
+      url: "https://www.ugellaconvencion.gob.pe/inscripcion/cas04-2026/",
+      fecha: "26/03/2026",
+    },
     perfiles:
       "https://drive.google.com/drive/folders/1wHcSPRhEfkvXtxRNtzQG4ZFnVQ-t9GnI?usp=sharing",
+    
     preliminar: "",
     entrevista:"",
     final: "",
