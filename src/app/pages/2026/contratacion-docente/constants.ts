@@ -13,6 +13,26 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
   
   {
+    numero: "36",
+    nombre: "Convocatoria Presentación de Expedientes, EBA (Matemática)",
+    tipo: "Comunicado",
+    fecha: "2026-03-24",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "COMUNICADO",
+        url: "/assets/files/2026/contrata-docente/36.COMUNICADO-DE-PRESENTACION-DE-EXPEDIENTES-F-25032026.pdf",
+        fecha: "2026-03-25",
+      },
+      {
+        label: "PLAZAS EBA",
+        url: "/assets/files/2026/contrata-docente/36.PLAZA-VACANTE-EBA-F-25032026.pdf",
+        fecha: "2026-03-25",
+      },
+    ],
+  },
+  
+  {
     numero: "35",
     nombre: "Comunicado Adjudicacion Docente, Segunda Etapa PN, Miercoles 25 de Marzo de 2026",
     tipo: "Comunicado",
