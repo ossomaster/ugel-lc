@@ -12,6 +12,28 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
+		numero: "152",
+		tipo: "Bien",
+		numcotizacion: "122",
+		descripcion: "ADQUISICIÓN DE MATERIALES DE ESCRITORIO PARA LA ASISTENCIA TÉCNICA PARA EL ÁREA DE GESTION PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/152.COTI.N122-F-25032026.pdf",
+		fechapublicacion: "25.03.2026",
+		inicio: "25.03.2026",
+		fin: "27.03.2026",
+	},
+	
+	{
+		numero: "151",
+		tipo: "Bien",
+		numcotizacion: "121",
+		descripcion: "ADQUISICIÓN DE MATERIALES DE ESCRITORIO PARA EL ÁREA DE GESTION PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/151.CONVOCATORIA.N121-F-25032026.pdf",
+		fechapublicacion: "25.03.2026",
+		inicio: "25.03.2026",
+		fin: "27.03.2026",
+	},
+	
+	{
 		numero: "150",
 		tipo: "Bien",
 		numcotizacion: "120",
@@ -21,6 +43,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		inicio: "25.03.2026",
 		fin: "26.03.2026",
 	},
+
 	{
 		numero: "149",
 		tipo: "Servicio",

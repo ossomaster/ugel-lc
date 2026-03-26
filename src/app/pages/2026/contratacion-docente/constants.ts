@@ -12,11 +12,11 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
   
-  {
+{
     numero: "36",
     nombre: "Convocatoria Presentación de Expedientes, EBA (Matemática)",
     tipo: "Comunicado",
-    fecha: "2026-03-24",
+    fecha: "2026-03-25",
     badge: { label: "Nuevo", color: "#10b981" },
     archivoUrl: [
       {
