@@ -13,6 +13,26 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 
 {
+    numero: "38",
+    nombre: "Comunicado Adjudicación Docente Lunes 30 de Marzo",
+    tipo: "Comunicado",
+    fecha: "2026-03-27",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "COMUNICADO",
+        url: "/assets/files/2026/contrata-docente/38.COMUNICADO-DE-ADJUDICACION-DOCENTE-F-27032026.pdf",
+        fecha: "2026-03-27",
+      },
+      {
+        label: "PLAZAS",
+        url: "/assets/files/2026/contrata-docente/38.PLAZA-VACANTE-27032026.pdf",
+        fecha: "2026-03-27",
+      },
+    ],
+},
+
+{
     numero: "37",
     nombre: "Comunicado a propuesta del Director de II.EE",
     tipo: "Comunicado",
@@ -30,7 +50,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
         fecha: "2026-03-2",
       },
     ],
-  },
+},
 
 {
     numero: "36",
