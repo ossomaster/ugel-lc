@@ -119,7 +119,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
       url: "/assets/files/2026/contratacion-cas/02.COMUNICADO-CAS-N02-SEDE-UGEL-F-25032026.pdf",
       fecha: "25/03/2026",
     },
-    comunicado3: "",
+    comunicado3: {
+      url: "/assets/files/2026/contratacion-cas/02.COMUNICADO-CAS-N2-F-27032026.pdf",
+      fecha: "27/03/2026",
+    },
     badge: { label: "PUBLICADO", color: "#00c758" },
     estado: "vigente",
   },
