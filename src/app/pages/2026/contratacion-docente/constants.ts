@@ -13,6 +13,22 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 
 {
+    numero: "39",
+    nombre: "Resultados Preliminares Convocatoria EBA Matemática",
+    tipo: "Comunicado",
+    fecha: "2026-03-27",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Resultados",
+        url: "/assets/files/2026/contrata-docente/39.RESULTADOS-PRELIMINARES-EBA-MATEMATICA-F-27032026.pdf",
+        fecha: "2026-03-27",
+      },
+      
+    ],
+},
+
+{
     numero: "38",
     nombre: "Comunicado Adjudicación Docente Lunes 30 de Marzo",
     tipo: "Comunicado",
