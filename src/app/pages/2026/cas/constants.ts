@@ -14,6 +14,7 @@ export type TDocumentoNormativo = {
   preliminar: LinkConFecha;
   entrevista: LinkConFecha;
   final?: LinkConFecha;
+  feerratasfinal?: LinkConFecha;
   comunicado1: LinkConFecha;
   comunicado2: LinkConFecha;
   comunicado3: LinkConFecha;
@@ -110,6 +111,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     final: {
       url: "/assets/files/2026/contratacion-cas/02.RESULTADO-FINAL-CAS-N02-SEDE-UGEL-F-24032026.pdf",
       fecha: "24/03/2026",
+    },
+    feerratasfinal: {
+      url: "/assets/files/2026/contratacion-cas/02.FE-ERRATAS-CAS-N°02-2026-F-30.03.2026.pdf",
+      fecha: "30/03/2026",
     },
     comunicado1: {
       url: "/assets/files/2026/contratacion-cas/02.COMUNICADO-CAS-N02-SEDE-UGEL-F-24032026.pdf",

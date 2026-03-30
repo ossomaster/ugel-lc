@@ -86,6 +86,7 @@ function CardDocumento({ doc }: { doc: TDocumentoNormativo }) {
           {doc.preliminar && (() => { const d = getLinkData(doc.preliminar); return d && <BotonDescarga href={d.url} label="Resultado Preliminar" fecha={d.fecha} /> })()}
           {doc.entrevista && (() => { const d = getLinkData(doc.entrevista); return d && <BotonDescarga href={d.url} label="Aptos Entrevista" fecha={d.fecha} /> })()}
           {doc.final && (() => { const d = getLinkData(doc.final); return d && <BotonDescarga href={d.url} label="Resultado Final" fecha={d.fecha} /> })()}
+          {doc.feerratasfinal && (() => { const d = getLinkData(doc.feerratasfinal); return d && <BotonDescarga href={d.url} label="Fe Erratas Final" fecha={d.fecha} /> })()}
           {doc.comunicado1 && (() => { const d = getLinkData(doc.comunicado1); return d && <BotonDescarga href={d.url} label="Comunicado N°01" fecha={d.fecha} fullWidth /> })()}
           {doc.comunicado2 && (() => { const d = getLinkData(doc.comunicado2); return d && <BotonDescarga href={d.url} label="Comunicado N°02" fecha={d.fecha} fullWidth /> })()}
           {doc.comunicado3 && (() => { const d = getLinkData(doc.comunicado3); return d && <BotonDescarga href={d.url} label="Comunicado N°03" fecha={d.fecha} fullWidth /> })()}
