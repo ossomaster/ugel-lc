@@ -85,7 +85,7 @@ export default function ReporteAsistenciaDocentePage() {
                   title="Formulario Digital"
                   description="Complete el reporte oficial en línea de manera simplificada y reciba una constancia en su correo."
                   buttonText="Iniciar Reporte Digital"
-                  href="https://forms.gle/5ziXQBH1NSJsaKxr5"
+                  href="https://asistencia.ugellaconvencion.gob.pe/auth/login"
                   colorClass="bg-emerald-600"
                   iconSymbol="↗"
                 />
