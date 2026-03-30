@@ -14,6 +14,13 @@ export enum ERutas {
 export const SLIDES = [
 
 	{
+		image: "/assets/slider/slide-8.png",
+		title: "Semana Santa",
+		description: "",
+		//buttonText: "Acceder",
+		//buttonUrl: "#",
+	},
+	{
 		image: "/assets/slider/slide-7.jpeg",
 		title: "INICIO DE CLASES 16 DE MARZO",
 		description: "",
