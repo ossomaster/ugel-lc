@@ -18,6 +18,7 @@ export type TDocumentoNormativo = {
   comunicado1: LinkConFecha;
   comunicado2: LinkConFecha;
   comunicado3: LinkConFecha;
+  comunicado4: LinkConFecha;
   badge?: { label: string; color: string };
   estado?: "vigente" | "concluida" | "cancelada";
 };
@@ -84,6 +85,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     },
     comunicado2: "",
     comunicado3: "",
+     comunicado4: "",
     badge: { label: "PUBLICADO", color: "#00c758" },
     estado: "concluida",
   },
@@ -128,6 +130,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
       url: "/assets/files/2026/contratacion-cas/02.COMUNICADO-CAS-N2-F-27032026.pdf",
       fecha: "27/03/2026",
     },
+    comunicado4: {
+      url: "/assets/files/2026/contratacion-cas/02.COMUNICADO-CAS-N°02-2026-F-30.03.2026.pdf",
+      fecha: "30/03/2026",
+    },
     badge: { label: "PUBLICADO", color: "#00c758" },
     estado: "vigente",
   },
@@ -149,6 +155,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     comunicado1: "/assets/01.COMUNICADO.N°01-12022026.pdf",
     comunicado2: "",
     comunicado3: "",
+    comunicado4: "",
     badge: { label: "PUBLICADO", color: "#00c758" },
     estado: "cancelada",
   },
