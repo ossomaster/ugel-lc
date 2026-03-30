@@ -82,9 +82,9 @@ export default function ReporteAsistenciaDocentePage() {
               <div className="space-y-4">
                 <ActionCard 
                   icon="📝"
-                  title="Formulario Digital"
+                  title="Sistema de Control de Asistencia de II.EE"
                   description="Complete el reporte oficial en línea de manera simplificada y reciba una constancia en su correo."
-                  buttonText="Iniciar Reporte Digital"
+                  buttonText="Ingresas al Sistema de Reporte de Asistencia"
                   href="https://asistencia.ugellaconvencion.gob.pe/auth/login"
                   colorClass="bg-emerald-600"
                   iconSymbol="↗"
