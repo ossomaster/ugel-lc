@@ -13,6 +13,22 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 
 {
+    numero: "40",
+    nombre: "Comunicado a propuesta del Director de II.EE",
+    tipo: "Comunicado",
+    fecha: "2026-03-30",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Plazas",
+        url: "/assets/files/2026/contrata-docente/40.PLAZA-VACANTE-30032026.pdf",
+        fecha: "2026-03-30",
+      },
+      
+    ],
+},
+
+{
     numero: "39",
     nombre: "Resultados Preliminares Convocatoria EBA Matemática",
     tipo: "Comunicado",
