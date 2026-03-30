@@ -14,12 +14,12 @@ import SeccionBuenasPracticas from "./components/secciones/SeccionBuenasPractica
 export default function Home() {
 	return (
 		<MainLayout>
-			{/* <InicioModal
-				src="/assets/files/2026/modal/modal-5.png"
-				alt="Día del Sindrome de Down"
+			<InicioModal
+				src="/assets/files/2026/modal/modal-6.jpeg"
+				alt="Taller Sistema de Asistencia 2026"
                 // Definir href para redirigir a otra dirección, sino dejar sin href para mostrar solo la imagen sin enlace
-				href="#"
-			/> */}
+				href="https://acortar.link/1c7c0V"
+			/>
 			<MainHero />
 			<SeccionInformacionDestacada />
 			<SeccionNoticias />
