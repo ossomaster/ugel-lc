@@ -85,7 +85,7 @@ export default function ReporteAsistenciaDocentePage() {
                   title="Sistema de Control de Asistencia de II.EE"
                   description="Complete el reporte oficial en línea de manera simplificada y reciba una constancia en su correo."
                   buttonText="Ingresas al Sistema de Reporte de Asistencia"
-                  href="https://asistencia.ugellaconvencion.gob.pe/auth/login"
+                  href="#"
                   colorClass="bg-emerald-600"
                   iconSymbol="↗"
                 />
