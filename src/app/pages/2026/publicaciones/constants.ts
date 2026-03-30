@@ -12,6 +12,18 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
+		numero: "26",
+		nombre: "MEMORÁNDUM MÚLTIPLE N°029-2026- GORE-C/GEREDU-C/DUGEL-LC/SEC",
+		tipo: "Memorandum Múltiple",
+		fecha: "2026-03-30",
+		descripcion: "📢 Convoca a Directores de las II.EEE del Ambito de la UGEL La Convencion a la reunión virtual sobre el Uso y manejo del Sistema de Asistencia Docente y Administrativo 2026, evento a realizarse el dia miercoles 01/04/2026 a partir de las 3:30 p.m",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/26.MM-N29-2026-GORE-C-GEREDU-C-DUGEL-LC-SEC-F-30032026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	
+	{
 		numero: "25",
 		nombre: "OFICIO MÚLTIPLE N.º 00047-2026-MINEDU/VMGP-DIGEIBIRA",
 		tipo: "Oficio Múltiple",
