@@ -13,6 +13,22 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 
 {
+    numero: "41",
+    nombre: "Resultado Final Convocatoria EBA Matemática",
+    tipo: "Resultado",
+    fecha: "2026-03-31",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Plazas",
+        url: "/assets/files/2026/contrata-docente/41.RESULTADO-FINAL-EBA-MATEMATICA-F-31.03.2026.pdf",
+        fecha: "2026-03-31",
+      },
+      
+    ],
+},
+
+{
     numero: "40",
     nombre: "Comunicado a propuesta del Director de II.EE",
     tipo: "Comunicado",
@@ -31,7 +47,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 {
     numero: "39",
     nombre: "Resultados Preliminares Convocatoria EBA Matemática",
-    tipo: "Comunicado",
+    tipo: "Resultado",
     fecha: "2026-03-27",
     badge: { label: "Nuevo", color: "#10b981" },
     archivoUrl: [
