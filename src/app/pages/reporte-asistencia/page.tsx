@@ -84,8 +84,8 @@ export default function ReporteAsistenciaDocentePage() {
                   icon="📝"
                   title="Sistema de Control de Asistencia de II.EE"
                   description="Complete el reporte oficial en línea de manera simplificada y reciba una constancia en su correo."
-                  buttonText="Ingresas al Sistema de Reporte de Asistencia"
-                  href="../pages/en-construccion"
+                  buttonText="Ingresar al Sistema de Reporte de Asistencia"
+                  href="../../pages/en-construccion"
                   colorClass="bg-emerald-600"
                   iconSymbol="↗"
                 />
