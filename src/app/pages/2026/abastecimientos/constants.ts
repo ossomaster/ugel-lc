@@ -11,6 +11,18 @@ export type TDocumentoNormativo = {
 }
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
+	
+	{
+		numero: "156",
+		tipo: "Servicio",
+		numcotizacion: "120",
+		descripcion: "ADQUISICIÓN DE BARRA CEREAL, FRUGOS Y GALLETA PARA EL ÁREA DE GESTION PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/156.COTI.N120.2-F-31032026.pdf",
+		fechapublicacion: "31.03.2026",
+		inicio: "01.04.2026",
+		fin: "01.04.2026",
+	},
+	
 	{
 		numero: "155",
 		tipo: "Bien",
