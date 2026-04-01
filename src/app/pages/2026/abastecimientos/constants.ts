@@ -13,8 +13,19 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "157",
+		tipo: "Bien",
+		numcotizacion: "112",
+		descripcion: "ADQUISICIÓN DE MOSQUITERO PARA EL ÁREA DE GESTION PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/157.CONVOCATORIA.N112-F-01042026.pdf",
+		fechapublicacion: "01.04.2026",
+		inicio: "01.04.2026",
+		fin: "06.04.2026",
+	},
+
+	{
 		numero: "156",
-		tipo: "Servicio",
+		tipo: "Bien",
 		numcotizacion: "120",
 		descripcion: "ADQUISICIÓN DE BARRA CEREAL, FRUGOS Y GALLETA PARA EL ÁREA DE GESTION PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
 		archivoUrl: "/assets/files/2026/abastecimiento/156.COTI.N120.2-F-31032026.pdf",
