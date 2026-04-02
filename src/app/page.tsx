@@ -15,10 +15,10 @@ export default function Home() {
 	return (
 		<MainLayout>
 			<InicioModal
-				src="/assets/files/2026/modal/modal-6.jpeg"
-				alt="Taller Sistema de Asistencia 2026"
+				src="https://scontent-lim1-1.xx.fbcdn.net/v/t39.30808-6/658162888_931327466285358_1504002055197489080_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=13d280&_nc_ohc=Xxnz5jfSzO0Q7kNvwEoWRl3&_nc_oc=AdpdF9cW6i1OCpuSAWcYQgKU__RH--lHUyFCMUMwLZonaEQ0S4sS-T0qkf433ezM6hc&_nc_zt=23&_nc_ht=scontent-lim1-1.xx&_nc_gid=pSqlrWdfW-iRQH2EQ16pzQ&_nc_ss=7a3a8&oh=00_Af3PLXfsu58Iss2KjK7aNn_b3A1q-GAlxvWxHM3pxHkVzA&oe=69D45353"
+				alt=""
                 // Definir href para redirigir a otra dirección, sino dejar sin href para mostrar solo la imagen sin enlace
-				href="https://acortar.link/1c7c0V"
+				href=""
 			/>
 			<MainHero />
 			<SeccionInformacionDestacada />
