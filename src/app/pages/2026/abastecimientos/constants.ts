@@ -29,7 +29,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		numcotizacion: "112",
 		descripcion: "ADQUISICIÓN DE MOSQUITERO PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL CONVENCIÓN",
 		archivoUrl: "/assets/files/2026/abastecimiento/159.TERCERA-CONVOCATORIA .COT112-F-07042026.pdf",
-		fechapublicacion: "06.04.2026",
+		fechapublicacion: "07.04.2026",
 		inicio: "07.04.2026",
 		fin: "09.04.2026",
 	},
