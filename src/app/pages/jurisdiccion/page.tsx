@@ -11,12 +11,8 @@ const DISTRITOS = [
 	{ nombre: "Santa Teresa", tipo: "Distrito" },
 	{ nombre: "Vilcabamba", tipo: "Distrito" },
 	{ nombre: "Inkawasi", tipo: "Distrito" },
-	{ nombre: "Villa Virgen", tipo: "Distrito" },
-	{ nombre: "Villa Kintiarina", tipo: "Distrito" },
 	{ nombre: "Megantoni", tipo: "Distrito" },
 	{ nombre: "Kumpirushiato", tipo: "Distrito" },
-	{ nombre: "Pichari", tipo: "Distrito" },
-	{ nombre: "Kepashiato", tipo: "Distrito" },
 ]
 
 export default function JurisdiccionPage() {
