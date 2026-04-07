@@ -10,6 +10,17 @@ export type TDocumentoNormativo = {
 }
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
+	
+	{
+		numero: "45",
+		nombre: "Modificación del Cronograma de Encargaturas",
+		tipo: "Publicación",
+		fecha: "2026-04-06",
+		archivoUrl: "/assets/files/2026/encargaturas/45.MODIFICACION-DEL-CRONOGRAMA-DE-ENCARGATURA-F-06042026.pdf",
+		badge: { label: "Nuevo", color: "#10b981" },
+		
+	},
+
 	{
 		numero: "44",
 		nombre: "Convocatoria Presentación de Expedientes Encargaturas",
