@@ -15,7 +15,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
 		numero: "158",
 		tipo: "Bien",
-		numcotizacion: "112",
+		numcotizacion: "125",
 		descripcion: "ADQUISICIÓN DE MATERIAL FUNGIBLE PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL CONVENCIÓN",
 		archivoUrl: "/assets/files/2026/abastecimiento/158.COT.125-F-06042026.pdf",
 		fechapublicacion: "06.04.2026",
