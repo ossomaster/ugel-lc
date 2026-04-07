@@ -13,6 +13,22 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 
 {
+    numero: "42",
+    nombre: "Convocatoria a presentación de Expedientes por situaciones diferenciadas",
+    tipo: "Resultado",
+    fecha: "2026-06-04",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Convocatoria",
+        url: "/assets/files/2026/contrata-docente/42.COMUNICADO-F-06042026.pdf",
+        fecha: "2026-06-04",
+      },
+      
+    ],
+},
+
+{
     numero: "41",
     nombre: "Resultado Final Convocatoria EBA Matemática",
     tipo: "Resultado",
