@@ -11,6 +11,67 @@ export type TDocumentoNormativo = {
 }
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
+	
+	{
+		numero: "31",
+		nombre: "OFICIO N°060-2025-GERESA-RSSLC-D.E-DAIS-PROMSA",
+		tipo: "Oficio Múltiple",
+		fecha: "2026-04-07",
+		descripcion: "📢 Comunica certificación a docentes asistentes a los talleres de estilos de vida saludable",
+		thumbnailUrl: "/assets/images/publicaciones/oficio-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/31.OFICIO.N°060-2025-GERESA-RSSLC-D.E-DAIS-PROMSA-F-07042026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+
+	{
+		numero: "30",
+		nombre: "MEMORÁNDUM MÚLTIPLE N°00037-2026-GORE-C-DRE-C-DUGE-LC-DAGP-SEC",
+		tipo: "Memorandum Múltiple",
+		fecha: "2026-04-07",
+		descripcion: "📢 Comunica la validación de directores y docentes asesores de Clubes de Ciencia y Tecnologia -SIGECCYT CONCYTEC",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/30.MM-00036-2026-GORE-C-DRE-C-DUGE-LC-DAGP-SEC-F-07042026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+
+	{
+		numero: "29",
+		nombre: "MEMORÁNDUM MÚLTIPLE N°00037-2026-GORE-C-DRE-C-DUGE-LC-DAGP-SEC",
+		tipo: "Memorandum Múltiple",
+		fecha: "2026-04-07",
+		descripcion: "📢 Convoca a ATA Virtual de la normatica RVM N°034-2022-MINEDU diriguida a los directores docentes PIP y personal CIST, evento a realizarse el día miercoles 15 de abril en el horario de 15:00 p.m a 16:30 p.m",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/29.MM-00037-2026-GORE-C-DRE-C-DUGE-LC-DAGP-SEC-F-07042026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+
+	{
+		numero: "28",
+		nombre: "MEMORÁNDUM MÚLTIPLE N°00038-2026-GORE-C-DRE-C-DUGE-LC-DAGP-SEC",
+		tipo: "Memorandum Múltiple",
+		fecha: "2026-04-07",
+		descripcion: "📢 Comunica certificación a docentes participantes en talleres de estilos saludables 2025.",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/28.MM-00038-2026-GORE-C-DRE-C-DUGE-LC-DAGP-SEC-F-07042026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	
+	{
+		numero: "27",
+		nombre: "OFICIO MÚLTIPLE N°00050-2026-GORE-C-DRE-C-DUGE-LC-DAGP-SEC",
+		tipo: "Oficio Múltiple",
+		fecha: "2026-04-07",
+		descripcion: "📢 Invita a participación en curso virtual gratuito 'Inteligencia Artificial' para la Pedagogía, el curso se desarrollara los días 15, 16 y 17 de abril del presente año.",
+		thumbnailUrl: "/assets/images/publicaciones/oficio-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/27.OM-N00050-2026-GORE-C-DRE-C-DUGE-LC-DAGP-SEC-F-07042026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	
 	{
 		numero: "26",
 		nombre: "MEMORÁNDUM MÚLTIPLE N°029-2026- GORE-C/GEREDU-C/DUGEL-LC/SEC",
