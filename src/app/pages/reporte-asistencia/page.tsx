@@ -90,7 +90,7 @@ export default function ReporteAsistenciaDocentePage() {
                   iconSymbol="↗"
                 />
 
-                <div className="h-px bg-gray-100 mx-8" />
+                {/* <div className="h-px bg-gray-100 mx-8" />
 
                 <ActionCard 
                   icon="📊"
@@ -100,7 +100,7 @@ export default function ReporteAsistenciaDocentePage() {
                   href="/assets/files/reporte-asistencia/FORMATO-ASISTENCIA-DOCENTE-UNIFICADO-MINEDU-2026.xlsx"
                   colorClass="bg-amber-500"
                   iconSymbol="↓"
-                />
+                /> */}
               </div>
             </div>
 
