@@ -13,6 +13,18 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "32",
+		nombre: "MEMORÁNDUM MÚLTIPLE N°00035-2026-GORE-C-GEREDU-C-DUGEL-LC-SEC.",
+		tipo: "Memorandum Múltiple",
+		fecha: "2026-04-08",
+		descripcion: "📢 Comunica a Directores de las Instituciones Educativas del ambito de la UGEL La Convención el fortalecimiento de la identidad institucional mediante el cambio de nombre de las instituciones educativas públicas",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/32.MM-035-2026-GORE-C-GEREDU-C-DUGEL-LC-SEC-F-08042026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+
+	{
 		numero: "31",
 		nombre: "OFICIO N°060-2025-GERESA-RSSLC-D.E-DAIS-PROMSA",
 		tipo: "Oficio Múltiple",
