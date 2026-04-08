@@ -12,6 +12,16 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "47",
+		nombre: "Resultado Final Cuadro de Meritos Proceso de Encargaturas",
+		tipo: "Publicación",
+		fecha: "2026-04-08",
+		archivoUrl: "/assets/files/2026/encargaturas/47.RESULTADO-FINAL-DE-ENCARGATURA-F-08042026.pdf",
+		badge: { label: "Nuevo", color: "#10b981" },
+		
+	},
+
+	{
 		numero: "46",
 		nombre: "Resultado Preliminar Cuadro de Meritos Proceso de Encargaturas",
 		tipo: "Publicación",
