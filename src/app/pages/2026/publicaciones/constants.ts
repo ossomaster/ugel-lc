@@ -13,6 +13,18 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "33",
+		nombre: "MEMORÁNDUM MÚLTIPLE N°00036-2026-GORE-C-GEREDU-C-DUGEL-LC-SEC.",
+		tipo: "Memorandum Múltiple",
+		fecha: "2026-04-09",
+		descripcion: "📢 Comunica a Directores de las Instituciones Educativas del ambito de la UGEL La Convención, las acciones urgentes para garantizar la matricula de niños de 3 años en su institución educativa.",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/33.MM-N°036-2026-GORE-C-GEREDU-C-DUGEL-LC-SEC-F-09042026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	
+	{
 		numero: "32",
 		nombre: "MEMORÁNDUM MÚLTIPLE N°00035-2026-GORE-C-GEREDU-C-DUGEL-LC-SEC.",
 		tipo: "Memorandum Múltiple",
