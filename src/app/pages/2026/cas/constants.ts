@@ -46,7 +46,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
       url: "/assets/files/2026/contratacion-cas/04.RESULTADOS-PRELIMINARES-CAS-04-F-07042026.pdf",
       fecha: "07/04/2026 (Actualizado)",
     },
-    entrevista:"",
+    entrevista: {
+      url: "/assets/files/2026/contratacion-cas/04.APTOS-ENTREVISTA-CAS-04-F-09042026.pdf",
+      fecha: "09/04/2026",
+    },
     final: "",
     comunicado1: "",
     comunicado2: "",
