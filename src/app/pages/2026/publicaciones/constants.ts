@@ -13,6 +13,30 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "35",
+		nombre: "MEMORÁNDUM MÚLTIPLE N°247-GR CUSCO/GEREDU.",
+		tipo: "Memorandum Múltiple",
+		fecha: "2026-04-09",
+		descripcion: "📢 Traslada comunicación sobre disponibilidad de locales escolares para el proceso electoral del 12 de abril de 2026.",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/35.MM-N247-2026-GR-CUSCO-GEREDU-F-09042026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	
+	{
+		numero: "34",
+		nombre: "MEMORÁNDUM MÚLTIPLE N°237-GR CUSCO/GEREDU.",
+		tipo: "Memorandum Múltiple",
+		fecha: "2026-04-09",
+		descripcion: "📢 Traslada Convocatoria para comisionados electorales y voluntarios de la defensoria del pueblo, con el objeto de supervisar las elecciones generales del 12 de abril en el ambito de la Region.",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/34.MM-N237-2026-GR-CUSCO-GEREDU-F-09042026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	
+	{
 		numero: "33",
 		nombre: "MEMORÁNDUM MÚLTIPLE N°00036-2026-GORE-C-GEREDU-C-DUGEL-LC-SEC.",
 		tipo: "Memorandum Múltiple",
