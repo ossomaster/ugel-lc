@@ -13,6 +13,22 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 
 {
+    numero: "44",
+    nombre: "Resultados Preliminares: EBR DESARROLLO PERSONAL, CIUDADANIA Y CIVICA",
+    tipo: "Convocatoria",
+    fecha: "2026-06-10",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Convocatoria",
+        url: "/assets/files/2026/contrata-docente/44.RESULTADOS-PRELIMINARES-CONVOCATORIA-DPCC-F-10042026.pdf",
+        fecha: "2026-04-10",
+      },
+      
+    ],
+},
+
+{
     numero: "43",
     nombre: "Convocatoria a presentación de Expedientes: EBR DESARROLLO PERSONAL, CIUDADANIA Y CIVICA",
     tipo: "Convocatoria",
