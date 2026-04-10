@@ -13,6 +13,37 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 
 {
+    numero: "47",
+    nombre: "Comunicado Adjudicación Docente, Martes 14 de Abril",
+    tipo: "Resultado",
+    fecha: "2026-04-10",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Comunicado",
+        url: "/assets/files/2026/contrata-docente/47.COMUNICADO-DE-ADJUDICACION-F-10042026.pdf",
+        fecha: "2026-04-10",
+      },
+      {
+        label: "Plazas EBR Inicial Pronoei",
+        url: "/assets/files/2026/contrata-docente/47.PLAZAS-PRONOEI-F-10042026.pdf",
+        fecha: "2026-04-10",
+      },
+      {
+        label: "Plazas EBR Inicial",
+        url: "/assets/files/2026/contrata-docente/47.PLAZAS-INICIAL-F-10042026.pdf",
+        fecha: "2026-04-10",
+      },
+      {
+        label: "Plazas EBR Primaria",
+        url: "/assets/files/2026/contrata-docente/47.PLAZAS-PRIMARIA-10042026.pdf",
+        fecha: "2026-04-10",
+      },
+      
+    ],
+},
+
+{
     numero: "46",
     nombre: "Comunicado Adjudicación: EBR DESARROLLO PERSONAL, CIUDADANIA Y CIVICA",
     tipo: "Convocatoria",
