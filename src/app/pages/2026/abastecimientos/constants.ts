@@ -13,6 +13,17 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "161",
+		tipo: "Bien",
+		numcotizacion: "116",
+		descripcion: "CUARTA CONVOCATORIA ADQUISICIÓN DE KIT DE BIENESTAR PARA LOS ESTUDIANTES DE CRFA PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/161.CUARTA-CONVOCATORIA-N116-F-10042026.pdf",
+		fechapublicacion: "10.04.2026",
+		inicio: "13.04.2026",
+		fin: "13.04.2026",
+	},
+
+	{
 		numero: "160",
 		tipo: "Bien",
 		numcotizacion: "116",
