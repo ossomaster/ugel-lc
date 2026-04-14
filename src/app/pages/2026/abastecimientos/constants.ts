@@ -13,6 +13,28 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "165",
+		tipo: "Bien",
+		numcotizacion: "128",
+		descripcion: "PRIMERA CONVOCATORIA, ADQUISICIÓN DE ARTICULOS DE CUIDADO PERSONAL PARA LOS ESTUDIANTES DE CRFA PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/164.COT.N128-F-13042026.pdf",
+		fechapublicacion: "13.04.2026",
+		inicio: "14.04.2026",
+		fin: "15.04.2026",
+	},
+	
+	{
+		numero: "164",
+		tipo: "Bien",
+		numcotizacion: "127",
+		descripcion: "PRIMERA CONVOCATORIA, ADQUISICIÓN DE ARTICULOS DE ASEO BUCAL PARA LOS ESTUDIANTES DE CRFA PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/163.COT.N127-F-13042026.pdf",
+		fechapublicacion: "13.04.2026",
+		inicio: "14.04.2026",
+		fin: "15.04.2026",
+	},
+	
+	{
 		numero: "163",
 		tipo: "Servicio",
 		numcotizacion: "127",
