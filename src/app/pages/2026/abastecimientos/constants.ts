@@ -36,7 +36,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
 		numero: "163",
-		tipo: "Servicio",
+		tipo: "Bien",
 		numcotizacion: "127",
 		descripcion: "PRIMERA CONVOCATORIA, ADQUISICIÓN DE ARTICULOS DE ASEO BUCAL PARA LOS ESTUDIANTES DE CRFA PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL CONVENCIÓN",
 		archivoUrl: "/assets/files/2026/abastecimiento/163.COT.N127-F-13042026.pdf",
