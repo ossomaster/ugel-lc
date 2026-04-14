@@ -12,6 +12,16 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "48",
+		nombre: "Convocatoria para Encargatura Adicional",
+		tipo: "Publicación",
+		fecha: "2026-04-13",
+		archivoUrl: "/assets/files/2026/encargaturas/48.CONVOCATORIA-DE-ENCARGATURA-ADICIONAL-F-13042026.pdf",
+		badge: { label: "Nuevo", color: "#10b981" },
+		
+	},
+
+	{
 		numero: "47",
 		nombre: "Resultado Final Cuadro de Meritos Proceso de Encargaturas",
 		tipo: "Publicación",
