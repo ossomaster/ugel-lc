@@ -13,7 +13,51 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "168",
+		tipo: "Servicio",
+		numcotizacion: "132",
+		descripcion: "PRIMERA CONVOCATORIA, SERVICIO DE ASISTENCIA EN PONENCIA PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/168.COTZ.N132-F-14042026.pdf",
+		fechapublicacion: "14.04.2026",
+		inicio: "15.04.2026",
+		fin: "16.04.2026",
+	},
+	
+	{
+		numero: "167",
+		tipo: "Servicio",
+		numcotizacion: "131",
+		descripcion: "PRIMERA CONVOCATORIA, SERVICIO DE ASISTENCIA TECNICA EN PROYECTO EDUCATIVO PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/167.COTZ.N131-F-14042026.pdf",
+		fechapublicacion: "14.04.2026",
+		inicio: "15.04.2026",
+		fin: "16.04.2026",
+	},
+	
+	{
+		numero: "166",
+		tipo: "Bien",
+		numcotizacion: "130",
+		descripcion: "PRIMERA CONVOCATORIA, ADQUISICIÓN DE MATERIALES DE ESCRITORIO PARA EL PLAN DE MEJORA CIENCIA CON RAICES PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/166.COTZ.N130-F-14042026.pdf",
+		fechapublicacion: "14.04.2026",
+		inicio: "15.04.2026",
+		fin: "16.04.2026",
+	},
+	
+	{
 		numero: "165",
+		tipo: "Servicio",
+		numcotizacion: "128",
+		descripcion: "PRIMERA CONVOCATORIA, SERVICIO DE FOTOCOPIADO DEL PLAN DE MEJORA CIENCIA CON RAICES PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/165.COTZ.N129-F-14042026.pdf",
+		fechapublicacion: "14.04.2026",
+		inicio: "15.04.2026",
+		fin: "16.04.2026",
+	},
+	
+	{
+		numero: "164",
 		tipo: "Bien",
 		numcotizacion: "128",
 		descripcion: "PRIMERA CONVOCATORIA, ADQUISICIÓN DE ARTICULOS DE CUIDADO PERSONAL PARA LOS ESTUDIANTES DE CRFA PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL CONVENCIÓN",
@@ -23,17 +67,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		fin: "15.04.2026",
 	},
 	
-	{
-		numero: "164",
-		tipo: "Bien",
-		numcotizacion: "127",
-		descripcion: "PRIMERA CONVOCATORIA, ADQUISICIÓN DE ARTICULOS DE ASEO BUCAL PARA LOS ESTUDIANTES DE CRFA PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL CONVENCIÓN",
-		archivoUrl: "/assets/files/2026/abastecimiento/163.COT.N127-F-13042026.pdf",
-		fechapublicacion: "13.04.2026",
-		inicio: "14.04.2026",
-		fin: "15.04.2026",
-	},
-	
+		
 	{
 		numero: "163",
 		tipo: "Bien",
