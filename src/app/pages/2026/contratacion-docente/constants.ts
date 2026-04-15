@@ -13,6 +13,27 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 
 {
+    numero: "48",
+    nombre: "Comunicado Adjudicación: EBR. Matemática",
+    tipo: "Convocatoria",
+    fecha: "2026-04-15",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Convocatoria",
+        url: "/assets/files/2026/contrata-docente/48.ADJUDICACION-MATEMATICA-F-15042026.pdf",
+        fecha: "2026-04-15",
+      },
+      {
+        label: "Plazas",
+        url: "/assets/files/2026/contrata-docente/48.PLAZAS-MATEMATICA-F-15042026.pdf",
+        fecha: "2026-04-15",
+      },
+      
+    ],
+},
+
+{
     numero: "47",
     nombre: "Comunicado Adjudicación Docente, Martes 14 de Abril",
     tipo: "Resultado",
@@ -47,7 +68,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "46",
     nombre: "Comunicado Adjudicación: EBR DESARROLLO PERSONAL, CIUDADANIA Y CIVICA",
     tipo: "Convocatoria",
-    fecha: "2026-06-10",
+    fecha: "2026-04-10",
     badge: { label: "Nuevo", color: "#10b981" },
     archivoUrl: [
       {
@@ -63,7 +84,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "45",
     nombre: "Resultado Final: EBR DESARROLLO PERSONAL, CIUDADANIA Y CIVICA",
     tipo: "Convocatoria",
-    fecha: "2026-06-10",
+    fecha: "2026-04-10",
     badge: { label: "Nuevo", color: "#10b981" },
     archivoUrl: [
       {
@@ -79,7 +100,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "44",
     nombre: "Resultados Preliminares: EBR DESARROLLO PERSONAL, CIUDADANIA Y CIVICA",
     tipo: "Convocatoria",
-    fecha: "2026-06-10",
+    fecha: "2026-04-10",
     badge: { label: "Nuevo", color: "#10b981" },
     archivoUrl: [
       {
@@ -95,7 +116,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     numero: "43",
     nombre: "Convocatoria a presentación de Expedientes: EBR DESARROLLO PERSONAL, CIUDADANIA Y CIVICA",
     tipo: "Convocatoria",
-    fecha: "2026-06-09",
+    fecha: "2026-04-09",
     badge: { label: "Nuevo", color: "#10b981" },
     archivoUrl: [
       {
