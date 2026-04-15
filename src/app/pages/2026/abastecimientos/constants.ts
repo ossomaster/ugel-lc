@@ -16,7 +16,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		numero: "168",
 		tipo: "Servicio",
 		numcotizacion: "132",
-		descripcion: "PRIMERA CONVOCATORIA, SERVICIO DE ASISTENCIA EN PONENCIA PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL CONVENCIÓN",
+		descripcion: "PRIMERA CONVOCATORIA, SERVICIO DE ASISTENCIA EN PONENCIA PARA CURSO DE CAPACITACIÓN PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL CONVENCIÓN",
 		archivoUrl: "/assets/files/2026/abastecimiento/168.COTZ.N132-F-14042026.pdf",
 		fechapublicacion: "14.04.2026",
 		inicio: "15.04.2026",
