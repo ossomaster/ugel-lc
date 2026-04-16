@@ -24,6 +24,32 @@ export type TDocumentoNormativo = {
 };
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
+
+    {
+    numero: "005-2026",
+    descripcion: "Sede Administrativa UGEL La Convención",
+    convocatoria: "CAS N°05 - 2026",
+    fechapublicacion: "15/04/2026",
+    fechainicio: "14/04/2026",
+    fechafin: "08/05/2026",
+   bases: {
+      url: "/assets/files/2026/contratacion-cas/05.BASES-PERFILES-CONVOCATORIA-ANEXOS-CAS-N°05-2026-SEDE-F-15042026.pdf",
+      fecha: "15/04/2026",
+    },
+    linkinscripcion:"",
+    preliminar: "",
+    entrevista: "",
+    final: "",
+    feerratasfinal: "",
+    comunicado1: "",
+    comunicado2: "",
+    comunicado3: "",
+    
+    comunicado4: "",
+    badge: { label: "PUBLICADO", color: "#00c758" },
+    estado: "vigente",
+  },
+
   {
     numero: "004-2026",
     descripcion: "Intervenciones y Acciones Pedagógicas UGEL La Convención",
@@ -59,7 +85,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     comunicado3: "",
     comunicado4: "",
     badge: { label: "PUBLICADO", color: "#00c758" },
-    estado: "vigente",
+    estado: "concluida",
   },
   
   {
@@ -145,7 +171,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
       fecha: "30/03/2026",
     },
     badge: { label: "PUBLICADO", color: "#00c758" },
-    estado: "vigente",
+    estado: "concluida",
   },
 
   
