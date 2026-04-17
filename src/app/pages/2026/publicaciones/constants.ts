@@ -13,6 +13,18 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "33",
+		nombre: "MEMORÁNDUM MÚLTIPLE N°247-GR CUSCO/GEREDU.",
+		tipo: "Oficio Múltiple",
+		fecha: "2026-04-17",
+		descripcion: "📢 Comunica a Directores de las Intituciones Educativas pulicas y privadas de la ciudad de Quillabamba, la participación en la celebración dia internacional de la madre tierra a realizarse el 22 de abril del 2026, en la plaza de armas de la ciudad de Quillabamba a las 8:00 a.m.",
+		thumbnailUrl: "/assets/images/publicaciones/oficio-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/36.OM-N13-2026-GORE-C-GEREDU-C-DUGEL-LC-SEC-F-17042026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	
+	{
 		numero: "35",
 		nombre: "MEMORÁNDUM MÚLTIPLE N°247-GR CUSCO/GEREDU.",
 		tipo: "Memorandum Múltiple",
