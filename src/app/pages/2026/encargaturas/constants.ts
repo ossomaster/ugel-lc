@@ -12,6 +12,16 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "50",
+		nombre: "Resultado Final Convocatoria Encargatura Adicional",
+		tipo: "Publicación",
+		fecha: "2026-04-17",
+		archivoUrl: "/assets/files/2026/encargaturas/50.RESULTADO-FINAL-ENCARGATURA-F-17.04.2026.pdf",
+		badge: { label: "Nuevo", color: "#10b981" },
+		
+	},
+	
+	{
 		numero: "49",
 		nombre: "Resultado Preliminar Convocatoria Encargatura Adicional",
 		tipo: "Publicación",
