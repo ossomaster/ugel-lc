@@ -13,6 +13,28 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "172",
+		tipo: "Bien",
+		numcotizacion: "136",
+		descripcion: "ADQUISICIÓN DE KIT DE PISCINA DE PELOTAS PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/172.COT.N136-F-17042026.pdf",
+		fechapublicacion: "17.04.2026",
+		inicio: "17.04.2026",
+		fin: "20.04.2026",
+	},
+	
+	{
+		numero: "171",
+		tipo: "Servicio",
+		numcotizacion: "135",
+		descripcion: "SERVICIO DE TRANSPORTE AÉREO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/171.COT.N135-F-17042026.pdf",
+		fechapublicacion: "17.04.2026",
+		inicio: "17.04.2026",
+		fin: "20.04.2026",
+	},
+	
+	{
 		numero: "170",
 		tipo: "Servicio",
 		numcotizacion: "134",
