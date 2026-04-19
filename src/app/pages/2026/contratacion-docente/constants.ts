@@ -13,6 +13,21 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 
 {
+    numero: "49",
+    nombre: "Convocatoria a presentación de expedientes: Arte y Cultura",
+    tipo: "Convocatoria",
+    fecha: "2026-04-18",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Convocatoria",
+        url: "/assets/files/2026/contrata-docente/49.CONVOCATORIA-ARTE-CULTURA-F-18.04.2026.pdf",
+        fecha: "2026-04-18",
+      },      
+    ],
+},
+
+{
     numero: "48",
     nombre: "Comunicado Adjudicación: EBR. Matemática",
     tipo: "Convocatoria",
