@@ -17,6 +17,9 @@ const fontBody = Google_Sans({
 export const metadata: Metadata = {
 	title: "UGEL LC | Unidad de Gestión Educativa Local de La Convención",
 	description: "Unidad de Gestión Educativa Local de La Convención - Cusco, Perú. Garantizamos, aseguramos y promovemos el servicio educativo de calidad.",
+    verification: {
+    google: "ndwAWkh6xRBObeZhKBQN6sQvlddojOhbAwsuVZGjJJ4",
+  },
 }
 
 export default function RootLayout({

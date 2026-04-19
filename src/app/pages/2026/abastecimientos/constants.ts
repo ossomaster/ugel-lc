@@ -13,6 +13,39 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "176",
+		tipo: "Servicio",
+		numcotizacion: "138",
+		descripcion: "SERVICIO DE IMPRESIÓN DE BANNER PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/176.COT.N138-F-17042026.pdf",
+		fechapublicacion: "17.04.2026",
+		inicio: "17.04.2026",
+		fin: "20.04.2026",
+	},
+	
+	{
+		numero: "175",
+		tipo: "Servicio",
+		numcotizacion: "132",
+		descripcion: "SEGUNDA CONVOCATORIA SERVICIO DE ASISTENCIA EN PONENCIA PARA CURSO DE CAPACITACIÓN PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/175.COT.N132-F-17042026.pdf",
+		fechapublicacion: "17.04.2026",
+		inicio: "17.04.2026",
+		fin: "20.04.2026",
+	},
+	
+	{
+		numero: "174",
+		tipo: "Servicio",
+		numcotizacion: "131",
+		descripcion: "SEGUNDA CONVOCATORIA SERVICIO DE ASISTENCIA TECNICA EN PROYECTO EDUCATIVO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/174.COT.N131-F-17042026.pdf",
+		fechapublicacion: "17.04.2026",
+		inicio: "17.04.2026",
+		fin: "20.04.2026",
+	},
+	
+	{
 		numero: "173",
 		tipo: "Servicio",
 		numcotizacion: "137",
