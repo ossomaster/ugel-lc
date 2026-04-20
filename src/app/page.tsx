@@ -14,12 +14,12 @@ import SeccionBuenasPracticas from "./components/secciones/SeccionBuenasPractica
 export default function Home() {
 	return (
 		<MainLayout>
-			{/* <InicioModal
-				src="https://scontent-lim1-1.xx.fbcdn.net/v/t39.30808-6/671605593_941374478613990_6062568973323917270_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=13d280&_nc_ohc=w1hrYue4MKQQ7kNvwEsPF2E&_nc_oc=AdrYaPZQion4tj6p6MH6qzayJuhRMCgXdHS7twDx8l4cql2X2eSYUkXYFKgMySEkaCQ&_nc_zt=23&_nc_ht=scontent-lim1-1.xx&_nc_gid=od6Td4iaSGouYYMkQKzqxw&_nc_ss=7a3a8&oh=00_Af2iouX6U6X_tzFapErOWkjrOX7fd9wi5cg9UGba-geN8Q&oe=69E58DA9"
+			<InicioModal
+				src="https://scontent-lim1-1.xx.fbcdn.net/v/t39.99422-6/675459771_966773029227646_4901614353268562091_n.png?stp=dst-jpg_tt6&_nc_cat=108&ccb=1-7&_nc_sid=13d280&_nc_ohc=IGwNzOCYUOQQ7kNvwEo42Mu&_nc_oc=AdpeBuhr79v744NsRDpJ8dsj8T8CQBkW90sK-5LmTGc5kYeNTxj7Maq_2hPM9yDHerE&_nc_zt=14&_nc_ht=scontent-lim1-1.xx&_nc_gid=sqAjWoh6ITaozV-ykhwHnA&_nc_ss=7a3a8&oh=00_Af1rNpDC51Mj_xZ9j4V_KGjhIyxaG8JojuJT3ut4TAsTpg&oe=69EC1438"
 				alt=""
                 // Definir href para redirigir a otra dirección, sino dejar sin href para mostrar solo la imagen sin enlace
-				href="https://www.ugellaconvencion.gob.pe/assets/files/2026/publicaciones/29.MM-00037-2026-GORE-C-DRE-C-DUGE-LC-DAGP-SEC-F-07042026.pdf"
-			/> */}
+				href="https://us06web.zoom.us/j/81106177356?pwd=eUOhNkaLBqE3MmK8yP86O0JoGEWzrN.1"
+			/>
 			<MainHero />
 			<SeccionInformacionDestacada />
 			<SeccionNoticias />
