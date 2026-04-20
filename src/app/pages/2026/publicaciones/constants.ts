@@ -13,7 +13,19 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
-		numero: "33",
+		numero: "37",
+		nombre: "MEMORÁNDUM MÚLTIPLE N°048-2026-GORE-C-DUGEL-LC-SEC",
+		tipo: "Memorandum Múltiple",
+		fecha: "2026-04-20",
+		descripcion: "📢 Convoca a Directores(as) de los niveles de Inicial, Primaria y Secundaria, y Docentes Coordinadores de PRONOEI a la Asistencia Técnica Virtual denominada Plan de capacitación virtual para el registro de recepción y asignación de materiales educativos en el módulo SIAGIE - Dotación 2026",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/37.MM-N48-2026-GORE-C-GEREDU-C-DUGEL-LC-SEC-F-20042026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	
+	{
+		numero: "36",
 		nombre: "MEMORÁNDUM MÚLTIPLE N°247-GR CUSCO/GEREDU.",
 		tipo: "Oficio Múltiple",
 		fecha: "2026-04-17",
