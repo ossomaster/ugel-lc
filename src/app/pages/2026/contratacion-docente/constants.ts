@@ -13,6 +13,41 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 
 {
+    numero: "51",
+    nombre: "Convocatoria a presentación de expedientes: EBR Secundaria.Matemática",
+    tipo: "Convocatoria",
+    fecha: "2026-04-21",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Convocatoria",
+        url: "/assets/files/2026/contrata-docente/51.CONVOCATORIA-EBR-MATEMATICA-F-21042026.pdf",
+        fecha: "2026-04-21",
+      },  
+    ],
+},
+
+{
+    numero: "50",
+    nombre: "Adjudicación Docente, Miercoles 22 de Abril: EBR.Primaria",
+    tipo: "Comunicado",
+    fecha: "2026-04-21",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Comunicado",
+        url: "/assets/files/2026/contrata-docente/50.COMUNICADO-DE-ADJUDICACION-F-21042026.pdf",
+        fecha: "2026-04-21",
+      },
+      {
+        label: "Plazas",
+        url: "/assets/files/2026/contrata-docente/50.PLAZAS-VACANTES-F-21042026.pdf",
+        fecha: "2026-04-21",
+      },   
+    ],
+},
+
+{
     numero: "49",
     nombre: "Convocatoria a presentación de expedientes: Arte y Cultura",
     tipo: "Convocatoria",
