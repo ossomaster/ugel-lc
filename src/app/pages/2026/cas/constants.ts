@@ -38,7 +38,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     },
     linkinscripcion: "",
     perfiles:
-      "https://drive.google.com/drive/folders/1wHcSPRhEfkvXtxRNtzQG4ZFnVQ-t9GnI?usp=sharing",
+      "https://drive.google.com/drive/folders/1QBwffTWXDxH5TnY0o8Y_JztIzy829-Ad",
     
     preliminar: "",
     entrevista: "",
