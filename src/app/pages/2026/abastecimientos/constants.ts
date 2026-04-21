@@ -20,7 +20,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		archivoUrl: "/assets/files/2026/abastecimiento/177..COT.N139-F-20042026.pdf",
 		fechapublicacion: "20.04.2026",
 		inicio: "21.04.2026",
-		fin: "21.04.2026",
+		fin: "22.04.2026",
 	},
 	
 	{
