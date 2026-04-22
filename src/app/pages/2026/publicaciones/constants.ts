@@ -13,6 +13,18 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "38",
+		nombre: "MEMORÁNDUM MÚLTIPLE N°0068-2026-MINEDU/VMGP-DIGEDD",
+		tipo: "Memorandum Múltiple",
+		fecha: "2026-04-22",
+		descripcion: "📢 Convoca a presentar postulaciones para la condecoración de palmas magisteriales",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/38.OFICIO-MULTIPLE-N00068-2026-MINEDU-VMGP-DIGEDD-F-22042026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+
+	{
 		numero: "37",
 		nombre: "MEMORÁNDUM MÚLTIPLE N°048-2026-GORE-C-DUGEL-LC-SEC",
 		tipo: "Memorandum Múltiple",
