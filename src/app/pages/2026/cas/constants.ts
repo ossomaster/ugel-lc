@@ -217,7 +217,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     preliminar: "",
     entrevista: "",
     final: "",
-    comunicado1: "/assets/01.COMUNICADO.N°01-12022026.pdf",
+    comunicado1: "/assets/files/2026/contratacion-cas/01.COMUNICADO.N°01-12022026.pdf",
     comunicado2: "",
     comunicado3: "",
     comunicado4: "",
