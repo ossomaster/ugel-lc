@@ -13,6 +13,17 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "189",
+		tipo: "Bien",
+		numcotizacion: "151",
+		descripcion: "ADQUISICIÓN DE GALLETA SODA Y NECTAR DE FRUTA PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/189.COT.N151-F-24042026.pdf",
+		fechapublicacion: "24.04.2026",
+		inicio: "27.04.2026",
+		fin: "28.04.2026",
+	},
+	
+	{
 		numero: "188",
 		tipo: "Servicio",
 		numcotizacion: "149",
