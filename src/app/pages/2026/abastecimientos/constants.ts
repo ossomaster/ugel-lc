@@ -17,7 +17,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		tipo: "Servicio",
 		numcotizacion: "149",
 		descripcion: "SERVICIO DE MANTENIMIENTO CORRECTIVO DE VEHÍCULOS PARA EL EQUIPO DE PATRIMONIO DE LA UGEL LA CONVENCIÓN",
-		archivoUrl: "/assets/files/2026/abastecimiento/187.COT.N148-F-24042026.pdf",
+		archivoUrl: "/assets/files/2026/abastecimiento/188.COTI.N149-F-24042026.pdf",
 		fechapublicacion: "24.04.2026",
 		inicio: "27.04.2026",
 		fin: "29.04.2026",
