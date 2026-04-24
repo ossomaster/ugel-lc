@@ -13,6 +13,28 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "187",
+		tipo: "Servicio",
+		numcotizacion: "148",
+		descripcion: "SERVICIO DE ASISTENCIA TECNICA PARA EL DISEÑO DEL PROYECTO DE CAPACITACIÓN DOCENTE CON ENFOQUE EN ABP, PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/187.COT.N148-F-24042026.pdf",
+		fechapublicacion: "24.04.2026",
+		inicio: "24.04.2026",
+		fin: "27.04.2026",
+	},
+	
+	{
+		numero: "186",
+		tipo: "Servicio",
+		numcotizacion: "147",
+		descripcion: "SERVICIO DE ASISTENCIA TECNICA PARA EL DISEÑO DEL PROYECTO DE CAPACITACIÓN DOCENTE CON ENFOQUE EN LA APLICACIÓN DE DESIGN THINKING EN EDUCACIÓN PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/186.COT.N147-F-24042026.pdf",
+		fechapublicacion: "24.04.2026",
+		inicio: "24.04.2026",
+		fin: "27.04.2026",
+	},
+	
+	{
 		numero: "185",
 		tipo: "Servicio",
 		numcotizacion: "146",
