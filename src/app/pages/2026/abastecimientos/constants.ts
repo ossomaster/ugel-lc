@@ -13,6 +13,83 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "185",
+		tipo: "Servicio",
+		numcotizacion: "146",
+		descripcion: "SERVICIO DE ASISTENCIA TECNICA PARA EL DISEÑO DEL PROYECTO DE CAPACITACIÓN DOCENTE CON ENFOQUE EN ABI PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/185.COT.N146-F-23042026.pdf",
+		fechapublicacion: "23.04.2026",
+		inicio: "24.04.2026",
+		fin: "27.04.2026",
+	},
+	
+	{
+		numero: "184",
+		tipo: "Bien",
+		numcotizacion: "145",
+		descripcion: "ADQUISICIÓN DE GALLETA Y NECTAR DE FRUTA PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/184.COT.N145-F-23042026.pdf",
+		fechapublicacion: "23.04.2026",
+		inicio: "24.04.2026",
+		fin: "27.04.2026",
+	},
+	
+	{
+		numero: "183",
+		tipo: "Servicio",
+		numcotizacion: "144",
+		descripcion: "SERVICIO DE FOTOCOPIADO DEL PLAN DE CAPACITACIÓN DOCENTE PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/183.COT.N144-F-23042026.pdf",
+		fechapublicacion: "23.04.2026",
+		inicio: "24.04.2026",
+		fin: "27.04.2026",
+	},
+	
+	{
+		numero: "182",
+		tipo: "Servicio",
+		numcotizacion: "140",
+		descripcion: "SERVICIO DE ASISTENCIA TECNICA ADMINISTRATIVA PARA EL EQUIPO DE INFRAESTRUCTURA DE LA UGEL CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/182.COT.N140-F-23042026.pdf",
+		fechapublicacion: "23.04.2026",
+		inicio: "24.04.2026",
+		fin: "27.04.2026",
+	},
+	
+	{
+		numero: "181",
+		tipo: "Bien",
+		numcotizacion: "143",
+		descripcion: "ADQUISICIÓN DE GALLETA SODA Y NECTAR DE FRUTA PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/181.COT.N143-F-23042026.pdf",
+		fechapublicacion: "23.04.2026",
+		inicio: "24.04.2026",
+		fin: "27.04.2026",
+	},
+	
+	{
+		numero: "180",
+		tipo: "Servicio",
+		numcotizacion: "142",
+		descripcion: "SERVICIO DE ATENCIÓN DE DESAYUNO, ALMUERZO, CENA Y REGRIFERIO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/180.COT.N142-F-23042026.pdf",
+		fechapublicacion: "23.04.2026",
+		inicio: "24.04.2026",
+		fin: "27.04.2026",
+	},
+	
+	{
+		numero: "179",
+		tipo: "Servicio",
+		numcotizacion: "141",
+		descripcion: "SERVICIO DE IMPRESIÓN DE BANNER PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/179.COT.N141-F-23042026.pdf",
+		fechapublicacion: "23.04.2026",
+		inicio: "24.04.2026",
+		fin: "27.04.2026",
+	},
+
+	{
 		numero: "178",
 		tipo: "Servicio",
 		numcotizacion: "177",
