@@ -34,7 +34,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 
 {
     numero: "56",
-    nombre: "Convocatoria a presentación de expedientes: EBR Computación e Informtica",
+    nombre: "Convocatoria a presentación de expedientes: EBR Computación e Informática",
     tipo: "Convocatoria",
     fecha: "2026-04-24",
     badge: { label: "Nuevo", color: "#10b981" },
