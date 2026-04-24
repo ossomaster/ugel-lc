@@ -12,7 +12,42 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 
-  {
+{
+    numero: "57",
+    nombre: "Convocatoria a propuesta del director de I.E",
+    tipo: "Convocatoria",
+    fecha: "2026-04-24",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Convocatoria",
+        url: "/assets/files/2026/contrata-docente/57.COMUNICADO-A-PROPUESTA-DEL-DIRECTOR-DE-LA-IE-F-24042026.pdf",
+        fecha: "2026-04-24",
+      },
+      {
+        label: "Plazas",
+        url: "/assets/files/2026/contrata-docente/57.PLAZA-VACANTE-F-24042026.pdf",
+        fecha: "2026-04-24",
+      },
+    ],
+},
+
+{
+    numero: "56",
+    nombre: "Convocatoria a presentación de expedientes: EBR Computación e Informtica",
+    tipo: "Convocatoria",
+    fecha: "2026-04-24",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Convocatoria",
+        url: "/assets/files/2026/contrata-docente/56.CONVOCATORIA-EBR.EPT-F-24042026.pdf",
+        fecha: "2026-04-24",
+      },  
+    ],
+},
+
+{
     numero: "55",
     nombre: "Resultado Final Evaluación de expedientes: EBR Secundaria.Matemática",
     tipo: "Convocatoria",
