@@ -7,7 +7,7 @@ export type TDocumentoNormativo = {
 	fechapublicacion: string
 	inicio: string
 	fin: string
-	cancelado?: boolean
+	cancelado?: "vigente" | "concluida" | "cancelada";
 }
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
@@ -98,6 +98,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		fechapublicacion: "22.04.2026",
 		inicio: "23.04.2026",
 		fin: "24.04.2026",
+		cancelado: "cancelada",
 	},
 	{
 		numero: "177",
