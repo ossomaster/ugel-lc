@@ -25,7 +25,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
         fecha: "2026-04-24",
       },  
     ],
-}
+},
 
 {
     numero: "54",
