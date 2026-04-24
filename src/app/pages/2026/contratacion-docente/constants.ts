@@ -12,6 +12,21 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 
+  {
+    numero: "55",
+    nombre: "Resultado Final Evaluación de expedientes: EBR Secundaria.Matemática",
+    tipo: "Convocatoria",
+    fecha: "2026-04-24",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Convocatoria",
+        url: "/assets/files/2026/contrata-docente/55.RESULTADO-FINAL-EBR.MATEMATICA-F-24042026.pdf",
+        fecha: "2026-04-24",
+      },  
+    ],
+}
+
 {
     numero: "54",
     nombre: "Resultados Preliminares Evaluación de expedientes: EBR Secundaria.Matemática",
