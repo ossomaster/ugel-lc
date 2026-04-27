@@ -13,6 +13,18 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "39",
+		nombre: "MEMORÁNDUM MÚLTIPLE N50-2026-GR-C/GEREDU-C/D-UGEL-LC/SEC",
+		tipo: "Memorandum Múltiple",
+		fecha: "2026-04-27",
+		descripcion: "📢 Comunica inscripción de docentes en el curso virtual de lectura y escritura en lenguas originarias - Básico 1.",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/39.MM-N50-2026-GR-C-GEREDU-C-D-UGEL-SEC-F-27042026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	
+	{
 		numero: "38",
 		nombre: "MEMORÁNDUM MÚLTIPLE N°0068-2026-MINEDU/VMGP-DIGEDD",
 		tipo: "Memorandum Múltiple",
