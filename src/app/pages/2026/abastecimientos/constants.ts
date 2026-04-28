@@ -13,8 +13,19 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "191",
+		tipo: "Servicio",
+		numcotizacion: "154",
+		descripcion: "SERVICIO DE DISEÑO Y ELABORACIÓN DE PROGRAMA DE ACTIVIDADES DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/191.COTI.N154-F-28042026.pdf",
+		fechapublicacion: "28.04.2026",
+		inicio: "28.04.2026",
+		fin: "29.04.2026",
+	},
+
+	{
 		numero: "190",
-		tipo: "Bien",
+		tipo: "Servicio",
 		numcotizacion: "152",
 		descripcion: "SERVICIO DE ASISTENCIA TÉCNICA INFORMÁTICA PARA EL EQUIPO DE ESTADISTICA DE LA UGEL LA CONVENCIÓN",
 		archivoUrl: "/assets/files/2026/abastecimiento/190.COT.N152-F-28042026.pdf",
