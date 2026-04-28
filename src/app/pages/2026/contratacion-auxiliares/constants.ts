@@ -10,6 +10,19 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
+		numero: "15",
+		nombre: "Comunicado Adjudicación Eval.Expedientes Miercoles 29 de Abril: EBR Inicial, Secundaria",
+		tipo: "Comunicado",
+		fecha: "2026-04-28",
+		archivoUrl: [
+			
+		    { label: "COMUNICADO", url: "/assets/files/2026/contratacion-auxiliares/15.ADJUDICACION-AUXILIAR-DE-EDUCACION-F-28042026.pdf", fecha:"2026-04-28"},
+			{ label: "Plazas", url: "/assets/files/2026/contratacion-auxiliares/15.PLAZS-VACANTES -F-28042026.pdf", fecha:"2026-03-05"},
+		],		
+		badge: { label: "Reciente", color: "#D62911" }
+	},
+	
+	{
 		numero: "14",
 		nombre: "Comunicado Adjudicación Viernes 06 de Marzo",
 		tipo: "Comunicado",
