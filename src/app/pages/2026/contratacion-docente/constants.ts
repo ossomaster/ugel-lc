@@ -13,6 +13,21 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 
 {
+    numero: "58",
+    nombre: "Resultado Preliminar presentación de expedientes: EBR Computación e Informática",
+    tipo: "Resultado",
+    fecha: "2026-04-28",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Resultado",
+        url: "/assets/files/2026/contrata-docente/58.RESULTADO-PRELIMINAR-EPT-F-28042026.pdf",
+        fecha: "2026-04-28",
+      },
+    ],
+},
+
+{
     numero: "57",
     nombre: "Convocatoria a propuesta del director de I.E",
     tipo: "Convocatoria",
