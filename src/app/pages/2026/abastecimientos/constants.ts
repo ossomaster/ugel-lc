@@ -13,6 +13,17 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "195",
+		tipo: "Bien",
+		numcotizacion: "156",
+		descripcion: "ADQUISICIÓN DE UTILES DE ASEO, LIMPIEZA Y TOCADOR PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/195.COT.N156-F-28042026.pdf",
+		fechapublicacion: "28.04.2026",
+		inicio: "29.04.2026",
+		fin: "30.04.2026",
+	},
+
+	{
 		numero: "194",
 		tipo: "Servicio",
 		numcotizacion: "153",

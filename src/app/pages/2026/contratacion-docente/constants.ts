@@ -15,7 +15,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 {
     numero: "60",
     nombre: "Adjudicación Docente, Miercoles 29 de Abril: EBR.Secundaria",
-    tipo: "Resultado",
+    tipo: "Comunicado",
     fecha: "2026-04-28",
     badge: { label: "Nuevo", color: "#10b981" },
     archivoUrl: [
