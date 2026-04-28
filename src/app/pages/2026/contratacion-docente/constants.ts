@@ -13,6 +13,41 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 
 {
+    numero: "60",
+    nombre: "Adjudicación Docente, Miercoles 29 de Abril: EBR.Secundaria",
+    tipo: "Resultado",
+    fecha: "2026-04-28",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Comunicado",
+        url: "/assets/files/2026/contrata-docente/60.ADJUDICACION-DOCENTE-F-28042026.pdf",
+        fecha: "2026-04-28",
+      },
+      {
+        label: "Plazas",
+        url: "/assets/files/2026/contrata-docente/60.PLAZAS-VACANTES-F-28042026.pdf",
+        fecha: "2026-04-28",
+      },
+    ],
+},
+
+{
+    numero: "59",
+    nombre: "Resultado Final presentación de expedientes: EBR Computación e Informática",
+    tipo: "Resultado",
+    fecha: "2026-04-28",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Resultado",
+        url: "/assets/files/2026/contrata-docente/59.RESULTADO-FINAL.EPT(COMPUTACION-E-INFORMATICA)F-28042026.pdf",
+        fecha: "2026-04-28",
+      },
+    ],
+},
+
+{
     numero: "58",
     nombre: "Resultado Preliminar presentación de expedientes: EBR Computación e Informática",
     tipo: "Resultado",
