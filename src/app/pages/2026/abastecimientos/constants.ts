@@ -13,6 +13,17 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "194",
+		tipo: "Servicio",
+		numcotizacion: "153",
+		descripcion: "SERVICIO ESPECIALIZADO EN TESORERIA PARA LA UNIDAD DE ADMINISTRACIÓN DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/194.COT.N153-F-28042026.pdf",
+		fechapublicacion: "28.04.2026",
+		inicio: "28.04.2026",
+		fin: "29.04.2026",
+	},
+	
+	{
 		numero: "193",
 		tipo: "Servicio",
 		numcotizacion: "155",
