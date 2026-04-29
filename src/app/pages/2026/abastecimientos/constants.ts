@@ -13,6 +13,61 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "200",
+		tipo: "Bien",
+		numcotizacion: "160",
+		descripcion: "ADQUISICIÓN DE MATERIALES DE ESCRITORIO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/200.COT.N160-F-29042026.pdf",
+		fechapublicacion: "29.04.2026",
+		inicio: "29.04.2026",
+		fin: "04.05.2026",
+	},
+	
+	{
+		numero: "199",
+		tipo: "Servicio",
+		numcotizacion: "142",
+		descripcion: "SEGUNDA CONVOCATORIA SERVICIO DE ATENCIÓN DE DESAYUNO, ALMUERZO, CENA Y REFRIGERIO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/199.COT.N142-F-29042026.pdf",
+		fechapublicacion: "29.04.2026",
+		inicio: "29.04.2026",
+		fin: "04.05.2026",
+	},
+	
+	{
+		numero: "198",
+		tipo: "Servicio",
+		numcotizacion: "159",
+		descripcion: "SERVICIO DE FOTOCOPIADO PARA EL PLAN DE ASISTENCIA TÉCNICA DEL PROYECTO AYNI, PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/198.COT.N159-F-29042026.pdf",
+		fechapublicacion: "29.04.2026",
+		inicio: "29.04.2026",
+		fin: "04.05.2026",
+	},
+
+	{
+		numero: "197",
+		tipo: "Bien",
+		numcotizacion: "158",
+		descripcion: "ADQUISICIÓN DE BOLIGRAFOS Y AGENDAS PERSONALIZADAS PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/197.COT.N158-F-29042026.pdf",
+		fechapublicacion: "29.04.2026",
+		inicio: "29.04.2026",
+		fin: "04.05.2026",
+	},
+
+	{
+		numero: "196",
+		tipo: "Servicio",
+		numcotizacion: "157",
+		descripcion: "SERVICIO DE FOTOCOPIADO DE LA FICHA DE ORIENTACIÓN PARA LA IMPLEMENTACIÓN DEL PROYECTO CURRICULAR INSTITUCIONAL PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/196.COT.N157-F-29042026.pdf",
+		fechapublicacion: "29.04.2026",
+		inicio: "29.04.2026",
+		fin: "30.04.2026",
+	},
+	
+	{
 		numero: "195",
 		tipo: "Bien",
 		numcotizacion: "156",
