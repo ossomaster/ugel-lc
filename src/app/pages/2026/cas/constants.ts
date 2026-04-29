@@ -41,7 +41,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     perfiles:
       "https://drive.google.com/drive/folders/1QBwffTWXDxH5TnY0o8Y_JztIzy829-Ad",
     
-    preliminar: "",
+    preliminar: {
+      url: "/assets/files/2026/contratacion-cas/06.RESULTADO-PRELIMINAR-CAS-06-F-28042026.pdf",
+      fecha: "28/04/2026",
+    },
     entrevista: "",
     final: "",
     comunicado1: "",
