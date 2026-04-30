@@ -13,6 +13,30 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "41",
+		nombre: "Directiva N°003-2026-GR/GEREDU",
+		tipo: "Directiva",
+		fecha: "2026-04-30",
+		descripcion: "📢 Normas para la preparación, respuesta y rehabilitación frente al peligro de descenso de temperatura en las instituciones educativas del ámbito de la Gerencia Regional de Educación Cusco.",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/41.DIRECTIVA-N003-2026-GR-C-GEREDU-F-30042026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+
+	{
+		numero: "40",
+		nombre: "MEMORÁNDUM MÚLTIPLE N°54-2026-GORE-C/DRE-C/DUGEL-LC/SEC",
+		tipo: "Memorandum Múltiple",
+		fecha: "2026-04-30",
+		descripcion: "📢 Comunica implementaciones de preparación, respuesta y rehabilitación frente al peligro de descenso de temperaturas (heladas y friaje) y medidas de prevención frente a la radicación ultravioleta en las instituciones del ámbito de la UGEL La Convención.",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/40.MEMORANDUM-MULTIPLE.N54-F-30042026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+
+	{
 		numero: "39",
 		nombre: "MEMORÁNDUM MÚLTIPLE N50-2026-GR-C/GEREDU-C/D-UGEL-LC/SEC",
 		tipo: "Memorandum Múltiple",
