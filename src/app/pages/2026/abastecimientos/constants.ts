@@ -13,6 +13,61 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "205",
+		tipo: "Servicio",
+		numcotizacion: "163",
+		descripcion: "SERVICIO ATENCIÓN DE ALMUERZO PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/205.COTI.N163-F-30042026.pdf",
+		fechapublicacion: "30.04.2026",
+		inicio: "30.04.2026",
+		fin: "04.05.2026",
+	},
+	
+	{
+		numero: "204",
+		tipo: "Bien",
+		numcotizacion: "162",
+		descripcion: "ADQUISICIÓN DE GALLETA Y NECTAR FRUTA PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/204.COT.N162-F-30042026.pdf",
+		fechapublicacion: "30.04.2026",
+		inicio: "30.04.2026",
+		fin: "04.05.2026",
+	},
+	
+	{
+		numero: "203",
+		tipo: "Servicio",
+		numcotizacion: "161",
+		descripcion: "SERVICIO DE IMPRESIÓN DE BANNER DEL PLAN DE CAPACITACIÓN PARA DIRECTIVOS PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/203.COT.N161-F-30042026.pdf",
+		fechapublicacion: "30.04.2026",
+		inicio: "30.04.2026",
+		fin: "04.05.2026",
+	},
+	
+	{
+		numero: "202",
+		tipo: "Servicio",
+		numcotizacion: "154",
+		descripcion: "SEGUNDA CONVOCATORIA -SERVICIO DE DISEÑO Y ELABORACIÓN DE PROGRAMA DE ACTIVIDADES DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/202.COTI.N154-F-30042026.pdf",
+		fechapublicacion: "30.04.2026",
+		inicio: "30.04.2026",
+		fin: "04.05.2026",
+	},
+	
+	{
+		numero: "201",
+		tipo: "Servicio",
+		numcotizacion: "152",
+		descripcion: "SEGUNDA CONVOCATORIA - SERVICIO DE ASISTENCIA TÉCNICA INFORMÁTICA PARA EL EQUIPO DE ESTADISTICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/201.COTI.N152.2-F-30042026.pdf",
+		fechapublicacion: "30.04.2026",
+		inicio: "30.04.2026",
+		fin: "04.05.2026",
+	},
+	
+	{
 		numero: "200",
 		tipo: "Bien",
 		numcotizacion: "160",
