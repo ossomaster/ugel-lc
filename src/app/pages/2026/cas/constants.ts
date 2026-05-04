@@ -50,7 +50,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
       fecha: "29/04/2026",
     },
     final: {
-      url: "/assets/files/2026/contratacion-cas/06.RESULTADO-FINAL-CAS-06-F-30042026.pdf",
+      url: "/assets/files/2026/contratacion-cas/06.RESULTADO-FINAL-CAS-06-F-30042026.pdf?lu=202605041441",
       fecha: "30/04/2026",
     },
     comunicado1: "",
