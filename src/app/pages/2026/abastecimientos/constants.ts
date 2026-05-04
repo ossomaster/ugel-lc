@@ -13,6 +13,46 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "209",
+		tipo: "Servicio",
+		numcotizacion: "167",
+		descripcion: "SERVICIO DE IMPRESIÓN DE BANNER PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/209.COT.N167-F-04052026.pdf",
+		fechapublicacion: "04.05.2026",
+		inicio: "04.05.2026",
+		fin: "05.05.2026",
+	},
+    {
+		numero: "208",
+		tipo: "Servicio",
+		numcotizacion: "166",
+		descripcion: "SERVICIO DE ASISTENCIA TÉCNICA LEGAL PARA LA UNIDAD DE ASESORÍA JURÍDICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/208.COTI.N166-F-04052026.pdf",
+		fechapublicacion: "04.05.2026",
+		inicio: "04.05.2026",
+		fin: "05.05.2026",
+	},
+	{
+		numero: "207",
+		tipo: "Bien",
+		numcotizacion: "165",
+		descripcion: "ADQUISICIÓN DE MATERIALES DE ESCRITORIO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/207.COTI.N165-F-04052026.pdf",
+		fechapublicacion: "04.05.2026",
+		inicio: "04.05.2026",
+		fin: "05.05.2026",
+	},
+	{
+		numero: "206",
+		tipo: "Bien",
+		numcotizacion: "164",
+		descripcion: "ADQUISICIÓN DE BOLSAS DE NOTEX PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/206.COTI.N164-F-04052026.pdf",
+		fechapublicacion: "04.05.2026",
+		inicio: "04.05.2026",
+		fin: "05.05.2026",
+	},
+	{
 		numero: "205",
 		tipo: "Servicio",
 		numcotizacion: "163",
@@ -22,7 +62,6 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		inicio: "30.04.2026",
 		fin: "04.05.2026",
 	},
-	
 	{
 		numero: "204",
 		tipo: "Bien",
