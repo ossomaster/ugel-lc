@@ -131,5 +131,4 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		archivoUrl: "/assets/files/2026/contratacion-auxiliares/01.RGR-001-2026-CUSCO-GEREDU-F-09012026.pdf"
 	}
 	
-	
 ]

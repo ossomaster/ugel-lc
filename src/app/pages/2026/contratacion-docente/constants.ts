@@ -13,6 +13,22 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 
 {
+    numero: "61",
+    nombre: "Convocatoria a presentación de expedientes, EBR: Ciencia y tecnologia",
+    tipo: "Convocatoria",
+    fecha: "2026-04-05",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Convocatoria",
+        url: "/assets/files/2026/contrata-docente/61.CONVOCATORIA-CIENCIA-Y-TECNOLOGIA-F-04052026.pdf",
+        fecha: "2026-05-04",
+      },
+      
+    ],
+},
+
+{
     numero: "60",
     nombre: "Adjudicación Docente, Miercoles 29 de Abril: EBR.Secundaria",
     tipo: "Comunicado",
