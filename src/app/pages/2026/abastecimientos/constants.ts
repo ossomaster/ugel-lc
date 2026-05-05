@@ -13,6 +13,27 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "212",
+		tipo: "Servicio",
+		numcotizacion: "170",
+		descripcion: "SERVICIO DE IMPRESIÓN DE AGENDAS PERSONALIZADAS PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/212.COT.N170-F-04052026.pdf",
+		fechapublicacion: "04.05.2026",
+		inicio: "05.05.2026",
+		fin: "06.05.2026",
+	},
+	
+	{
+		numero: "211",
+		tipo: "Servicio",
+		numcotizacion: "169",
+		descripcion: "SERVICIO DE ASISTENCIA TÉCNICA PARA EL DISEÑO DE PROYECTO DE CAPACITACIÓN DOCENTE,PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/211.COT.N169-F-04052026.pdf",
+		fechapublicacion: "04.05.2026",
+		inicio: "05.05.2026",
+		fin: "06.05.2026",
+	},
+	{
 		numero: "210",
 		tipo: "Servicio",
 		numcotizacion: "168",
