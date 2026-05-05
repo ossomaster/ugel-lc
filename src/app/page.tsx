@@ -19,8 +19,8 @@ export default function Home() {
 				alt=""
                 // Definir href para redirigir a otra dirección, sino dejar sin href para mostrar solo la imagen sin enlace
 				href="#"
-			/>
-			<MainHero /> */}
+			/>*/
+			<MainHero /> }
 			<SeccionInformacionDestacada />
 			<SeccionNoticias />
 			<SeccionNormas />
