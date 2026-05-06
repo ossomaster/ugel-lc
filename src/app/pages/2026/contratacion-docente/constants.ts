@@ -13,6 +13,22 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 
 {
+    numero: "63",
+    nombre: "Resultados Preliminares Convocatoria a presentación de expedientes, EBR: Ciencia y tecnologia",
+    tipo: "Comunicado",
+    fecha: "2026-05-05",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Resultados",
+        url: "/assets/files/2026/contrata-docente/63.RESULTADOS-PRELIMINARES-CONVOCATORIA.CYT-F-05052026.pdf",
+        fecha: "2026-05-05",
+      },
+      
+    ],
+},
+
+{
     numero: "62",
     nombre: "Adjudicación Docente, Martes 05 de Mayo: EBA Avanzado",
     tipo: "Comunicado",

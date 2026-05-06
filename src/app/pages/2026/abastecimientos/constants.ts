@@ -13,6 +13,28 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "214",
+		tipo: "Servicio",
+		numcotizacion: "171",
+		descripcion: "SERVICIO DE MANTENIMIENTO CORRECTIVO DE VEHICULOS PARA EL EQUIPO DE PATRIMONIO DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/213.COT.N142-F-05052026.pdf",
+		fechapublicacion: "05.05.2026",
+		inicio: "06.05.2026",
+		fin: "07.05.2026",
+	},
+	
+	{
+		numero: "213",
+		tipo: "Servicio",
+		numcotizacion: "142",
+		descripcion: "TERCERA CONVOCATORIA - SERVICIO DE ATENCIÓN DE DESAYUNO, ALMUERZO, CENA Y REFRIGERIO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/213.COT.N142-F-05052026.pdf",
+		fechapublicacion: "05.05.2026",
+		inicio: "06.05.2026",
+		fin: "07.05.2026",
+	},
+
+	{
 		numero: "212",
 		tipo: "Servicio",
 		numcotizacion: "170",
