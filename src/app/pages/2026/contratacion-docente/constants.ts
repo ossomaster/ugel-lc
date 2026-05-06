@@ -11,6 +11,21 @@ export type TDocumentoNormativo = {
 };
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
+{
+    numero: "66",
+    nombre: "Convocatoria a presentación de expedientes, EBA: Comunicación",
+    tipo: "Convocatoria",
+    fecha: "2026-05-06",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Convocatoria",
+        url: "/assets/files/2026/contrata-docente/66.CONVOCATORIA-EBA-COMUNICACION-F-06052026.pdf",
+        fecha: "2026-05-06",
+      },
+      
+    ],
+},
 
 {
     numero: "65",
