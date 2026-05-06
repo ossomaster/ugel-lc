@@ -13,12 +13,12 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
-		numero: "214",
+		numero: "215",
 		tipo: "Servicio",
-		numcotizacion: "171",
-		descripcion: "SERVICIO DE MANTENIMIENTO CORRECTIVO DE VEHICULOS PARA EL EQUIPO DE PATRIMONIO DE LA UGEL LA CONVENCIÓN",
-		archivoUrl: "/assets/files/2026/abastecimiento/214.COT.N171-F-05052026.pdf",
-		fechapublicacion: "05.05.2026",
+		numcotizacion: "159",
+		descripcion: "SERVICIO DE FOTOCOPIADO PARA EL PLAN DE ASISTENCIA TÉCNICA DEL PROYECTO AYNI, PARA EL ÁREA DE GESTIÓN PEDAGOGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/215.COT.N159-F-06052026.pdf",
+		fechapublicacion: "06.05.2026",
 		inicio: "06.05.2026",
 		fin: "07.05.2026",
 	},
