@@ -76,7 +76,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
       url: "https://www.ugellaconvencion.gob.pe/inscripcion/cas05-2026/",
       fecha: "20/04/2026",
     },
-    preliminar: "",
+    preliminar: {
+      url: "/assets/files/2026/contratacion-cas/05.RESULTADOS-PRELIMINARES-CAS.N05-SEDE-UGEL-F-05052026.pdf",
+      fecha: "05/05/2026",
+    },
     entrevista: "",
     final: "",
     feerratasfinal: "",
