@@ -13,6 +13,26 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 
 {
+    numero: "65",
+    nombre: "Adjudicación Docente, Jueves 07 de Mayo: EBR Secundaria Comunicación",
+    tipo: "Comunicado",
+    fecha: "2026-05-06",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Comunicado",
+        url: "/assets/files/2026/contrata-docente/65.COMUNICADO-ADJUDICACION-F-06052026.pdf",
+        fecha: "2026-05-06",
+      },
+      {
+        label: "Plazas",
+        url: "/assets/files/2026/contrata-docente/65.PLAZA-VACANTE-F-06052026.pdf",
+        fecha: "2026-05-06",
+      },
+    ],
+},
+
+{
     numero: "64",
     nombre: "Resultado Final Convocatoria a presentación de expedientes, EBR: Ciencia y tecnologia",
     tipo: "Comunicado",
