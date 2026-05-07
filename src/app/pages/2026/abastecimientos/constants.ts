@@ -26,7 +26,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
 		numero: "221",
 		tipo: "Servicio",
-		numcotizacion: "164",
+		numcotizacion: "175",
 		descripcion: "SERVICIO DE AUXILIAR ADMINSTRATIVO PARA EL ÁREA DE GESTION PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
 		archivoUrl: "/assets/files/2026/abastecimiento/221.COT.N175-F-07052026.pdf",
 		fechapublicacion: "07.05.2026",
