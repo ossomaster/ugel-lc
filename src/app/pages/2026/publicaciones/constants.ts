@@ -13,6 +13,30 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "43",
+		nombre: "Alerta Epidemiológica Regional N°003-2026-GRSC",
+		tipo: "Alerta",
+		fecha: "2026-05-06",
+		descripcion: "📢 Alerta Epidemiológica Regional Incremento Exponencial de casos de enfermedad mano, pie y boca (EMPB).",
+		thumbnailUrl: "/assets/images/publicaciones/oficio-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/43.ALERTA-003-2026-INCREMENTO-EMPB-F-06052026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	
+	{
+		numero: "42",
+		nombre: "Oficio Multiple N°16-2026-GORE-C/DRE-C/DUGE-LC/D",
+		tipo: "Oficio",
+		fecha: "2026-05-06",
+		descripcion: "📢 Disposiciones para la prevención y control de brotes de la enfermedad mano, pie y boca (EMPB).",
+		thumbnailUrl: "/assets/images/publicaciones/oficio-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/42.OM-N16-2026-GORE-C-DRE-C-DUGE-LC-D-F-06052026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+
+	{
 		numero: "41",
 		nombre: "Directiva N°003-2026-GR/GEREDU",
 		tipo: "Directiva",
