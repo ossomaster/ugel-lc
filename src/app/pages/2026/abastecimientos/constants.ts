@@ -13,14 +13,25 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "222",
+		tipo: "Bien",
+		numcotizacion: "176",
+		descripcion: "ADQUISICIÓN DE VIVERES PARA EL TALLER DE CRFA PARA EL ÁREA DE GESTIÓN PEDAGOGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/222.COT.N176-F-07052026.pdf",
+		fechapublicacion: "07.05.2026",
+		inicio: "07.05.2026",
+		fin: "08.05.2026",
+	},
+	
+	{
 		numero: "221",
 		tipo: "Servicio",
 		numcotizacion: "164",
-		descripcion: "SERVIIO DE AUXILIAR ADMINSTRATIVO PARA EL ÁREA DE GESTION PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		descripcion: "SERVICIO DE AUXILIAR ADMINSTRATIVO PARA EL ÁREA DE GESTION PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
 		archivoUrl: "/assets/files/2026/abastecimiento/221.COT.N175-F-07052026.pdf",
 		fechapublicacion: "07.05.2026",
 		inicio: "07.05.2026",
-		fin: "01105.2026",
+		fin: "11.05.2026",
 	},
 	
 	{
