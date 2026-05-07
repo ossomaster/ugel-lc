@@ -13,6 +13,61 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "221",
+		tipo: "Servicio",
+		numcotizacion: "164",
+		descripcion: "SERVIIO DE AUXILIAR ADMINSTRATIVO PARA EL ÁREA DE GESTION PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/221.COT.N175-F-07052026.pdf",
+		fechapublicacion: "07.05.2026",
+		inicio: "07.05.2026",
+		fin: "01105.2026",
+	},
+	
+	{
+		numero: "220",
+		tipo: "Servicio",
+		numcotizacion: "164",
+		descripcion: "SEGUNDA CONVOCATORIA DE IMPRESION DE BANNER PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/220.COT.N167-F-07052026.pdf",
+		fechapublicacion: "07.05.2026",
+		inicio: "07.05.2026",
+		fin: "08.05.2026",
+	},
+	
+	{
+		numero: "219",
+		tipo: "Servicio",
+		numcotizacion: "174",
+		descripcion: "SERVICIO DE ASISTENCIA TECNICA PARA EL DISEÑO DEL PROYECTO DE CAPACITACIÓN DOCENTE CON ENFOQUE EN LA IMPLEMENTACIÓN DEL APRENDIZAJE BASADO EN PROBLEMAS (ABI), PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/219.COT.N174-F-07052026.pdf",
+		fechapublicacion: "07.05.2026",
+		inicio: "07.05.2026",
+		fin: "08.05.2026",
+	},
+
+	{
+		numero: "218",
+		tipo: "Servicio",
+		numcotizacion: "173",
+		descripcion: "SERVICIO DE ASISTENCIA TECNICA PARA EL DISEÑO DEL PROYECTO DE CAPACITACIÓN DOCENTE CON ENFOQUE EN LA IMPLEMENTACIÓN DEL APRENDIZAJE BASADO EN PROBLEMAS (AB), PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/218.COT.N173-F-07052026.pdf",
+		fechapublicacion: "07.05.2026",
+		inicio: "07.05.2026",
+		fin: "08.05.2026",
+	},
+	
+	{
+		numero: "217",
+		tipo: "Servicio",
+		numcotizacion: "172",
+		descripcion: "SERVICIO DE ASISTENCIA TECNICA PARA EL DISEÑO DEL PROYECTO DE CAPACITACIÓN DOCENTE CON ENFOQUE EN LA APLICACIÓN DE LA METODOLOGIA DESIGN THINKING EN EDUCACIÓN DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/217.COT.N172-F-07052026.pdf",
+		fechapublicacion: "07.05.2026",
+		inicio: "07.05.2026",
+		fin: "08.05.2026",
+	},
+
+	{
 		numero: "216",
 		tipo: "Servicio",
 		numcotizacion: "168",
