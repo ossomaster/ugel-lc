@@ -85,7 +85,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     estado: "vigente",
   },
 
-    {
+  {
     numero: "005-2026",
     descripcion: "Sede Administrativa UGEL La Convención",
     convocatoria: "CAS N°05 - 2026",
@@ -104,7 +104,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
       url: "/assets/files/2026/contratacion-cas/05.RESULTADOS-PRELIMINARES-CAS.N05-SEDE-UGEL-F-05052026.pdf",
       fecha: "05/05/2026",
     },
-    entrevista: "",
+    entrevista: {
+      url: "/assets/files/2026/contratacion-cas/05.APTOS-ENTREVISTA-CAS.N05-SEDE-UGEL-F-06052026.pdf",
+      fecha: "06/05/2026",
+    },
     final: "",
     feerratasfinal: "",
     comunicado1: "",
