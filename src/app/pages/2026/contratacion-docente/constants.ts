@@ -13,6 +13,22 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 
 {
+    numero: "69",
+    nombre: "Convocatoria a Presentación de Expedientes Modalidad PANETS",
+    tipo: "Convocatoria",
+    fecha: "2026-05-08",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Convocatoria",
+        url: "/assets/files/2026/contrata-docente/69.CONVOCATORIA-PANETS-F-08052026.pdf",
+        fecha: "2026-05-08",
+      },
+      
+    ],
+},
+
+{
     numero: "68",
     nombre: "Comunicado a propuesta del director de IE",
     tipo: "Convocatoria",
