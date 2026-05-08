@@ -13,6 +13,18 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "44",
+		nombre: "Oficio Multiple N°17-2026-GORE-C/DRE-C/DUGE-LC/SEC",
+		tipo: "Oficio",
+		fecha: "2026-05-08",
+		descripcion: "📢 Reunión tecnica para la inauguración de los JEDPA 2026 y elaboración del cronograma para el desarrollo etapa coordinación educativa y etapa UGEL LC, evento a desarrollarse el día lunes 11 de mayo a horas 11:00 am en el local de la IE Juan de la Cruz Montes Salas 701.",
+		thumbnailUrl: "/assets/images/publicaciones/oficio-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/44.OM-N017-2026-GORE-C-DRE-C-DUGE-LC-SEC-F-08052026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	
+	{
 		numero: "43",
 		nombre: "Alerta Epidemiológica Regional N°003-2026-GRSC",
 		tipo: "Alerta",
