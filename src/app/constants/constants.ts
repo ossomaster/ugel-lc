@@ -12,7 +12,14 @@ export enum ERutas {
 
 
 export const SLIDES = [
-
+	
+	{
+		image: "/assets/slider/dia-de-la-madre-2026.png",
+		title: "FELIZ DÍA DE LA MADRE",
+		description: "",
+		//buttonText: "Acceder",
+		//buttonUrl: "#",
+	},
 	
 	{
 		image: "/assets/slider/slide-7.jpeg",
