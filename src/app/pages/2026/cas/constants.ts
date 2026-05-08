@@ -133,9 +133,15 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
       url: "/assets/files/2026/contratacion-cas/05.APTOS-ENTREVISTA-CAS.N05-SEDE-UGEL-F-06052026.pdf",
       fecha: "06/05/2026",
     },
-    final: "",
+    final: {
+      url: "/assets/files/2026/contratacion-cas/05.RESULTADO-FINAL-CAS.N05-SEDE-UGEL-F-07052026.pdf",
+      fecha: "07/05/2026",
+    },
     feerratasfinal: "",
-    comunicado1: "",
+    comunicado1: {
+      url: "/assets/files/2026/contratacion-cas/05.COMUNICADO.N01-F-07052026.pdf",
+      fecha: "07/05/2026",
+    },
     comunicado2: "",
     comunicado3: "",    
     comunicado4: "",
