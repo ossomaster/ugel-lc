@@ -11,6 +11,23 @@ export type TDocumentoNormativo = {
 };
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
+
+{
+    numero: "68",
+    nombre: "Comunicado a propuesta del director de IE",
+    tipo: "Convocatoria",
+    fecha: "2026-05-08",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Convocatoria",
+        url: "/assets/files/2026/contrata-docente/68.COMUNICADO-A-PROPUESTA-DEL-DIRECTOR-DE-I.E-F-08052026.pdf",
+        fecha: "2026-05-08",
+      },
+      
+    ],
+},
+
 {
     numero: "67",
     nombre: "Cancelación de Convocatoria a presentación de expedientes, EBA: Comunicación",
