@@ -12,24 +12,25 @@ import SeccionDominiosPerfil from "./components/secciones/SeccionDominiosPerfil/
 import SeccionBuenasPracticas from "./components/secciones/SeccionBuenasPracticas/SeccionBuenasPracticas"
 
 export default function Home() {
-	return (
-		<MainLayout>
-			{/* <InicioModal
-				src="assets/files/2026/modal/COMUNICADO-F-30.04.2026.jpg"
-				alt=""
-                // Definir href para redirigir a otra dirección, sino dejar sin href para mostrar solo la imagen sin enlace
-				href="#"
-			/>*/
-			<MainHero /> }
-			<SeccionInformacionDestacada />
-			<SeccionNoticias />
-			<SeccionNormas />
-			<SeccionCifras />
-			<SeccionCursos />
-			<SeccionTransmisiones />
-			{/* <SeccionDisenosCurriculares /> */}
-			{/* <SeccionDominiosPerfil /> */}
-			<SeccionBuenasPracticas />
-		</MainLayout>
-	)
+    return (
+        <MainLayout>
+            {/* Usamos un Fragment para agrupar los componentes */}
+            <>
+                <InicioModal
+                    src="assets/files/2026/modal/dia-de-la-madre-modal.png"
+                    alt=""
+                    href="#"
+                />
+                <MainHero />
+            </>
+            
+            <SeccionInformacionDestacada />
+            <SeccionNoticias />
+            <SeccionNormas />
+            <SeccionCifras />
+            <SeccionCursos />
+            <SeccionTransmisiones />
+            <SeccionBuenasPracticas />
+        </MainLayout>
+    );
 }
