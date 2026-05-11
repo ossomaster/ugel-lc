@@ -15,7 +15,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
 		numero: "228",
 		tipo: "Servicio",
-		numcotizacion: "180",
+		numcotizacion: "181",
 		descripcion: "SERVICIO DE ASISTENCIA TECNICA ADMINISTRATIVA PARA LA UNIDAD DE ADMINISTRACIÓN DE LA UGEL LA CONVENCIÓN",
 		archivoUrl: "/assets/files/2026/abastecimiento/228.COT.N181-F-11052026.pdf",
 		fechapublicacion: "11.05.2026",
