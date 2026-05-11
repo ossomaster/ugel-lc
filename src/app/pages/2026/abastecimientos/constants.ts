@@ -13,6 +13,50 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "228",
+		tipo: "Servicio",
+		numcotizacion: "180",
+		descripcion: "SERVICIO DE ASISTENCIA TECNICA ADMINISTRATIVA PARA LA UNIDAD DE ADMINISTRACIÓN DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/228.COT.N181-F-11052026.pdf",
+		fechapublicacion: "11.05.2026",
+		inicio: "11.05.2026",
+		fin: "13.05.2026",
+	},
+	
+	{
+		numero: "227",
+		tipo: "Servicio",
+		numcotizacion: "180",
+		descripcion: "SERVICIO DE DECORACIÓN DE ESCENOGRAFIA PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/227.COT.N180-F-11052026.pdf",
+		fechapublicacion: "11.05.2026",
+		inicio: "11.05.2026",
+		fin: "13.05.2026",
+	},
+	
+	{
+		numero: "226",
+		tipo: "Bien",
+		numcotizacion: "179",
+		descripcion: "ADQUISICIÓN DE AGUA MINERAL PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/226.COT.N179-F-11052026.pdf",
+		fechapublicacion: "11.05.2026",
+		inicio: "11.05.2026",
+		fin: "13.05.2026",
+	},
+	
+	{
+		numero: "225",
+		tipo: "Servicio",
+		numcotizacion: "178",
+		descripcion: "SERVICIO DE IMPRESIÓN DE FOLDER PERSONALIZADO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/225.COT.N178-F-11052026.pdf",
+		fechapublicacion: "11.05.2026",
+		inicio: "11.05.2026",
+		fin: "13.05.2026",
+	},
+	
+	{
 		numero: "224",
 		tipo: "Servicio",
 		numcotizacion: "177",
