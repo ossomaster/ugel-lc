@@ -13,10 +13,32 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "231",
+		tipo: "Servicio",
+		numcotizacion: "183",
+		descripcion: "SERVICIO DE ATENCIÓN DE BOCADITOS PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/231.COT-N183-F-12052026.pdf",
+		fechapublicacion: "12.05.2026",
+		inicio: "12.05.2026",
+		fin: "13.05.2026",
+	},
+	
+	{
+		numero: "230",
+		tipo: "Bien",
+		numcotizacion: "182",
+		descripcion: "ADQUISICIÓN DE MATERIALES DE ESCRITORIO PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/230.COT.N182-F-12052026.pdf",
+		fechapublicacion: "12.05.2026",
+		inicio: "12.05.2026",
+		fin: "13.05.2026",
+	},
+	
+	{
 		numero: "229",
 		tipo: "Servicio",
-		numcotizacion: "181",
-		descripcion: "SEGUNDA CONVOCATORIA SERVICIO DE AUXILIAR ADMINISTRATIVO PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UNIDAD DE ADMINISTRACIÓN DE LA UGEL LA CONVENCIÓN",
+		numcotizacion: "175",
+		descripcion: "SEGUNDA CONVOCATORIA SERVICIO DE AUXILIAR ADMINISTRATIVO PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
 		archivoUrl: "/assets/files/2026/abastecimiento/229.COT.N175-F-11052026.pdf",
 		fechapublicacion: "12.05.2026",
 		inicio: "12.05.2026",
