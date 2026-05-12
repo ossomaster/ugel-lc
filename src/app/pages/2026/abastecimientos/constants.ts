@@ -13,6 +13,17 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "232",
+		tipo: "Servicio",
+		numcotizacion: "142",
+		descripcion: "CUARTA CONVOCATORIA SERVICIO DE ATENCIÓN DE DESAYUNO, ALMUERZO, CENA Y REFRIGERIO PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/232.COTI.N142.4-F-12052026.pdf",
+		fechapublicacion: "12.05.2026",
+		inicio: "12.05.2026",
+		fin: "14.05.2026",
+	},
+	
+	{
 		numero: "231",
 		tipo: "Servicio",
 		numcotizacion: "183",
