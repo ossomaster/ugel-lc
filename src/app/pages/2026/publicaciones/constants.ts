@@ -13,6 +13,42 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "47",
+		nombre: "Carta N°039-2026/UNIQ-CO-P-MINI.",
+		tipo: "Carta",
+		fecha: "2026-05-12",
+		descripcion: "📢 Invitación a la convocatoria de idiomas de la dirección del centro de idiomas - UNIQ 2026",
+		thumbnailUrl: "/assets/images/publicaciones/oficio-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/47.CARTA-N39-2026-UNIQ-CO-P-MINI-F-12052026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	
+	{
+		numero: "46",
+		nombre: "Oficio Multiple N°018-2026-GORE-C/GEREDU-C/DUGEL-LC/SEC.",
+		tipo: "Oficio",
+		fecha: "2026-05-12",
+		descripcion: "📢 Informa a Directores de las II.EE privadas de la juridicción de la UGEL La Convención, el registro del personal docente y administrativo en el REGIEP y cumplimiento de las disposiciones contenidas en las leyes N°29988 y N°30901.",
+		thumbnailUrl: "/assets/images/publicaciones/oficio-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/46.OFICIO-N018-2026-GORE-C-GEREDU-C-DUGEL-LC-SEC-F-12052026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	
+	{
+		numero: "45",
+		nombre: "Oficio Multiple N°019-2026-GORE-C/GEREDU-C/DUGEL-LC/SEC.",
+		tipo: "Oficio",
+		fecha: "2026-05-12",
+		descripcion: "📢 Remite a Directores de las II.EE privadas de la juridicción de la UGEL La Convención, información para monitoreo del cumplimiento del articulo 14, numeroal 14.1 de la Ley N°26549, ley de los centros educativos privados.",
+		thumbnailUrl: "/assets/images/publicaciones/oficio-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/45.OFICIO-N019-2026-GORE-C-GEREDU-C-DUGEL-LC-SEC-F-12052026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	
+	{
 		numero: "44",
 		nombre: "Oficio Multiple N°17-2026-GORE-C/DRE-C/DUGE-LC/SEC",
 		tipo: "Oficio",
