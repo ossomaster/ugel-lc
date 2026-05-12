@@ -13,6 +13,17 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "229",
+		tipo: "Servicio",
+		numcotizacion: "181",
+		descripcion: "SEGUNDA CONVOCATORIA SERVICIO DE AUXILIAR ADMINISTRATIVO PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UNIDAD DE ADMINISTRACIÓN DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/229.COT.N175-F-11052026.pdf",
+		fechapublicacion: "12.05.2026",
+		inicio: "12.05.2026",
+		fin: "13.05.2026",
+	},
+	
+	{
 		numero: "228",
 		tipo: "Servicio",
 		numcotizacion: "181",
