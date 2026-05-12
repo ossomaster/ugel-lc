@@ -22,7 +22,6 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
       {
         label: "Resultado",
         url: "/assets/files/2026/contrata-docente/71.RESULTADO-FINAL-PANETS-F-12052026.pdf",
-        fecha: "2026-05-12",
       },
       
     ],

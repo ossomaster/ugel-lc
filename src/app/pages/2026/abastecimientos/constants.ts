@@ -13,6 +13,61 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "237",
+		tipo: "Servicio",
+		numcotizacion: "187",
+		descripcion: "SERVICIO DE MANTENIMIENTO CORRECTIVO DE IMPRESORA PARA EL EQUIPO DE ESCALAFÓN DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/237.COT.N187-F-12052026.pdf",
+		fechapublicacion: "12.05.2026",
+		inicio: "13.05.2026",
+		fin: "14.05.2026",
+	},
+	
+	{
+		numero: "236",
+		tipo: "Servicio",
+		numcotizacion: "188",
+		descripcion: "SERVICIO DE MANTENIMIENTO CORRECTIVO DE IMPRESORA MULTIFUNCIONAL PARA EL EQUIPO DE ATENCIÓN AL USUARIO DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/236.COT.N188-F-12052026.pdf",
+		fechapublicacion: "12.05.2026",
+		inicio: "13.05.2026",
+		fin: "14.05.2026",
+	},
+	
+	{
+		numero: "235",
+		tipo: "Bien",
+		numcotizacion: "186",
+		descripcion: "ADQUISICIÓN DE MATERIALES DE ESCRITORIO PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/235.COT.N186-F-12052026.pdf",
+		fechapublicacion: "12.05.2026",
+		inicio: "13.05.2026",
+		fin: "14.05.2026",
+	},
+	
+	{
+		numero: "234",
+		tipo: "Servicio",
+		numcotizacion: "185",
+		descripcion: "SERVICIO DE ATENCIÓN DE REFRIGERIOS PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/234.COT.N185-F-12052026.pdf",
+		fechapublicacion: "12.05.2026",
+		inicio: "13.05.2026",
+		fin: "14.05.2026",
+	},
+	
+	{
+		numero: "233",
+		tipo: "Servicio",
+		numcotizacion: "184",
+		descripcion: "SERVICIO DE ATENCIÓN DE IMPRESIÓN Y ENMICADO PARA LA ASISTENCIA TECNICA DE PROMOTORAS EDUCATIVAS COMUNITARIAS, PARA EL AREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/233.COT.N184-F-12052026.pdf",
+		fechapublicacion: "12.05.2026",
+		inicio: "13.05.2026",
+		fin: "14.05.2026",
+	},
+
+	{
 		numero: "232",
 		tipo: "Servicio",
 		numcotizacion: "142",
