@@ -13,6 +13,22 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 
 {
+    numero: "70",
+    nombre: "Resultados Preliminares Evaluación de Expedientes Modalidad PANETS",
+    tipo: "Resultado",
+    fecha: "2026-05-12",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Resultado",
+        url: "/assets/files/2026/contrata-docente/70.RESULTADOS-PRELIMINARES-EVAL.EXP.PANETS-(MATEMATICAYCOMUNICACION)-F-12052026.pdf",
+        fecha: "2026-05-12",
+      },
+      
+    ],
+},
+
+{
     numero: "69",
     nombre: "Convocatoria a Presentación de Expedientes Modalidad PANETS",
     tipo: "Convocatoria",
