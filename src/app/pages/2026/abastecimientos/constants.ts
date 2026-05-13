@@ -13,6 +13,39 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "240",
+		tipo: "Servicio",
+		numcotizacion: "190",
+		descripcion: "SERVICIO DE CAPACITACIÓN DOCENTE: GESTIÓN PEDAGÓGICA DE VANGUARDIA: TRANSFORMANDO AULAS FONDEP, CIENCIA Y EDUCACIÓN FINANCIERA APRENDIZAJE BASADO EN PROBLEMAS PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/240.COTI.N190-F-13052026.pdf",
+		fechapublicacion: "13.05.2026",
+		inicio: "14.05.2026",
+		fin: "15.05.2026",
+	},
+	
+	{
+		numero: "239",
+		tipo: "Servicio",
+		numcotizacion: "191",
+		descripcion: "SERVICIO DE CAPACITACIÓN DOCENTE: GESTIÓN PEDAGÓGICA DE VANGUARDIA: TRANSFORMANDO AULAS FONDEP, CIENCIA Y EDUCACIÓN FINANCIERA APRENDIZAJE BASADO EN INVESTIGACIÓN PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/239.COTI.N191-F-13052026.pdf",
+		fechapublicacion: "13.05.2026",
+		inicio: "14.05.2026",
+		fin: "15.05.2026",
+	},
+	
+	{
+		numero: "238",
+		tipo: "Servicio",
+		numcotizacion: "189",
+		descripcion: "SERVICIO DE CAPACITACIÓN DOCENTE: GESTIÓN PEDAGÓGICA DE VANGUARDIA: TRANSFORMANDO AULAS FONDEP, CIENCIA Y EDUCACIÓN FINANCIERA DESIGN THINKING EN EDUCACIÓN PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/238.COTI.N189-F-13052026.pdf",
+		fechapublicacion: "13.05.2026",
+		inicio: "14.05.2026",
+		fin: "15.05.2026",
+	},
+	
+	{
 		numero: "237",
 		tipo: "Servicio",
 		numcotizacion: "187",
