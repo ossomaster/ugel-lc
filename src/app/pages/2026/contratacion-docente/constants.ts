@@ -13,6 +13,22 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 
 {
+    numero: "72",
+    nombre: "Ampliacion de Convocatoria a Presentación de Expedientes Modalidad PANETS",
+    tipo: "Convocatoria",
+    fecha: "2026-05-13",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Convocatoria",
+        url: "/assets/files/2026/contrata-docente/72.AMPLIACION-CONVOCATORIA-PANETS-F-13052026.pdf",
+        fecha: "2026-05-13",
+      },
+      
+    ],
+},
+
+{
     numero: "71",
     nombre: "Resultado Final Evaluación de Expedientes Modalidad PANETS",
     tipo: "Resultado",
