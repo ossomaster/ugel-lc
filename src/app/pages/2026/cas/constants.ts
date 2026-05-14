@@ -41,7 +41,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
       url:"https://www.ugellaconvencion.gob.pe/inscripcion/cas08-2026/",
       fecha: "08/05/2026",
     },
-    preliminar: "",
+    preliminar: {
+      url: "/assets/files/2026/contratacion-cas/08.RESULTADO-PRELIMINAR-CONVOCATORIA-INTERVENCIONES-PEDAGOGICAS-CAS-N08-2026-F-14052026.pdf",
+      fecha: "14/05/2026",
+    },
     entrevista: "",
     final: "",
     feerratasfinal: "",
