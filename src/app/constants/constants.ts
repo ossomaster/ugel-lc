@@ -11,19 +11,11 @@ export enum ERutas {
 }
 
 
-export const SLIDES = [
-	
-	{
-		image: "/assets/slider/dia-de-la-madre-2026.png",
-		title: "FELIZ DÍA DE LA MADRE",
-		description: "",
-		//buttonText: "Acceder",
-		//buttonUrl: "#",
-	},
-	
+export const SLIDES = [	
+		
 	{
 		image: "/assets/slider/slide-7.jpeg",
-		title: "INICIO DE CLASES 16 DE MARZO",
+		title: "UGEL LA CONVENCIÓN",
 		description: "",
 		//buttonText: "Acceder",
 		//buttonUrl: "#",
