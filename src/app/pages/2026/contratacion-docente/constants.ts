@@ -14,7 +14,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 
 {
     numero: "74",
-    nombre: "Fe Erratas Ampliacion de Convocatoria a Presentación de Expedientes Modalidad PANETS",
+    nombre: "Fe Erratas Ampliación de Convocatoria a Presentación de Expedientes Modalidad PANETS",
     tipo: "Convocatoria",
     fecha: "2026-05-14",
     badge: { label: "Nuevo", color: "#10b981" },
