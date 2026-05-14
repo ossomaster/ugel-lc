@@ -17,9 +17,9 @@ export default function Home() {
             {/* Usamos un Fragment para agrupar los componentes */}
             <>
                 <InicioModal
-                    src="assets/files/2026/modal/modal-8.jpeg"
+                    src="assets/files/2026/modal/modal-9.jpeg"
                     alt=""
-                    href="https://forms.gle/sjDSvd3tQwcmSDr56"
+                    href=""
                 />
                 <MainHero />
             </>
