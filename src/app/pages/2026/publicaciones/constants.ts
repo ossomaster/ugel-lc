@@ -13,6 +13,18 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "50",
+		nombre: "Bases del Concurso de Dibujo y Pintura.",
+		tipo: "Oficio Multiple",
+		fecha: "2026-05-15",
+		descripcion: "📢 ARTE SIN LIMITES PARA REVALORAR NUESTRA BIODIVERSIDAD EN CELEBRACIÓN DE NUESTRO XXXIX ANIVERSARIO UGEL LA CONVENCION.",
+		thumbnailUrl: "https://media.istockphoto.com/id/2177279919/es/vector/administrador-de-archivos-icono-de-carpeta-ilustraci%C3%B3n-vectorial.jpg?s=612x612&w=0&k=20&c=TKJSJSg8Zr3-XcHf9oQwMXtryR2w2qpASRGetc66ues=",
+		archivoUrl: "/assets/files/2026/publicaciones/50.BASES-DEL-CONCURSO-DE-DIBUJO-Y-PINTURA-2026-f-15052026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	
+	{
 		numero: "49",
 		nombre: "Oficio Multiple N°027-2026-GEREDU-C/DUGEL-LC/AGI-EST.",
 		tipo: "Oficio Multiple",
