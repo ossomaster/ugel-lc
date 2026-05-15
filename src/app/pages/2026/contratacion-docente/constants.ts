@@ -13,6 +13,22 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 
 {
+    numero: "75",
+    nombre: "Resultado Final de Convocatoria a Presentación de Expedientes Modalidad PANETS (Matemática)",
+    tipo: "Resultado",
+    fecha: "2026-05-15",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Resultado",
+        url: "/assets/files/2026/contrata-docente/75.CALIFICACION-DE-EXPEDIENTES-PANETS-MATEMATICA-F-15052026.pdf",
+        fecha: "2026-05-15",
+      },
+      
+    ],
+},
+
+{
     numero: "74",
     nombre: "FeErratas Ampliación de Convocatoria a Presentación de Expedientes Modalidad PANETS",
     tipo: "Convocatoria",
