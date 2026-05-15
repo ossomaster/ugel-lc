@@ -13,6 +13,50 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "244",
+		tipo: "Servicio",
+		numcotizacion: "178",
+		descripcion: "SERVICIO DE IMPRESION DE FOLFER PERSONALIZADO PARA EL EQUIPO DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/244.COTI.N178.2-F-15052026.pdf",
+		fechapublicacion: "15.05.2026",
+		inicio: "15.05.2026",
+		fin: "18.05.2026",
+	},
+	
+	{
+		numero: "243",
+		tipo: "Servicio",
+		numcotizacion: "187",
+		descripcion: "SEGUNDA CONVOCATORIA SERVICIO DE MANTENIMIENTO CORRECTIVO DE IMPRESORA PARA EL EQUIPO DE ESCALAFÓN DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/243.COTI.N187.2-F-15052026.pdf",
+		fechapublicacion: "15.05.2026",
+		inicio: "15.05.2026",
+		fin: "18.05.2026",
+	},
+	
+	{
+		numero: "242",
+		tipo: "Servicio",
+		numcotizacion: "142",
+		descripcion: "QUINTA CONVOCATORIA SERVICIO DE ATENCIÓN DE DESAYUNO, ALMUERZO, CENA Y REFRIGERIO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/242.COTI.N142.5-F-15052026.pdf",
+		fechapublicacion: "15.05.2026",
+		inicio: "15.05.2026",
+		fin: "18.05.2026",
+	},
+	
+	{
+		numero: "241",
+		tipo: "Servicio",
+		numcotizacion: "192",
+		descripcion: "SERVICIO DE IMPRESIÓN PARA EL TALLER DE ASISTENCIA TECNICA A DIRECTIVOS, PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/241.COT.N192-F-15052026.pdf",
+		fechapublicacion: "15.05.2026",
+		inicio: "15.05.2026",
+		fin: "18.05.2026",
+	},
+	
+	{
 		numero: "240",
 		tipo: "Servicio",
 		numcotizacion: "190",

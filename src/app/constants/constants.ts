@@ -14,6 +14,14 @@ export enum ERutas {
 export const SLIDES = [	
 		
 	{
+		image: "/assets/slider/slide-10.png",
+		title: "",
+		description: "",
+		//buttonText: "Acceder",
+		//buttonUrl: "#",
+	},
+	
+	{
 		image: "/assets/slider/slide-7.jpeg",
 		title: "UGEL LA CONVENCIÓN",
 		description: "",
