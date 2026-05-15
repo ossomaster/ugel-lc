@@ -13,6 +13,18 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "48",
+		nombre: "Resolución Directoral N°001927-2026-UGEL-LC.",
+		tipo: "Resolución",
+		fecha: "2026-05-15",
+		descripcion: "📢 Determinar la fecha, hora y lugar en la que se realizará el acto público de adjudicación para el concurso público de ingreso a la carrera pública magisterial 2026 para profesores de la modalidad de educación técnico - Productiva en el marco d ela ley N°29944, Ley de reforma magisterial del ámbito de la UGEL La Convención",
+		thumbnailUrl: "/assets/images/publicaciones/oficio-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/48.R.D.N001927-2026-UGEL-LC-F-15052026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	
+	{
 		numero: "47",
 		nombre: "Carta N°039-2026/UNIQ-CO-P-MINI.",
 		tipo: "Carta",
