@@ -19,7 +19,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		descripcion: "SERVICIO ESPECIALIZADO EN TESORERIA PARA LA UNIDAD DE ADMINISTRACIÓN DE LA UGEL LA CONVENCIÓN",
 		archivoUrl: "/assets/files/2026/abastecimiento/246.COT.N194-F-15052026.pdf",
 		fechapublicacion: "15.05.2026",
-		inicio: "16.05.2026",
+		inicio: "15.05.2026",
 		fin: "18.05.2026",
 	},
 	

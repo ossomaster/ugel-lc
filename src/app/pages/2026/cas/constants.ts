@@ -49,7 +49,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
       url: "/assets/files/2026/contratacion-cas/08.APTOS-ENTREVISTA-CONVOCATORIA-INTERVENCIONES-PEDAGOGICAS-CAS-N08-2026-F-14052026.pdf",
       fecha: "14/05/2026",
     },
-    final: "",
+    final: {
+      url: "/assets/files/2026/contratacion-cas/08.RESULTA-FINAL-CAS08-F-INTERVENCIONES-Y-ACCIONES-PEDAGOGICAS-F-15052026.pdf",
+      fecha: "15/05/2026",
+    },
     feerratasfinal: "",
     comunicado1: "",
     comunicado2: "",
