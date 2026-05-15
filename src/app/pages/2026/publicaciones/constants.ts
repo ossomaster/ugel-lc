@@ -13,6 +13,18 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "49",
+		nombre: "Oficio Multiple N°027-2026-GEREDU-C/DUGEL-LC/AGI-EST.",
+		tipo: "Oficio Multiple",
+		fecha: "2026-05-15",
+		descripcion: "📢 Comunica a directores del ámbito de la UGEL La Convención, el cumplimiento del proceso de Geolocalización 2026 mediante el aplicativo Geolocales hasta el 31 de mayo del 2026.",
+		thumbnailUrl: "/assets/images/publicaciones/oficio-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/49.OM-N027-2026-GEREDU-C-DUGEL-LC-AGI-EST-F-15052026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	
+	{
 		numero: "48",
 		nombre: "Resolución Directoral N°001927-2026-UGEL-LC.",
 		tipo: "Resolución",

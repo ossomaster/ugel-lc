@@ -17,9 +17,9 @@ export default function Home() {
             {/* Usamos un Fragment para agrupar los componentes */}
             <>
                 <InicioModal
-                    src="assets/files/2026/modal/modal-9.jpeg"
+                    src="assets/files/2026/modal/modal-15-05-2026.png"
                     alt=""
-                    href=""
+                    href="/assets/files/2026/publicaciones/49.OM-N027-2026-GEREDU-C-DUGEL-LC-AGI-EST-F-15052026.pdf"
                 />
                 <MainHero />
             </>
