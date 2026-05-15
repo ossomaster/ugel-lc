@@ -13,6 +13,28 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "246",
+		tipo: "Servicio",
+		numcotizacion: "194",
+		descripcion: "SERVICIO ESPECIALIZADO EN TESORERIA PARA LA UNIDAD DE ADMINISTRACIÓN DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/246.COT.N194-F-15052026.pdf",
+		fechapublicacion: "15.05.2026",
+		inicio: "16.05.2026",
+		fin: "18.05.2026",
+	},
+	
+	{
+		numero: "245",
+		tipo: "Servicio",
+		numcotizacion: "178",
+		descripcion: "ADQUISICIÓN DE GALLETA Y NECTAR DE FRUTA PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/245.COT.N193-F-15052026.pdf",
+		fechapublicacion: "15.05.2026",
+		inicio: "15.05.2026",
+		fin: "18.05.2026",
+	},
+	
+	{
 		numero: "244",
 		tipo: "Servicio",
 		numcotizacion: "178",
