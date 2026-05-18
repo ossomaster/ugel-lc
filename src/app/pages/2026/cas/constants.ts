@@ -73,7 +73,8 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
       url: "/assets/files/2026/contratacion-cas/07.BASES-PERFILES-CONVOCATORIA-ANEXOS-CAS-N°07-2026-SEDE-F-06062026.pdf",
       fecha: "06/05/2026",
     },
-    linkinscripcion: "",
+    linkinscripcion:
+      "https://www.ugellaconvencion.gob.pe/inscripcion/cas07-2026/",
     preliminar: "",
     entrevista: "",
     final: "",
