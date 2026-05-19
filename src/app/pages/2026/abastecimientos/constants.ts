@@ -13,6 +13,17 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "249",
+		tipo: "Bien",
+		numcotizacion: "197",
+		descripcion: "ADQUISICIÓN DE GUABTES DE JEBE DE USO DOMESTICO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN.",
+		archivoUrl: "/assets/files/2026/abastecimiento/249.COT.N197-F-19052026.pdf",
+		fechapublicacion: "19.05.2026",
+		inicio: "20.05.2026",
+		fin: "21.05.2026",
+	},
+
+	{
 		numero: "248",
 		tipo: "Servicio",
 		numcotizacion: "196",

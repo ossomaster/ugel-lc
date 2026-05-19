@@ -39,6 +39,11 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
         url: "/assets/files/2026/contrata-docente/77.PLAZAS-MATEMATICA-F-19052026.pdf",
         fecha: "2026-05-19",
       },
+      {
+        label: "Plazas EBE",
+        url: "/assets/files/2026/contrata-docente/77.EBE-PRIMARIA-F-19052026.pdf",
+        fecha: "2026-05-19",
+      },
       
     ],
 },

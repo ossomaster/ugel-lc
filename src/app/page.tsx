@@ -17,9 +17,9 @@ export default function Home() {
             {/* Usamos un Fragment para agrupar los componentes */}
             <>
                 <InicioModal
-                    src="assets/files/2026/modal/modal-15-05-2026.png"
+                    src="https://scontent-lim1-1.xx.fbcdn.net/v/t39.30808-6/702470310_969117269173044_4825889958256146595_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=rhAZEq2mMagQ7kNvwGDSkJa&_nc_oc=AdoPS0Zw1xbQgTXg6ZhRd_rB_fUtOYzhjl7hXsWpgXL-mwPlaUAirrKWqF2CldcCKok&_nc_zt=23&_nc_ht=scontent-lim1-1.xx&_nc_gid=_rTWsdd9WyRxYMqkr6bhmg&_nc_ss=7b2a8&oh=00_Af5dwgpAw6OTPWx0lcX9_z19sIFX_YSMQHi1Eefb7Sw6hw&oe=6A12B94C"
                     alt=""
-                    href="/assets/files/2026/publicaciones/49.OM-N027-2026-GEREDU-C-DUGEL-LC-AGI-EST-F-15052026.pdf"
+                    href=""
                 />
                 <MainHero />
             </>
