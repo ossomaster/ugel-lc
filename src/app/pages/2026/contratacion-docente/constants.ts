@@ -14,7 +14,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 
 {
     numero: "77",
-    nombre: "Comunicado Adjudicación de Plazas Evaluación por Expedientes: Martes 19 de Mayo de 2026",
+    nombre: "Comunicado Adjudicación de Plazas Evaluación por Expedientes: Martes 19 de Mayo de 2026.",
     tipo: "Comunicado",
     fecha: "2026-05-18",
     badge: { label: "Nuevo", color: "#10b981" },
@@ -40,7 +40,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 
 {
     numero: "76",
-    nombre: "Comunicado Adjudicación Convocatoria a Presentación de Expedientes Modalidad PANETS (Matemática)",
+    nombre: "Comunicado Adjudicación Convocatoria a Presentación de Expedientes Modalidad PANETS (Matemática).",
     tipo: "Comunicado",
     fecha: "2026-05-18",
     badge: { label: "Nuevo", color: "#10b981" },
