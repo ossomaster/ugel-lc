@@ -13,6 +13,17 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "250",
+		tipo: "Servicio",
+		numcotizacion: "180",
+		descripcion: "SEGUNDA CONVOCATORIA SERVICIO DE DECORACIÓN DE ESCENOGRAFIA PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN.",
+		archivoUrl: "/assets/files/2026/abastecimiento/250.COT.N180-F-19052026.pdf",
+		fechapublicacion: "19.05.2026",
+		inicio: "20.05.2026",
+		fin: "20.05.2026",
+	},
+	
+	{
 		numero: "249",
 		tipo: "Bien",
 		numcotizacion: "197",
