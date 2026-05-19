@@ -12,6 +12,16 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "52",
+		nombre: "Convocatoria a Encargatura de Puesto: IE N°50243 – ECHARATI (Menor a 30 días)",
+		tipo: "Convocatoria",
+		fecha: "2026-05-19",
+		archivoUrl: "/assets/files/2026/encargaturas/52.CONVOCATORIA-ENCARGATURA-EXCEPCIONAL-19052026.pdf",
+		badge: { label: "Nuevo", color: "#10b981" },
+		
+	},
+	
+	{
 		numero: "51",
 		nombre: "Convocatoria a Encargatura de Puesto: IE N°50961 TUPAC AMARU (Menor a 30 días), IE N°50952 – PAVAYOC (Menor a 30 días)",
 		tipo: "Convocatoria",
