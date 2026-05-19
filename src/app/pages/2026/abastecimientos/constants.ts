@@ -13,6 +13,17 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "247",
+		tipo: "Servicio",
+		numcotizacion: "194",
+		descripcion: "SERVICIO DE ATENCIÓN DE DESAYUNO, ALMUERZO, CENA Y REFRIGERIO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		archivoUrl: "/assets/files/2026/abastecimiento/247.COT.N195-F-19052026.pdf",
+		fechapublicacion: "19.05.2026",
+		inicio: "19.05.2026",
+		fin: "20.05.2026",
+	},
+
+	{
 		numero: "246",
 		tipo: "Servicio",
 		numcotizacion: "194",
