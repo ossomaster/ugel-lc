@@ -12,47 +12,52 @@ export type TDocumentoNormativo = {
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 
-// {
-//     numero: "77",
-//     nombre: "Comunicado Adjudicación de Plazas Evaluación por Expedientes: Martes 19 de Mayo de 2026.",
-//     tipo: "Comunicado",
-//     fecha: "2026-05-18",
-//     badge: { label: "Nuevo", color: "#10b981" },
-//     archivoUrl: [
-//       {
-//         label: "Comunicado",
-//         url: "/assets/files/2026/contrata-docente/77.COMUNICADO-DE-ADJUDICACION-F-18052026.pdf",
-//         fecha: "2026-05-18",
-//       },
-//       {
-//         label: "Plaza EBE",
-//         url: "/assets/files/2026/contrata-docente/77.PLAZA-EBE-PRIMARIA-F-18052026.pdf",
-//         fecha: "2026-05-18",
-//       },
-//       {
-//         label: "Plaza Matemática",
-//         url: "/assets/files/2026/contrata-docente/77.PLAZA-MATEMATICA-F-18052026.pdf",
-//         fecha: "2026-05-18",
-//       },
+{
+    numero: "77",
+    nombre: "Comunicado Adjudicación de Plazas Docente: Miercoles 20 de Mayo de 2026.",
+    tipo: "Comunicado",
+    fecha: "2026-05-19",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Comunicado",
+        url: "/assets/files/2026/contrata-docente/77.COMUNICADO-ADJUDICACION-F-19052026.pdf",
+        fecha: "2026-05-19",
+      },
+      {
+        label: "Plazas EBR Inicial",
+        url: "/assets/files/2026/contrata-docente/77.PLAZAS-INICIAL-F-19052026.pdf",
+        fecha: "2026-05-19",
+      },
+      {
+        label: "Plazas EBR Primaria",
+        url: "/assets/files/2026/contrata-docente/77.PLAZAS-PRIMARIA-F-19052026.pdf",
+        fecha: "2026-05-19",
+      },
+      {
+        label: "Plazas EBR Secundaria",
+        url: "/assets/files/2026/contrata-docente/77.PLAZAS-MATEMATICA-F-19052026.pdf",
+        fecha: "2026-05-19",
+      },
       
-//     ],
-// },
+    ],
+},
 
-// {
-//     numero: "76",
-//     nombre: "Comunicado Adjudicación Convocatoria a Presentación de Expedientes Modalidad PANETS (Matemática).",
-//     tipo: "Comunicado",
-//     fecha: "2026-05-18",
-//     badge: { label: "Nuevo", color: "#10b981" },
-//     archivoUrl: [
-//       {
-//         label: "Comunicado",
-//         url: "/assets/files/2026/contrata-docente/76.COMUNICADO-ADJUDICACION-F-18052026.pdf",
-//         fecha: "2026-05-18",
-//       },
+{
+    numero: "76",
+    nombre: "Comunicado Adjudicación Convocatoria a Presentación de Expedientes Modalidad PANETS (Matemática).",
+    tipo: "Comunicado",
+    fecha: "2026-05-18",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Comunicado",
+        url: "/assets/files/2026/contrata-docente/76.COMUNICADO-ADJUDICACION-F-18052026.pdf",
+        fecha: "2026-05-18",
+      },
       
-//     ],
-// },
+    ],
+},
 
 {
     numero: "75",
