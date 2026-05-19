@@ -113,7 +113,7 @@ body {
 	font-size: 12px !important;
 	padding: 4px 8px !important;
 	background-color: theme("colors.primary-dark") !important;
-	z-index: 600 !important;
+	z-index: 700 !important;
 }
 
 .html-content {
