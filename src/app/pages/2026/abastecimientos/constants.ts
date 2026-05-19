@@ -13,6 +13,17 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "248",
+		tipo: "Servicio",
+		numcotizacion: "196",
+		descripcion: "SERVICIO DE TRANSPORTE DE MATERIAL EDUCATIVO TRAMO II PARA EL EQUIPO DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN.",
+		archivoUrl: "/assets/files/2026/abastecimiento/248.COTI.N196-F-19052026.pdf",
+		fechapublicacion: "19.05.2026",
+		inicio: "20.05.2026",
+		fin: "22.05.2026",
+	},
+	
+	{
 		numero: "247",
 		tipo: "Servicio",
 		numcotizacion: "195",
