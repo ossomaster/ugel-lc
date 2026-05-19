@@ -38,7 +38,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		numero: "244",
 		tipo: "Servicio",
 		numcotizacion: "178",
-		descripcion: "SERVICIO DE IMPRESION DE FOLFER PERSONALIZADO PARA EL EQUIPO DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN",
+		descripcion: "SERVICIO DE IMPRESION DE FOLFER PERSONALIZADO PARA EL EQUIPO DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN.",
 		archivoUrl: "/assets/files/2026/abastecimiento/244.COTI.N178.2-F-15052026.pdf",
 		fechapublicacion: "15.05.2026",
 		inicio: "15.05.2026",
