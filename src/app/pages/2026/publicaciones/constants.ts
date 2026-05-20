@@ -13,6 +13,18 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "51",
+		nombre: "Oficio Multiple N°0015-2026-MINEDU/VMGP-DIGERE.",
+		tipo: "Oficio Multiple",
+		fecha: "2026-05-20",
+		descripcion: "📢 Comunica a Directores de las II.EE de los niveles Inicial, Primaria, Secundaria y Coordinadores de PRONOEI del ámbito de la UGEL La Convención el Reporte de Material Educativo exedentes y faltantes de material educativo de la dotación 2026.",
+		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/51.MEMORANDUM-MULTIPLE-N072-2026-GORE-C-GEREDU-C-DUGEL-LC-SEC-F-20052026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	
+	{
 		numero: "50",
 		nombre: "Bases del Concurso de Dibujo y Pintura.",
 		tipo: "Oficio Multiple",
