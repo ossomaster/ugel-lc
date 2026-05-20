@@ -15,7 +15,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
 		numero: "51",
 		nombre: "Oficio Multiple N°0015-2026-MINEDU/VMGP-DIGERE.",
-		tipo: "Oficio Multiple",
+		tipo: "Memorandum Multiple",
 		fecha: "2026-05-20",
 		descripcion: "📢 Comunica a Directores de las II.EE de los niveles Inicial, Primaria, Secundaria y Coordinadores de PRONOEI del ámbito de la UGEL La Convención el Reporte de Material Educativo exedentes y faltantes de material educativo de la dotación 2026.",
 		thumbnailUrl: "/assets/images/publicaciones/memorandum-multiple.png",
