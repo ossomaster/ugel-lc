@@ -13,6 +13,17 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "252",
+		tipo: "Servicio",
+		numcotizacion: "199",
+		descripcion: "SERVICIO DE IMPRESIÓN DE BANNER PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN.",
+		archivoUrl: "/assets/files/2026/abastecimiento/252.COT.N199-F-20052026.pdf",
+		fechapublicacion: "20.05.2026",
+		inicio: "20.05.2026",
+		fin: "22.05.2026",
+	},
+	
+	{
 		numero: "251",
 		tipo: "Bien",
 		numcotizacion: "198",
