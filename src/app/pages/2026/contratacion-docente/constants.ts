@@ -13,6 +13,22 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 
 {
+    numero: "78",
+    nombre: "Convocatoria a Propuesta del director de I.E.",
+    tipo: "Convocatoria",
+    fecha: "2026-05-21",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Convocatoria",
+        url: "/assets/files/2026/contrata-docente/78.COMUNICADO-A-PROPUESTA-DEL-DIRECTOR-DE-IE.21-05-2026-F-21052026.pdf",
+        fecha: "2026-05-21",
+      },
+      
+    ],
+},
+
+{
     numero: "77",
     nombre: "Comunicado Adjudicación de Plazas Docente: Miercoles 20 de Mayo de 2026.",
     tipo: "Comunicado",
