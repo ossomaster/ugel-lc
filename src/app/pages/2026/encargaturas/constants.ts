@@ -12,6 +12,16 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "53",
+		nombre: "Resultado Final Etapa Regular",
+		tipo: "Convocatoria",
+		fecha: "2026-05-21",
+		archivoUrl: "/assets/files/2026/encargaturas/53.RESULTADO-DIRECTIVO-F-21052026.pdf",
+		badge: { label: "Nuevo", color: "#10b981" },
+		
+	},
+	
+	{
 		numero: "52",
 		nombre: "Convocatoria a Encargatura de Puesto: IE N°50243 – ECHARATI (Menor a 30 días)",
 		tipo: "Convocatoria",
