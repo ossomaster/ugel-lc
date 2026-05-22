@@ -13,6 +13,94 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "260",
+		tipo: "Servicio",
+		numcotizacion: "200",
+		descripcion: "SERVICIO DE ATENCIÓN DE REFRIGERIOS PARA EL EQUIPO DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN.",
+		archivoUrl: "/assets/files/2026/abastecimiento/260.COTI.N200-F-21052026.pdf",
+		fechapublicacion: "21.05.2026",
+		inicio: "22.05.2026",
+		fin: "22.05.2026",
+	},
+	
+	{
+		numero: "259",
+		tipo: "Bien",
+		numcotizacion: "209",
+		descripcion: "ADQUISICIÓN DE NECTAR DE FRUTA Y AGUA PARA EL EQUIPO DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN.",
+		archivoUrl: "/assets/files/2026/abastecimiento/259.COTI.N201-F-21052026.pdf",
+		fechapublicacion: "21.05.2026",
+		inicio: "22.05.2026",
+		fin: "22.05.2026",
+	},
+	
+	{
+		numero: "258",
+		tipo: "Bien",
+		numcotizacion: "209",
+		descripcion: "ADQUISICIÓN DE MATERIALES DE ESCRITORIO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN.",
+		archivoUrl: "/assets/files/2026/abastecimiento/258.COTI.N209-F-21052026.pdf",
+		fechapublicacion: "21.05.2026",
+		inicio: "22.05.2026",
+		fin: "22.05.2026",
+	},
+	
+	{
+		numero: "257",
+		tipo: "Bien",
+		numcotizacion: "210",
+		descripcion: "ADQUISICIÓN DE MATERIALES SIN GAS PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN.",
+		archivoUrl: "/assets/files/2026/abastecimiento/257.COTI.N210-F-21052026.pdf",
+		fechapublicacion: "21.05.2026",
+		inicio: "22.05.2026",
+		fin: "22.05.2026",
+	},
+	
+	{
+		numero: "256",
+		tipo: "Bien",
+		numcotizacion: "211",
+		descripcion: "ADQUISICIÓN DE MATERIALES DE ESCRITORIO PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN.",
+		archivoUrl: "/assets/files/2026/abastecimiento/256.COTI.N211-F-21052026.pdf",
+		fechapublicacion: "21.05.2026",
+		inicio: "22.05.2026",
+		fin: "22.05.2026",
+	},
+	
+	{
+		numero: "255",
+		tipo: "Servicio",
+		numcotizacion: "212",
+		descripcion: "ADQUISICIÓN DE AGUA MINERAL PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN.",
+		archivoUrl: "/assets/files/2026/abastecimiento/255.COTI.N212-F-21052026.pdf",
+		fechapublicacion: "21.05.2026",
+		inicio: "22.05.2026",
+		fin: "22.05.2026",
+	},
+	
+	{
+		numero: "254",
+		tipo: "Servicio",
+		numcotizacion: "215",
+		descripcion: "SERVICIO DE IMPRESIÓN DE BANNER PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN.",
+		archivoUrl: "/assets/files/2026/abastecimiento/254.COTI.N215-F21052026.pdf",
+		fechapublicacion: "21.05.2026",
+		inicio: "22.05.2026",
+		fin: "22.05.2026",
+	},
+	
+	{
+		numero: "253",
+		tipo: "Servicio",
+		numcotizacion: "216",
+		descripcion: "SERVICIO DE IMPRESIÓN DE DIPLOMAS PARA EL ÁREA DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN.",
+		archivoUrl: "/assets/files/2026/abastecimiento/253.COT.N216-F-21052026.pdf",
+		fechapublicacion: "21.05.2026",
+		inicio: "22.05.2026",
+		fin: "22.05.2026",
+	},
+	
+	{
 		numero: "252",
 		tipo: "Servicio",
 		numcotizacion: "199",
