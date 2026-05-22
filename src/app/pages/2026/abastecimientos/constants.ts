@@ -26,7 +26,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	{
 		numero: "259",
 		tipo: "Bien",
-		numcotizacion: "209",
+		numcotizacion: "201",
 		descripcion: "ADQUISICIÓN DE NECTAR DE FRUTA Y AGUA PARA EL EQUIPO DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN.",
 		archivoUrl: "/assets/files/2026/abastecimiento/259.COTI.N201-F-21052026.pdf",
 		fechapublicacion: "21.05.2026",
