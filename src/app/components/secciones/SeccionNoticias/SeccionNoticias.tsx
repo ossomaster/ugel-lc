@@ -118,6 +118,11 @@ const ENLACES_INTERES: EnlaceInteres[] = [
 		href: "https://www.ugellaconvencion.gob.pe/reclamaciones/",
 		alt: "reclamaciones-digital",
 	},
+	{
+		imagen: "/assets/images/enlaces/enlace-icono-mi-legajo.png",
+		href: "https://www.ugellaconvencion.gob.pe/pages/2026/escalafon/",
+		alt: "escalafon",
+	},
 ]
 
 function NoticiaCard({ noticia }: { noticia: Noticia }) {
