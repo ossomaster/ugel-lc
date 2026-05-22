@@ -13,6 +13,83 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "267",
+		tipo: "Servicio",
+		numcotizacion: "205",
+		descripcion: "SERVICIO DE ATENCIÓN DE ALMUERZO PARA EL EQUIPO DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN.",
+		archivoUrl: "/assets/files/2026/abastecimiento/267.COTI.N205-F-22052026.pdf",
+		fechapublicacion: "22.05.2026",
+		inicio: "22.05.2026",
+		fin: "25.05.2026",
+	},
+
+	{
+		numero: "266",
+		tipo: "Servicio",
+		numcotizacion: "204",
+		descripcion: "SERVICIO DE ANIMACIÓN DE EVENTOS PARA EL EQUIPO DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN.",
+		archivoUrl: "/assets/files/2026/abastecimiento/266.COTI.N204-F-22052026.pdf",
+		fechapublicacion: "22.05.2026",
+		inicio: "22.05.2026",
+		fin: "25.05.2026",
+	},
+	
+	{
+		numero: "265",
+		tipo: "Servicio",
+		numcotizacion: "203",
+		descripcion: "SERVICIO DE AMBIENTACIÓN Y DECORACIÓN PARA EL EQUIPO DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN.",
+		archivoUrl: "/assets/files/2026/abastecimiento/265.COTI.N203-F-22052026.pdf",
+		fechapublicacion: "22.05.2026",
+		inicio: "22.05.2026",
+		fin: "25.05.2026",
+	},
+	
+	{
+		numero: "264",
+		tipo: "Servicio",
+		numcotizacion: "202",
+		descripcion: "SERVICIO DE PUBLICIDAD POR PERIFONEO PARA EL EQUIPO DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN.",
+		archivoUrl: "/assets/files/2026/abastecimiento/264.COTI.N202-F-22052026.pdf",
+		fechapublicacion: "22.05.2026",
+		inicio: "22.05.2026",
+		fin: "25.05.2026",
+	},
+	
+	{
+		numero: "263",
+		tipo: "Bien",
+		numcotizacion: "206",
+		descripcion: "ADQUISICIÓN DE TOMATODO PARA EL EQUIPO DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN.",
+		archivoUrl: "/assets/files/2026/abastecimiento/263.COTI.N206-F-22052026.pdf",
+		fechapublicacion: "22.05.2026",
+		inicio: "22.05.2026",
+		fin: "25.05.2026",
+	},
+
+	{
+		numero: "262",
+		tipo: "Bien",
+		numcotizacion: "213",
+		descripcion: "ADQUISICIÓN DE MOCHILA DE TELA DE POLIESTER PARA EL EQUIPO DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN.",
+		archivoUrl: "/assets/files/2026/abastecimiento/262.COTI.N213-F-22052026.pdf",
+		fechapublicacion: "22.05.2026",
+		inicio: "22.05.2026",
+		fin: "25.05.2026",
+	},
+
+	{
+		numero: "261",
+		tipo: "Bien",
+		numcotizacion: "214",
+		descripcion: "ADQUISICIÓN DE PLUMONES Y TEMPERAS PARA EL EQUIPO DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN.",
+		archivoUrl: "/assets/files/2026/abastecimiento/261.COTI.N214-F-22052026.pdf",
+		fechapublicacion: "22.05.2026",
+		inicio: "22.05.2026",
+		fin: "25.05.2026",
+	},
+	
+	{
 		numero: "260",
 		tipo: "Servicio",
 		numcotizacion: "200",
