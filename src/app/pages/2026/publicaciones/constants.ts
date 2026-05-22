@@ -13,6 +13,18 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "52",
+		nombre: "Oficio Multiple N°0026-2026-GORE-C/GEREDU-C/DUGEL-LC/SEC.",
+		tipo: "Oficio Multiple",
+		fecha: "2026-05-22",
+		descripcion: "📢 Comunica a Directores de las II.EE del ámbito de la UGEL La Convención, remitir información para monitoreo del cumplimiento del articulo 14, numeral 14.1 de la Ley N°26549, Ley de los centros educativos.",
+		thumbnailUrl: "/assets/images/publicaciones/oficio-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/52.OM.N026-2026-GORE-C-GEREDU-C-DUGEL-LC-SEC-F-22052026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	
+	{
 		numero: "51",
 		nombre: "Memorandum Multiple N°0015-2026-MINEDU/VMGP-DIGERE.",
 		tipo: "Memorandum Multiple",
