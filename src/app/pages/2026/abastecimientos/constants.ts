@@ -13,6 +13,28 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "269",
+		tipo: "Bien",
+		numcotizacion: "207",
+		descripcion: "ADQUISICIÓN DE MATERIAL MULTISENSORIAL PARA EL EQUIPO DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN.",
+		archivoUrl: "/assets/files/2026/abastecimiento/269.COTI.N207-F-22052026.pdf",
+		fechapublicacion: "22.05.2026",
+		inicio: "22.05.2026",
+		fin: "26.05.2026",
+	},
+	
+	{
+		numero: "268",
+		tipo: "Bien",
+		numcotizacion: "208",
+		descripcion: "ADQUISICIÓN DE JUGUETE DE BIBLIOTECA INFANTIL DE MADERA PARA EL EQUIPO DE GESTIÓN PEDAGÓGICA DE LA UGEL LA CONVENCIÓN.",
+		archivoUrl: "/assets/files/2026/abastecimiento/268.COTI.N208-F-22052026.pdf",
+		fechapublicacion: "22.05.2026",
+		inicio: "22.05.2026",
+		fin: "26.05.2026",
+	},
+	
+	{
 		numero: "267",
 		tipo: "Servicio",
 		numcotizacion: "205",
