@@ -12,7 +12,15 @@ export enum ERutas {
 
 
 export const SLIDES = [	
-		
+
+	{
+		image: "/assets/slider/slide-11.png",
+		title: "",
+		description: "",
+		//buttonText: "Acceder",
+		//buttonUrl: "#",
+	},
+
 	{
 		image: "/assets/slider/slide-10.png",
 		title: "",
