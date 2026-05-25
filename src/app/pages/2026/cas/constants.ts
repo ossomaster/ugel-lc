@@ -75,7 +75,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     },
     linkinscripcion:
       "https://www.ugellaconvencion.gob.pe/inscripcion/cas07-2026/",
-    preliminar: "",
+    preliminar: {
+      url: "/assets/files/2026/contratacion-cas/07.RESULTADO-PRELIMINAR-CAS-N07-SEDE-F-25052026.pdf",
+      fecha: "25/05/2026",
+    },
     entrevista: "",
     final: "",
     feerratasfinal: "",
