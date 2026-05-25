@@ -13,6 +13,17 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "270",
+		tipo: "Servicio",
+		numcotizacion: "217",
+		descripcion: "SERVICIO DE ASISTENCIA TECNICA LEGAL PARA LA UNIDAD DE ASESORIA DE LA UGEL LA CONVENCIÓN.",
+		archivoUrl: "/assets/files/2026/abastecimiento/270.COT.N217-F-25052026.pdf",
+		fechapublicacion: "25.05.2026",
+		inicio: "26.05.2026",
+		fin: "26.05.2026",
+	},
+	
+	{
 		numero: "269",
 		tipo: "Bien",
 		numcotizacion: "207",
