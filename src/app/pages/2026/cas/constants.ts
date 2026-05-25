@@ -81,7 +81,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     feerratasfinal: "",
     comunicado1: {
       url: "/assets/files/2026/contratacion-cas/05.COMUNICADO.N01-F-07052026.pdf",
-      fecha: "25/05/2026",
+      fecha: "25/05/2026.",
     },
     comunicado2: "",
     comunicado3: "",    
