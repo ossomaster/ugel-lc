@@ -22,6 +22,27 @@ type EnlaceInteres = {
 }
 
 const NOTICIAS: Noticia[] = [
+	
+	{
+
+		imagen: "/assets/images/noticias/desfile-24-05-2026.jpg",
+		fecha: "2026-05-24",
+		tipo: "Reciente",
+		titulo: "",
+		descripcion: "📚✨ ¡DESFILE INSTITUCIONAL POR LOS XXXIX AÑOS DE LA UNIDAD EDUCATIVA LOCAL LA CONVECNIÓN! - La comunidad educativa de la UGEL La Convención, liderada por el 𝗗𝗿. 𝗠𝗲𝗹𝗾𝘂𝗶𝗮𝗱𝗲𝘀 𝗖𝘂𝘀𝗶𝗵𝘂𝗮𝗺𝗮́𝗻 𝗛𝗲𝗿𝗺𝗼𝘇𝗮, participó con entusiasmo en el desfile conmemorativo por los 𝟯𝟵 𝗮𝗻̃𝗼𝘀 𝗱𝗲 𝘃𝗶𝗱𝗮 𝗶𝗻𝘀𝘁𝗶𝘁𝘂𝗰𝗶𝗼𝗻𝗮𝗹, realizado en la plaza principal de Quillabamba 🏛️✨donde, jefes de área, especialistas, trabajadores y delegaciones educativas desfilaron con orgullo, reafirmando con solemnidad y alegría su compromiso con la educación, la cultura y la identidad local 📚🌟.",
+		href: "https://www.facebook.com/share/p/1GFEXHsW8g/",
+	},
+
+	{
+
+		imagen: "/assets/images/noticias/inter-ugel-23-05-2026.jpg",
+		fecha: "2026-05-23",
+		tipo: "Reciente",
+		titulo: "",
+		descripcion: "📚✨ ¡Campeonato Inter UGEL con Motivo del XXXIX Aniversario de la UGEL La Convención!.",
+		href: "https://www.facebook.com/share/p/1FhYKpWoeY/",
+	},
+
 	{
 
 		imagen: "/assets/images/noticias/noticia-14.jpg",
