@@ -13,6 +13,30 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "54",
+		nombre: "Oficio Multiple N°0020-2026-GORE-C/GEREDU-C/DUGEL-LC/SEC.",
+		tipo: "Oficio Multiple",
+		fecha: "2026-05-26",
+		descripcion: "📢 Comunica a Directores de las II.EE del ámbito de la UGEL La Convención, el registro obligatorio en la plataforma de PerúEduca para la participación en los juegos escolares deportivos y paradeportivos 2026.",
+		thumbnailUrl: "/assets/images/publicaciones/oficio-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/54.OM-N020-2026-GORE-C-GEREDU-C-DUGEL-LC-SEC-F-26052026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	
+	{
+		numero: "53",
+		nombre: "Oficio Multiple N°0028-2026-GORE-C/GEREDU-C/DUGEL-LC/SEC.",
+		tipo: "Oficio Multiple",
+		fecha: "2026-05-26",
+		descripcion: "📢 Comunica a Directores de las II.EE del ámbito de la UGEL La Convención, el cronograma del desarrollo de los juegos escolares deportivos y paradeportivos 2026 Etapa coordinaciones educativas y final de la etapa UGEL-LC.",
+		thumbnailUrl: "/assets/images/publicaciones/oficio-multiple.png",
+		archivoUrl: "/assets/files/2026/publicaciones/53.OM-N028-2026-GORE-C-GEREDU-C-DUGEL-LC-SEC-F-26052026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	
+	{
 		numero: "52",
 		nombre: "Oficio Multiple N°0026-2026-GORE-C/GEREDU-C/DUGEL-LC/SEC.",
 		tipo: "Oficio Multiple",
