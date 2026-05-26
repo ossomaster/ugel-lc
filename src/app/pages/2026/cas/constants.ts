@@ -48,7 +48,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     comunicado3: "",    
     comunicado4: "",
     badge: { label: "PUBLICADO", color: "#00c758" },
-    estado: "concluida",
+    estado: "vigente",
   },
 
 
