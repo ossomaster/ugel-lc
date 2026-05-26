@@ -24,6 +24,34 @@ export type TDocumentoNormativo = {
 };
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
+
+{
+    numero: "009-2026",
+    descripcion: "Intervenciones y Acciones Pedagógicas UGEL La Convención",
+    convocatoria: "CAS N°09 - 2026",
+    fechapublicacion: "25/05/2026",
+    fechainicio: "25/05/2026",
+    fechafin: "08/06/2026",
+   bases: {
+      url: "/assets/files/2026/contratacion-cas/09.BASES-PERFILES-CONVOCATORIA-INTERVENCIONES-PEDAGOGICAS-CAS-N09-2026-F-25052026.pdf",
+      fecha: "25/05/2026",
+    },
+    perfiles:
+      "https://drive.google.com/drive/folders/1QBwffTWXDxH5TnY0o8Y_JztIzy829-Ad",
+    linkinscripcion:"",
+    preliminar: "",
+    entrevista: "",
+    final:"",
+    feerratasfinal: "",
+    comunicado1: "",
+    comunicado2: "",
+    comunicado3: "",    
+    comunicado4: "",
+    badge: { label: "PUBLICADO", color: "#00c758" },
+    estado: "concluida",
+  },
+
+
 {
     numero: "008-2026",
     descripcion: "Intervenciones y Acciones Pedagógicas UGEL La Convención",
