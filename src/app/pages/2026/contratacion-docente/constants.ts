@@ -11,6 +11,33 @@ export type TDocumentoNormativo = {
 };
 
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
+
+{
+    numero: "80",
+    nombre: "Convocatoria Adjudicación de plaza Docente, Viernes 29 de Mayo.",
+    tipo: "Comunicado",
+    fecha: "2026-05-22",
+    badge: { label: "Nuevo", color: "#10b981" },
+    archivoUrl: [
+      {
+        label: "Comunicado",
+        url: "/assets/files/2026/contrata-docente/80.COMUNICADO-DE-ADJUDICACION-F-27052026.pdf",
+        fecha: "2026-05-27",
+      },
+      {
+        label: "Plazas Primaria",
+        url: "/assets/files/2026/contrata-docente/80.PLAZA-PRIMARIA-27052026.pdf",
+        fecha: "2026-05-27",
+      },
+      {
+        label: "Comunicado",
+        url: "/assets/files/2026/contrata-docente/80.PLAZA-EPT-F-27052026.pdf",
+        fecha: "2026-05-27",
+      },
+      
+    ],
+},
+
 {
     numero: "79",
     nombre: "Convocatoria a Propuesta del director de I.E.",

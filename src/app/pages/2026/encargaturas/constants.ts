@@ -12,13 +12,21 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "54",
+		nombre: "Convocatoria Excepcional de EncargaturaS",
+		tipo: "Convocatoria",
+		fecha: "2026-05-27",
+		archivoUrl: "/assets/files/2026/encargaturas/54.CONVOCATORIA-A-ENCARGATURA-EXCEPCIONAL-F-27052026.pdf",
+		badge: { label: "Nuevo", color: "#10b981" },		
+	},
+	
+	{
 		numero: "53",
 		nombre: "Resultado Final Etapa Regular",
 		tipo: "Convocatoria",
 		fecha: "2026-05-21",
 		archivoUrl: "/assets/files/2026/encargaturas/53.RESULTADO-DIRECTIVO-F-21052026.pdf",
-		badge: { label: "Nuevo", color: "#10b981" },
-		
+		badge: { label: "Nuevo", color: "#10b981" },		
 	},
 	
 	{
