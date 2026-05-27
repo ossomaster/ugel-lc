@@ -38,7 +38,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
     },
     perfiles:
       "https://drive.google.com/drive/folders/1QBwffTWXDxH5TnY0o8Y_JztIzy829-Ad",
-    linkinscripcion:"",
+    linkinscripcion:{
+      url:"https://www.ugellaconvencion.gob.pe/inscripcion/cas09-2026/",
+      fecha: "27/05/2026",
+    },
     preliminar: "",
     entrevista: "",
     final:"",
