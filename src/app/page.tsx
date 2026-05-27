@@ -16,11 +16,11 @@ export default function Home() {
         <MainLayout>
             {/* Usamos un Fragment para agrupar los componentes */}
             <>
-                {/* <InicioModal
-                    src="https://scontent-lim1-1.xx.fbcdn.net/v/t39.30808-6/706317260_973813165370121_2690312653258245484_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeENQcgBhR6xsVysKW34r4c6cJq961hTLjlwmr3rWFMuOeXkCe3wUsic1VLRMXS9e_5nlYe3BXbKzdpPZ_kmRfqW&_nc_ohc=Yc2_Gzv-2EYQ7kNvwEtoPUl&_nc_oc=AdrQhRdGZ_URxS53bqxrWgBQ3H-R9OP3hN15Jua4V9Dob_9i34WETlSg6zJiOZoBj8M&_nc_zt=23&_nc_ht=scontent-lim1-1.xx&_nc_gid=BS0GtUXx2fJ_iYRqT13i2A&_nc_ss=7b2a8&oh=00_Af59OBj2JRlACcejWDF68iloaW6opOiBiGOAx0x7NX_lEg&oe=6A1A6BE7"
+                <InicioModal
+                    src="/public/assets/files/2026/modal/modal-27-05-2026.jpeg"
                     alt=""
                     href=""
-                /> */}
+                />
                 <MainHero />
             </>
             
