@@ -17,7 +17,7 @@ export default function Home() {
             {/* Usamos un Fragment para agrupar los componentes */}
             <>
                 <InicioModal
-                    src="/public/assets/files/2026/modal/modal-27-05-2026.jpeg"
+                    src="assets/files/2026/modal/modal-27-05-2026.jpeg"
                     alt=""
                     href=""
                 />
