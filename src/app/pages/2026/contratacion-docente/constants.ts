@@ -30,7 +30,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
         fecha: "2026-05-27",
       },
       {
-        label: "Comunicado",
+        label: "Plazas Secundaria",
         url: "/assets/files/2026/contrata-docente/80.PLAZA-EPT-F-27052026.pdf",
         fecha: "2026-05-27",
       },

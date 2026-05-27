@@ -13,7 +13,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
 		numero: "54",
-		nombre: "Convocatoria Excepcional de EncargaturaS",
+		nombre: "Convocatoria Excepcional de Encargaturas",
 		tipo: "Convocatoria",
 		fecha: "2026-05-27",
 		archivoUrl: "/assets/files/2026/encargaturas/54.CONVOCATORIA-A-ENCARGATURA-EXCEPCIONAL-F-27052026.pdf",
