@@ -25,7 +25,7 @@ const NOTICIAS: Noticia[] = [
 	
 	{
 
-		imagen: "/assets/images/noticias/desfile-24-05-2026.jpg",
+		imagen: "/assets/images/noticias/concurso-dibujo-pintura-2026-ugel.jpeg",
 		fecha: "2026-05-28",
 		tipo: "Reciente",
 		titulo: "",
