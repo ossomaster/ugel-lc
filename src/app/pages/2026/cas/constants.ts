@@ -111,7 +111,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
       fecha: "25/05/2026",
     },
     entrevista: "",
-    final: "",
+    final: {
+      url: "/assets/files/2026/contratacion-cas/07.RESULTADO-FINAL-CAS-N07-SEDE-F-28052026.pdf",
+      fecha: "28/05/2026",
+    },
     feerratasfinal: "",
     comunicado1: {
       url: "/assets/files/2026/contratacion-cas/07.COMUNICADO-F-25052026.pdf",
