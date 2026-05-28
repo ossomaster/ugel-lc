@@ -19,7 +19,7 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 		fecha: "2026-05-28",
 		descripcion: "📢 RESULTADOS DEL CONCURSO DE DIBUJO Y PINTURA REALIZADO EL DIA 26 DE MAYO EN CELEBRACIÓN DE LOS 39 AÑOS DE CREACIÓN DE LA UGEL LA CONVENCIÓN - REVALORANDO NUESTRA DIVERSIDAD.",
 		thumbnailUrl: "/assets/images/publicaciones/comunicado.png",
-		archivoUrl: "/assets/files/2026/publicaciones/55.GANADORES-CONCURSO-DIBUJO-Y-PINTURA-F-28052026.pdf",
+		archivoUrl: "/assets/files/2026/publicaciones/.GANADORES-CONCURSO-DIBUJO-Y-PINTURA-F-28052026.pdf",
 		enlace:"",
 		badge: { label: "Nuevo", color: "#10b981" },
 	},
