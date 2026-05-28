@@ -26,6 +26,16 @@ const NOTICIAS: Noticia[] = [
 	{
 
 		imagen: "/assets/images/noticias/desfile-24-05-2026.jpg",
+		fecha: "2026-05-28",
+		tipo: "Reciente",
+		titulo: "",
+		descripcion: "📚✨ ¡Resultados del Concurso de Dibujo y Pintura 39 años de Creación de la UGEL La Convención! - REVALORANDO NUESTRA DIVERSIDAD.",
+		href: "assets/files/2026/publicaciones/55.GANADORES-CONCURSO-DIBUJO-Y-PINTURA-F-28052026.pdf",
+	},
+
+	{
+
+		imagen: "/assets/images/noticias/desfile-24-05-2026.jpg",
 		fecha: "2026-05-24",
 		tipo: "Reciente",
 		titulo: "",
