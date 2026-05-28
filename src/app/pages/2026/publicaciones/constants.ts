@@ -13,6 +13,18 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "55",
+		nombre: "Resultados del Concurso de Dibujo y Pintura 39 años de Creación de la UGEL La Convención.",
+		tipo: "Oficio Multiple",
+		fecha: "2026-05-28",
+		descripcion: "📢 RESULTADOS DEL CONCURSO DE DIBUJO Y PINTURA REALIZADO EL DIA 26 DE MAYO EN CELEBRACIÓN DE LOS 39 AÑOS DE CREACIÓN DE LA UGEL LA CONVENCIÓN - REVALORANDO NUESTRA DIVERSIDAD.",
+		thumbnailUrl: "/assets/images/publicaciones/comunicado.png",
+		archivoUrl: "/assets/files/2026/publicaciones/55.GANADORES-CONCURSO-DIBUJO-Y-PINTURA-F-28052026.pdf",
+		enlace:"",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+	
+	{
 		numero: "54",
 		nombre: "Oficio Multiple N°0020-2026-GORE-C/GEREDU-C/DUGEL-LC/SEC.",
 		tipo: "Oficio Multiple",
