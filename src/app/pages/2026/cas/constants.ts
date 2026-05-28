@@ -120,7 +120,10 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
       url: "/assets/files/2026/contratacion-cas/07.COMUNICADO-F-25052026.pdf",
       fecha: "25/05/2026.",
     },
-    comunicado2: "",
+    comunicado2: {
+      url: "/assets/files/2026/contratacion-cas/07.COMUNICADO.N2-CAS-N07-SEDE-F-28052026.pdf",
+      fecha: "28/05/2026.",
+    },
     comunicado3: "",    
     comunicado4: "",
     badge: { label: "PUBLICADO", color: "#00c758" },
