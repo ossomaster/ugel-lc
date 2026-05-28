@@ -16,11 +16,11 @@ export default function Home() {
         <MainLayout>
             {/* Usamos un Fragment para agrupar los componentes */}
             <>
-                {/* <InicioModal
-                    src="assets/files/2026/modal/modal-27-05-2026.jpeg"
+                <InicioModal
+                    src="assets/files/2026/modal/simulacro-F-28052026.jpeg"
                     alt=""
                     href=""
-                /> */}
+                />
                 <MainHero />
             </>
             
