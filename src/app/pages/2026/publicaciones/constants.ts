@@ -14,6 +14,18 @@ export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
 		numero: "55",
+		nombre: "RELACIÓN DE POSTULANTES ADJUDICADOS POR ACTO PÚBLICO EN LA UGEL DE LA MODALIDAD DE EDUCACIÓN TÉCNICO-PRODUCTIVA, EN EL MARCO DE LA CARRERA PÚBLICA MAGISTERIAL DE LA LEY N° 29944, LEY DE REFORMA MAGISTERIAL",
+		tipo: "Comunicado",
+		fecha: "2026-05-28",
+		descripcion: "📢 Concurso público de ingreso a la carrera pública magisterial 2025 - 2026 para profesores de la modalidad de educación técnico-productiva, en el marco de la carrera pública magisterial de la ley n° 29944, ley de reforma magisterial rvm n° 00074-2025-minedu / rvm n° 097-2025-minedu relación de postulantes adjudicados por acto público en la Ugel",
+		thumbnailUrl: "/assets/images/publicaciones/comunicado.png",
+		archivoUrl: "/assets/files/2026/publicaciones/RELACIÓN-DE-POSTULANTES-ADJUDICADOS-POR-ACTO-PÚBLICO-EN-LA-UGEL-F-28052026.pdf",
+		enlace:"https://evaluaciondocente.perueduca.pe/media/11779851216CUSCO.pdf",
+		badge: { label: "Nuevo", color: "#10b981" },
+	},
+
+	{
+		numero: "55",
 		nombre: "Resultados del Concurso de Dibujo y Pintura 39 años de Creación de la UGEL La Convención.",
 		tipo: "Oficio Multiple",
 		fecha: "2026-05-28",
