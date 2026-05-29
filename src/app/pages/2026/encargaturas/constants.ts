@@ -12,6 +12,15 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "55",
+		nombre: "Resultado Final Convocatoria Excepcional de Encargaturas",
+		tipo: "Convocatoria",
+		fecha: "2026-05-29",
+		archivoUrl: "/assets/files/2026/encargaturas/55.RANKING-FINAL-ETAPA-REGULAR-FASE1-2026-DIRECTIVO-F-29052026.pdf",
+		badge: { label: "Nuevo", color: "#10b981" },		
+	},
+	
+	{
 		numero: "54",
 		nombre: "Convocatoria Excepcional de Encargaturas",
 		tipo: "Convocatoria",
