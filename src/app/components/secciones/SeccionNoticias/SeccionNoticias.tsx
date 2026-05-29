@@ -24,6 +24,16 @@ type EnlaceInteres = {
 const NOTICIAS: Noticia[] = [
 	
 	{
+
+		imagen: "/assets/images/noticias/dia-de-la-educacion-inicial.jpg",
+		fecha: "2026-05-29",
+		tipo: "Reciente",
+		titulo: "",
+		descripcion: "📚✨ ¡Pasacalle en Celbración del Día de la Educación Inicial de la UGEL La Convención!.",
+		href: "https://www.facebook.com/share/p/18zXhZcUbj/",
+	},
+
+	{
 		imagen: "/assets/images/noticias/concurso-dibujo-pintura-2026-ugel.jpeg",
 		fecha: "2026-05-28",
 		tipo: "Reciente",
@@ -33,7 +43,6 @@ const NOTICIAS: Noticia[] = [
 	},
 
 	{
-
 		imagen: "/assets/images/noticias/desfile-24-05-2026.jpg",
 		fecha: "2026-05-24",
 		tipo: "Reciente",
@@ -43,7 +52,6 @@ const NOTICIAS: Noticia[] = [
 	},
 
 	{
-
 		imagen: "/assets/images/noticias/inter-ugel-23-05-2026.jpg",
 		fecha: "2026-05-23",
 		tipo: "Reciente",
@@ -52,15 +60,7 @@ const NOTICIAS: Noticia[] = [
 		href: "https://www.facebook.com/share/p/1FhYKpWoeY/",
 	},
 
-	{
-
-		imagen: "/assets/images/noticias/dia-de-la-educacion-inicial.jpg",
-		fecha: "2026-05-29",
-		tipo: "Reciente",
-		titulo: "",
-		descripcion: "📚✨ ¡Pasacalle en Celbración del Día de la Educación Inicial de la UGEL La Convención!.",
-		href: "https://www.facebook.com/share/p/18zXhZcUbj/",
-	},
+	
 	// {
 
 	// 	imagen: "/assets/images/noticias/noticia-14.jpg",

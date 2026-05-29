@@ -12,6 +12,15 @@ export type TDocumentoNormativo = {
 export const DOCUMENTOS_NORMATIVOS: TDocumentoNormativo[] = [
 	
 	{
+		numero: "56",
+		nombre: "Comunicado Adjudicación de Encargatura, Lunes 01 de junio del 2026",
+		tipo: "Convocatoria",
+		fecha: "2026-05-29",
+		archivoUrl: "/assets/files/2026/encargaturas/56.ADJUDICACION-ENCARGATURA-F-29052026-F-29052026.pdf",
+		badge: { label: "Nuevo", color: "#10b981" },		
+	},
+
+	{
 		numero: "55",
 		nombre: "Resultado Final Convocatoria Excepcional de Encargaturas",
 		tipo: "Convocatoria",
