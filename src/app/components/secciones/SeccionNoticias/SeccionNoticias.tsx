@@ -24,7 +24,6 @@ type EnlaceInteres = {
 const NOTICIAS: Noticia[] = [
 	
 	{
-
 		imagen: "/assets/images/noticias/concurso-dibujo-pintura-2026-ugel.jpeg",
 		fecha: "2026-05-28",
 		tipo: "Reciente",
@@ -55,72 +54,81 @@ const NOTICIAS: Noticia[] = [
 
 	{
 
-		imagen: "/assets/images/noticias/noticia-14.jpg",
-		fecha: "2026-03-16",
+		imagen: "/assets/images/noticias/dia-de-la-educacion-inicial.jpg",
+		fecha: "2026-05-29",
 		tipo: "Reciente",
 		titulo: "",
-		descripcion: "📚✨ ¡Retorno a clases 2026! ✨📚 La **Unidad de Gestión Educativa Local (UGEL) La Convención** dio inicio al **Año Escolar 2026** con una significativa ceremonia de retorno a clases, que contó con la participación de autoridades de la provincia y de la región, directivos, docentes, estudiantes y padres de familia.",
-		href: "https://www.facebook.com/share/p/17SkRziPST/",
+		descripcion: "📚✨ ¡Pasacalle en Celbración del Día de la Educación Inicial de la UGEL La Convención!.",
+		href: "https://www.facebook.com/share/p/18zXhZcUbj/",
 	},
+	// {
+
+	// 	imagen: "/assets/images/noticias/noticia-14.jpg",
+	// 	fecha: "2026-03-16",
+	// 	tipo: "Reciente",
+	// 	titulo: "",
+	// 	descripcion: "📚✨ ¡Retorno a clases 2026! ✨📚 La **Unidad de Gestión Educativa Local (UGEL) La Convención** dio inicio al **Año Escolar 2026** con una significativa ceremonia de retorno a clases, que contó con la participación de autoridades de la provincia y de la región, directivos, docentes, estudiantes y padres de familia.",
+	// 	href: "https://www.facebook.com/share/p/17SkRziPST/",
+	// },
 	
-	{
+	// {
 
-		imagen: "/assets/images/noticias/noticia-13.jpg",
-		fecha: "2026-03-13",
-		tipo: "Reciente",
-		titulo: "",
-		descripcion: "Con pancartas coloridas, bandas de música y muchísima alegría, se realizó el gran pasacalle por las principales arterias de la ciudad, marcando el inicio de esta nueva aventura educativa, para el Buen Inicio del año escolar 2026",
-		href: "https://www.facebook.com/share/p/1GY4MvKrFR/",
-	},
+	// 	imagen: "/assets/images/noticias/noticia-13.jpg",
+	// 	fecha: "2026-03-13",
+	// 	tipo: "Reciente",
+	// 	titulo: "",
+	// 	descripcion: "Con pancartas coloridas, bandas de música y muchísima alegría, se realizó el gran pasacalle por las principales arterias de la ciudad, marcando el inicio de esta nueva aventura educativa, para el Buen Inicio del año escolar 2026",
+	// 	href: "https://www.facebook.com/share/p/1GY4MvKrFR/",
+	// },
 
-	{
-		imagen: "/assets/images/noticias/noticia-7.jpeg",
-		fecha: "2026-02-23",
-		tipo: "Reciente",
-		titulo: "",
-		descripcion: "La UGEL La Convención viene preparandose para el Buen Inicio del año escolar 2026",
-		href: "https://www.ugellaconvencion.gob.pe/lc/doc_2026/MM-N008-2026-GORE-C-DRE-C-DUGE-LC-SEC-F-11022026.pdf",
-	},
-	{
-		imagen: "/assets/images/noticias/noticia-8.jpg",
-		fecha: "2026-02-27",
-		tipo: "Noticia",
-		titulo: "",
-		descripcion: "UGEL La Convención ganadores de 11 proyectos de Innovación Educativa FONDEP 2026",
-		href: "https://fondep.gob.pe/red2/cnpie2026",
-	},
-	{
-		imagen: "/assets/images/noticias/noticia-9.jpg",
-		fecha: "2026-02-20",
-		tipo: "Noticia",
-		titulo: "Reunión Multisectorial por el Buen Inicio del Año Escolar 2026",
-		descripcion: "Evento realizado en conjunto con las distintas autoridades de la Provincia",
-		href: "https://www.facebook.com/share/p/1bxKf9GkxN/",
-	},
-	{
-		imagen: "/assets/images/noticias/noticia-10.jpg",
-		fecha: "2026-02-20",
-		tipo: "Noticia",
-		titulo: "¡Adjudicación Docente PN: Compromiso con la Educación Intercultural!  ",
-		descripcion: "Este proceso se desarrolló en estricto cumplimiento de la normativa actual vigente, garantizando la transparencia, la meritocracia y, sobre todo, la pertinencia cultural que nuestra provincia merece.",
-		href: "https://www.facebook.com/share/p/1D5Hsd8kPr/",
-	},
-	{
-		imagen: "/assets/images/noticias/noticia-11.jpg",
-		fecha: "2026-02-17",
-		tipo: "Noticia",
-		titulo: "",
-		descripcion: "Videoconferencias en la Semana de la Innovación, espacio orientado a fortalecer la cultura innovadora, compartir experiencias y brindar orientaciones para la implementación de acciones innovadoras en sus instituciones educativas.",
-		href: "https://www.facebook.com/photo?fbid=896688886415883&set=a.139842318767214",
-	},
-	{
-		imagen: "/assets/images/noticias/noticia-12.jpg",
-		fecha: "202-02-23",
-		tipo: "Noticia",
-		titulo: "Evaluación de dominio de la lengua indígena u originaria",
-		descripcion: "El Ministerio de Educación, a través de la Dirección de Educación Intercultural Bilingüe, abre las inscripciones para la Evaluación de Dominio de la Lengua Indígena u Originaria de Docentes (EDLO) 2026.",
-		href: "https://www.gob.pe/34880-evaluacion-de-dominio-de-la-lengua-indigena-u-originaria-inscripcion-a-la-edlo-2026",
-	},
+	// {
+	// 	imagen: "/assets/images/noticias/noticia-7.jpeg",
+	// 	fecha: "2026-02-23",
+	// 	tipo: "Reciente",
+	// 	titulo: "",
+	// 	descripcion: "La UGEL La Convención viene preparandose para el Buen Inicio del año escolar 2026",
+	// 	href: "https://www.ugellaconvencion.gob.pe/lc/doc_2026/MM-N008-2026-GORE-C-DRE-C-DUGE-LC-SEC-F-11022026.pdf",
+	// },
+	// {
+	// 	imagen: "/assets/images/noticias/noticia-8.jpg",
+	// 	fecha: "2026-02-27",
+	// 	tipo: "Noticia",
+	// 	titulo: "",
+	// 	descripcion: "UGEL La Convención ganadores de 11 proyectos de Innovación Educativa FONDEP 2026",
+	// 	href: "https://fondep.gob.pe/red2/cnpie2026",
+	// },
+	// {
+	// 	imagen: "/assets/images/noticias/noticia-9.jpg",
+	// 	fecha: "2026-02-20",
+	// 	tipo: "Noticia",
+	// 	titulo: "Reunión Multisectorial por el Buen Inicio del Año Escolar 2026",
+	// 	descripcion: "Evento realizado en conjunto con las distintas autoridades de la Provincia",
+	// 	href: "https://www.facebook.com/share/p/1bxKf9GkxN/",
+	// },
+	// {
+	// 	imagen: "/assets/images/noticias/noticia-10.jpg",
+	// 	fecha: "2026-02-20",
+	// 	tipo: "Noticia",
+	// 	titulo: "¡Adjudicación Docente PN: Compromiso con la Educación Intercultural!  ",
+	// 	descripcion: "Este proceso se desarrolló en estricto cumplimiento de la normativa actual vigente, garantizando la transparencia, la meritocracia y, sobre todo, la pertinencia cultural que nuestra provincia merece.",
+	// 	href: "https://www.facebook.com/share/p/1D5Hsd8kPr/",
+	// },
+	// {
+	// 	imagen: "/assets/images/noticias/noticia-11.jpg",
+	// 	fecha: "2026-02-17",
+	// 	tipo: "Noticia",
+	// 	titulo: "",
+	// 	descripcion: "Videoconferencias en la Semana de la Innovación, espacio orientado a fortalecer la cultura innovadora, compartir experiencias y brindar orientaciones para la implementación de acciones innovadoras en sus instituciones educativas.",
+	// 	href: "https://www.facebook.com/photo?fbid=896688886415883&set=a.139842318767214",
+	// },
+	// {
+	// 	imagen: "/assets/images/noticias/noticia-12.jpg",
+	// 	fecha: "202-02-23",
+	// 	tipo: "Noticia",
+	// 	titulo: "Evaluación de dominio de la lengua indígena u originaria",
+	// 	descripcion: "El Ministerio de Educación, a través de la Dirección de Educación Intercultural Bilingüe, abre las inscripciones para la Evaluación de Dominio de la Lengua Indígena u Originaria de Docentes (EDLO) 2026.",
+	// 	href: "https://www.gob.pe/34880-evaluacion-de-dominio-de-la-lengua-indigena-u-originaria-inscripcion-a-la-edlo-2026",
+	// },
 ]
 
 const ENLACES_INTERES: EnlaceInteres[] = [
